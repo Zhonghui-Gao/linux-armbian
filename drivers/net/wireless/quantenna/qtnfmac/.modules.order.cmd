@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/quantenna/qtnfmac/modules.order := {   echo drivers/net/wireless/quantenna/qtnfmac/qtnfmac.o;   echo drivers/net/wireless/quantenna/qtnfmac/qtnfmac_pcie.o; :; } > drivers/net/wireless/quantenna/qtnfmac/modules.order

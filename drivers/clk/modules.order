@@ -1,0 +1,6 @@
+drivers/clk/versatile/clk-vexpress-osc.o
+drivers/clk/xilinx/clk-xlnx-clock-wizard.o
+drivers/clk/clk-axi-clkgen.o
+drivers/clk/clk-bd718x7.o
+drivers/clk/clk-lmk04832.o
+drivers/clk/clk-si544.o

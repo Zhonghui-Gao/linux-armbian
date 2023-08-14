@@ -1,0 +1,1 @@
+savedcmd_kernel/module/built-in.a := rm -f kernel/module/built-in.a;  printf "kernel/module/%s " main.o strict_rwx.o kmod.o tree_lookup.o kallsyms.o procfs.o sysfs.o | xargs aarch64-linux-gnu-ar cDPrST kernel/module/built-in.a

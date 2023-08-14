@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/pmbus/delta-ahe50dc-fan.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/pmbus/delta-ahe50dc-fan.ko drivers/hwmon/pmbus/delta-ahe50dc-fan.o drivers/hwmon/pmbus/delta-ahe50dc-fan.mod.o;  true

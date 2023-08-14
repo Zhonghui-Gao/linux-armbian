@@ -1,0 +1,1 @@
+savedcmd_drivers/clk/clk-bd718x7.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/clk/clk-bd718x7.ko drivers/clk/clk-bd718x7.o drivers/clk/clk-bd718x7.mod.o;  true

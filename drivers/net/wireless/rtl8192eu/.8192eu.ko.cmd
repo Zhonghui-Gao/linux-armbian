@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/rtl8192eu/8192eu.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/rtl8192eu/8192eu.ko drivers/net/wireless/rtl8192eu/8192eu.o drivers/net/wireless/rtl8192eu/8192eu.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/hisilicon/kirin/modules.order := {   echo drivers/gpu/drm/hisilicon/kirin/kirin-drm.o;   echo drivers/gpu/drm/hisilicon/kirin/dw_drm_dsi.o; :; } > drivers/gpu/drm/hisilicon/kirin/modules.order

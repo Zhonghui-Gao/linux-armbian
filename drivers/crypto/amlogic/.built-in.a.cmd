@@ -1,0 +1,1 @@
+savedcmd_drivers/crypto/amlogic/built-in.a := rm -f drivers/crypto/amlogic/built-in.a;  printf "drivers/crypto/amlogic/%s " amlogic-gxl-core.o amlogic-gxl-cipher.o | xargs aarch64-linux-gnu-ar cDPrST drivers/crypto/amlogic/built-in.a

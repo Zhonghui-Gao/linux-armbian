@@ -1,0 +1,2 @@
+rockchip-dwc3-0-host.o: \
+ arch/arm64/boot/dts/rockchip/overlay/rockchip-dwc3-0-host.dts

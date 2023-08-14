@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/addac/ad74413r.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/addac/ad74413r.ko drivers/iio/addac/ad74413r.o drivers/iio/addac/ad74413r.mod.o;  true

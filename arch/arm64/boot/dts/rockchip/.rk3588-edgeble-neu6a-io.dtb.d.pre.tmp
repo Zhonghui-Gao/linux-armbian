@@ -1,0 +1,14 @@
+rk3588-edgeble-neu6a-io.o: \
+ arch/arm64/boot/dts/rockchip/rk3588-edgeble-neu6a-io.dts \
+ arch/arm64/boot/dts/rockchip/rk3588.dtsi \
+ arch/arm64/boot/dts/rockchip/rk3588s.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/rockchip,rk3588-cru.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/power/rk3588-power.h \
+ scripts/dtc/include-prefixes/dt-bindings/reset/rockchip,rk3588-cru.h \
+ arch/arm64/boot/dts/rockchip/rk3588s-pinctrl.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/rockchip.h \
+ arch/arm64/boot/dts/rockchip/rockchip-pinconf.dtsi \
+ arch/arm64/boot/dts/rockchip/rk3588-pinctrl.dtsi \
+ arch/arm64/boot/dts/rockchip/rk3588-edgeble-neu6a.dtsi

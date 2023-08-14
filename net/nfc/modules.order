@@ -1,0 +1,6 @@
+net/nfc/nfc.o
+net/nfc/nci/nci.o
+net/nfc/nci/nci_spi.o
+net/nfc/nci/nci_uart.o
+net/nfc/hci/hci.o
+net/nfc/nfc_digital.o

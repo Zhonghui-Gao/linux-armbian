@@ -1,0 +1,11 @@
+drivers/atm/nicstar.o
+drivers/atm/iphase.o
+drivers/atm/suni.o
+drivers/atm/fore_200e.o
+drivers/atm/eni.o
+drivers/atm/idt77252.o
+drivers/atm/solos-pci.o
+drivers/atm/adummy.o
+drivers/atm/atmtcp.o
+drivers/atm/lanai.o
+drivers/atm/he.o

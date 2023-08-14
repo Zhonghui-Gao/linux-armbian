@@ -1,0 +1,1 @@
+savedcmd_drivers/pci/endpoint/built-in.a := rm -f drivers/pci/endpoint/built-in.a;  printf "drivers/pci/endpoint/%s " pci-ep-cfs.o pci-epc-core.o pci-epf-core.o pci-epc-mem.o functions/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/pci/endpoint/built-in.a

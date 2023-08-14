@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/bridge/cadence/cdns-dsi.mod := printf '%s\n'   cdns-dsi-core.o cdns-dsi-j721e.o | awk '!x[$$0]++ { print("drivers/gpu/drm/bridge/cadence/"$$0) }' > drivers/gpu/drm/bridge/cadence/cdns-dsi.mod

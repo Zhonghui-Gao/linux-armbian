@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/panel/panel-olimex-lcd-olinuxino.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/panel/panel-olimex-lcd-olinuxino.ko drivers/gpu/drm/panel/panel-olimex-lcd-olinuxino.o drivers/gpu/drm/panel/panel-olimex-lcd-olinuxino.mod.o;  true

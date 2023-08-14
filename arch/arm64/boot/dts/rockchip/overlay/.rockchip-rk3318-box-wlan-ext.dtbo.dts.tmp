@@ -1,0 +1,40 @@
+# 0 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3318-box-wlan-ext.dts"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3318-box-wlan-ext.dts"
+/dts-v1/;
+/plugin/;
+
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h" 1
+# 5 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3318-box-wlan-ext.dts" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/pinctrl/rockchip.h" 1
+# 6 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3318-box-wlan-ext.dts" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h" 1
+# 7 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3318-box-wlan-ext.dts" 2
+
+/ {
+
+ fragment@0 {
+  target = <&sdio>;
+  __overlay__ {
+   mmc-pwrseq = <>;
+   status = "disabled";
+  };
+ };
+
+ fragment@1 {
+  target = <&sdio_ext>;
+  __overlay__ {
+   mmc-pwrseq = <&sdio_pwrseq>;
+   status = "okay";
+  };
+ };
+
+ fragment@2 {
+  target = <&sdmmc_ext>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+
+};

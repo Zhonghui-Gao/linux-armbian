@@ -1,0 +1,1 @@
+savedcmd_arch/arm64/mm/built-in.a := rm -f arch/arm64/mm/built-in.a;  printf "arch/arm64/mm/%s " dma-mapping.o extable.o fault.o init.o cache.o copypage.o flush.o ioremap.o mmap.o pgd.o mmu.o context.o proc.o pageattr.o fixmap.o hugetlbpage.o trans_pgd.o trans_pgd-asm.o mteswap.o | xargs aarch64-linux-gnu-ar cDPrST arch/arm64/mm/built-in.a

@@ -1,0 +1,3 @@
+drivers/nfc/st-nci/st-nci.o
+drivers/nfc/st-nci/st-nci_i2c.o
+drivers/nfc/st-nci/st-nci_spi.o

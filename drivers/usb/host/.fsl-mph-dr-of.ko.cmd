@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/host/fsl-mph-dr-of.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/host/fsl-mph-dr-of.ko drivers/usb/host/fsl-mph-dr-of.o drivers/usb/host/fsl-mph-dr-of.mod.o;  true

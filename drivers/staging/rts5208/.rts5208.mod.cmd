@@ -1,0 +1,1 @@
+savedcmd_drivers/staging/rts5208/rts5208.mod := printf '%s\n'   rtsx.o rtsx_chip.o rtsx_transport.o rtsx_scsi.o rtsx_card.o general.o sd.o xd.o ms.o spi.o | awk '!x[$$0]++ { print("drivers/staging/rts5208/"$$0) }' > drivers/staging/rts5208/rts5208.mod

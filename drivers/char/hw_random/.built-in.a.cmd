@@ -1,0 +1,1 @@
+savedcmd_drivers/char/hw_random/built-in.a := rm -f drivers/char/hw_random/built-in.a;  printf "drivers/char/hw_random/%s " core.o rockchip-rng.o | xargs aarch64-linux-gnu-ar cDPrST drivers/char/hw_random/built-in.a

@@ -1,0 +1,2 @@
+rockchip-rockpro64-lcd.o: \
+ arch/arm64/boot/dts/rockchip/overlay/rockchip-rockpro64-lcd.dts

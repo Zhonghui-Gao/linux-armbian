@@ -1,0 +1,3 @@
+drivers/misc/cardreader/alcor_pci.o
+drivers/misc/cardreader/rtsx_pci.o
+drivers/misc/cardreader/rtsx_usb.o

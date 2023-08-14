@@ -1,0 +1,1 @@
+savedcmd_drivers/net/mdio/mdio-mscc-miim.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/mdio/mdio-mscc-miim.ko drivers/net/mdio/mdio-mscc-miim.o drivers/net/mdio/mdio-mscc-miim.mod.o;  true

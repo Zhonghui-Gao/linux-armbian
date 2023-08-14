@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/sbtsi_temp.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/sbtsi_temp.ko drivers/hwmon/sbtsi_temp.o drivers/hwmon/sbtsi_temp.mod.o;  true

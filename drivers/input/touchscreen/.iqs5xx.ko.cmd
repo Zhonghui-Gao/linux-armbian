@@ -1,0 +1,1 @@
+savedcmd_drivers/input/touchscreen/iqs5xx.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/iqs5xx.ko drivers/input/touchscreen/iqs5xx.o drivers/input/touchscreen/iqs5xx.mod.o;  true

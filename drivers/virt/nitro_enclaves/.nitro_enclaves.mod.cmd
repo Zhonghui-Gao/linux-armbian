@@ -1,0 +1,1 @@
+savedcmd_drivers/virt/nitro_enclaves/nitro_enclaves.mod := printf '%s\n'   ne_pci_dev.o ne_misc_dev.o | awk '!x[$$0]++ { print("drivers/virt/nitro_enclaves/"$$0) }' > drivers/virt/nitro_enclaves/nitro_enclaves.mod

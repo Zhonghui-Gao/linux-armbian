@@ -1,0 +1,1 @@
+savedcmd_drivers/regulator/88pg86x.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/regulator/88pg86x.ko drivers/regulator/88pg86x.o drivers/regulator/88pg86x.mod.o;  true

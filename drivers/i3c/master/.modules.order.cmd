@@ -1,0 +1,1 @@
+savedcmd_drivers/i3c/master/modules.order := {   echo drivers/i3c/master/i3c-master-cdns.o;   echo drivers/i3c/master/dw-i3c-master.o;   echo drivers/i3c/master/svc-i3c-master.o;   cat drivers/i3c/master/mipi-i3c-hci/modules.order; :; } > drivers/i3c/master/modules.order

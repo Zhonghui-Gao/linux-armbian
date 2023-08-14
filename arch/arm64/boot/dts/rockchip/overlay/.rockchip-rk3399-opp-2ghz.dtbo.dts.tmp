@@ -1,0 +1,28 @@
+# 0 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3399-opp-2ghz.dts"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3399-opp-2ghz.dts"
+/dts-v1/;
+
+/ {
+    compatible = "rockchip,rk3399";
+    fragment@0 {
+        target-path = "/opp-table0";
+        __overlay__ {
+  opp06 {
+   opp-hz = /bits/ 64 <1512000000>;
+   opp-microvolt = <1200000>;
+  };
+        };
+    };
+
+    fragment@1 {
+        target-path = "/opp-table1";
+        __overlay__ {
+  opp08 {
+   opp-hz = /bits/ 64 <2016000000>;
+   opp-microvolt = <1300000>;
+  };
+        };
+    };
+};

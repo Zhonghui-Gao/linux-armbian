@@ -1,0 +1,1 @@
+savedcmd_drivers/crypto/rockchip/rk_crypto.mod := printf '%s\n'   rk3288_crypto.o rk3288_crypto_skcipher.o rk3288_crypto_ahash.o | awk '!x[$$0]++ { print("drivers/crypto/rockchip/"$$0) }' > drivers/crypto/rockchip/rk_crypto.mod

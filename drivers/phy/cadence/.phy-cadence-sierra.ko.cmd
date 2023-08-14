@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/cadence/phy-cadence-sierra.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/phy/cadence/phy-cadence-sierra.ko drivers/phy/cadence/phy-cadence-sierra.o drivers/phy/cadence/phy-cadence-sierra.mod.o;  true

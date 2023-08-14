@@ -1,0 +1,1 @@
+savedcmd_drivers/power/supply/built-in.a := rm -f drivers/power/supply/built-in.a;  printf "drivers/power/supply/%s " power_supply_core.o power_supply_sysfs.o power_supply_leds.o power_supply_hwmon.o | xargs aarch64-linux-gnu-ar cDPrST drivers/power/supply/built-in.a

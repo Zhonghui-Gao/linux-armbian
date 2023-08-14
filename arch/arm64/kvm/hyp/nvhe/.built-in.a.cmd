@@ -1,0 +1,1 @@
+savedcmd_arch/arm64/kvm/hyp/nvhe/built-in.a := rm -f arch/arm64/kvm/hyp/nvhe/built-in.a;  printf "arch/arm64/kvm/hyp/nvhe/%s " kvm_nvhe.o | xargs aarch64-linux-gnu-ar cDPrST arch/arm64/kvm/hyp/nvhe/built-in.a

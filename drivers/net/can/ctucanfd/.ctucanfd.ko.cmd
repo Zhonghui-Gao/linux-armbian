@@ -1,0 +1,1 @@
+savedcmd_drivers/net/can/ctucanfd/ctucanfd.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/can/ctucanfd/ctucanfd.ko drivers/net/can/ctucanfd/ctucanfd.o drivers/net/can/ctucanfd/ctucanfd.mod.o;  true

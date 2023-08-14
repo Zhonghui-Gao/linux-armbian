@@ -1,0 +1,1 @@
+savedcmd_drivers/input/keyboard/pinephone-keyboard.mod := printf '%s\n'   pinephone-keyboard.o | awk '!x[$$0]++ { print("drivers/input/keyboard/"$$0) }' > drivers/input/keyboard/pinephone-keyboard.mod

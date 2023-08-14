@@ -1,0 +1,1 @@
+arch/arm64/boot/dts/rockchip/overlay/rockchip-w1-gpio.dtbo: arch/arm64/boot/dts/rockchip/overlay/.rockchip-w1-gpio.dtbo.dts.tmp

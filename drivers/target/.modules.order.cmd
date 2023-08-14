@@ -1,0 +1,1 @@
+savedcmd_drivers/target/modules.order := {   echo drivers/target/target_core_mod.o;   echo drivers/target/target_core_iblock.o;   echo drivers/target/target_core_file.o;   echo drivers/target/target_core_pscsi.o;   echo drivers/target/target_core_user.o;   cat drivers/target/loopback/modules.order;   cat drivers/target/iscsi/modules.order; :; } > drivers/target/modules.order

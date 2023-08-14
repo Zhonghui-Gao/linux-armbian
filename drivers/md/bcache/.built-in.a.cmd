@@ -1,0 +1,1 @@
+savedcmd_drivers/md/bcache/built-in.a := rm -f drivers/md/bcache/built-in.a;  printf "drivers/md/bcache/%s " alloc.o bset.o btree.o closure.o debug.o extents.o io.o journal.o movinggc.o request.o stats.o super.o sysfs.o trace.o util.o writeback.o features.o | xargs aarch64-linux-gnu-ar cDPrST drivers/md/bcache/built-in.a

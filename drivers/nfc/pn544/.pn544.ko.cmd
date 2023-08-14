@@ -1,0 +1,1 @@
+savedcmd_drivers/nfc/pn544/pn544.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/nfc/pn544/pn544.ko drivers/nfc/pn544/pn544.o drivers/nfc/pn544/pn544.mod.o;  true

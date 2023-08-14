@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/common/st_sensors/modules.order := {   echo drivers/iio/common/st_sensors/st_sensors_i2c.o;   echo drivers/iio/common/st_sensors/st_sensors_spi.o;   echo drivers/iio/common/st_sensors/st_sensors.o; :; } > drivers/iio/common/st_sensors/modules.order

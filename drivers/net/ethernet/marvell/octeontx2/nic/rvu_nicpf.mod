@@ -1,0 +1,11 @@
+drivers/net/ethernet/marvell/octeontx2/nic/otx2_pf.o
+drivers/net/ethernet/marvell/octeontx2/nic/otx2_common.o
+drivers/net/ethernet/marvell/octeontx2/nic/otx2_txrx.o
+drivers/net/ethernet/marvell/octeontx2/nic/otx2_ethtool.o
+drivers/net/ethernet/marvell/octeontx2/nic/otx2_flows.o
+drivers/net/ethernet/marvell/octeontx2/nic/otx2_tc.o
+drivers/net/ethernet/marvell/octeontx2/nic/cn10k.o
+drivers/net/ethernet/marvell/octeontx2/nic/otx2_dmac_flt.o
+drivers/net/ethernet/marvell/octeontx2/nic/otx2_devlink.o
+drivers/net/ethernet/marvell/octeontx2/nic/otx2_dcbnl.o
+drivers/net/ethernet/marvell/octeontx2/nic/cn10k_macsec.o

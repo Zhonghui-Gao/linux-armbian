@@ -1,0 +1,1 @@
+savedcmd_drivers/staging/media/rkvdec/rockchip-vdec.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/staging/media/rkvdec/rockchip-vdec.ko drivers/staging/media/rkvdec/rockchip-vdec.o drivers/staging/media/rkvdec/rockchip-vdec.mod.o;  true

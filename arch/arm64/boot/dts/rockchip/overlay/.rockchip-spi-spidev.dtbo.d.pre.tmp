@@ -1,0 +1,2 @@
+rockchip-spi-spidev.o: \
+ arch/arm64/boot/dts/rockchip/overlay/rockchip-spi-spidev.dts

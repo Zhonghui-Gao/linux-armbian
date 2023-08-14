@@ -1,0 +1,1 @@
+savedcmd_drivers/media/i2c/ccs/ccs.mod := printf '%s\n'   ccs-core.o ccs-reg-access.o ccs-quirk.o ccs-limits.o ccs-data.o | awk '!x[$$0]++ { print("drivers/media/i2c/ccs/"$$0) }' > drivers/media/i2c/ccs/ccs.mod

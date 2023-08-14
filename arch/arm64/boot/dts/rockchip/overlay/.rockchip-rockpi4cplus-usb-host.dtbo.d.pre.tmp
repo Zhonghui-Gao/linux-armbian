@@ -1,0 +1,2 @@
+rockchip-rockpi4cplus-usb-host.o: \
+ arch/arm64/boot/dts/rockchip/overlay/rockchip-rockpi4cplus-usb-host.dts

@@ -1,0 +1,1 @@
+savedcmd_drivers/input/keyboard/adp5520-keys.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/keyboard/adp5520-keys.ko drivers/input/keyboard/adp5520-keys.o drivers/input/keyboard/adp5520-keys.mod.o;  true

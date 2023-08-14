@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/common/built-in.a := rm -f drivers/iio/common/built-in.a;  printf "drivers/iio/common/%s " cros_ec_sensors/built-in.a hid-sensors/built-in.a ms_sensors/built-in.a scmi_sensors/built-in.a ssp_sensors/built-in.a st_sensors/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/iio/common/built-in.a

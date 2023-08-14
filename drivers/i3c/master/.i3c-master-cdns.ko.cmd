@@ -1,0 +1,1 @@
+savedcmd_drivers/i3c/master/i3c-master-cdns.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/i3c/master/i3c-master-cdns.ko drivers/i3c/master/i3c-master-cdns.o drivers/i3c/master/i3c-master-cdns.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/position/iqs624-pos.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/position/iqs624-pos.ko drivers/iio/position/iqs624-pos.o drivers/iio/position/iqs624-pos.mod.o;  true

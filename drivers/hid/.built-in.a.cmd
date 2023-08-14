@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/built-in.a := rm -f drivers/hid/built-in.a;  printf "drivers/hid/%s " hid-core.o hid-input.o hid-quirks.o hid-debug.o hidraw.o hid-generic.o usbhid/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/hid/built-in.a

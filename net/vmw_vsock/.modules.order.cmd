@@ -1,0 +1,1 @@
+savedcmd_net/vmw_vsock/modules.order := {   echo net/vmw_vsock/vsock.o;   echo net/vmw_vsock/vsock_diag.o;   echo net/vmw_vsock/vmw_vsock_vmci_transport.o;   echo net/vmw_vsock/vmw_vsock_virtio_transport.o;   echo net/vmw_vsock/vmw_vsock_virtio_transport_common.o;   echo net/vmw_vsock/vsock_loopback.o; :; } > net/vmw_vsock/modules.order

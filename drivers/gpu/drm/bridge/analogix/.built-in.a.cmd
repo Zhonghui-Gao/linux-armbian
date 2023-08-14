@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/bridge/analogix/built-in.a := rm -f drivers/gpu/drm/bridge/analogix/built-in.a;  printf "drivers/gpu/drm/bridge/analogix/%s " analogix_dp_core.o analogix_dp_reg.o analogix-i2c-dptx.o | xargs aarch64-linux-gnu-ar cDPrST drivers/gpu/drm/bridge/analogix/built-in.a

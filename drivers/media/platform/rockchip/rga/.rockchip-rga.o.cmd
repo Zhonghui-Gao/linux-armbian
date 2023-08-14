@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/rockchip/rga/rockchip-rga.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/media/platform/rockchip/rga/rockchip-rga.o @drivers/media/platform/rockchip/rga/rockchip-rga.mod 

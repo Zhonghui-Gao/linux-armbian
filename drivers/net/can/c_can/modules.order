@@ -1,0 +1,3 @@
+drivers/net/can/c_can/c_can.o
+drivers/net/can/c_can/c_can_platform.o
+drivers/net/can/c_can/c_can_pci.o

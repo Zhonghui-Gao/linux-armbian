@@ -1,0 +1,1 @@
+drivers/gnss/usb.o

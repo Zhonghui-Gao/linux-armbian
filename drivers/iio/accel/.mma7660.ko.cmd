@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/accel/mma7660.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/accel/mma7660.ko drivers/iio/accel/mma7660.o drivers/iio/accel/mma7660.mod.o;  true

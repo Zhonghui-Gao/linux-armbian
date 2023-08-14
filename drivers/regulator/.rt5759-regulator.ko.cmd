@@ -1,0 +1,1 @@
+savedcmd_drivers/regulator/rt5759-regulator.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/regulator/rt5759-regulator.ko drivers/regulator/rt5759-regulator.o drivers/regulator/rt5759-regulator.mod.o;  true

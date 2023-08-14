@@ -1,0 +1,1 @@
+savedcmd_drivers/vhost/vhost_iotlb.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/vhost/vhost_iotlb.ko drivers/vhost/vhost_iotlb.o drivers/vhost/vhost_iotlb.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/asix/ax88796c.mod := printf '%s\n'   ax88796c_main.o ax88796c_ioctl.o ax88796c_spi.o | awk '!x[$$0]++ { print("drivers/net/ethernet/asix/"$$0) }' > drivers/net/ethernet/asix/ax88796c.mod

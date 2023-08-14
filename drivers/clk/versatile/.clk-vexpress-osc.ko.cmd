@@ -1,0 +1,1 @@
+savedcmd_drivers/clk/versatile/clk-vexpress-osc.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/clk/versatile/clk-vexpress-osc.ko drivers/clk/versatile/clk-vexpress-osc.o drivers/clk/versatile/clk-vexpress-osc.mod.o;  true

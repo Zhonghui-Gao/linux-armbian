@@ -1,0 +1,1 @@
+savedcmd_drivers/media/i2c/tvp5150.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/tvp5150.ko drivers/media/i2c/tvp5150.o drivers/media/i2c/tvp5150.mod.o;  true

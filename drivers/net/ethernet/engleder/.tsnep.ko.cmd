@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/engleder/tsnep.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/engleder/tsnep.ko drivers/net/ethernet/engleder/tsnep.o drivers/net/ethernet/engleder/tsnep.mod.o;  true

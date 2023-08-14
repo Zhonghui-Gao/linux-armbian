@@ -1,0 +1,1 @@
+savedcmd_drivers/input/touchscreen/hideep.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/hideep.ko drivers/input/touchscreen/hideep.o drivers/input/touchscreen/hideep.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/misc/cypress_cy7c63.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/misc/cypress_cy7c63.ko drivers/usb/misc/cypress_cy7c63.o drivers/usb/misc/cypress_cy7c63.mod.o;  true

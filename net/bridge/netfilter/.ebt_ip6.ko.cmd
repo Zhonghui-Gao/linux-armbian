@@ -1,0 +1,1 @@
+savedcmd_net/bridge/netfilter/ebt_ip6.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/bridge/netfilter/ebt_ip6.ko net/bridge/netfilter/ebt_ip6.o net/bridge/netfilter/ebt_ip6.mod.o;  true

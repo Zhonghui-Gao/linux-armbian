@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/pensando/ionic/ionic.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/ethernet/pensando/ionic/ionic.o @drivers/net/ethernet/pensando/ionic/ionic.mod 

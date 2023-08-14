@@ -1,0 +1,1 @@
+savedcmd_sound/soc/rockchip/snd-soc-rockchip-rt5645.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/rockchip/snd-soc-rockchip-rt5645.ko sound/soc/rockchip/snd-soc-rockchip-rt5645.o sound/soc/rockchip/snd-soc-rockchip-rt5645.mod.o;  true

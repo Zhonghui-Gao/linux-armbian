@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/imu/fxos8700_spi.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/imu/fxos8700_spi.ko drivers/iio/imu/fxos8700_spi.o drivers/iio/imu/fxos8700_spi.mod.o;  true

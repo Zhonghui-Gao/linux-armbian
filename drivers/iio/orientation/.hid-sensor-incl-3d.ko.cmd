@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/orientation/hid-sensor-incl-3d.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/orientation/hid-sensor-incl-3d.ko drivers/iio/orientation/hid-sensor-incl-3d.o drivers/iio/orientation/hid-sensor-incl-3d.mod.o;  true

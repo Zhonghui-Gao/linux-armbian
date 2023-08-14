@@ -1,0 +1,4 @@
+net/openvswitch/openvswitch.o
+net/openvswitch/vport-vxlan.o
+net/openvswitch/vport-geneve.o
+net/openvswitch/vport-gre.o

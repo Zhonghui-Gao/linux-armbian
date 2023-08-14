@@ -1,0 +1,1 @@
+savedcmd_drivers/media/cec/core/built-in.a := rm -f drivers/media/cec/core/built-in.a;  printf "drivers/media/cec/core/%s " cec-core.o cec-adap.o cec-api.o cec-notifier.o | xargs aarch64-linux-gnu-ar cDPrST drivers/media/cec/core/built-in.a

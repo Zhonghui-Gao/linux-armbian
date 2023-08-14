@@ -1,0 +1,1 @@
+savedcmd_drivers/input/misc/atc260x-onkey.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/atc260x-onkey.ko drivers/input/misc/atc260x-onkey.o drivers/input/misc/atc260x-onkey.mod.o;  true

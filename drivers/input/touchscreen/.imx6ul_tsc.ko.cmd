@@ -1,0 +1,1 @@
+savedcmd_drivers/input/touchscreen/imx6ul_tsc.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/imx6ul_tsc.ko drivers/input/touchscreen/imx6ul_tsc.o drivers/input/touchscreen/imx6ul_tsc.mod.o;  true

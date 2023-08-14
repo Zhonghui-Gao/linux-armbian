@@ -1,0 +1,1 @@
+savedcmd_net/openvswitch/openvswitch.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/openvswitch/openvswitch.ko net/openvswitch/openvswitch.o net/openvswitch/openvswitch.mod.o;  true

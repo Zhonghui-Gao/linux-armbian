@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/legacy/rndis_wlan.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/legacy/rndis_wlan.ko drivers/net/wireless/legacy/rndis_wlan.o drivers/net/wireless/legacy/rndis_wlan.mod.o;  true

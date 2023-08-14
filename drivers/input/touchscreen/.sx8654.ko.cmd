@@ -1,0 +1,1 @@
+savedcmd_drivers/input/touchscreen/sx8654.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/sx8654.ko drivers/input/touchscreen/sx8654.o drivers/input/touchscreen/sx8654.mod.o;  true

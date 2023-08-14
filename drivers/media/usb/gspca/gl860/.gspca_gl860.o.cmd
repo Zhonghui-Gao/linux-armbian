@@ -1,0 +1,1 @@
+savedcmd_drivers/media/usb/gspca/gl860/gspca_gl860.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/media/usb/gspca/gl860/gspca_gl860.o @drivers/media/usb/gspca/gl860/gspca_gl860.mod 

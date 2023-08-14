@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/light/lv0104cs.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/light/lv0104cs.ko drivers/iio/light/lv0104cs.o drivers/iio/light/lv0104cs.mod.o;  true

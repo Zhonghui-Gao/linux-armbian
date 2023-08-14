@@ -1,0 +1,1 @@
+savedcmd_drivers/soc/friendlyelec/built-in.a := rm -f drivers/soc/friendlyelec/built-in.a;  printf "drivers/soc/friendlyelec/%s " board.o | xargs aarch64-linux-gnu-ar cDPrST drivers/soc/friendlyelec/built-in.a

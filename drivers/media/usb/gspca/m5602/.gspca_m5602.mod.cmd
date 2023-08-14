@@ -1,0 +1,1 @@
+savedcmd_drivers/media/usb/gspca/m5602/gspca_m5602.mod := printf '%s\n'   m5602_core.o m5602_ov9650.o m5602_ov7660.o m5602_mt9m111.o m5602_po1030.o m5602_s5k83a.o m5602_s5k4aa.o | awk '!x[$$0]++ { print("drivers/media/usb/gspca/m5602/"$$0) }' > drivers/media/usb/gspca/m5602/gspca_m5602.mod

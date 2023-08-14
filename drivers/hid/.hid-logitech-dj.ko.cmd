@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/hid-logitech-dj.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-logitech-dj.ko drivers/hid/hid-logitech-dj.o drivers/hid/hid-logitech-dj.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/mux/mux-mmio.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/mux/mux-mmio.ko drivers/mux/mux-mmio.o drivers/mux/mux-mmio.mod.o;  true

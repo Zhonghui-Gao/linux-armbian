@@ -1,0 +1,1 @@
+savedcmd_drivers/net/dsa/hirschmann/hellcreek_sw.mod := printf '%s\n'   hellcreek.o hellcreek_ptp.o hellcreek_hwtstamp.o | awk '!x[$$0]++ { print("drivers/net/dsa/hirschmann/"$$0) }' > drivers/net/dsa/hirschmann/hellcreek_sw.mod

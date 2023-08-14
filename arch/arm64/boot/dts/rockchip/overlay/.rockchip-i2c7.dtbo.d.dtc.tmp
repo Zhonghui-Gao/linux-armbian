@@ -1,0 +1,1 @@
+arch/arm64/boot/dts/rockchip/overlay/rockchip-i2c7.dtbo: arch/arm64/boot/dts/rockchip/overlay/.rockchip-i2c7.dtbo.dts.tmp

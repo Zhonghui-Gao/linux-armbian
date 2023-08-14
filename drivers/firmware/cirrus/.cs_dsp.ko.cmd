@@ -1,0 +1,1 @@
+savedcmd_drivers/firmware/cirrus/cs_dsp.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/firmware/cirrus/cs_dsp.ko drivers/firmware/cirrus/cs_dsp.o drivers/firmware/cirrus/cs_dsp.mod.o;  true

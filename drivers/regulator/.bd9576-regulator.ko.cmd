@@ -1,0 +1,1 @@
+savedcmd_drivers/regulator/bd9576-regulator.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/regulator/bd9576-regulator.ko drivers/regulator/bd9576-regulator.o drivers/regulator/bd9576-regulator.mod.o;  true

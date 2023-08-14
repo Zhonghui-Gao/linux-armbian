@@ -1,0 +1,68 @@
+!<thin>
+//                                              546       `
+mtdcore.o/
+mtdsuper.o/
+mtdconcat.o/
+mtdpart.o/
+mtdchar.o/
+parsers/ofpart_core.o/
+mtd_blkdevs.o/
+mtdblock.o/
+chips/chipreg.o/
+maps/map_funcs.o/
+spi-nor/core.o/
+spi-nor/sfdp.o/
+spi-nor/swp.o/
+spi-nor/otp.o/
+spi-nor/sysfs.o/
+spi-nor/atmel.o/
+spi-nor/catalyst.o/
+spi-nor/eon.o/
+spi-nor/esmt.o/
+spi-nor/everspin.o/
+spi-nor/fujitsu.o/
+spi-nor/gigadevice.o/
+spi-nor/intel.o/
+spi-nor/issi.o/
+spi-nor/macronix.o/
+spi-nor/micron-st.o/
+spi-nor/spansion.o/
+spi-nor/sst.o/
+spi-nor/winbond.o/
+spi-nor/xilinx.o/
+spi-nor/xmc.o/
+spi-nor/xtx.o/
+spi-nor/debugfs.o/
+/0              0           0     0     644     69904     `
+/11             0           0     0     644     10848     `
+/23             0           0     0     644     14072     `
+/36             0           0     0     644     20352     `
+/47             0           0     0     644     23920     `
+/58             0           0     0     644     11848     `
+/81             0           0     0     644     17696     `
+/96             0           0     0     644     12032     `
+/108            0           0     0     644     6400      `
+/125            0           0     0     644     4288      `
+/143            0           0     0     644     60288     `
+/159            0           0     0     644     15096     `
+/175            0           0     0     644     6992      `
+/190            0           0     0     644     5776      `
+/205            0           0     0     644     3944      `
+/222            0           0     0     644     6840      `
+/239            0           0     0     644     2208      `
+/259            0           0     0     644     2984      `
+/274            0           0     0     644     1944      `
+/290            0           0     0     644     2072      `
+/310            0           0     0     644     1712      `
+/329            0           0     0     644     2968      `
+/351            0           0     0     644     1928      `
+/368            0           0     0     644     4240      `
+/384            0           0     0     644     5896      `
+/404            0           0     0     644     13920     `
+/425            0           0     0     644     17288     `
+/445            0           0     0     644     8272      `
+/460            0           0     0     644     8600      `
+/479            0           0     0     644     4552      `
+/497            0           0     0     644     1824      `
+/512            0           0     0     644     1816      `
+/527            0           0     0     644     12328     `

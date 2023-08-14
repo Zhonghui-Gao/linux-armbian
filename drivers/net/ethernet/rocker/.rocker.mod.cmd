@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/rocker/rocker.mod := printf '%s\n'   rocker_main.o rocker_tlv.o rocker_ofdpa.o | awk '!x[$$0]++ { print("drivers/net/ethernet/rocker/"$$0) }' > drivers/net/ethernet/rocker/rocker.mod

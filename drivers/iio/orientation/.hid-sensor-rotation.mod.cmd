@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/orientation/hid-sensor-rotation.mod := printf '%s\n'   hid-sensor-rotation.o | awk '!x[$$0]++ { print("drivers/iio/orientation/"$$0) }' > drivers/iio/orientation/hid-sensor-rotation.mod

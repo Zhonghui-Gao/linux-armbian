@@ -1,0 +1,1 @@
+savedcmd_drivers/spi/spi-mxic.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/spi/spi-mxic.ko drivers/spi/spi-mxic.o drivers/spi/spi-mxic.mod.o;  true

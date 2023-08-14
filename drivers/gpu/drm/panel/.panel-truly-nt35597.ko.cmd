@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/panel/panel-truly-nt35597.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/panel/panel-truly-nt35597.ko drivers/gpu/drm/panel/panel-truly-nt35597.o drivers/gpu/drm/panel/panel-truly-nt35597.mod.o;  true

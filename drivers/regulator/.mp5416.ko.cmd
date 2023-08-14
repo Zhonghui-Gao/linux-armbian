@@ -1,0 +1,1 @@
+savedcmd_drivers/regulator/mp5416.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/regulator/mp5416.ko drivers/regulator/mp5416.o drivers/regulator/mp5416.mod.o;  true

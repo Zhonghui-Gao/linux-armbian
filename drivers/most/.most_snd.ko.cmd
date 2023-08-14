@@ -1,0 +1,1 @@
+savedcmd_drivers/most/most_snd.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/most/most_snd.ko drivers/most/most_snd.o drivers/most/most_snd.mod.o;  true

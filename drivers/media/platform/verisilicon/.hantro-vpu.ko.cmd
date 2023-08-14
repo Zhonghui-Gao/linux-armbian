@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/verisilicon/hantro-vpu.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/platform/verisilicon/hantro-vpu.ko drivers/media/platform/verisilicon/hantro-vpu.o drivers/media/platform/verisilicon/hantro-vpu.mod.o;  true

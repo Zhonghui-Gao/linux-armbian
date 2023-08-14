@@ -1,0 +1,1 @@
+savedcmd_drivers/input/touchscreen/hycon-hy46xx.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/hycon-hy46xx.ko drivers/input/touchscreen/hycon-hy46xx.o drivers/input/touchscreen/hycon-hy46xx.mod.o;  true

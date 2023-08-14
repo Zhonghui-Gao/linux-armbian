@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/host/ssb-hcd.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/host/ssb-hcd.ko drivers/usb/host/ssb-hcd.o drivers/usb/host/ssb-hcd.mod.o;  true

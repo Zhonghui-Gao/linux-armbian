@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ieee802154/mac802154_hwsim.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/ieee802154/mac802154_hwsim.ko drivers/net/ieee802154/mac802154_hwsim.o drivers/net/ieee802154/mac802154_hwsim.mod.o;  true

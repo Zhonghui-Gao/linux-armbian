@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/ath/ath9k/modules.order := {   echo drivers/net/wireless/ath/ath9k/ath9k.o;   echo drivers/net/wireless/ath/ath9k/ath9k_hw.o;   echo drivers/net/wireless/ath/ath9k/ath9k_common.o;   echo drivers/net/wireless/ath/ath9k/ath9k_htc.o;   echo drivers/net/wireless/ath/ath9k/ath9k_pci_owl_loader.o; :; } > drivers/net/wireless/ath/ath9k/modules.order

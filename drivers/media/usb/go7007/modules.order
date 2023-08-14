@@ -1,0 +1,4 @@
+drivers/media/usb/go7007/go7007.o
+drivers/media/usb/go7007/go7007-usb.o
+drivers/media/usb/go7007/go7007-loader.o
+drivers/media/usb/go7007/s2250.o

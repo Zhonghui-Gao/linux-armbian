@@ -1,0 +1,7 @@
+drivers/iio/pressure/bmp280.o
+drivers/iio/pressure/bmp280-i2c.o
+drivers/iio/pressure/bmp280-spi.o
+drivers/iio/pressure/dlhl60d.o
+drivers/iio/pressure/dps310.o
+drivers/iio/pressure/hid-sensor-press.o
+drivers/iio/pressure/icp10100.o

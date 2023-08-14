@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/ath/wil6210/wil6210.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/wireless/ath/wil6210/wil6210.o @drivers/net/wireless/ath/wil6210/wil6210.mod 

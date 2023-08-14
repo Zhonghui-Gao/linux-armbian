@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/realtek/rtlwifi/rtl8723ae/modules.order := {   echo drivers/net/wireless/realtek/rtlwifi/rtl8723ae/rtl8723ae.o; :; } > drivers/net/wireless/realtek/rtlwifi/rtl8723ae/modules.order

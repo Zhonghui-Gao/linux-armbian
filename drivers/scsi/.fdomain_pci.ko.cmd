@@ -1,0 +1,1 @@
+savedcmd_drivers/scsi/fdomain_pci.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/scsi/fdomain_pci.ko drivers/scsi/fdomain_pci.o drivers/scsi/fdomain_pci.mod.o;  true

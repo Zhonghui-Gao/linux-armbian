@@ -1,0 +1,1 @@
+savedcmd_drivers/crypto/atmel-ecc.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/crypto/atmel-ecc.ko drivers/crypto/atmel-ecc.o drivers/crypto/atmel-ecc.mod.o;  true

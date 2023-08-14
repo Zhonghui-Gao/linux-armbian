@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/common/usb-conn-gpio.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/common/usb-conn-gpio.ko drivers/usb/common/usb-conn-gpio.o drivers/usb/common/usb-conn-gpio.mod.o;  true

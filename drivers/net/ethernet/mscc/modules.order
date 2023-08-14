@@ -1,0 +1,2 @@
+drivers/net/ethernet/mscc/mscc_ocelot_switch_lib.o
+drivers/net/ethernet/mscc/mscc_ocelot.o

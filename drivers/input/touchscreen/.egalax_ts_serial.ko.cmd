@@ -1,0 +1,1 @@
+savedcmd_drivers/input/touchscreen/egalax_ts_serial.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/egalax_ts_serial.ko drivers/input/touchscreen/egalax_ts_serial.o drivers/input/touchscreen/egalax_ts_serial.mod.o;  true

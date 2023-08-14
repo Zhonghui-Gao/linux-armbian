@@ -1,0 +1,102 @@
+# 0 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3328-i2s1-pcm5102.dts"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3328-i2s1-pcm5102.dts"
+/dts-v1/;
+/plugin/;
+
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h" 1
+# 5 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3328-i2s1-pcm5102.dts" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/pinctrl/rockchip.h" 1
+# 6 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3328-i2s1-pcm5102.dts" 2
+# 15 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3328-i2s1-pcm5102.dts"
+&{/} {
+
+ pcm5102: pcm510x {
+  #sound-dai-cells = <0>;
+  compatible = "ti,pcm5102a";
+  pcm510x,format = "i2s";
+  status = "okay";
+ };
+
+ i2s_sound: i2s-sound {
+  compatible = "simple-audio-card";
+  simple-audio-card,format = "i2s";
+  simple-audio-card,mclk-fs = <256>;
+  simple-audio-card,name = "I2S";
+  status = "okay";
+
+  simple-audio-card,cpu {
+   sound-dai = <&i2s1>;
+  };
+
+  simple-audio-card,codec {
+   sound-dai = <&pcm5102>;
+  };
+ };
+
+};
+
+&analog_sound {
+ status = "disabled";
+};
+
+&codec {
+ status = "disabled";
+};
+
+&i2s1_mclk {
+ rockchip,pins = <2 15 1 &pcfg_pull_down>;
+};
+
+&i2s1_sclk {
+ rockchip,pins = <2 18 1 &pcfg_pull_down>;
+};
+
+&i2s1_lrckrx {
+ rockchip,pins = <2 16 1 &pcfg_pull_up>;
+};
+
+&i2s1_lrcktx {
+ rockchip,pins = <2 17 1 &pcfg_pull_up>;
+};
+
+&i2s1_sdi {
+ rockchip,pins = <2 19 1 &pcfg_pull_up>;
+};
+
+&i2s1_sdo {
+ rockchip,pins = <2 23 1 &pcfg_pull_up>;
+};
+
+&i2s1_sdio1 {
+ rockchip,pins = <2 20 1 &pcfg_pull_up>;
+};
+
+&i2s1_sdio2 {
+ rockchip,pins = <2 21 1 &pcfg_pull_up>;
+};
+
+&i2s1_sdio3 {
+ rockchip,pins = <2 22 1 &pcfg_pull_up>;
+};
+
+&i2s1_sleep {
+ rockchip,pins =
+ <2 15 0 &pcfg_input_high>,
+ <2 16 0 &pcfg_input_high>,
+ <2 17 0 &pcfg_input_high>,
+ <2 18 0 &pcfg_input_high>,
+ <2 19 0 &pcfg_input_high>,
+ <2 20 0 &pcfg_input_high>,
+ <2 21 0 &pcfg_input_high>,
+ <2 22 0 &pcfg_input_high>,
+ <2 23 0 &pcfg_input_high>;
+};
+
+&i2s1 {
+ status = "okay";
+ pinctrl-names = "default";
+ pinctrl-0 = <&i2s1_mclk>, <&i2s1_sclk>, <&i2s1_lrckrx>, <&i2s1_lrcktx>, <&i2s1_sdi>, <&i2s1_sdo>, <&i2s1_sdio1>, <&i2s1_sdio2>;
+ rockchip,playback-channels = <8>;
+};

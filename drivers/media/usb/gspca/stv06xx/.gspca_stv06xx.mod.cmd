@@ -1,0 +1,1 @@
+savedcmd_drivers/media/usb/gspca/stv06xx/gspca_stv06xx.mod := printf '%s\n'   stv06xx.o stv06xx_vv6410.o stv06xx_hdcs.o stv06xx_pb0100.o stv06xx_st6422.o | awk '!x[$$0]++ { print("drivers/media/usb/gspca/stv06xx/"$$0) }' > drivers/media/usb/gspca/stv06xx/gspca_stv06xx.mod

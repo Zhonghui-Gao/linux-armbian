@@ -1,0 +1,1 @@
+savedcmd_drivers/input/touchscreen/cyttsp_i2c_common.mod := printf '%s\n'   cyttsp_i2c_common.o | awk '!x[$$0]++ { print("drivers/input/touchscreen/"$$0) }' > drivers/input/touchscreen/cyttsp_i2c_common.mod

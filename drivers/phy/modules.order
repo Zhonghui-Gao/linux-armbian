@@ -1,0 +1,9 @@
+drivers/phy/cadence/phy-cadence-torrent.o
+drivers/phy/cadence/cdns-dphy.o
+drivers/phy/cadence/phy-cadence-sierra.o
+drivers/phy/microchip/lan966x_serdes.o
+drivers/phy/motorola/phy-mapphone-mdm6600.o
+drivers/phy/rockchip/phy-rockchip-dphy-rx0.o
+drivers/phy/rockchip/phy-rockchip-inno-csidphy.o
+drivers/phy/rockchip/phy-rockchip-inno-dsidphy.o
+drivers/phy/phy-can-transceiver.o

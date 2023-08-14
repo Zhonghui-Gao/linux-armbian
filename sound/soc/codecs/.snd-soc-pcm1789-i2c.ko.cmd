@@ -1,0 +1,1 @@
+savedcmd_sound/soc/codecs/snd-soc-pcm1789-i2c.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-pcm1789-i2c.ko sound/soc/codecs/snd-soc-pcm1789-i2c.o sound/soc/codecs/snd-soc-pcm1789-i2c.mod.o;  true

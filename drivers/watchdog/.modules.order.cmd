@@ -1,0 +1,1 @@
+savedcmd_drivers/watchdog/modules.order := {   echo drivers/watchdog/pcwd_pci.o;   echo drivers/watchdog/wdt_pci.o;   echo drivers/watchdog/pcwd_usb.o;   echo drivers/watchdog/rn5t618_wdt.o;   echo drivers/watchdog/bd9576_wdt.o;   echo drivers/watchdog/softdog.o;   echo drivers/watchdog/rave-sp-wdt.o; :; } > drivers/watchdog/modules.order

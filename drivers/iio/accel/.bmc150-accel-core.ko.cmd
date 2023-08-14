@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/accel/bmc150-accel-core.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/accel/bmc150-accel-core.ko drivers/iio/accel/bmc150-accel-core.o drivers/iio/accel/bmc150-accel-core.mod.o;  true

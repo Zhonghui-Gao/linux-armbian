@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/pmbus/ir36021.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/pmbus/ir36021.ko drivers/hwmon/pmbus/ir36021.o drivers/hwmon/pmbus/ir36021.mod.o;  true

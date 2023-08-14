@@ -1,0 +1,1 @@
+savedcmd_drivers/media/radio/si470x/modules.order := {   echo drivers/media/radio/si470x/radio-si470x-common.o;   echo drivers/media/radio/si470x/radio-si470x-usb.o;   echo drivers/media/radio/si470x/radio-si470x-i2c.o; :; } > drivers/media/radio/si470x/modules.order

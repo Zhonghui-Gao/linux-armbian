@@ -1,0 +1,1 @@
+savedcmd_sound/core/seq/modules.order := {   echo sound/core/seq/snd-seq.o;   echo sound/core/seq/snd-seq-dummy.o;   echo sound/core/seq/snd-seq-midi.o;   echo sound/core/seq/snd-seq-midi-emul.o;   echo sound/core/seq/snd-seq-midi-event.o;   echo sound/core/seq/snd-seq-virmidi.o; :; } > sound/core/seq/modules.order

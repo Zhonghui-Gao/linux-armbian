@@ -1,0 +1,1 @@
+savedcmd_drivers/gpio/gpio-grgpio.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpio/gpio-grgpio.ko drivers/gpio/gpio-grgpio.o drivers/gpio/gpio-grgpio.mod.o;  true

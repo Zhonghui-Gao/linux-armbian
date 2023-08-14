@@ -1,0 +1,1 @@
+savedcmd_drivers/net/phy/realtek.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/phy/realtek.ko drivers/net/phy/realtek.o drivers/net/phy/realtek.mod.o;  true

@@ -1,0 +1,5 @@
+drivers/net/wireless/intel/ipw2x00/ipw2100.o
+drivers/net/wireless/intel/ipw2x00/libipw.o
+drivers/net/wireless/intel/iwlwifi/iwlwifi.o
+drivers/net/wireless/intel/iwlwifi/dvm/iwldvm.o
+drivers/net/wireless/intel/iwlwifi/mvm/iwlmvm.o

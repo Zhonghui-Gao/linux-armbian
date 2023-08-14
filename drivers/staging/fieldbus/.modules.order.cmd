@@ -1,0 +1,1 @@
+savedcmd_drivers/staging/fieldbus/modules.order := {   echo drivers/staging/fieldbus/fieldbus_dev.o;   cat drivers/staging/fieldbus/anybuss/modules.order; :; } > drivers/staging/fieldbus/modules.order

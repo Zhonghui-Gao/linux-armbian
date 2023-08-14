@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/panel/panel-ronbo-rb070d30.mod := printf '%s\n'   panel-ronbo-rb070d30.o | awk '!x[$$0]++ { print("drivers/gpu/drm/panel/"$$0) }' > drivers/gpu/drm/panel/panel-ronbo-rb070d30.mod

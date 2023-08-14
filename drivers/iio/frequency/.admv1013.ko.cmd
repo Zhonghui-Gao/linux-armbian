@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/frequency/admv1013.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/frequency/admv1013.ko drivers/iio/frequency/admv1013.o drivers/iio/frequency/admv1013.mod.o;  true

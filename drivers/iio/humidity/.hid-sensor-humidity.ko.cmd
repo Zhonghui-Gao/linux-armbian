@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/humidity/hid-sensor-humidity.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/humidity/hid-sensor-humidity.ko drivers/iio/humidity/hid-sensor-humidity.o drivers/iio/humidity/hid-sensor-humidity.mod.o;  true

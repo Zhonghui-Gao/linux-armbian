@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/dwc2/dwc2_pci.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/dwc2/dwc2_pci.ko drivers/usb/dwc2/dwc2_pci.o drivers/usb/dwc2/dwc2_pci.mod.o;  true

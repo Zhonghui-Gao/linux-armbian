@@ -1,0 +1,1 @@
+savedcmd_net/vmw_vsock/vmw_vsock_vmci_transport.mod := printf '%s\n'   vmci_transport.o vmci_transport_notify.o vmci_transport_notify_qstate.o | awk '!x[$$0]++ { print("net/vmw_vsock/"$$0) }' > net/vmw_vsock/vmw_vsock_vmci_transport.mod

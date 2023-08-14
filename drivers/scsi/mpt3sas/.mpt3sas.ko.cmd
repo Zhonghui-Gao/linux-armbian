@@ -1,0 +1,1 @@
+savedcmd_drivers/scsi/mpt3sas/mpt3sas.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/scsi/mpt3sas/mpt3sas.ko drivers/scsi/mpt3sas/mpt3sas.o drivers/scsi/mpt3sas/mpt3sas.mod.o;  true

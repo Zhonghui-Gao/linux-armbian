@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/xen/drm_xen_front.mod := printf '%s\n'   xen_drm_front.o xen_drm_front_kms.o xen_drm_front_conn.o xen_drm_front_evtchnl.o xen_drm_front_cfg.o xen_drm_front_gem.o | awk '!x[$$0]++ { print("drivers/gpu/drm/xen/"$$0) }' > drivers/gpu/drm/xen/drm_xen_front.mod

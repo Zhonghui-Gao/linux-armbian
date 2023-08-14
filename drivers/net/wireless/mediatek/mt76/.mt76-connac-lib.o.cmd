@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/mediatek/mt76/mt76-connac-lib.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/wireless/mediatek/mt76/mt76-connac-lib.o @drivers/net/wireless/mediatek/mt76/mt76-connac-lib.mod 

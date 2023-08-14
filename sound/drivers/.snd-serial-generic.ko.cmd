@@ -1,0 +1,1 @@
+savedcmd_sound/drivers/snd-serial-generic.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/drivers/snd-serial-generic.ko sound/drivers/snd-serial-generic.o sound/drivers/snd-serial-generic.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/uwe5622/built-in.a := rm -f drivers/net/wireless/uwe5622/built-in.a;  printf "drivers/net/wireless/uwe5622/%s " unisocwcn/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/net/wireless/uwe5622/built-in.a

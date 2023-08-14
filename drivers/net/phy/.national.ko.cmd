@@ -1,0 +1,1 @@
+savedcmd_drivers/net/phy/national.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/phy/national.ko drivers/net/phy/national.o drivers/net/phy/national.mod.o;  true

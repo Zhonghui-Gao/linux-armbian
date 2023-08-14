@@ -1,0 +1,1 @@
+savedcmd_drivers/nfc/nfcmrvl/modules.order := {   echo drivers/nfc/nfcmrvl/nfcmrvl.o;   echo drivers/nfc/nfcmrvl/nfcmrvl_usb.o;   echo drivers/nfc/nfcmrvl/nfcmrvl_uart.o;   echo drivers/nfc/nfcmrvl/nfcmrvl_i2c.o;   echo drivers/nfc/nfcmrvl/nfcmrvl_spi.o; :; } > drivers/nfc/nfcmrvl/modules.order

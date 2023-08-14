@@ -1,0 +1,1 @@
+savedcmd_kernel/rcu/rcutorture.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o kernel/rcu/rcutorture.ko kernel/rcu/rcutorture.o kernel/rcu/rcutorture.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/dsa/b53/b53_mmap.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/dsa/b53/b53_mmap.ko drivers/net/dsa/b53/b53_mmap.o drivers/net/dsa/b53/b53_mmap.mod.o;  true

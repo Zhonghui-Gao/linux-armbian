@@ -1,0 +1,2 @@
+rockchip-pcie-gen2.o: \
+ arch/arm64/boot/dts/rockchip/overlay/rockchip-pcie-gen2.dts

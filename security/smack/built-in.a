@@ -1,0 +1,11 @@
+!<thin>
+//                                              60        `
+smack_lsm.o/
+smack_access.o/
+smackfs.o/
+smack_netfilter.o/
+
+/0              0           0     0     644     72424     `
+/13             0           0     0     644     10232     `
+/29             0           0     0     644     51496     `
+/40             0           0     0     644     3680      `

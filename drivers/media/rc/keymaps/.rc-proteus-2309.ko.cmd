@@ -1,0 +1,1 @@
+savedcmd_drivers/media/rc/keymaps/rc-proteus-2309.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-proteus-2309.ko drivers/media/rc/keymaps/rc-proteus-2309.o drivers/media/rc/keymaps/rc-proteus-2309.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/hid-megaworld.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-megaworld.ko drivers/hid/hid-megaworld.o drivers/hid/hid-megaworld.mod.o;  true

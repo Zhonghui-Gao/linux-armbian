@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/pressure/dlhl60d.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/pressure/dlhl60d.ko drivers/iio/pressure/dlhl60d.o drivers/iio/pressure/dlhl60d.mod.o;  true

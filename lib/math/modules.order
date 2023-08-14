@@ -1,0 +1,3 @@
+lib/math/cordic.o
+lib/math/test_div64.o
+lib/math/rational-test.o

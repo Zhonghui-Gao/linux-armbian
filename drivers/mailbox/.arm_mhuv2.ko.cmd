@@ -1,0 +1,1 @@
+savedcmd_drivers/mailbox/arm_mhuv2.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/mailbox/arm_mhuv2.ko drivers/mailbox/arm_mhuv2.o drivers/mailbox/arm_mhuv2.mod.o;  true

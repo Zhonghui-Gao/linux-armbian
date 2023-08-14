@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/usbip/modules.order := {   echo drivers/usb/usbip/usbip-core.o;   echo drivers/usb/usbip/vhci-hcd.o;   echo drivers/usb/usbip/usbip-host.o;   echo drivers/usb/usbip/usbip-vudc.o; :; } > drivers/usb/usbip/modules.order

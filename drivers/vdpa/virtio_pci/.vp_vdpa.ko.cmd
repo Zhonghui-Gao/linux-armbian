@@ -1,0 +1,1 @@
+savedcmd_drivers/vdpa/virtio_pci/vp_vdpa.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/vdpa/virtio_pci/vp_vdpa.ko drivers/vdpa/virtio_pci/vp_vdpa.o drivers/vdpa/virtio_pci/vp_vdpa.mod.o;  true
