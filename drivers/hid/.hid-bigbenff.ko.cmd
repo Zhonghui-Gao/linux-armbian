@@ -1,1 +1,0 @@
-savedcmd_drivers/hid/hid-bigbenff.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-bigbenff.ko drivers/hid/hid-bigbenff.o drivers/hid/hid-bigbenff.mod.o;  true

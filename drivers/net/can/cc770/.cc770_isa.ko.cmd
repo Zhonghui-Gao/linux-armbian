@@ -1,1 +1,0 @@
-savedcmd_drivers/net/can/cc770/cc770_isa.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/can/cc770/cc770_isa.ko drivers/net/can/cc770/cc770_isa.o drivers/net/can/cc770/cc770_isa.mod.o;  true

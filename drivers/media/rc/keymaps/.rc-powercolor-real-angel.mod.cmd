@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-powercolor-real-angel.mod := printf '%s\n'   rc-powercolor-real-angel.o | awk '!x[$$0]++ { print("drivers/media/rc/keymaps/"$$0) }' > drivers/media/rc/keymaps/rc-powercolor-real-angel.mod

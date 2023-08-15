@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/realtek/rtlwifi/rtl8192c/modules.order := {   echo drivers/net/wireless/realtek/rtlwifi/rtl8192c/rtl8192c-common.o; :; } > drivers/net/wireless/realtek/rtlwifi/rtl8192c/modules.order

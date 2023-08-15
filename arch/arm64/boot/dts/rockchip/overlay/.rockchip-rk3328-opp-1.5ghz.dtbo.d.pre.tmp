@@ -1,2 +1,0 @@
-rockchip-rk3328-opp-1.5ghz.o: \
- arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3328-opp-1.5ghz.dts

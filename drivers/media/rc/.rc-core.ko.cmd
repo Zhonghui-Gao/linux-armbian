@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/rc-core.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/rc-core.ko drivers/media/rc/rc-core.o drivers/media/rc/rc-core.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/bridge/synopsys/modules.order := {   echo drivers/gpu/drm/bridge/synopsys/dw-hdmi-gp-audio.o;   echo drivers/gpu/drm/bridge/synopsys/dw-hdmi-i2s-audio.o;   echo drivers/gpu/drm/bridge/synopsys/dw-hdmi-cec.o; :; } > drivers/gpu/drm/bridge/synopsys/modules.order

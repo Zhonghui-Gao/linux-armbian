@@ -1,1 +1,0 @@
-savedcmd_fs/ext4/ext4-inode-test.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o fs/ext4/ext4-inode-test.ko fs/ext4/ext4-inode-test.o fs/ext4/ext4-inode-test.mod.o;  true

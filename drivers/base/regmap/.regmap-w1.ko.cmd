@@ -1,1 +1,0 @@
-savedcmd_drivers/base/regmap/regmap-w1.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/base/regmap/regmap-w1.ko drivers/base/regmap/regmap-w1.o drivers/base/regmap/regmap-w1.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/gadget/udc/modules.order := {   echo drivers/usb/gadget/udc/net2280.o;   echo drivers/usb/gadget/udc/snps_udc_core.o;   echo drivers/usb/gadget/udc/amd5536udc_pci.o;   echo drivers/usb/gadget/udc/goku_udc.o;   echo drivers/usb/gadget/udc/pch_udc.o;   echo drivers/usb/gadget/udc/max3420_udc.o; :; } > drivers/usb/gadget/udc/modules.order

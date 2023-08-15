@@ -1,1 +1,0 @@
-savedcmd_sound/soc/xilinx/snd-soc-xlnx-formatter-pcm.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/xilinx/snd-soc-xlnx-formatter-pcm.ko sound/soc/xilinx/snd-soc-xlnx-formatter-pcm.o sound/soc/xilinx/snd-soc-xlnx-formatter-pcm.mod.o;  true

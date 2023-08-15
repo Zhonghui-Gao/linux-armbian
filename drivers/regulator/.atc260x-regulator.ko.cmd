@@ -1,1 +1,0 @@
-savedcmd_drivers/regulator/atc260x-regulator.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/regulator/atc260x-regulator.ko drivers/regulator/atc260x-regulator.o drivers/regulator/atc260x-regulator.mod.o;  true

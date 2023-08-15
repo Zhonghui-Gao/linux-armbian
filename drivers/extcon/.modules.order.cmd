@@ -1,1 +1,0 @@
-savedcmd_drivers/extcon/modules.order := {   echo drivers/extcon/extcon-ptn5150.o;   echo drivers/extcon/extcon-usbc-tusb320.o;   echo drivers/extcon/extcon-usbc-virtual-pd.o; :; } > drivers/extcon/modules.order

@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/gspca/gspca_xirlink_cit.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/gspca/gspca_xirlink_cit.ko drivers/media/usb/gspca/gspca_xirlink_cit.o drivers/media/usb/gspca/gspca_xirlink_cit.mod.o;  true

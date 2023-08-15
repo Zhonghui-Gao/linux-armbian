@@ -1,1 +1,0 @@
-savedcmd_drivers/input/joystick/modules.order := {   cat drivers/input/joystick/iforce/modules.order;   echo drivers/input/joystick/qwiic-joystick.o;   echo drivers/input/joystick/sensehat-joystick.o;   echo drivers/input/joystick/xpad.o; :; } > drivers/input/joystick/modules.order

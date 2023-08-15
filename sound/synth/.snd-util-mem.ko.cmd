@@ -1,1 +1,0 @@
-savedcmd_sound/synth/snd-util-mem.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/synth/snd-util-mem.ko sound/synth/snd-util-mem.o sound/synth/snd-util-mem.mod.o;  true

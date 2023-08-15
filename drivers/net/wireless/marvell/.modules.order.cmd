@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/marvell/modules.order := {   cat drivers/net/wireless/marvell/libertas_tf/modules.order;   echo drivers/net/wireless/marvell/mwl8k.o; :; } > drivers/net/wireless/marvell/modules.order

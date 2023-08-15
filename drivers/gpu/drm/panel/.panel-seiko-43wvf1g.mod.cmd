@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/panel/panel-seiko-43wvf1g.mod := printf '%s\n'   panel-seiko-43wvf1g.o | awk '!x[$$0]++ { print("drivers/gpu/drm/panel/"$$0) }' > drivers/gpu/drm/panel/panel-seiko-43wvf1g.mod

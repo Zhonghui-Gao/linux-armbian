@@ -1,1 +1,0 @@
-savedcmd_drivers/pps/clients/pps-ldisc.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/pps/clients/pps-ldisc.ko drivers/pps/clients/pps-ldisc.o drivers/pps/clients/pps-ldisc.mod.o;  true

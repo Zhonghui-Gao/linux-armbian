@@ -1,1 +1,0 @@
-savedcmd_drivers/misc/dw-xdata-pcie.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/misc/dw-xdata-pcie.ko drivers/misc/dw-xdata-pcie.o drivers/misc/dw-xdata-pcie.mod.o;  true

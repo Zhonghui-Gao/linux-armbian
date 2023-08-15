@@ -1,1 +1,0 @@
-savedcmd_drivers/net/dsa/microchip/ksz8863_smi.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/dsa/microchip/ksz8863_smi.ko drivers/net/dsa/microchip/ksz8863_smi.o drivers/net/dsa/microchip/ksz8863_smi.mod.o;  true

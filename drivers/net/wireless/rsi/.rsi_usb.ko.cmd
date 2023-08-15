@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/rsi/rsi_usb.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/rsi/rsi_usb.ko drivers/net/wireless/rsi/rsi_usb.o drivers/net/wireless/rsi/rsi_usb.mod.o;  true

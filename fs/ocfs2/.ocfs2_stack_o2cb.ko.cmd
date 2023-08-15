@@ -1,1 +1,0 @@
-savedcmd_fs/ocfs2/ocfs2_stack_o2cb.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o fs/ocfs2/ocfs2_stack_o2cb.ko fs/ocfs2/ocfs2_stack_o2cb.o fs/ocfs2/ocfs2_stack_o2cb.mod.o;  true

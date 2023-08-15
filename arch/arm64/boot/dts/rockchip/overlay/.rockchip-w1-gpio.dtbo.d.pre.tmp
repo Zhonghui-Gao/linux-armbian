@@ -1,2 +1,0 @@
-rockchip-w1-gpio.o: \
- arch/arm64/boot/dts/rockchip/overlay/rockchip-w1-gpio.dts

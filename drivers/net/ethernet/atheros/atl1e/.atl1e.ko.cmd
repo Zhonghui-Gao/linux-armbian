@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/atheros/atl1e/atl1e.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/atheros/atl1e/atl1e.ko drivers/net/ethernet/atheros/atl1e/atl1e.o drivers/net/ethernet/atheros/atl1e/atl1e.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-kworld-plus-tv-analog.mod := printf '%s\n'   rc-kworld-plus-tv-analog.o | awk '!x[$$0]++ { print("drivers/media/rc/keymaps/"$$0) }' > drivers/media/rc/keymaps/rc-kworld-plus-tv-analog.mod

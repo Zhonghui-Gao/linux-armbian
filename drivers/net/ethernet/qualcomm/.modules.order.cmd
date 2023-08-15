@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/qualcomm/modules.order := {   cat drivers/net/ethernet/qualcomm/emac/modules.order;   echo drivers/net/ethernet/qualcomm/qca_7k_common.o;   echo drivers/net/ethernet/qualcomm/qcauart.o; :; } > drivers/net/ethernet/qualcomm/modules.order

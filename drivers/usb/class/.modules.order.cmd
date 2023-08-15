@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/class/modules.order := {   echo drivers/usb/class/cdc-acm.o;   echo drivers/usb/class/usblp.o;   echo drivers/usb/class/cdc-wdm.o;   echo drivers/usb/class/usbtmc.o; :; } > drivers/usb/class/modules.order

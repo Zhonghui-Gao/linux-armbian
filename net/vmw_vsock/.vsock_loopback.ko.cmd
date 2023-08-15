@@ -1,1 +1,0 @@
-savedcmd_net/vmw_vsock/vsock_loopback.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/vmw_vsock/vsock_loopback.ko net/vmw_vsock/vsock_loopback.o net/vmw_vsock/vsock_loopback.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/intel/ipw2x00/ipw2100.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/intel/ipw2x00/ipw2100.ko drivers/net/wireless/intel/ipw2x00/ipw2100.o drivers/net/wireless/intel/ipw2x00/ipw2100.mod.o;  true

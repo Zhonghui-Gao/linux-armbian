@@ -1,1 +1,0 @@
-savedcmd_arch/arm64/kvm/hyp/nvhe/kvm_nvhe.rel.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack  -r arch/arm64/kvm/hyp/nvhe/kvm_nvhe.tmp.o arch/arm64/kvm/hyp/nvhe/hyp-reloc.o -o arch/arm64/kvm/hyp/nvhe/kvm_nvhe.rel.o

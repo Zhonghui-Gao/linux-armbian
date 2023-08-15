@@ -1,1 +1,0 @@
-savedcmd_drivers/rtc/rtc-pcf85063.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-pcf85063.ko drivers/rtc/rtc-pcf85063.o drivers/rtc/rtc-pcf85063.mod.o;  true

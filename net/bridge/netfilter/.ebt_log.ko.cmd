@@ -1,1 +1,0 @@
-savedcmd_net/bridge/netfilter/ebt_log.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/bridge/netfilter/ebt_log.ko net/bridge/netfilter/ebt_log.o net/bridge/netfilter/ebt_log.mod.o;  true

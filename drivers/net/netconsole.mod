@@ -1,1 +1,0 @@
-drivers/net/netconsole.o

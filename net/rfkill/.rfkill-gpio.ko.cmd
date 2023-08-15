@@ -1,1 +1,0 @@
-savedcmd_net/rfkill/rfkill-gpio.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/rfkill/rfkill-gpio.ko net/rfkill/rfkill-gpio.o net/rfkill/rfkill-gpio.mod.o;  true

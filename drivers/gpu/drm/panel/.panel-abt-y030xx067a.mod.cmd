@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/panel/panel-abt-y030xx067a.mod := printf '%s\n'   panel-abt-y030xx067a.o | awk '!x[$$0]++ { print("drivers/gpu/drm/panel/"$$0) }' > drivers/gpu/drm/panel/panel-abt-y030xx067a.mod

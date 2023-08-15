@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/zydas/zd1211rw/zd1211rw.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/wireless/zydas/zd1211rw/zd1211rw.o @drivers/net/wireless/zydas/zd1211rw/zd1211rw.mod 

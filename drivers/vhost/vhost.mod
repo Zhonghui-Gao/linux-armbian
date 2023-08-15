@@ -1,1 +1,0 @@
-drivers/vhost/vhost.o

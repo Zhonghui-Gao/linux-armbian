@@ -1,1 +1,0 @@
-savedcmd_arch/arm64/lib/built-in.a := rm -f arch/arm64/lib/built-in.a;  printf "arch/arm64/lib/%s " xor-neon.o crc32.o error-inject.o mte.o | xargs aarch64-linux-gnu-ar cDPrST arch/arm64/lib/built-in.a

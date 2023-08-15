@@ -1,1 +1,0 @@
-savedcmd_drivers/staging/iio/built-in.a := rm -f drivers/staging/iio/built-in.a;  printf "drivers/staging/iio/%s " accel/built-in.a adc/built-in.a addac/built-in.a frequency/built-in.a impedance-analyzer/built-in.a resolver/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/staging/iio/built-in.a

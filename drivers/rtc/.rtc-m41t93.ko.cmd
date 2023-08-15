@@ -1,1 +1,0 @@
-savedcmd_drivers/rtc/rtc-m41t93.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-m41t93.ko drivers/rtc/rtc-m41t93.o drivers/rtc/rtc-m41t93.mod.o;  true

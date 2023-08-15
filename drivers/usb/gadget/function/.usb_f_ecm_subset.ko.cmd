@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/gadget/function/usb_f_ecm_subset.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/function/usb_f_ecm_subset.ko drivers/usb/gadget/function/usb_f_ecm_subset.o drivers/usb/gadget/function/usb_f_ecm_subset.mod.o;  true

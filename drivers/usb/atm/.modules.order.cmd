@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/atm/modules.order := {   echo drivers/usb/atm/cxacru.o;   echo drivers/usb/atm/speedtch.o;   echo drivers/usb/atm/ueagle-atm.o;   echo drivers/usb/atm/usbatm.o;   echo drivers/usb/atm/xusbatm.o; :; } > drivers/usb/atm/modules.order

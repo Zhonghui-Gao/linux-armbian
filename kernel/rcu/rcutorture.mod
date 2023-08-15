@@ -1,1 +1,0 @@
-kernel/rcu/rcutorture.o

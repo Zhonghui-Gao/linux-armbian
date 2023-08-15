@@ -1,1 +1,0 @@
-savedcmd_sound/soc/rockchip/snd-soc-rockchip-i2s-tdm.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/rockchip/snd-soc-rockchip-i2s-tdm.ko sound/soc/rockchip/snd-soc-rockchip-i2s-tdm.o sound/soc/rockchip/snd-soc-rockchip-i2s-tdm.mod.o;  true

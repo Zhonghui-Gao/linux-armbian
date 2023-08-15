@@ -1,1 +1,0 @@
-savedcmd_net/wireless/modules.order := {   echo net/wireless/cfg80211.o;   echo net/wireless/lib80211.o;   echo net/wireless/lib80211_crypt_wep.o;   echo net/wireless/lib80211_crypt_ccmp.o;   echo net/wireless/lib80211_crypt_tkip.o; :; } > net/wireless/modules.order

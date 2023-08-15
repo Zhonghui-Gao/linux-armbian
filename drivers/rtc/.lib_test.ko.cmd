@@ -1,1 +1,0 @@
-savedcmd_drivers/rtc/lib_test.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/rtc/lib_test.ko drivers/rtc/lib_test.o drivers/rtc/lib_test.mod.o;  true

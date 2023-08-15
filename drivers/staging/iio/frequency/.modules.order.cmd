@@ -1,1 +1,0 @@
-savedcmd_drivers/staging/iio/frequency/modules.order := {   echo drivers/staging/iio/frequency/ad9832.o;   echo drivers/staging/iio/frequency/ad9834.o; :; } > drivers/staging/iio/frequency/modules.order

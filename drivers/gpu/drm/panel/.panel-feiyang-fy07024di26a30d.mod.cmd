@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/panel/panel-feiyang-fy07024di26a30d.mod := printf '%s\n'   panel-feiyang-fy07024di26a30d.o | awk '!x[$$0]++ { print("drivers/gpu/drm/panel/"$$0) }' > drivers/gpu/drm/panel/panel-feiyang-fy07024di26a30d.mod

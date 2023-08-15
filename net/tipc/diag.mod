@@ -1,1 +1,0 @@
-net/tipc/diag.o

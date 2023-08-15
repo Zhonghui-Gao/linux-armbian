@@ -1,1 +1,0 @@
-savedcmd_fs/ocfs2/cluster/ocfs2_nodemanager.mod := printf '%s\n'   heartbeat.o masklog.o sys.o nodemanager.o quorum.o tcp.o netdebug.o | awk '!x[$$0]++ { print("fs/ocfs2/cluster/"$$0) }' > fs/ocfs2/cluster/ocfs2_nodemanager.mod

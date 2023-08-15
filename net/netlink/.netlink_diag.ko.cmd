@@ -1,1 +1,0 @@
-savedcmd_net/netlink/netlink_diag.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netlink/netlink_diag.ko net/netlink/netlink_diag.o net/netlink/netlink_diag.mod.o;  true

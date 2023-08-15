@@ -1,1 +1,0 @@
-savedcmd_drivers/pwm/modules.order := {   echo drivers/pwm/pwm-atmel-tcb.o;   echo drivers/pwm/pwm-cros-ec.o;   echo drivers/pwm/pwm-dwc.o;   echo drivers/pwm/pwm-ntxec.o;   echo drivers/pwm/pwm-xilinx.o; :; } > drivers/pwm/modules.order

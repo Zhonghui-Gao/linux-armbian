@@ -1,1 +1,0 @@
-savedcmd_drivers/tty/serial/sc16is7xx.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/tty/serial/sc16is7xx.ko drivers/tty/serial/sc16is7xx.o drivers/tty/serial/sc16is7xx.mod.o;  true

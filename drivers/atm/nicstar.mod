@@ -1,1 +1,0 @@
-drivers/atm/nicstar.o

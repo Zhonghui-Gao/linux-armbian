@@ -1,7 +1,0 @@
-fs/ocfs2/ocfs2.o
-fs/ocfs2/ocfs2_stackglue.o
-fs/ocfs2/ocfs2_stack_o2cb.o
-fs/ocfs2/ocfs2_stack_user.o
-fs/ocfs2/dlmfs/ocfs2_dlmfs.o
-fs/ocfs2/cluster/ocfs2_nodemanager.o
-fs/ocfs2/dlm/ocfs2_dlm.o

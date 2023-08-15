@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/ttusb-budget/dvb-ttusb-budget.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/ttusb-budget/dvb-ttusb-budget.ko drivers/media/usb/ttusb-budget/dvb-ttusb-budget.o drivers/media/usb/ttusb-budget/dvb-ttusb-budget.mod.o;  true

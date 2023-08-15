@@ -1,1 +1,0 @@
-savedcmd_sound/soc/codecs/snd-soc-cs35l41-lib.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-cs35l41-lib.ko sound/soc/codecs/snd-soc-cs35l41-lib.o sound/soc/codecs/snd-soc-cs35l41-lib.mod.o;  true

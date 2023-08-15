@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/rtl8812au/88XXau.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack --strip-all -O3  -r -o drivers/net/wireless/rtl8812au/88XXau.o @drivers/net/wireless/rtl8812au/88XXau.mod 

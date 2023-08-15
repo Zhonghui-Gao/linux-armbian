@@ -1,1 +1,0 @@
-savedcmd_drivers/media/common/videobuf2/videobuf2-v4l2.mod := printf '%s\n'   videobuf2-v4l2.o | awk '!x[$$0]++ { print("drivers/media/common/videobuf2/"$$0) }' > drivers/media/common/videobuf2/videobuf2-v4l2.mod

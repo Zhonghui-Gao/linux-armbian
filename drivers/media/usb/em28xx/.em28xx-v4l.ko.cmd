@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/em28xx/em28xx-v4l.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/em28xx/em28xx-v4l.ko drivers/media/usb/em28xx/em28xx-v4l.o drivers/media/usb/em28xx/em28xx-v4l.mod.o;  true

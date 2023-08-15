@@ -1,1 +1,0 @@
-savedcmd_drivers/hid/hid-letsketch.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-letsketch.ko drivers/hid/hid-letsketch.o drivers/hid/hid-letsketch.mod.o;  true

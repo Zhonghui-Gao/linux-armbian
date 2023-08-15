@@ -1,1 +1,0 @@
-savedcmd_drivers/hid/hid-primax.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-primax.ko drivers/hid/hid-primax.o drivers/hid/hid-primax.mod.o;  true

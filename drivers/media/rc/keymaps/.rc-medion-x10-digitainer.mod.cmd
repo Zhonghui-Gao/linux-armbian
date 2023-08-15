@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-medion-x10-digitainer.mod := printf '%s\n'   rc-medion-x10-digitainer.o | awk '!x[$$0]++ { print("drivers/media/rc/keymaps/"$$0) }' > drivers/media/rc/keymaps/rc-medion-x10-digitainer.mod

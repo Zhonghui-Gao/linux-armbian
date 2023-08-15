@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/light/si1133.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/light/si1133.ko drivers/iio/light/si1133.o drivers/iio/light/si1133.mod.o;  true

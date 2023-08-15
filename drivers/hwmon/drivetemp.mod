@@ -1,1 +1,0 @@
-drivers/hwmon/drivetemp.o

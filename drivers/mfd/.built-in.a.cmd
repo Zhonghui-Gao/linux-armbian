@@ -1,1 +1,0 @@
-savedcmd_drivers/mfd/built-in.a := rm -f drivers/mfd/built-in.a;  printf "drivers/mfd/%s " cros_ec_dev.o mfd-core.o max77620.o adp5520.o aat2870-core.o rc5t583.o rc5t583-irq.o rk808.o sec-core.o sec-irq.o syscon.o vexpress-sysreg.o as3711.o | xargs aarch64-linux-gnu-ar cDPrST drivers/mfd/built-in.a

@@ -1,1 +1,0 @@
-savedcmd_drivers/gpio/gpio-cadence.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpio/gpio-cadence.ko drivers/gpio/gpio-cadence.o drivers/gpio/gpio-cadence.mod.o;  true

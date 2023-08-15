@@ -1,1 +1,0 @@
-savedcmd_sound/drivers/snd-serial-u16550.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/drivers/snd-serial-u16550.ko sound/drivers/snd-serial-u16550.o sound/drivers/snd-serial-u16550.mod.o;  true

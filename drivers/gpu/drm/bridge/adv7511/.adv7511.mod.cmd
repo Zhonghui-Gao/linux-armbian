@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/bridge/adv7511/adv7511.mod := printf '%s\n'   adv7511_drv.o adv7533.o adv7511_cec.o | awk '!x[$$0]++ { print("drivers/gpu/drm/bridge/adv7511/"$$0) }' > drivers/gpu/drm/bridge/adv7511/adv7511.mod

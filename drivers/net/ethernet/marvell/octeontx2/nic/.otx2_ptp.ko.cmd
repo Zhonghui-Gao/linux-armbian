@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/marvell/octeontx2/nic/otx2_ptp.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/marvell/octeontx2/nic/otx2_ptp.ko drivers/net/ethernet/marvell/octeontx2/nic/otx2_ptp.o drivers/net/ethernet/marvell/octeontx2/nic/otx2_ptp.mod.o;  true

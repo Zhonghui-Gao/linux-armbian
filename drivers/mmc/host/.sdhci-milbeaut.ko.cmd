@@ -1,1 +1,0 @@
-savedcmd_drivers/mmc/host/sdhci-milbeaut.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/mmc/host/sdhci-milbeaut.ko drivers/mmc/host/sdhci-milbeaut.o drivers/mmc/host/sdhci-milbeaut.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/net/phy/at803x.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/phy/at803x.ko drivers/net/phy/at803x.o drivers/net/phy/at803x.mod.o;  true

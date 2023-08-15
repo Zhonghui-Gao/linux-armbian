@@ -1,1 +1,0 @@
-savedcmd_drivers/spi/spi-loopback-test.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/spi/spi-loopback-test.ko drivers/spi/spi-loopback-test.o drivers/spi/spi-loopback-test.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/power/supply/cw2015_battery.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/cw2015_battery.ko drivers/power/supply/cw2015_battery.o drivers/power/supply/cw2015_battery.mod.o;  true

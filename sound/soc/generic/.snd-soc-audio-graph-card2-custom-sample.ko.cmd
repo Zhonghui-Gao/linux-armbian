@@ -1,1 +1,0 @@
-savedcmd_sound/soc/generic/snd-soc-audio-graph-card2-custom-sample.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/generic/snd-soc-audio-graph-card2-custom-sample.ko sound/soc/generic/snd-soc-audio-graph-card2-custom-sample.o sound/soc/generic/snd-soc-audio-graph-card2-custom-sample.mod.o;  true

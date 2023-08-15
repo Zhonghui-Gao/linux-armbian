@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-encore-enltv-fm53.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-encore-enltv-fm53.ko drivers/media/rc/keymaps/rc-encore-enltv-fm53.o drivers/media/rc/keymaps/rc-encore-enltv-fm53.mod.o;  true

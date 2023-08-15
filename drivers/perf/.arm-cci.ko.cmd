@@ -1,1 +1,0 @@
-savedcmd_drivers/perf/arm-cci.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/perf/arm-cci.ko drivers/perf/arm-cci.o drivers/perf/arm-cci.mod.o;  true

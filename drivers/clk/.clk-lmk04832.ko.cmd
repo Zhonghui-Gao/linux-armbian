@@ -1,1 +1,0 @@
-savedcmd_drivers/clk/clk-lmk04832.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/clk/clk-lmk04832.ko drivers/clk/clk-lmk04832.o drivers/clk/clk-lmk04832.mod.o;  true

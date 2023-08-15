@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/common/hid-sensors/hid-sensor-iio-common.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/common/hid-sensors/hid-sensor-iio-common.ko drivers/iio/common/hid-sensors/hid-sensor-iio-common.o drivers/iio/common/hid-sensors/hid-sensor-iio-common.mod.o;  true

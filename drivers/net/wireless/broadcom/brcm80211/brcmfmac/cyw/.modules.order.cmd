@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/broadcom/brcm80211/brcmfmac/cyw/modules.order := {   echo drivers/net/wireless/broadcom/brcm80211/brcmfmac/cyw/brcmfmac-cyw.o; :; } > drivers/net/wireless/broadcom/brcm80211/brcmfmac/cyw/modules.order

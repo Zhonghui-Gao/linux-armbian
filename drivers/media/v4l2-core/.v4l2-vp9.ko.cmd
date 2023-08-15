@@ -1,1 +1,0 @@
-savedcmd_drivers/media/v4l2-core/v4l2-vp9.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/v4l2-core/v4l2-vp9.ko drivers/media/v4l2-core/v4l2-vp9.o drivers/media/v4l2-core/v4l2-vp9.mod.o;  true

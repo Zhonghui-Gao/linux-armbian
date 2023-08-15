@@ -1,1 +1,0 @@
-savedcmd_drivers/net/can/usb/kvaser_usb/kvaser_usb.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/can/usb/kvaser_usb/kvaser_usb.o @drivers/net/can/usb/kvaser_usb/kvaser_usb.mod 

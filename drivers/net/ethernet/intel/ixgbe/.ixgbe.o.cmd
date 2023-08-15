@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/intel/ixgbe/ixgbe.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/ethernet/intel/ixgbe/ixgbe.o @drivers/net/ethernet/intel/ixgbe/ixgbe.mod 

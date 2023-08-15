@@ -1,6 +1,0 @@
-drivers/mtd/chips/cfi_probe.o
-drivers/mtd/chips/cfi_util.o
-drivers/mtd/chips/cfi_cmdset_0002.o
-drivers/mtd/chips/gen_probe.o
-drivers/mtd/mtdpstore.o
-drivers/mtd/hyperbus/hyperbus-core.o

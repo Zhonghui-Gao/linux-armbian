@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/realtek/rtw88/rtw88_8723du.mod := printf '%s\n'   rtw8723du.o | awk '!x[$$0]++ { print("drivers/net/wireless/realtek/rtw88/"$$0) }' > drivers/net/wireless/realtek/rtw88/rtw88_8723du.mod

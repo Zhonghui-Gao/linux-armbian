@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wwan/t7xx/mtk_t7xx.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wwan/t7xx/mtk_t7xx.ko drivers/net/wwan/t7xx/mtk_t7xx.o drivers/net/wwan/t7xx/mtk_t7xx.mod.o;  true

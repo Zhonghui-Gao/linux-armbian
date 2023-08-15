@@ -1,1 +1,0 @@
-savedcmd_sound/soc/codecs/snd-soc-pcm3168a-spi.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-pcm3168a-spi.ko sound/soc/codecs/snd-soc-pcm3168a-spi.o sound/soc/codecs/snd-soc-pcm3168a-spi.mod.o;  true

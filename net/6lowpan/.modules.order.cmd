@@ -1,1 +1,0 @@
-savedcmd_net/6lowpan/modules.order := {   echo net/6lowpan/6lowpan.o;   echo net/6lowpan/nhc_dest.o;   echo net/6lowpan/nhc_fragment.o;   echo net/6lowpan/nhc_hop.o;   echo net/6lowpan/nhc_ipv6.o;   echo net/6lowpan/nhc_mobility.o;   echo net/6lowpan/nhc_routing.o;   echo net/6lowpan/nhc_udp.o; :; } > net/6lowpan/modules.order

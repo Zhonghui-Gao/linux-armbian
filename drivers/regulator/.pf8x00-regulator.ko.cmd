@@ -1,1 +1,0 @@
-savedcmd_drivers/regulator/pf8x00-regulator.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/regulator/pf8x00-regulator.ko drivers/regulator/pf8x00-regulator.o drivers/regulator/pf8x00-regulator.mod.o;  true

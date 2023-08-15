@@ -1,1 +1,0 @@
-savedcmd_drivers/rtc/rtc-as3722.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-as3722.ko drivers/rtc/rtc-as3722.o drivers/rtc/rtc-as3722.mod.o;  true

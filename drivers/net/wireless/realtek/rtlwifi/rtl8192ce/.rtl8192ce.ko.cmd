@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/realtek/rtlwifi/rtl8192ce/rtl8192ce.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/realtek/rtlwifi/rtl8192ce/rtl8192ce.ko drivers/net/wireless/realtek/rtlwifi/rtl8192ce/rtl8192ce.o drivers/net/wireless/realtek/rtlwifi/rtl8192ce/rtl8192ce.mod.o;  true

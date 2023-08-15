@@ -1,3 +1,0 @@
-net/core/dev_addr_lists_test.o
-net/core/pktgen.o
-net/core/failover.o

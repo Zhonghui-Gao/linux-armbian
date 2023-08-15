@@ -1,1 +1,0 @@
-savedcmd_drivers/hwmon/max31790.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/max31790.ko drivers/hwmon/max31790.o drivers/hwmon/max31790.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/input/touchscreen/egalax_ts_serial.mod := printf '%s\n'   egalax_ts_serial.o | awk '!x[$$0]++ { print("drivers/input/touchscreen/"$$0) }' > drivers/input/touchscreen/egalax_ts_serial.mod

@@ -1,1 +1,0 @@
-savedcmd_drivers/mux/mux-adg792a.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/mux/mux-adg792a.ko drivers/mux/mux-adg792a.o drivers/mux/mux-adg792a.mod.o;  true

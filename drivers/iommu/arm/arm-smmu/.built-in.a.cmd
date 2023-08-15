@@ -1,1 +1,0 @@
-savedcmd_drivers/iommu/arm/arm-smmu/built-in.a := rm -f drivers/iommu/arm/arm-smmu/built-in.a;  printf "drivers/iommu/arm/arm-smmu/%s " arm-smmu.o arm-smmu-impl.o arm-smmu-nvidia.o | xargs aarch64-linux-gnu-ar cDPrST drivers/iommu/arm/arm-smmu/built-in.a

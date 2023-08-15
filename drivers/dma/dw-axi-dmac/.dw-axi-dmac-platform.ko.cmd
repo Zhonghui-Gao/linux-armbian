@@ -1,1 +1,0 @@
-savedcmd_drivers/dma/dw-axi-dmac/dw-axi-dmac-platform.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/dma/dw-axi-dmac/dw-axi-dmac-platform.ko drivers/dma/dw-axi-dmac/dw-axi-dmac-platform.o drivers/dma/dw-axi-dmac/dw-axi-dmac-platform.mod.o;  true

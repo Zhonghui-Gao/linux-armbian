@@ -1,1 +1,0 @@
-savedcmd_drivers/reset/built-in.a := rm -f drivers/reset/built-in.a;  printf "drivers/reset/%s " core.o hisilicon/built-in.a starfive/built-in.a reset-scmi.o reset-simple.o | xargs aarch64-linux-gnu-ar cDPrST drivers/reset/built-in.a

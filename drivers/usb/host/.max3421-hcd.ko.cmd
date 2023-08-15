@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/host/max3421-hcd.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/host/max3421-hcd.ko drivers/usb/host/max3421-hcd.o drivers/usb/host/max3421-hcd.mod.o;  true

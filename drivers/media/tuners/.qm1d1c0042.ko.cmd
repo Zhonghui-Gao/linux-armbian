@@ -1,1 +1,0 @@
-savedcmd_drivers/media/tuners/qm1d1c0042.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/tuners/qm1d1c0042.ko drivers/media/tuners/qm1d1c0042.o drivers/media/tuners/qm1d1c0042.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/net/can/m_can/m_can_platform.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/can/m_can/m_can_platform.ko drivers/net/can/m_can/m_can_platform.o drivers/net/can/m_can/m_can_platform.mod.o;  true

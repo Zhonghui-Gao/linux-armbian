@@ -1,1 +1,0 @@
-savedcmd_sound/soc/rockchip/snd-soc-rk3288-hdmi-analog.mod := printf '%s\n'   rk3288_hdmi_analog.o | awk '!x[$$0]++ { print("sound/soc/rockchip/"$$0) }' > sound/soc/rockchip/snd-soc-rk3288-hdmi-analog.mod

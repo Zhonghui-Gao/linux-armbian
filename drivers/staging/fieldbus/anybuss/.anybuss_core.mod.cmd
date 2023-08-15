@@ -1,1 +1,0 @@
-savedcmd_drivers/staging/fieldbus/anybuss/anybuss_core.mod := printf '%s\n'   host.o | awk '!x[$$0]++ { print("drivers/staging/fieldbus/anybuss/"$$0) }' > drivers/staging/fieldbus/anybuss/anybuss_core.mod

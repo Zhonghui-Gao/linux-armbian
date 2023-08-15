@@ -1,1 +1,0 @@
-savedcmd_drivers/power/supply/isp1704_charger.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/isp1704_charger.ko drivers/power/supply/isp1704_charger.o drivers/power/supply/isp1704_charger.mod.o;  true

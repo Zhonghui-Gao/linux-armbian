@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/virtual/mac80211_hwsim.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/virtual/mac80211_hwsim.ko drivers/net/wireless/virtual/mac80211_hwsim.o drivers/net/wireless/virtual/mac80211_hwsim.mod.o;  true

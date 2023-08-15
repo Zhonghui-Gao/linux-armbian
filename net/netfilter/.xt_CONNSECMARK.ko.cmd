@@ -1,1 +1,0 @@
-savedcmd_net/netfilter/xt_CONNSECMARK.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netfilter/xt_CONNSECMARK.ko net/netfilter/xt_CONNSECMARK.o net/netfilter/xt_CONNSECMARK.mod.o;  true

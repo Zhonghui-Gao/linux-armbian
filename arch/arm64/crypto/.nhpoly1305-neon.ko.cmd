@@ -1,1 +1,0 @@
-savedcmd_arch/arm64/crypto/nhpoly1305-neon.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o arch/arm64/crypto/nhpoly1305-neon.ko arch/arm64/crypto/nhpoly1305-neon.o arch/arm64/crypto/nhpoly1305-neon.mod.o;  true

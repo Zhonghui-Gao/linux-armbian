@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/cx231xx/modules.order := {   echo drivers/media/usb/cx231xx/cx231xx.o;   echo drivers/media/usb/cx231xx/cx231xx-alsa.o;   echo drivers/media/usb/cx231xx/cx231xx-dvb.o; :; } > drivers/media/usb/cx231xx/modules.order

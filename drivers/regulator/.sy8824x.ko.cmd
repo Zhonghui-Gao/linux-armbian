@@ -1,1 +1,0 @@
-savedcmd_drivers/regulator/sy8824x.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/regulator/sy8824x.ko drivers/regulator/sy8824x.o drivers/regulator/sy8824x.mod.o;  true

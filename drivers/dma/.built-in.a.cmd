@@ -1,1 +1,0 @@
-savedcmd_drivers/dma/built-in.a := rm -f drivers/dma/built-in.a;  printf "drivers/dma/%s " dmaengine.o of-dma.o idxd/built-in.a mv_xor_v2.o pl330.o mediatek/built-in.a qcom/built-in.a ti/built-in.a xilinx/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/dma/built-in.a

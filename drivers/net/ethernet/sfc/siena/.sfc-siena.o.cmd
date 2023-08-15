@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/sfc/siena/sfc-siena.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/ethernet/sfc/siena/sfc-siena.o @drivers/net/ethernet/sfc/siena/sfc-siena.mod 

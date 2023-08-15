@@ -1,1 +1,0 @@
-savedcmd_drivers/media/i2c/s5k5baf.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/s5k5baf.ko drivers/media/i2c/s5k5baf.o drivers/media/i2c/s5k5baf.mod.o;  true

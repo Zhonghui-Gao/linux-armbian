@@ -1,1 +1,0 @@
-savedcmd_drivers/video/backlight/rave-sp-backlight.mod := printf '%s\n'   rave-sp-backlight.o | awk '!x[$$0]++ { print("drivers/video/backlight/"$$0) }' > drivers/video/backlight/rave-sp-backlight.mod

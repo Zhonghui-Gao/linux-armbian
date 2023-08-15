@@ -1,3 +1,0 @@
-drivers/hid/i2c-hid/i2c-hid.o
-drivers/hid/i2c-hid/i2c-hid-of.o
-drivers/hid/i2c-hid/i2c-hid-of-goodix.o

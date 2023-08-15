@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/marvell/octeontx2/af/rvu_mbox.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/ethernet/marvell/octeontx2/af/rvu_mbox.o @drivers/net/ethernet/marvell/octeontx2/af/rvu_mbox.mod 

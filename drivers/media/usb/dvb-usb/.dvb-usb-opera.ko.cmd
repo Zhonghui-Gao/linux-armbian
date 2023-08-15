@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/dvb-usb/dvb-usb-opera.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/dvb-usb/dvb-usb-opera.ko drivers/media/usb/dvb-usb/dvb-usb-opera.o drivers/media/usb/dvb-usb/dvb-usb-opera.mod.o;  true

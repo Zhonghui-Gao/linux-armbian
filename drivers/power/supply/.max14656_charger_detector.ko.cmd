@@ -1,1 +1,0 @@
-savedcmd_drivers/power/supply/max14656_charger_detector.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/max14656_charger_detector.ko drivers/power/supply/max14656_charger_detector.o drivers/power/supply/max14656_charger_detector.mod.o;  true

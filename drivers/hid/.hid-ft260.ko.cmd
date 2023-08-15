@@ -1,1 +1,0 @@
-savedcmd_drivers/hid/hid-ft260.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-ft260.ko drivers/hid/hid-ft260.o drivers/hid/hid-ft260.mod.o;  true

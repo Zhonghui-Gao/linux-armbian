@@ -1,1 +1,0 @@
-savedcmd_drivers/hid/hid-aureal.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-aureal.ko drivers/hid/hid-aureal.o drivers/hid/hid-aureal.mod.o;  true

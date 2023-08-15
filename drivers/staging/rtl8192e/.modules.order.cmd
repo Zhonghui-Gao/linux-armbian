@@ -1,1 +1,0 @@
-savedcmd_drivers/staging/rtl8192e/modules.order := {   echo drivers/staging/rtl8192e/rtllib.o;   echo drivers/staging/rtl8192e/rtllib_crypt_ccmp.o;   echo drivers/staging/rtl8192e/rtllib_crypt_tkip.o;   echo drivers/staging/rtl8192e/rtllib_crypt_wep.o;   cat drivers/staging/rtl8192e/rtl8192e/modules.order; :; } > drivers/staging/rtl8192e/modules.order

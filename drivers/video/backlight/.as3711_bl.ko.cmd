@@ -1,1 +1,0 @@
-savedcmd_drivers/video/backlight/as3711_bl.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/video/backlight/as3711_bl.ko drivers/video/backlight/as3711_bl.o drivers/video/backlight/as3711_bl.mod.o;  true

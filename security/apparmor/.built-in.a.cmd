@@ -1,1 +1,0 @@
-savedcmd_security/apparmor/built-in.a := rm -f security/apparmor/built-in.a;  printf "security/apparmor/%s " apparmorfs.o audit.o capability.o task.o ipc.o lib.o match.o path.o domain.o policy.o policy_unpack.o procattr.o lsm.o resource.o secid.o file.o policy_ns.o label.o mount.o net.o policy_compat.o crypto.o | xargs aarch64-linux-gnu-ar cDPrST security/apparmor/built-in.a

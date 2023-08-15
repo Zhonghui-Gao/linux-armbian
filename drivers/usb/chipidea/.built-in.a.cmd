@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/chipidea/built-in.a := rm -f drivers/usb/chipidea/built-in.a;  printf "drivers/usb/chipidea/%s " core.o otg.o debug.o ulpi.o udc.o trace.o host.o ci_hdrc_usb2.o ci_hdrc_msm.o ci_hdrc_pci.o usbmisc_imx.o ci_hdrc_imx.o ci_hdrc_tegra.o | xargs aarch64-linux-gnu-ar cDPrST drivers/usb/chipidea/built-in.a

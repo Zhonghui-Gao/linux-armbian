@@ -1,1 +1,0 @@
-savedcmd_net/netfilter/nft_chain_nat.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netfilter/nft_chain_nat.ko net/netfilter/nft_chain_nat.o net/netfilter/nft_chain_nat.mod.o;  true

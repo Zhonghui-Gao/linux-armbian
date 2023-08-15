@@ -1,1 +1,0 @@
-savedcmd_drivers/firmware/efi/built-in.a := rm -f drivers/firmware/efi/built-in.a;  printf "drivers/firmware/efi/%s " efi.o vars.o reboot.o memattr.o tpm.o memmap.o capsule.o fdtparams.o esrt.o efi-pstore.o runtime-wrappers.o mokvar-table.o efi-init.o arm-runtime.o capsule-loader.o earlycon.o | xargs aarch64-linux-gnu-ar cDPrST drivers/firmware/efi/built-in.a

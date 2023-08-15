@@ -1,1 +1,0 @@
-savedcmd_drivers/staging/fbtft/fb_tinylcd.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/staging/fbtft/fb_tinylcd.ko drivers/staging/fbtft/fb_tinylcd.o drivers/staging/fbtft/fb_tinylcd.mod.o;  true

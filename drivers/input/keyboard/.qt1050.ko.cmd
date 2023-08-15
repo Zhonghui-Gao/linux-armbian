@@ -1,1 +1,0 @@
-savedcmd_drivers/input/keyboard/qt1050.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/keyboard/qt1050.ko drivers/input/keyboard/qt1050.o drivers/input/keyboard/qt1050.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/microchip/vcap/built-in.a := rm -f drivers/net/ethernet/microchip/vcap/built-in.a;  printf "drivers/net/ethernet/microchip/vcap/%s " vcap_api_debugfs.o vcap_api.o vcap_tc.o | xargs aarch64-linux-gnu-ar cDPrST drivers/net/ethernet/microchip/vcap/built-in.a

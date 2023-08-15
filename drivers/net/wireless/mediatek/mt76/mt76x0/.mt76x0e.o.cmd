@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0e.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0e.o @drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0e.mod 

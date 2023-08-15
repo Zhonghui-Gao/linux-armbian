@@ -1,1 +1,0 @@
-savedcmd_net/netfilter/nfnetlink_hook.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netfilter/nfnetlink_hook.ko net/netfilter/nfnetlink_hook.o net/netfilter/nfnetlink_hook.mod.o;  true

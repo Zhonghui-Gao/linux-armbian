@@ -1,1 +1,0 @@
-savedcmd_drivers/phy/rockchip/phy-rockchip-inno-csidphy.mod := printf '%s\n'   phy-rockchip-inno-csidphy.o | awk '!x[$$0]++ { print("drivers/phy/rockchip/"$$0) }' > drivers/phy/rockchip/phy-rockchip-inno-csidphy.mod

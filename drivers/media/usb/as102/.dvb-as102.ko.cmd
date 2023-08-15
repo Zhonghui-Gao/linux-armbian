@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/as102/dvb-as102.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/as102/dvb-as102.ko drivers/media/usb/as102/dvb-as102.o drivers/media/usb/as102/dvb-as102.mod.o;  true

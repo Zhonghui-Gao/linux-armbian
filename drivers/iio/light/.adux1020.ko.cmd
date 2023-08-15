@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/light/adux1020.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/light/adux1020.ko drivers/iio/light/adux1020.o drivers/iio/light/adux1020.mod.o;  true

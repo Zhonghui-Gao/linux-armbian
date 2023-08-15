@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/frequency/adrf6780.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/frequency/adrf6780.ko drivers/iio/frequency/adrf6780.o drivers/iio/frequency/adrf6780.mod.o;  true

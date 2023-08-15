@@ -1,6 +1,0 @@
-kernel/rcu/rcutorture.o
-kernel/time/time_test.o
-kernel/backtracetest.o
-kernel/kheaders.o
-kernel/torture.o
-kernel/resource_kunit.o

@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/atheros/atlx/modules.order := {   echo drivers/net/ethernet/atheros/atlx/atl1.o;   echo drivers/net/ethernet/atheros/atlx/atl2.o; :; } > drivers/net/ethernet/atheros/atlx/modules.order

@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/go7007/modules.order := {   echo drivers/media/usb/go7007/go7007.o;   echo drivers/media/usb/go7007/go7007-usb.o;   echo drivers/media/usb/go7007/go7007-loader.o;   echo drivers/media/usb/go7007/s2250.o; :; } > drivers/media/usb/go7007/modules.order

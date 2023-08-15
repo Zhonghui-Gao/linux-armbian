@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/serial/ark3116.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/serial/ark3116.ko drivers/usb/serial/ark3116.o drivers/usb/serial/ark3116.mod.o;  true

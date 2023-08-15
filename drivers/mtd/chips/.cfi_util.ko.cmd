@@ -1,1 +1,0 @@
-savedcmd_drivers/mtd/chips/cfi_util.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/mtd/chips/cfi_util.ko drivers/mtd/chips/cfi_util.o drivers/mtd/chips/cfi_util.mod.o;  true

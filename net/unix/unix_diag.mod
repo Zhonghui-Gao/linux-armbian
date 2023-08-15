@@ -1,1 +1,0 @@
-net/unix/diag.o

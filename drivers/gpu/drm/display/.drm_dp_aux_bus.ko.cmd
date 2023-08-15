@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/display/drm_dp_aux_bus.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/display/drm_dp_aux_bus.ko drivers/gpu/drm/display/drm_dp_aux_bus.o drivers/gpu/drm/display/drm_dp_aux_bus.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/phy/samsung/built-in.a := rm -f drivers/phy/samsung/built-in.a;  printf "drivers/phy/samsung/%s " phy-samsung-usb2.o | xargs aarch64-linux-gnu-ar cDPrST drivers/phy/samsung/built-in.a

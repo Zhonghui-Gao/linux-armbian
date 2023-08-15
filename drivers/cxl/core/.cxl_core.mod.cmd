@@ -1,1 +1,0 @@
-savedcmd_drivers/cxl/core/cxl_core.mod := printf '%s\n'   port.o pmem.o regs.o memdev.o mbox.o pci.o hdm.o trace.o region.o | awk '!x[$$0]++ { print("drivers/cxl/core/"$$0) }' > drivers/cxl/core/cxl_core.mod

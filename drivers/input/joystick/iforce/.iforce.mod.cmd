@@ -1,1 +1,0 @@
-savedcmd_drivers/input/joystick/iforce/iforce.mod := printf '%s\n'   iforce-ff.o iforce-main.o iforce-packets.o | awk '!x[$$0]++ { print("drivers/input/joystick/iforce/"$$0) }' > drivers/input/joystick/iforce/iforce.mod

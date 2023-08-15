@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/ralink/rt2x00/rt2500usb.mod := printf '%s\n'   rt2500usb.o | awk '!x[$$0]++ { print("drivers/net/wireless/ralink/rt2x00/"$$0) }' > drivers/net/wireless/ralink/rt2x00/rt2500usb.mod

@@ -1,1 +1,0 @@
-savedcmd_sound/soc/fsl/modules.order := {   echo sound/soc/fsl/snd-soc-fsl-audmix.o;   echo sound/soc/fsl/snd-soc-fsl-micfil.o;   echo sound/soc/fsl/snd-soc-fsl-utils.o;   echo sound/soc/fsl/snd-soc-fsl-xcvr.o; :; } > sound/soc/fsl/modules.order

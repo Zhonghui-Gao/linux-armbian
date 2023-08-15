@@ -1,1 +1,0 @@
-savedcmd_drivers/hwmon/nct6775-core.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/nct6775-core.ko drivers/hwmon/nct6775-core.o drivers/hwmon/nct6775-core.mod.o;  true

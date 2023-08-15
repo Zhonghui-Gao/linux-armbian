@@ -1,1 +1,0 @@
-savedcmd_drivers/nvme/target/nvmet.mod := printf '%s\n'   core.o configfs.o admin-cmd.o fabrics-cmd.o discovery.o io-cmd-file.o io-cmd-bdev.o zns.o trace.o | awk '!x[$$0]++ { print("drivers/nvme/target/"$$0) }' > drivers/nvme/target/nvmet.mod

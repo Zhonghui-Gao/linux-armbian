@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/proximity/modules.order := {   echo drivers/iio/proximity/cros_ec_mkbp_proximity.o;   echo drivers/iio/proximity/isl29501.o;   echo drivers/iio/proximity/mb1232.o;   echo drivers/iio/proximity/ping.o;   echo drivers/iio/proximity/vl53l0x-i2c.o; :; } > drivers/iio/proximity/modules.order

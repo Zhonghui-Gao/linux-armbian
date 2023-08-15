@@ -1,1 +1,0 @@
-savedcmd_drivers/base/modules.order := {   cat drivers/base/power/modules.order;   cat drivers/base/firmware_loader/modules.order;   cat drivers/base/regmap/modules.order;   cat drivers/base/test/modules.order; :; } > drivers/base/modules.order

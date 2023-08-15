@@ -1,1 +1,0 @@
-savedcmd_drivers/input/keyboard/modules.order := {   echo drivers/input/keyboard/adc-keys.o;   echo drivers/input/keyboard/adp5520-keys.o;   echo drivers/input/keyboard/cypress-sf.o;   echo drivers/input/keyboard/iqs62x-keys.o;   echo drivers/input/keyboard/pinephone-keyboard.o;   echo drivers/input/keyboard/qt1050.o; :; } > drivers/input/keyboard/modules.order

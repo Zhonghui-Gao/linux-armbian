@@ -1,1 +1,0 @@
-savedcmd_sound/pci/snd-es1968.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/pci/snd-es1968.ko sound/pci/snd-es1968.o sound/pci/snd-es1968.mod.o;  true

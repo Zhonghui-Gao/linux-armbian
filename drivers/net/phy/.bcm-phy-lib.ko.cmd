@@ -1,1 +1,0 @@
-savedcmd_drivers/net/phy/bcm-phy-lib.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/phy/bcm-phy-lib.ko drivers/net/phy/bcm-phy-lib.o drivers/net/phy/bcm-phy-lib.mod.o;  true

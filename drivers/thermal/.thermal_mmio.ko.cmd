@@ -1,1 +1,0 @@
-savedcmd_drivers/thermal/thermal_mmio.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/thermal/thermal_mmio.ko drivers/thermal/thermal_mmio.o drivers/thermal/thermal_mmio.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/net/can/ctucanfd/ctucanfd_platform.mod := printf '%s\n'   ctucanfd_platform.o | awk '!x[$$0]++ { print("drivers/net/can/ctucanfd/"$$0) }' > drivers/net/can/ctucanfd/ctucanfd_platform.mod

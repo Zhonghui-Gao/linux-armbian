@@ -1,1 +1,0 @@
-savedcmd_drivers/net/netdevsim/netdevsim.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/netdevsim/netdevsim.ko drivers/net/netdevsim/netdevsim.o drivers/net/netdevsim/netdevsim.mod.o;  true

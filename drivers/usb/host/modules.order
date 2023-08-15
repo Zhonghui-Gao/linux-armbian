@@ -1,8 +1,0 @@
-drivers/usb/host/oxu210hp-hcd.o
-drivers/usb/host/isp116x-hcd.o
-drivers/usb/host/fsl-mph-dr-of.o
-drivers/usb/host/ehci-fsl.o
-drivers/usb/host/bcma-hcd.o
-drivers/usb/host/ssb-hcd.o
-drivers/usb/host/max3421-hcd.o
-drivers/usb/host/xen-hcd.o

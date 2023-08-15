@@ -1,1 +1,0 @@
-savedcmd_drivers/input/keyboard/iqs62x-keys.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/keyboard/iqs62x-keys.ko drivers/input/keyboard/iqs62x-keys.o drivers/input/keyboard/iqs62x-keys.mod.o;  true

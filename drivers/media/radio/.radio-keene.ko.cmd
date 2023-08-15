@@ -1,1 +1,0 @@
-savedcmd_drivers/media/radio/radio-keene.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/radio/radio-keene.ko drivers/media/radio/radio-keene.o drivers/media/radio/radio-keene.mod.o;  true

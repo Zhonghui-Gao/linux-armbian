@@ -1,1 +1,0 @@
-savedcmd_net/ipv6/netfilter/ip6table_nat.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/ipv6/netfilter/ip6table_nat.ko net/ipv6/netfilter/ip6table_nat.o net/ipv6/netfilter/ip6table_nat.mod.o;  true

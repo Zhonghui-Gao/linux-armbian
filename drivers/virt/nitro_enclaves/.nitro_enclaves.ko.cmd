@@ -1,1 +1,0 @@
-savedcmd_drivers/virt/nitro_enclaves/nitro_enclaves.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/virt/nitro_enclaves/nitro_enclaves.ko drivers/virt/nitro_enclaves/nitro_enclaves.o drivers/virt/nitro_enclaves/nitro_enclaves.mod.o;  true

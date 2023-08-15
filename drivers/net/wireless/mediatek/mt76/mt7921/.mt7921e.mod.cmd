@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/mediatek/mt76/mt7921/mt7921e.mod := printf '%s\n'   pci.o pci_mac.o pci_mcu.o dma.o | awk '!x[$$0]++ { print("drivers/net/wireless/mediatek/mt76/mt7921/"$$0) }' > drivers/net/wireless/mediatek/mt76/mt7921/mt7921e.mod

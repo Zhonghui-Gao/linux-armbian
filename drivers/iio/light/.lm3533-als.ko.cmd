@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/light/lm3533-als.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/light/lm3533-als.ko drivers/iio/light/lm3533-als.o drivers/iio/light/lm3533-als.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/hwmon/lineage-pem.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/lineage-pem.ko drivers/hwmon/lineage-pem.o drivers/hwmon/lineage-pem.mod.o;  true

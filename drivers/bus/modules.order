@@ -1,3 +1,0 @@
-drivers/bus/mhi/host/mhi.o
-drivers/bus/mhi/host/mhi_pci_generic.o
-drivers/bus/mhi/ep/mhi_ep.o

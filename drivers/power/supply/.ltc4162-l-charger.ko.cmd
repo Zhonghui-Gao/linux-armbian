@@ -1,1 +1,0 @@
-savedcmd_drivers/power/supply/ltc4162-l-charger.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/ltc4162-l-charger.ko drivers/power/supply/ltc4162-l-charger.o drivers/power/supply/ltc4162-l-charger.mod.o;  true

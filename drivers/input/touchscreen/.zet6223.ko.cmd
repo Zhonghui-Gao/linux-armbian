@@ -1,1 +1,0 @@
-savedcmd_drivers/input/touchscreen/zet6223.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/zet6223.ko drivers/input/touchscreen/zet6223.o drivers/input/touchscreen/zet6223.mod.o;  true

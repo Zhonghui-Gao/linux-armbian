@@ -1,1 +1,0 @@
-savedcmd_drivers/staging/fieldbus/fieldbus_dev.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/staging/fieldbus/fieldbus_dev.ko drivers/staging/fieldbus/fieldbus_dev.o drivers/staging/fieldbus/fieldbus_dev.mod.o;  true

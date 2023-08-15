@@ -1,6 +1,0 @@
-drivers/vhost/vhost_net.o
-drivers/vhost/vhost_scsi.o
-drivers/vhost/vringh.o
-drivers/vhost/vhost_vdpa.o
-drivers/vhost/vhost.o
-drivers/vhost/vhost_iotlb.o

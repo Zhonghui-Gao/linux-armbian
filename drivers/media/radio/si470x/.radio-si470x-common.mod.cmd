@@ -1,1 +1,0 @@
-savedcmd_drivers/media/radio/si470x/radio-si470x-common.mod := printf '%s\n'   radio-si470x-common.o | awk '!x[$$0]++ { print("drivers/media/radio/si470x/"$$0) }' > drivers/media/radio/si470x/radio-si470x-common.mod

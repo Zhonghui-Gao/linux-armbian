@@ -1,1 +1,0 @@
-savedcmd_drivers/dma/dw-edma/dw-edma.mod := printf '%s\n'   dw-edma-core.o dw-edma-v0-core.o dw-edma-v0-debugfs.o dw-edma-v0-debugfs.o | awk '!x[$$0]++ { print("drivers/dma/dw-edma/"$$0) }' > drivers/dma/dw-edma/dw-edma.mod

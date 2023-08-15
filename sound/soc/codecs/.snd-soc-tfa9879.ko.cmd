@@ -1,1 +1,0 @@
-savedcmd_sound/soc/codecs/snd-soc-tfa9879.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-tfa9879.ko sound/soc/codecs/snd-soc-tfa9879.o sound/soc/codecs/snd-soc-tfa9879.mod.o;  true

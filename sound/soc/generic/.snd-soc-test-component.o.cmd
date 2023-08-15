@@ -1,1 +1,0 @@
-savedcmd_sound/soc/generic/snd-soc-test-component.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o sound/soc/generic/snd-soc-test-component.o @sound/soc/generic/snd-soc-test-component.mod 

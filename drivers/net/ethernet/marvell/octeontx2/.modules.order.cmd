@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/marvell/octeontx2/modules.order := {   cat drivers/net/ethernet/marvell/octeontx2/af/modules.order;   cat drivers/net/ethernet/marvell/octeontx2/nic/modules.order; :; } > drivers/net/ethernet/marvell/octeontx2/modules.order

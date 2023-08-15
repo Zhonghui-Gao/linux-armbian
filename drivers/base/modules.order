@@ -1,4 +1,0 @@
-drivers/base/regmap/regmap-spi.o
-drivers/base/regmap/regmap-spmi.o
-drivers/base/regmap/regmap-w1.o
-drivers/base/regmap/regmap-sccb.o

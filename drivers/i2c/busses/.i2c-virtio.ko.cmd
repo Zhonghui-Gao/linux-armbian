@@ -1,1 +1,0 @@
-savedcmd_drivers/i2c/busses/i2c-virtio.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/i2c/busses/i2c-virtio.ko drivers/i2c/busses/i2c-virtio.o drivers/i2c/busses/i2c-virtio.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/realtek/rtw88/rtw88_8822cs.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/realtek/rtw88/rtw88_8822cs.ko drivers/net/wireless/realtek/rtw88/rtw88_8822cs.o drivers/net/wireless/realtek/rtw88/rtw88_8822cs.mod.o;  true

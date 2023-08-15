@@ -1,1 +1,0 @@
-savedcmd_net/ieee802154/modules.order := {   cat net/ieee802154/6lowpan/modules.order;   echo net/ieee802154/ieee802154.o;   echo net/ieee802154/ieee802154_socket.o; :; } > net/ieee802154/modules.order

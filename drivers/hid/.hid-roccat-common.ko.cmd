@@ -1,1 +1,0 @@
-savedcmd_drivers/hid/hid-roccat-common.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-roccat-common.ko drivers/hid/hid-roccat-common.o drivers/hid/hid-roccat-common.mod.o;  true

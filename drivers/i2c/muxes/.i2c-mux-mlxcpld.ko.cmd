@@ -1,1 +1,0 @@
-savedcmd_drivers/i2c/muxes/i2c-mux-mlxcpld.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/i2c/muxes/i2c-mux-mlxcpld.ko drivers/i2c/muxes/i2c-mux-mlxcpld.o drivers/i2c/muxes/i2c-mux-mlxcpld.mod.o;  true

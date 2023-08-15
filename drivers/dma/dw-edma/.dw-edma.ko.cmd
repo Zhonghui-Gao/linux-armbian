@@ -1,1 +1,0 @@
-savedcmd_drivers/dma/dw-edma/dw-edma.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/dma/dw-edma/dw-edma.ko drivers/dma/dw-edma/dw-edma.o drivers/dma/dw-edma/dw-edma.mod.o;  true

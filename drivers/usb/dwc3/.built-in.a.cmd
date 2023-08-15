@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/dwc3/built-in.a := rm -f drivers/usb/dwc3/built-in.a;  printf "drivers/usb/dwc3/%s " core.o trace.o host.o gadget.o ep0.o drd.o debugfs.o dwc3-haps.o dwc3-of-simple.o | xargs aarch64-linux-gnu-ar cDPrST drivers/usb/dwc3/built-in.a

@@ -1,1 +1,0 @@
-savedcmd_drivers/pwm/pwm-ntxec.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/pwm/pwm-ntxec.ko drivers/pwm/pwm-ntxec.o drivers/pwm/pwm-ntxec.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/net/dsa/xrs700x/xrs700x.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/dsa/xrs700x/xrs700x.ko drivers/net/dsa/xrs700x/xrs700x.o drivers/net/dsa/xrs700x/xrs700x.mod.o;  true

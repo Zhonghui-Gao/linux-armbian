@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/gadget/libcomposite.mod := printf '%s\n'   usbstring.o config.o epautoconf.o composite.o functions.o configfs.o u_f.o | awk '!x[$$0]++ { print("drivers/usb/gadget/"$$0) }' > drivers/usb/gadget/libcomposite.mod

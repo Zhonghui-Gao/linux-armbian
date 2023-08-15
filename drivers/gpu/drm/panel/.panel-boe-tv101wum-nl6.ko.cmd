@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/panel/panel-boe-tv101wum-nl6.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/panel/panel-boe-tv101wum-nl6.ko drivers/gpu/drm/panel/panel-boe-tv101wum-nl6.o drivers/gpu/drm/panel/panel-boe-tv101wum-nl6.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/panel/panel-newvision-nv3052c.mod := printf '%s\n'   panel-newvision-nv3052c.o | awk '!x[$$0]++ { print("drivers/gpu/drm/panel/"$$0) }' > drivers/gpu/drm/panel/panel-newvision-nv3052c.mod

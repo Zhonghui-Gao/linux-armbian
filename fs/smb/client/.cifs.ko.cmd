@@ -1,1 +1,0 @@
-savedcmd_fs/smb/client/cifs.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o fs/smb/client/cifs.ko fs/smb/client/cifs.o fs/smb/client/cifs.mod.o;  true

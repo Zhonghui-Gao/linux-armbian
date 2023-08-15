@@ -1,1 +1,0 @@
-drivers/tty/ttynull.o

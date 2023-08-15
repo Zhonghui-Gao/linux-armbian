@@ -1,1 +1,0 @@
-savedcmd_lib/math/rational-test.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o lib/math/rational-test.ko lib/math/rational-test.o lib/math/rational-test.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wwan/modules.order := {   echo drivers/net/wwan/wwan.o;   echo drivers/net/wwan/wwan_hwsim.o;   echo drivers/net/wwan/mhi_wwan_ctrl.o;   echo drivers/net/wwan/mhi_wwan_mbim.o;   cat drivers/net/wwan/t7xx/modules.order; :; } > drivers/net/wwan/modules.order

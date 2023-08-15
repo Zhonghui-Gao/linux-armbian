@@ -1,1 +1,0 @@
-savedcmd_drivers/net/hamradio/modules.order := {   echo drivers/net/hamradio/mkiss.o;   echo drivers/net/hamradio/6pack.o;   echo drivers/net/hamradio/yam.o;   echo drivers/net/hamradio/bpqether.o;   echo drivers/net/hamradio/baycom_ser_fdx.o;   echo drivers/net/hamradio/hdlcdrv.o;   echo drivers/net/hamradio/baycom_ser_hdx.o; :; } > drivers/net/hamradio/modules.order

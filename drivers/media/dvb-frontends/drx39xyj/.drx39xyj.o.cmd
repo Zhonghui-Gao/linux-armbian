@@ -1,1 +1,0 @@
-savedcmd_drivers/media/dvb-frontends/drx39xyj/drx39xyj.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/media/dvb-frontends/drx39xyj/drx39xyj.o @drivers/media/dvb-frontends/drx39xyj/drx39xyj.mod 

@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-avermedia-m135a.mod := printf '%s\n'   rc-avermedia-m135a.o | awk '!x[$$0]++ { print("drivers/media/rc/keymaps/"$$0) }' > drivers/media/rc/keymaps/rc-avermedia-m135a.mod

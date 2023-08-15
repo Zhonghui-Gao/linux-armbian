@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/panel/panel-leadtek-ltk500hd1829.mod := printf '%s\n'   panel-leadtek-ltk500hd1829.o | awk '!x[$$0]++ { print("drivers/gpu/drm/panel/"$$0) }' > drivers/gpu/drm/panel/panel-leadtek-ltk500hd1829.mod

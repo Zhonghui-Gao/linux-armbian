@@ -1,6 +1,0 @@
-sound/core/seq/snd-seq.o
-sound/core/seq/snd-seq-dummy.o
-sound/core/seq/snd-seq-midi.o
-sound/core/seq/snd-seq-midi-emul.o
-sound/core/seq/snd-seq-midi-event.o
-sound/core/seq/snd-seq-virmidi.o

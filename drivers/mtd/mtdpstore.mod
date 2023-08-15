@@ -1,1 +1,0 @@
-drivers/mtd/mtdpstore.o

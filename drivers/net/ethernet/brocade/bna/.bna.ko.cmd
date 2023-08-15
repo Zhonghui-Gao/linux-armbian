@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/brocade/bna/bna.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/brocade/bna/bna.ko drivers/net/ethernet/brocade/bna/bna.o drivers/net/ethernet/brocade/bna/bna.mod.o;  true

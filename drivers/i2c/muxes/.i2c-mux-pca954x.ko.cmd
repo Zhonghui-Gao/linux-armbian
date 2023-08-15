@@ -1,1 +1,0 @@
-savedcmd_drivers/i2c/muxes/i2c-mux-pca954x.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/i2c/muxes/i2c-mux-pca954x.ko drivers/i2c/muxes/i2c-mux-pca954x.o drivers/i2c/muxes/i2c-mux-pca954x.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/mmc/host/modules.order := {   echo drivers/mmc/host/sdhci-milbeaut.o;   echo drivers/mmc/host/sdhci_am654.o;   echo drivers/mmc/host/alcor.o;   echo drivers/mmc/host/dw_mmc-hi3798cv200.o;   echo drivers/mmc/host/rtsx_pci_sdmmc.o;   echo drivers/mmc/host/rtsx_usb_sdmmc.o;   echo drivers/mmc/host/mmc_hsq.o; :; } > drivers/mmc/host/modules.order

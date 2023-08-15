@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-videostrong-kii-pro.mod := printf '%s\n'   rc-videostrong-kii-pro.o | awk '!x[$$0]++ { print("drivers/media/rc/keymaps/"$$0) }' > drivers/media/rc/keymaps/rc-videostrong-kii-pro.mod

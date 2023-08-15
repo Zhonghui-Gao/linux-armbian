@@ -1,1 +1,0 @@
-savedcmd_drivers/net/can/usb/etas_es58x/etas_es58x.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/can/usb/etas_es58x/etas_es58x.o @drivers/net/can/usb/etas_es58x/etas_es58x.mod 

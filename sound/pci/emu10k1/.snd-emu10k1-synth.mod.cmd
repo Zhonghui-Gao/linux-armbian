@@ -1,1 +1,0 @@
-savedcmd_sound/pci/emu10k1/snd-emu10k1-synth.mod := printf '%s\n'   emu10k1_synth.o emu10k1_callback.o emu10k1_patch.o | awk '!x[$$0]++ { print("sound/pci/emu10k1/"$$0) }' > sound/pci/emu10k1/snd-emu10k1-synth.mod

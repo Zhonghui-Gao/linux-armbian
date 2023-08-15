@@ -1,2 +1,0 @@
-rk3308-sdio@4mhz.o: \
- arch/arm64/boot/dts/rockchip/overlay/rk3308-sdio@4mhz.dts

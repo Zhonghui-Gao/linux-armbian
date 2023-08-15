@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/realtek/rtlwifi/rtl_pci.mod := printf '%s\n'   pci.o | awk '!x[$$0]++ { print("drivers/net/wireless/realtek/rtlwifi/"$$0) }' > drivers/net/wireless/realtek/rtlwifi/rtl_pci.mod

@@ -1,1 +1,0 @@
-savedcmd_drivers/phy/microchip/lan966x_serdes.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/phy/microchip/lan966x_serdes.ko drivers/phy/microchip/lan966x_serdes.o drivers/phy/microchip/lan966x_serdes.mod.o;  true

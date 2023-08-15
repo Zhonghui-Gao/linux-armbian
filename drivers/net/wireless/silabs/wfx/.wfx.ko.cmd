@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/silabs/wfx/wfx.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/silabs/wfx/wfx.ko drivers/net/wireless/silabs/wfx/wfx.o drivers/net/wireless/silabs/wfx/wfx.mod.o;  true

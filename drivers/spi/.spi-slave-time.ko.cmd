@@ -1,1 +1,0 @@
-savedcmd_drivers/spi/spi-slave-time.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/spi/spi-slave-time.ko drivers/spi/spi-slave-time.o drivers/spi/spi-slave-time.mod.o;  true

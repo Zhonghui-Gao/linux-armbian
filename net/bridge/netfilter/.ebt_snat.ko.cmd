@@ -1,1 +1,0 @@
-savedcmd_net/bridge/netfilter/ebt_snat.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/bridge/netfilter/ebt_snat.ko net/bridge/netfilter/ebt_snat.o net/bridge/netfilter/ebt_snat.mod.o;  true

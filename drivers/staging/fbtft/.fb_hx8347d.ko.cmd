@@ -1,1 +1,0 @@
-savedcmd_drivers/staging/fbtft/fb_hx8347d.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/staging/fbtft/fb_hx8347d.ko drivers/staging/fbtft/fb_hx8347d.o drivers/staging/fbtft/fb_hx8347d.mod.o;  true

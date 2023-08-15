@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/panel/panel-boe-tv101wum-nl6.mod := printf '%s\n'   panel-boe-tv101wum-nl6.o | awk '!x[$$0]++ { print("drivers/gpu/drm/panel/"$$0) }' > drivers/gpu/drm/panel/panel-boe-tv101wum-nl6.mod

@@ -1,1 +1,0 @@
-savedcmd_net/netfilter/ipset/ip_set_hash_ipportnet.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netfilter/ipset/ip_set_hash_ipportnet.ko net/netfilter/ipset/ip_set_hash_ipportnet.o net/netfilter/ipset/ip_set_hash_ipportnet.mod.o;  true

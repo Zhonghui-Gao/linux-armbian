@@ -1,1 +1,0 @@
-savedcmd_lib/842/842_decompress.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o lib/842/842_decompress.ko lib/842/842_decompress.o lib/842/842_decompress.mod.o;  true

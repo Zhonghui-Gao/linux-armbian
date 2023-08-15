@@ -1,1 +1,0 @@
-savedcmd_drivers/w1/masters/modules.order := {   echo drivers/w1/masters/matrox_w1.o;   echo drivers/w1/masters/ds2490.o;   echo drivers/w1/masters/ds2482.o;   echo drivers/w1/masters/w1-gpio.o;   echo drivers/w1/masters/sgi_w1.o; :; } > drivers/w1/masters/modules.order

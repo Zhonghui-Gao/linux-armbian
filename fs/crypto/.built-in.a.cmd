@@ -1,1 +1,0 @@
-savedcmd_fs/crypto/built-in.a := rm -f fs/crypto/built-in.a;  printf "fs/crypto/%s " crypto.o fname.o hkdf.o hooks.o keyring.o keysetup.o keysetup_v1.o policy.o bio.o | xargs aarch64-linux-gnu-ar cDPrST fs/crypto/built-in.a

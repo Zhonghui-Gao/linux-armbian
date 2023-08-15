@@ -1,1 +1,0 @@
-savedcmd_drivers/phy/motorola/phy-mapphone-mdm6600.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/phy/motorola/phy-mapphone-mdm6600.ko drivers/phy/motorola/phy-mapphone-mdm6600.o drivers/phy/motorola/phy-mapphone-mdm6600.mod.o;  true

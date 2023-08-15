@@ -1,1 +1,0 @@
-savedcmd_drivers/net/dsa/lantiq_gswip.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/dsa/lantiq_gswip.ko drivers/net/dsa/lantiq_gswip.o drivers/net/dsa/lantiq_gswip.mod.o;  true

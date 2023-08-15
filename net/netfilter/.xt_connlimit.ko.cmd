@@ -1,1 +1,0 @@
-savedcmd_net/netfilter/xt_connlimit.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netfilter/xt_connlimit.ko net/netfilter/xt_connlimit.o net/netfilter/xt_connlimit.mod.o;  true

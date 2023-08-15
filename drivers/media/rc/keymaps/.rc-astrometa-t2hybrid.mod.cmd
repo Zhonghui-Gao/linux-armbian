@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-astrometa-t2hybrid.mod := printf '%s\n'   rc-astrometa-t2hybrid.o | awk '!x[$$0]++ { print("drivers/media/rc/keymaps/"$$0) }' > drivers/media/rc/keymaps/rc-astrometa-t2hybrid.mod

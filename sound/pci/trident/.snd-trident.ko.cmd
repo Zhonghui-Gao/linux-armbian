@@ -1,1 +1,0 @@
-savedcmd_sound/pci/trident/snd-trident.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/pci/trident/snd-trident.ko sound/pci/trident/snd-trident.o sound/pci/trident/snd-trident.mod.o;  true

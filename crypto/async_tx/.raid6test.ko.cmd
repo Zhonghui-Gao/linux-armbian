@@ -1,1 +1,0 @@
-savedcmd_crypto/async_tx/raid6test.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o crypto/async_tx/raid6test.ko crypto/async_tx/raid6test.o crypto/async_tx/raid6test.mod.o;  true

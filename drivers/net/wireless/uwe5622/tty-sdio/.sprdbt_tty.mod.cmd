@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/uwe5622/tty-sdio/sprdbt_tty.mod := printf '%s\n'   tty.o rfkill.o lpm.o woble.o alignment/sitm.o dump.o | awk '!x[$$0]++ { print("drivers/net/wireless/uwe5622/tty-sdio/"$$0) }' > drivers/net/wireless/uwe5622/tty-sdio/sprdbt_tty.mod

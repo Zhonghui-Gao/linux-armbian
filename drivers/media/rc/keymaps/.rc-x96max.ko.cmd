@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-x96max.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-x96max.ko drivers/media/rc/keymaps/rc-x96max.o drivers/media/rc/keymaps/rc-x96max.mod.o;  true

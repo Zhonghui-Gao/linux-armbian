@@ -1,1 +1,0 @@
-savedcmd_fs/smb/common/cifs_arc4.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o fs/smb/common/cifs_arc4.ko fs/smb/common/cifs_arc4.o fs/smb/common/cifs_arc4.mod.o;  true

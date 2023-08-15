@@ -1,1 +1,0 @@
-savedcmd_sound/drivers/opl3/snd-opl3-lib.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/drivers/opl3/snd-opl3-lib.ko sound/drivers/opl3/snd-opl3-lib.o sound/drivers/opl3/snd-opl3-lib.mod.o;  true

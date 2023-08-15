@@ -1,1 +1,0 @@
-savedcmd_drivers/net/phy/nxp-c45-tja11xx.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/phy/nxp-c45-tja11xx.ko drivers/net/phy/nxp-c45-tja11xx.o drivers/net/phy/nxp-c45-tja11xx.mod.o;  true

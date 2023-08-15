@@ -1,1 +1,0 @@
-savedcmd_drivers/clk/clk-si544.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/clk/clk-si544.ko drivers/clk/clk-si544.o drivers/clk/clk-si544.mod.o;  true

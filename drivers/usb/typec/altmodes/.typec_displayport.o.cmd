@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/typec/altmodes/typec_displayport.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/usb/typec/altmodes/typec_displayport.o @drivers/usb/typec/altmodes/typec_displayport.mod 

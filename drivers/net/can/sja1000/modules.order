@@ -1,8 +1,0 @@
-drivers/net/can/sja1000/ems_pci.o
-drivers/net/can/sja1000/f81601.o
-drivers/net/can/sja1000/kvaser_pci.o
-drivers/net/can/sja1000/peak_pci.o
-drivers/net/can/sja1000/plx_pci.o
-drivers/net/can/sja1000/sja1000.o
-drivers/net/can/sja1000/sja1000_isa.o
-drivers/net/can/sja1000/sja1000_platform.o

@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/accel/bmi088-accel-spi.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/accel/bmi088-accel-spi.ko drivers/iio/accel/bmi088-accel-spi.o drivers/iio/accel/bmi088-accel-spi.mod.o;  true

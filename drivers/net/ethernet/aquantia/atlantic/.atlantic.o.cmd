@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/aquantia/atlantic/atlantic.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/ethernet/aquantia/atlantic/atlantic.o @drivers/net/ethernet/aquantia/atlantic/atlantic.mod 

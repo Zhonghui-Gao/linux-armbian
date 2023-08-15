@@ -1,1 +1,0 @@
-savedcmd_drivers/net/dsa/sja1105/sja1105.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/dsa/sja1105/sja1105.ko drivers/net/dsa/sja1105/sja1105.o drivers/net/dsa/sja1105/sja1105.mod.o;  true

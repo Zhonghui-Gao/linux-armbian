@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-real-audio-220-32-keys.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-real-audio-220-32-keys.ko drivers/media/rc/keymaps/rc-real-audio-220-32-keys.o drivers/media/rc/keymaps/rc-real-audio-220-32-keys.mod.o;  true

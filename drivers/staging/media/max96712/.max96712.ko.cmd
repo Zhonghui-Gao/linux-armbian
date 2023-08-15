@@ -1,1 +1,0 @@
-savedcmd_drivers/staging/media/max96712/max96712.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/staging/media/max96712/max96712.ko drivers/staging/media/max96712/max96712.o drivers/staging/media/max96712/max96712.mod.o;  true

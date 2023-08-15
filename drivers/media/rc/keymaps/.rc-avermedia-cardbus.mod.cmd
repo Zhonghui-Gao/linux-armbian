@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-avermedia-cardbus.mod := printf '%s\n'   rc-avermedia-cardbus.o | awk '!x[$$0]++ { print("drivers/media/rc/keymaps/"$$0) }' > drivers/media/rc/keymaps/rc-avermedia-cardbus.mod

@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/broadcom/bnx2x/bnx2x.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/ethernet/broadcom/bnx2x/bnx2x.o @drivers/net/ethernet/broadcom/bnx2x/bnx2x.mod 

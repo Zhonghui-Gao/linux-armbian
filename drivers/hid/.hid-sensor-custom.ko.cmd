@@ -1,1 +1,0 @@
-savedcmd_drivers/hid/hid-sensor-custom.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-sensor-custom.ko drivers/hid/hid-sensor-custom.o drivers/hid/hid-sensor-custom.mod.o;  true

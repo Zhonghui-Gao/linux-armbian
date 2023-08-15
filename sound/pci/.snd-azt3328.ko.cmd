@@ -1,1 +1,0 @@
-savedcmd_sound/pci/snd-azt3328.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/pci/snd-azt3328.ko sound/pci/snd-azt3328.o sound/pci/snd-azt3328.mod.o;  true

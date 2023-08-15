@@ -1,1 +1,0 @@
-savedcmd_drivers/power/supply/max14656_charger_detector.mod := printf '%s\n'   max14656_charger_detector.o | awk '!x[$$0]++ { print("drivers/power/supply/"$$0) }' > drivers/power/supply/max14656_charger_detector.mod

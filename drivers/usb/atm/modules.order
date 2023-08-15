@@ -1,5 +1,0 @@
-drivers/usb/atm/cxacru.o
-drivers/usb/atm/speedtch.o
-drivers/usb/atm/ueagle-atm.o
-drivers/usb/atm/usbatm.o
-drivers/usb/atm/xusbatm.o

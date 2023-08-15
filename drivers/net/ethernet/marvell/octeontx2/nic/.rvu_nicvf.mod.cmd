@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/marvell/octeontx2/nic/rvu_nicvf.mod := printf '%s\n'   otx2_vf.o otx2_devlink.o otx2_dcbnl.o | awk '!x[$$0]++ { print("drivers/net/ethernet/marvell/octeontx2/nic/"$$0) }' > drivers/net/ethernet/marvell/octeontx2/nic/rvu_nicvf.mod

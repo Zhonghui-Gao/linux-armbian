@@ -1,1 +1,0 @@
-savedcmd_drivers/net/dsa/qca/qca8k.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/dsa/qca/qca8k.ko drivers/net/dsa/qca/qca8k.o drivers/net/dsa/qca/qca8k.mod.o;  true

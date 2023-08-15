@@ -1,1 +1,0 @@
-savedcmd_drivers/rtc/rtc-bd70528.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-bd70528.ko drivers/rtc/rtc-bd70528.o drivers/rtc/rtc-bd70528.mod.o;  true

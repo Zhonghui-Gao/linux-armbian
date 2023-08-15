@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/mscc/mscc_ocelot_switch_lib.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/mscc/mscc_ocelot_switch_lib.ko drivers/net/ethernet/mscc/mscc_ocelot_switch_lib.o drivers/net/ethernet/mscc/mscc_ocelot_switch_lib.mod.o;  true

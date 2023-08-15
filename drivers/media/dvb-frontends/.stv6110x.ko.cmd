@@ -1,1 +1,0 @@
-savedcmd_drivers/media/dvb-frontends/stv6110x.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/stv6110x.ko drivers/media/dvb-frontends/stv6110x.o drivers/media/dvb-frontends/stv6110x.mod.o;  true

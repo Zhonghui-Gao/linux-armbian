@@ -1,1 +1,0 @@
-savedcmd_drivers/rtc/rtc-hid-sensor-time.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-hid-sensor-time.ko drivers/rtc/rtc-hid-sensor-time.o drivers/rtc/rtc-hid-sensor-time.mod.o;  true

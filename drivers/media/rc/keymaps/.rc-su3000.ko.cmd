@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-su3000.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-su3000.ko drivers/media/rc/keymaps/rc-su3000.o drivers/media/rc/keymaps/rc-su3000.mod.o;  true

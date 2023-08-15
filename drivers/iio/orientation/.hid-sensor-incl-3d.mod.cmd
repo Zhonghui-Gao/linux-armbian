@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/orientation/hid-sensor-incl-3d.mod := printf '%s\n'   hid-sensor-incl-3d.o | awk '!x[$$0]++ { print("drivers/iio/orientation/"$$0) }' > drivers/iio/orientation/hid-sensor-incl-3d.mod

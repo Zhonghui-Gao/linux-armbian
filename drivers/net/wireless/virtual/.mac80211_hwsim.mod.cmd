@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/virtual/mac80211_hwsim.mod := printf '%s\n'   mac80211_hwsim.o | awk '!x[$$0]++ { print("drivers/net/wireless/virtual/"$$0) }' > drivers/net/wireless/virtual/mac80211_hwsim.mod

@@ -1,1 +1,0 @@
-savedcmd_drivers/hwmon/pmbus/pm6764tr.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/pmbus/pm6764tr.ko drivers/hwmon/pmbus/pm6764tr.o drivers/hwmon/pmbus/pm6764tr.mod.o;  true

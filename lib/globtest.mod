@@ -1,1 +1,0 @@
-lib/globtest.o

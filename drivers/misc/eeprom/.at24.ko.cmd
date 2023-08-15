@@ -1,1 +1,0 @@
-savedcmd_drivers/misc/eeprom/at24.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/misc/eeprom/at24.ko drivers/misc/eeprom/at24.o drivers/misc/eeprom/at24.mod.o;  true

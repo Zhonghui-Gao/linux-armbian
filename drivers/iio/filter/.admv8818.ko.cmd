@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/filter/admv8818.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/filter/admv8818.ko drivers/iio/filter/admv8818.o drivers/iio/filter/admv8818.mod.o;  true

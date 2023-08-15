@@ -1,1 +1,0 @@
-savedcmd_drivers/staging/sm750fb/sm750fb.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/staging/sm750fb/sm750fb.ko drivers/staging/sm750fb/sm750fb.o drivers/staging/sm750fb/sm750fb.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/input/misc/rave-sp-pwrbutton.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/rave-sp-pwrbutton.ko drivers/input/misc/rave-sp-pwrbutton.o drivers/input/misc/rave-sp-pwrbutton.mod.o;  true

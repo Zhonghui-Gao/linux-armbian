@@ -1,1 +1,0 @@
-savedcmd_drivers/media/i2c/adv7180.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/adv7180.ko drivers/media/i2c/adv7180.o drivers/media/i2c/adv7180.mod.o;  true

@@ -1,1 +1,0 @@
-drivers/char/ttyprintk.o

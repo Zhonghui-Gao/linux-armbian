@@ -1,2 +1,0 @@
-rockchip-rk3318-box-cpu-hs.o: \
- arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3318-box-cpu-hs.dts

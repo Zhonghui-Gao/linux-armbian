@@ -1,1 +1,0 @@
-savedcmd_net/vmw_vsock/vmw_vsock_virtio_transport.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o net/vmw_vsock/vmw_vsock_virtio_transport.o @net/vmw_vsock/vmw_vsock_virtio_transport.mod 

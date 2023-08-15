@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/gspca/m5602/gspca_m5602.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/media/usb/gspca/m5602/gspca_m5602.o @drivers/media/usb/gspca/m5602/gspca_m5602.mod 

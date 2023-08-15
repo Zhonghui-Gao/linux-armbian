@@ -1,1 +1,0 @@
-savedcmd_drivers/power/supply/rt5033_battery.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/rt5033_battery.ko drivers/power/supply/rt5033_battery.o drivers/power/supply/rt5033_battery.mod.o;  true

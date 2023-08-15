@@ -1,1 +1,0 @@
-savedcmd_drivers/cxl/core/cxl_core.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/cxl/core/cxl_core.ko drivers/cxl/core/cxl_core.o drivers/cxl/core/cxl_core.mod.o;  true

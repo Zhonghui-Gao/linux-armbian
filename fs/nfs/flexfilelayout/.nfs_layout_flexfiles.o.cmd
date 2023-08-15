@@ -1,1 +1,0 @@
-savedcmd_fs/nfs/flexfilelayout/nfs_layout_flexfiles.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o fs/nfs/flexfilelayout/nfs_layout_flexfiles.o @fs/nfs/flexfilelayout/nfs_layout_flexfiles.mod 

@@ -1,1 +1,0 @@
-savedcmd_drivers/power/supply/bq256xx_charger.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/bq256xx_charger.ko drivers/power/supply/bq256xx_charger.o drivers/power/supply/bq256xx_charger.mod.o;  true

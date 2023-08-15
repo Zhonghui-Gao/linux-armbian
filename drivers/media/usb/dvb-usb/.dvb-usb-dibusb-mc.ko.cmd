@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/dvb-usb/dvb-usb-dibusb-mc.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/dvb-usb/dvb-usb-dibusb-mc.ko drivers/media/usb/dvb-usb/dvb-usb-dibusb-mc.o drivers/media/usb/dvb-usb/dvb-usb-dibusb-mc.mod.o;  true

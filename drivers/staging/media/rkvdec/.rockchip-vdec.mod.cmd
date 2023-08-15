@@ -1,1 +1,0 @@
-savedcmd_drivers/staging/media/rkvdec/rockchip-vdec.mod := printf '%s\n'   rkvdec.o rkvdec-h264.o rkvdec-vp9.o | awk '!x[$$0]++ { print("drivers/staging/media/rkvdec/"$$0) }' > drivers/staging/media/rkvdec/rockchip-vdec.mod

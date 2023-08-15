@@ -1,1 +1,0 @@
-savedcmd_lib/zlib_inflate/built-in.a := rm -f lib/zlib_inflate/built-in.a;  printf "lib/zlib_inflate/%s " inffast.o inflate.o infutil.o inftrees.o inflate_syms.o | xargs aarch64-linux-gnu-ar cDPrST lib/zlib_inflate/built-in.a

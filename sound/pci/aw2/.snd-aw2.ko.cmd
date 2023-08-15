@@ -1,1 +1,0 @@
-savedcmd_sound/pci/aw2/snd-aw2.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/pci/aw2/snd-aw2.ko sound/pci/aw2/snd-aw2.o sound/pci/aw2/snd-aw2.mod.o;  true

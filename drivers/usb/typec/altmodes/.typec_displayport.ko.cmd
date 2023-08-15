@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/typec/altmodes/typec_displayport.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/typec/altmodes/typec_displayport.ko drivers/usb/typec/altmodes/typec_displayport.o drivers/usb/typec/altmodes/typec_displayport.mod.o;  true

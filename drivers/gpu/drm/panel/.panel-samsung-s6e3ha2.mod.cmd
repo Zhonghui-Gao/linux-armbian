@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/panel/panel-samsung-s6e3ha2.mod := printf '%s\n'   panel-samsung-s6e3ha2.o | awk '!x[$$0]++ { print("drivers/gpu/drm/panel/"$$0) }' > drivers/gpu/drm/panel/panel-samsung-s6e3ha2.mod

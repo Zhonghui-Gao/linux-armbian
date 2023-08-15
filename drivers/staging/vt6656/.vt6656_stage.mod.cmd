@@ -1,1 +1,0 @@
-savedcmd_drivers/staging/vt6656/vt6656_stage.mod := printf '%s\n'   main_usb.o card.o mac.o baseband.o wcmd.o rxtx.o power.o key.o rf.o usbpipe.o channel.o | awk '!x[$$0]++ { print("drivers/staging/vt6656/"$$0) }' > drivers/staging/vt6656/vt6656_stage.mod

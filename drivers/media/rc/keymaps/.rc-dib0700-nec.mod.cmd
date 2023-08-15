@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-dib0700-nec.mod := printf '%s\n'   rc-dib0700-nec.o | awk '!x[$$0]++ { print("drivers/media/rc/keymaps/"$$0) }' > drivers/media/rc/keymaps/rc-dib0700-nec.mod

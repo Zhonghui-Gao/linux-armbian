@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-adstech-dvb-t-pci.mod := printf '%s\n'   rc-adstech-dvb-t-pci.o | awk '!x[$$0]++ { print("drivers/media/rc/keymaps/"$$0) }' > drivers/media/rc/keymaps/rc-adstech-dvb-t-pci.mod

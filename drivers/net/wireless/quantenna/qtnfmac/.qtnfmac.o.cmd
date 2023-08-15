@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/quantenna/qtnfmac/qtnfmac.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/wireless/quantenna/qtnfmac/qtnfmac.o @drivers/net/wireless/quantenna/qtnfmac/qtnfmac.mod 

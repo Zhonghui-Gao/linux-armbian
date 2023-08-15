@@ -1,1 +1,0 @@
-drivers/bluetooth/btqca.o

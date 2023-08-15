@@ -1,4 +1,0 @@
-fs/smb/common/cifs_arc4.o
-fs/smb/common/cifs_md4.o
-fs/smb/client/cifs.o
-fs/smb/server/ksmbd.o

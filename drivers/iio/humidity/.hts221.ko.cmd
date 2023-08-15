@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/humidity/hts221.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/humidity/hts221.ko drivers/iio/humidity/hts221.o drivers/iio/humidity/hts221.mod.o;  true

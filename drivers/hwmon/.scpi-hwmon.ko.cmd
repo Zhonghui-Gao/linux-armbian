@@ -1,1 +1,0 @@
-savedcmd_drivers/hwmon/scpi-hwmon.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/scpi-hwmon.ko drivers/hwmon/scpi-hwmon.o drivers/hwmon/scpi-hwmon.mod.o;  true

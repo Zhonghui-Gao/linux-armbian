@@ -1,1 +1,0 @@
-savedcmd_fs/verity/built-in.a := rm -f fs/verity/built-in.a;  printf "fs/verity/%s " enable.o hash_algs.o init.o measure.o open.o read_metadata.o verify.o signature.o | xargs aarch64-linux-gnu-ar cDPrST fs/verity/built-in.a

@@ -1,1 +1,0 @@
-savedcmd_drivers/video/backlight/gpio_backlight.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/video/backlight/gpio_backlight.ko drivers/video/backlight/gpio_backlight.o drivers/video/backlight/gpio_backlight.mod.o;  true

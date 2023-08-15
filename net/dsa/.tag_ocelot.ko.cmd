@@ -1,1 +1,0 @@
-savedcmd_net/dsa/tag_ocelot.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/dsa/tag_ocelot.ko net/dsa/tag_ocelot.o net/dsa/tag_ocelot.mod.o;  true

@@ -1,2 +1,0 @@
-rk3308-bs@1.3ghz.o: \
- arch/arm64/boot/dts/rockchip/overlay/rk3308-bs@1.3ghz.dts

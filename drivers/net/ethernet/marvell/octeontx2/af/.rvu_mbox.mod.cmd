@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/marvell/octeontx2/af/rvu_mbox.mod := printf '%s\n'   mbox.o rvu_trace.o | awk '!x[$$0]++ { print("drivers/net/ethernet/marvell/octeontx2/af/"$$0) }' > drivers/net/ethernet/marvell/octeontx2/af/rvu_mbox.mod

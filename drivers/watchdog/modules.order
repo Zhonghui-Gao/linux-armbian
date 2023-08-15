@@ -1,7 +1,0 @@
-drivers/watchdog/pcwd_pci.o
-drivers/watchdog/wdt_pci.o
-drivers/watchdog/pcwd_usb.o
-drivers/watchdog/rn5t618_wdt.o
-drivers/watchdog/bd9576_wdt.o
-drivers/watchdog/softdog.o
-drivers/watchdog/rave-sp-wdt.o

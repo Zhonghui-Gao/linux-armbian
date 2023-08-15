@@ -1,1 +1,0 @@
-savedcmd_drivers/hwmon/smsc47m1.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/smsc47m1.ko drivers/hwmon/smsc47m1.o drivers/hwmon/smsc47m1.mod.o;  true

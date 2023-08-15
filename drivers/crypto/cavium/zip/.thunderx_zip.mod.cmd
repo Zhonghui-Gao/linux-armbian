@@ -1,1 +1,0 @@
-savedcmd_drivers/crypto/cavium/zip/thunderx_zip.mod := printf '%s\n'   zip_main.o zip_device.o zip_crypto.o zip_mem.o zip_deflate.o zip_inflate.o | awk '!x[$$0]++ { print("drivers/crypto/cavium/zip/"$$0) }' > drivers/crypto/cavium/zip/thunderx_zip.mod

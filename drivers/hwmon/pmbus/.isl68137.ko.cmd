@@ -1,1 +1,0 @@
-savedcmd_drivers/hwmon/pmbus/isl68137.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/pmbus/isl68137.ko drivers/hwmon/pmbus/isl68137.o drivers/hwmon/pmbus/isl68137.mod.o;  true

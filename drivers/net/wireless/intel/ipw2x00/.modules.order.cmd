@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/intel/ipw2x00/modules.order := {   echo drivers/net/wireless/intel/ipw2x00/ipw2100.o;   echo drivers/net/wireless/intel/ipw2x00/libipw.o; :; } > drivers/net/wireless/intel/ipw2x00/modules.order

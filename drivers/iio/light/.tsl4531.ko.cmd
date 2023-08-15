@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/light/tsl4531.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/light/tsl4531.ko drivers/iio/light/tsl4531.o drivers/iio/light/tsl4531.mod.o;  true

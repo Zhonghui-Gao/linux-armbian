@@ -1,1 +1,0 @@
-savedcmd_drivers/media/tuners/tea5761.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/tuners/tea5761.ko drivers/media/tuners/tea5761.o drivers/media/tuners/tea5761.mod.o;  true

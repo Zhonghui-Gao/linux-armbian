@@ -1,1 +1,0 @@
-savedcmd_drivers/gpio/gpio-hlwd.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpio/gpio-hlwd.ko drivers/gpio/gpio-hlwd.o drivers/gpio/gpio-hlwd.mod.o;  true

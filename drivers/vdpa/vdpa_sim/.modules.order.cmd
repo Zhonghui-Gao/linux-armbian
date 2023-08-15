@@ -1,1 +1,0 @@
-savedcmd_drivers/vdpa/vdpa_sim/modules.order := {   echo drivers/vdpa/vdpa_sim/vdpa_sim.o;   echo drivers/vdpa/vdpa_sim/vdpa_sim_net.o;   echo drivers/vdpa/vdpa_sim/vdpa_sim_blk.o; :; } > drivers/vdpa/vdpa_sim/modules.order

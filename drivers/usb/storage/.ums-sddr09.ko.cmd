@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/storage/ums-sddr09.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/storage/ums-sddr09.ko drivers/usb/storage/ums-sddr09.o drivers/usb/storage/ums-sddr09.mod.o;  true

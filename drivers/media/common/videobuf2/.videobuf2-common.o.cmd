@@ -1,1 +1,0 @@
-savedcmd_drivers/media/common/videobuf2/videobuf2-common.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/media/common/videobuf2/videobuf2-common.o @drivers/media/common/videobuf2/videobuf2-common.mod 

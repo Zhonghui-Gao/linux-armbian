@@ -1,1 +1,0 @@
-savedcmd_drivers/input/joystick/iforce/modules.order := {   echo drivers/input/joystick/iforce/iforce.o;   echo drivers/input/joystick/iforce/iforce-usb.o; :; } > drivers/input/joystick/iforce/modules.order

@@ -1,1 +1,0 @@
-savedcmd_sound/pci/emu10k1/snd-emu10k1.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/pci/emu10k1/snd-emu10k1.ko sound/pci/emu10k1/snd-emu10k1.o sound/pci/emu10k1/snd-emu10k1.mod.o;  true

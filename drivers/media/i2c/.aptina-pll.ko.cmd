@@ -1,1 +1,0 @@
-savedcmd_drivers/media/i2c/aptina-pll.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/aptina-pll.ko drivers/media/i2c/aptina-pll.o drivers/media/i2c/aptina-pll.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/tty/serial/8250/8250_pci.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/tty/serial/8250/8250_pci.ko drivers/tty/serial/8250/8250_pci.o drivers/tty/serial/8250/8250_pci.mod.o;  true

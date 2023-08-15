@@ -1,1 +1,0 @@
-savedcmd_drivers/soc/litex/litex_soc_ctrl.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/soc/litex/litex_soc_ctrl.ko drivers/soc/litex/litex_soc_ctrl.o drivers/soc/litex/litex_soc_ctrl.mod.o;  true

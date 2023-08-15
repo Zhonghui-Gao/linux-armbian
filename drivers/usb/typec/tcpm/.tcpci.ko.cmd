@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/typec/tcpm/tcpci.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/typec/tcpm/tcpci.ko drivers/usb/typec/tcpm/tcpci.o drivers/usb/typec/tcpm/tcpci.mod.o;  true

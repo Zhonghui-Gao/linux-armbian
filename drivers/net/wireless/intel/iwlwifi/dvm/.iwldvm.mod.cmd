@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/intel/iwlwifi/dvm/iwldvm.mod := printf '%s\n'   main.o rs.o mac80211.o ucode.o tx.o lib.o calib.o tt.o sta.o rx.o power.o scan.o rxon.o devices.o led.o | awk '!x[$$0]++ { print("drivers/net/wireless/intel/iwlwifi/dvm/"$$0) }' > drivers/net/wireless/intel/iwlwifi/dvm/iwldvm.mod

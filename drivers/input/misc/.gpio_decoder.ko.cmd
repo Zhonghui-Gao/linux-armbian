@@ -1,1 +1,0 @@
-savedcmd_drivers/input/misc/gpio_decoder.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/gpio_decoder.ko drivers/input/misc/gpio_decoder.o drivers/input/misc/gpio_decoder.mod.o;  true

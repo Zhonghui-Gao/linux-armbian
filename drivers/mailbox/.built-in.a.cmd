@@ -1,1 +1,0 @@
-savedcmd_drivers/mailbox/built-in.a := rm -f drivers/mailbox/built-in.a;  printf "drivers/mailbox/%s " mailbox.o arm_mhu.o arm_mhu_db.o platform_mhu.o rockchip-mailbox.o | xargs aarch64-linux-gnu-ar cDPrST drivers/mailbox/built-in.a

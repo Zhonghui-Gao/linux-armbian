@@ -1,1 +1,0 @@
-savedcmd_drivers/regulator/rtq2134-regulator.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/regulator/rtq2134-regulator.ko drivers/regulator/rtq2134-regulator.o drivers/regulator/rtq2134-regulator.mod.o;  true

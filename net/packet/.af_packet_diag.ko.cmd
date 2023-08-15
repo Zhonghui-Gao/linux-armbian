@@ -1,1 +1,0 @@
-savedcmd_net/packet/af_packet_diag.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/packet/af_packet_diag.ko net/packet/af_packet_diag.o net/packet/af_packet_diag.mod.o;  true

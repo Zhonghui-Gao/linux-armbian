@@ -1,1 +1,0 @@
-savedcmd_drivers/media/common/videobuf2/videobuf2-dma-sg.mod := printf '%s\n'   videobuf2-dma-sg.o | awk '!x[$$0]++ { print("drivers/media/common/videobuf2/"$$0) }' > drivers/media/common/videobuf2/videobuf2-dma-sg.mod

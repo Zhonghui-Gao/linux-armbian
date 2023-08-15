@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-vega-s9x.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-vega-s9x.ko drivers/media/rc/keymaps/rc-vega-s9x.o drivers/media/rc/keymaps/rc-vega-s9x.mod.o;  true

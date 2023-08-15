@@ -1,1 +1,0 @@
-savedcmd_drivers/mmc/host/dw_mmc-hi3798cv200.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/mmc/host/dw_mmc-hi3798cv200.ko drivers/mmc/host/dw_mmc-hi3798cv200.o drivers/mmc/host/dw_mmc-hi3798cv200.mod.o;  true

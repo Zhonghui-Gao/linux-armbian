@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-terratec-cinergy-c-pci.mod := printf '%s\n'   rc-terratec-cinergy-c-pci.o | awk '!x[$$0]++ { print("drivers/media/rc/keymaps/"$$0) }' > drivers/media/rc/keymaps/rc-terratec-cinergy-c-pci.mod

@@ -1,1 +1,0 @@
-savedcmd_drivers/spi/spi-altera-platform.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/spi/spi-altera-platform.ko drivers/spi/spi-altera-platform.o drivers/spi/spi-altera-platform.mod.o;  true

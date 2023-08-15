@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/class/usblp.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/class/usblp.ko drivers/usb/class/usblp.o drivers/usb/class/usblp.mod.o;  true

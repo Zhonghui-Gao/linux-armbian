@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/proximity/cros_ec_mkbp_proximity.mod := printf '%s\n'   cros_ec_mkbp_proximity.o | awk '!x[$$0]++ { print("drivers/iio/proximity/"$$0) }' > drivers/iio/proximity/cros_ec_mkbp_proximity.mod

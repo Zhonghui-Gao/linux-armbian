@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/hisilicon/kirin/kirin-drm.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/gpu/drm/hisilicon/kirin/kirin-drm.o @drivers/gpu/drm/hisilicon/kirin/kirin-drm.mod 

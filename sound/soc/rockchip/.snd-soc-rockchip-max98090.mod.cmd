@@ -1,1 +1,0 @@
-savedcmd_sound/soc/rockchip/snd-soc-rockchip-max98090.mod := printf '%s\n'   rockchip_max98090.o | awk '!x[$$0]++ { print("sound/soc/rockchip/"$$0) }' > sound/soc/rockchip/snd-soc-rockchip-max98090.mod

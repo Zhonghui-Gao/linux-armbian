@@ -1,1 +1,0 @@
-savedcmd_sound/synth/emux/snd-emux-synth.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/synth/emux/snd-emux-synth.ko sound/synth/emux/snd-emux-synth.o sound/synth/emux/snd-emux-synth.mod.o;  true

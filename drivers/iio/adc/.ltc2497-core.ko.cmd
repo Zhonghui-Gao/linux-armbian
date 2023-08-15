@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/adc/ltc2497-core.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/adc/ltc2497-core.ko drivers/iio/adc/ltc2497-core.o drivers/iio/adc/ltc2497-core.mod.o;  true

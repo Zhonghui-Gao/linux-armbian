@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/panel/panel-innolux-p079zca.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/panel/panel-innolux-p079zca.ko drivers/gpu/drm/panel/panel-innolux-p079zca.o drivers/gpu/drm/panel/panel-innolux-p079zca.mod.o;  true

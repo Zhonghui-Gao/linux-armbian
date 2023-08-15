@@ -1,1 +1,0 @@
-savedcmd_drivers/net/dsa/mv88e6xxx/mv88e6xxx.mod := printf '%s\n'   chip.o devlink.o global1.o global1_atu.o global1_vtu.o global2.o global2_avb.o global2_scratch.o phy.o port.o port_hidden.o serdes.o smi.o switchdev.o trace.o | awk '!x[$$0]++ { print("drivers/net/dsa/mv88e6xxx/"$$0) }' > drivers/net/dsa/mv88e6xxx/mv88e6xxx.mod

@@ -1,1 +1,0 @@
-savedcmd_sound/usb/bcd2000/snd-bcd2000.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/usb/bcd2000/snd-bcd2000.ko sound/usb/bcd2000/snd-bcd2000.o sound/usb/bcd2000/snd-bcd2000.mod.o;  true

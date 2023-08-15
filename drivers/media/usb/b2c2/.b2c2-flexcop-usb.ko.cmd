@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/b2c2/b2c2-flexcop-usb.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/b2c2/b2c2-flexcop-usb.ko drivers/media/usb/b2c2/b2c2-flexcop-usb.o drivers/media/usb/b2c2/b2c2-flexcop-usb.mod.o;  true

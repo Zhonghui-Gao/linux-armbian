@@ -1,1 +1,0 @@
-savedcmd_net/dsa/tag_lan9303.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/dsa/tag_lan9303.ko net/dsa/tag_lan9303.o net/dsa/tag_lan9303.mod.o;  true

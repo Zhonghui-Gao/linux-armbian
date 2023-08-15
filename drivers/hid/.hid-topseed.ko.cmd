@@ -1,1 +1,0 @@
-savedcmd_drivers/hid/hid-topseed.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-topseed.ko drivers/hid/hid-topseed.o drivers/hid/hid-topseed.mod.o;  true

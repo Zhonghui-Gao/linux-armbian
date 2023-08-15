@@ -1,1 +1,0 @@
-savedcmd_drivers/media/built-in.a := rm -f drivers/media/built-in.a;  printf "drivers/media/%s " i2c/built-in.a tuners/built-in.a rc/built-in.a cec/built-in.a common/built-in.a platform/built-in.a pci/built-in.a usb/built-in.a mmc/built-in.a firewire/built-in.a spi/built-in.a test-drivers/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/media/built-in.a

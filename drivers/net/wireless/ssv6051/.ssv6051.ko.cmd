@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/ssv6051/ssv6051.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/ssv6051/ssv6051.ko drivers/net/wireless/ssv6051/ssv6051.o drivers/net/wireless/ssv6051/ssv6051.mod.o;  true

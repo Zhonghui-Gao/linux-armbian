@@ -1,1 +1,0 @@
-savedcmd_drivers/vdpa/ifcvf/ifcvf.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/vdpa/ifcvf/ifcvf.ko drivers/vdpa/ifcvf/ifcvf.o drivers/vdpa/ifcvf/ifcvf.mod.o;  true

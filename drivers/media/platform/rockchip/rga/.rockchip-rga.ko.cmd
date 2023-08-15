@@ -1,1 +1,0 @@
-savedcmd_drivers/media/platform/rockchip/rga/rockchip-rga.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/platform/rockchip/rga/rockchip-rga.ko drivers/media/platform/rockchip/rga/rockchip-rga.o drivers/media/platform/rockchip/rga/rockchip-rga.mod.o;  true

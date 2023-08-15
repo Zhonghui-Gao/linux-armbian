@@ -1,1 +1,0 @@
-savedcmd_drivers/tty/serial/altera_jtaguart.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/tty/serial/altera_jtaguart.ko drivers/tty/serial/altera_jtaguart.o drivers/tty/serial/altera_jtaguart.mod.o;  true

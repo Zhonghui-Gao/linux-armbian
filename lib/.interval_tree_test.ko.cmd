@@ -1,1 +1,0 @@
-savedcmd_lib/interval_tree_test.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o lib/interval_tree_test.ko lib/interval_tree_test.o lib/interval_tree_test.mod.o;  true

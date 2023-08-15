@@ -1,1 +1,0 @@
-savedcmd_drivers/media/i2c/ccs-pll.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/ccs-pll.ko drivers/media/i2c/ccs-pll.o drivers/media/i2c/ccs-pll.mod.o;  true

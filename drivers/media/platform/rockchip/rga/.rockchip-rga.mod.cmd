@@ -1,1 +1,0 @@
-savedcmd_drivers/media/platform/rockchip/rga/rockchip-rga.mod := printf '%s\n'   rga.o rga-hw.o rga-buf.o | awk '!x[$$0]++ { print("drivers/media/platform/rockchip/rga/"$$0) }' > drivers/media/platform/rockchip/rga/rockchip-rga.mod

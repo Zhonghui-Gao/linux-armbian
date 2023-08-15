@@ -1,1 +1,0 @@
-drivers/gnss/sirf.o

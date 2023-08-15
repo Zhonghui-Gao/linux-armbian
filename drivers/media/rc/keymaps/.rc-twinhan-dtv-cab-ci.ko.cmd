@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-twinhan-dtv-cab-ci.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-twinhan-dtv-cab-ci.ko drivers/media/rc/keymaps/rc-twinhan-dtv-cab-ci.o drivers/media/rc/keymaps/rc-twinhan-dtv-cab-ci.mod.o;  true

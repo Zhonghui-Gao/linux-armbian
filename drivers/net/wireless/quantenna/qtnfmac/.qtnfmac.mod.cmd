@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/quantenna/qtnfmac/qtnfmac.mod := printf '%s\n'   core.o commands.o trans.o cfg80211.o event.o util.o qlink_util.o | awk '!x[$$0]++ { print("drivers/net/wireless/quantenna/qtnfmac/"$$0) }' > drivers/net/wireless/quantenna/qtnfmac/qtnfmac.mod

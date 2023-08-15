@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/mediatek/mt76/mt7603/mt7603e.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/mediatek/mt76/mt7603/mt7603e.ko drivers/net/wireless/mediatek/mt76/mt7603/mt7603e.o drivers/net/wireless/mediatek/mt76/mt7603/mt7603e.mod.o;  true

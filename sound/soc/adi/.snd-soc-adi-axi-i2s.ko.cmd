@@ -1,1 +1,0 @@
-savedcmd_sound/soc/adi/snd-soc-adi-axi-i2s.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/adi/snd-soc-adi-axi-i2s.ko sound/soc/adi/snd-soc-adi-axi-i2s.o sound/soc/adi/snd-soc-adi-axi-i2s.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/net/can/ctucanfd/modules.order := {   echo drivers/net/can/ctucanfd/ctucanfd.o;   echo drivers/net/can/ctucanfd/ctucanfd_pci.o;   echo drivers/net/can/ctucanfd/ctucanfd_platform.o; :; } > drivers/net/can/ctucanfd/modules.order

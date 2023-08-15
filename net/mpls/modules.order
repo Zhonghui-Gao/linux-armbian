@@ -1,3 +1,0 @@
-net/mpls/mpls_gso.o
-net/mpls/mpls_router.o
-net/mpls/mpls_iptunnel.o

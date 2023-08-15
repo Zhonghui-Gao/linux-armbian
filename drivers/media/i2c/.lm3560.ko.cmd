@@ -1,1 +1,0 @@
-savedcmd_drivers/media/i2c/lm3560.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/lm3560.ko drivers/media/i2c/lm3560.o drivers/media/i2c/lm3560.mod.o;  true

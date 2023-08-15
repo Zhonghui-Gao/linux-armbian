@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/light/hid-sensor-als.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/light/hid-sensor-als.ko drivers/iio/light/hid-sensor-als.o drivers/iio/light/hid-sensor-als.mod.o;  true

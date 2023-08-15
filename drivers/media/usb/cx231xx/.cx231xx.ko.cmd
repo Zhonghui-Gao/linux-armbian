@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/cx231xx/cx231xx.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/cx231xx/cx231xx.ko drivers/media/usb/cx231xx/cx231xx.o drivers/media/usb/cx231xx/cx231xx.mod.o;  true

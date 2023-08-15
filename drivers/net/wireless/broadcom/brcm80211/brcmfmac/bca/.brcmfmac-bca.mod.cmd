@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/broadcom/brcm80211/brcmfmac/bca/brcmfmac-bca.mod := printf '%s\n'   core.o module.o | awk '!x[$$0]++ { print("drivers/net/wireless/broadcom/brcm80211/brcmfmac/bca/"$$0) }' > drivers/net/wireless/broadcom/brcm80211/brcmfmac/bca/brcmfmac-bca.mod

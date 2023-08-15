@@ -1,1 +1,0 @@
-savedcmd_drivers/video/fbdev/uvesafb.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/video/fbdev/uvesafb.ko drivers/video/fbdev/uvesafb.o drivers/video/fbdev/uvesafb.mod.o;  true

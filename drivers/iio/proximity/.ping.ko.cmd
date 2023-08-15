@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/proximity/ping.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/proximity/ping.ko drivers/iio/proximity/ping.o drivers/iio/proximity/ping.mod.o;  true

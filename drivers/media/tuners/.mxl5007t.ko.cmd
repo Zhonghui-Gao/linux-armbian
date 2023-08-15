@@ -1,1 +1,0 @@
-savedcmd_drivers/media/tuners/mxl5007t.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/tuners/mxl5007t.ko drivers/media/tuners/mxl5007t.o drivers/media/tuners/mxl5007t.mod.o;  true

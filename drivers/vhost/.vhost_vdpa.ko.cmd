@@ -1,1 +1,0 @@
-savedcmd_drivers/vhost/vhost_vdpa.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/vhost/vhost_vdpa.ko drivers/vhost/vhost_vdpa.o drivers/vhost/vhost_vdpa.mod.o;  true

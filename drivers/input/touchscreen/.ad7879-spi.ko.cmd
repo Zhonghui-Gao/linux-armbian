@@ -1,1 +1,0 @@
-savedcmd_drivers/input/touchscreen/ad7879-spi.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/ad7879-spi.ko drivers/input/touchscreen/ad7879-spi.o drivers/input/touchscreen/ad7879-spi.mod.o;  true

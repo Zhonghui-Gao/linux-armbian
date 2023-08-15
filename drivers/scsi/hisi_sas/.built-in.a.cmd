@@ -1,1 +1,0 @@
-savedcmd_drivers/scsi/hisi_sas/built-in.a := rm -f drivers/scsi/hisi_sas/built-in.a;  printf "drivers/scsi/hisi_sas/%s " hisi_sas_main.o hisi_sas_v1_hw.o hisi_sas_v2_hw.o | xargs aarch64-linux-gnu-ar cDPrST drivers/scsi/hisi_sas/built-in.a

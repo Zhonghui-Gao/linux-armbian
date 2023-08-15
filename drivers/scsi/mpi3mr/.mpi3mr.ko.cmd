@@ -1,1 +1,0 @@
-savedcmd_drivers/scsi/mpi3mr/mpi3mr.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/scsi/mpi3mr/mpi3mr.ko drivers/scsi/mpi3mr/mpi3mr.o drivers/scsi/mpi3mr/mpi3mr.mod.o;  true

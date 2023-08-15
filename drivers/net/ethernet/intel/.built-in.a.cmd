@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/intel/built-in.a := rm -f drivers/net/ethernet/intel/built-in.a;  printf "drivers/net/ethernet/intel/%s " e1000e/built-in.a igb/built-in.a igbvf/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/net/ethernet/intel/built-in.a

@@ -1,1 +1,0 @@
-savedcmd_drivers/mfd/rave-sp.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/mfd/rave-sp.ko drivers/mfd/rave-sp.o drivers/mfd/rave-sp.mod.o;  true

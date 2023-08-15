@@ -1,1 +1,0 @@
-savedcmd_lib/raid6/built-in.a := rm -f lib/raid6/built-in.a;  printf "lib/raid6/%s " algos.o recov.o tables.o int1.o int2.o int4.o int8.o int16.o int32.o neon.o neon1.o neon2.o neon4.o neon8.o recov_neon.o recov_neon_inner.o | xargs aarch64-linux-gnu-ar cDPrST lib/raid6/built-in.a

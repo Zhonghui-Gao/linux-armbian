@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/light/gp2ap020a00f.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/light/gp2ap020a00f.ko drivers/iio/light/gp2ap020a00f.o drivers/iio/light/gp2ap020a00f.mod.o;  true

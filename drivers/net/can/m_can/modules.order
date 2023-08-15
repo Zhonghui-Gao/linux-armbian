@@ -1,4 +1,0 @@
-drivers/net/can/m_can/m_can.o
-drivers/net/can/m_can/m_can_pci.o
-drivers/net/can/m_can/m_can_platform.o
-drivers/net/can/m_can/tcan4x5x.o

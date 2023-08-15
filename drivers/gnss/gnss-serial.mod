@@ -1,1 +1,0 @@
-drivers/gnss/serial.o

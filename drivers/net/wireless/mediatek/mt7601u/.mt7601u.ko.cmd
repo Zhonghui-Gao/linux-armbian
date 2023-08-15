@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/mediatek/mt7601u/mt7601u.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/mediatek/mt7601u/mt7601u.ko drivers/net/wireless/mediatek/mt7601u/mt7601u.o drivers/net/wireless/mediatek/mt7601u/mt7601u.mod.o;  true

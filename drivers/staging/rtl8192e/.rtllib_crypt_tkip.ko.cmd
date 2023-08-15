@@ -1,1 +1,0 @@
-savedcmd_drivers/staging/rtl8192e/rtllib_crypt_tkip.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/staging/rtl8192e/rtllib_crypt_tkip.ko drivers/staging/rtl8192e/rtllib_crypt_tkip.o drivers/staging/rtl8192e/rtllib_crypt_tkip.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/mfd/rdc321x-southbridge.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/mfd/rdc321x-southbridge.ko drivers/mfd/rdc321x-southbridge.o drivers/mfd/rdc321x-southbridge.mod.o;  true

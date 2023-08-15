@@ -1,1 +1,0 @@
-savedcmd_drivers/hid/hid-gembird.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-gembird.ko drivers/hid/hid-gembird.o drivers/hid/hid-gembird.mod.o;  true

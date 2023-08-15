@@ -1,1 +1,0 @@
-savedcmd_drivers/gpio/gpio-amd-fch.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpio/gpio-amd-fch.ko drivers/gpio/gpio-amd-fch.o drivers/gpio/gpio-amd-fch.mod.o;  true

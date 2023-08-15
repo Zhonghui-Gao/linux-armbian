@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/accel/kxcjk-1013.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/accel/kxcjk-1013.ko drivers/iio/accel/kxcjk-1013.o drivers/iio/accel/kxcjk-1013.mod.o;  true

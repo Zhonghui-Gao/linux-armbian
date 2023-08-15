@@ -1,1 +1,0 @@
-savedcmd_drivers/mfd/ntxec.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/mfd/ntxec.ko drivers/mfd/ntxec.o drivers/mfd/ntxec.mod.o;  true

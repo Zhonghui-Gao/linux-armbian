@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/common/hid-sensors/modules.order := {   echo drivers/iio/common/hid-sensors/hid-sensor-iio-common.o;   echo drivers/iio/common/hid-sensors/hid-sensor-trigger.o; :; } > drivers/iio/common/hid-sensors/modules.order

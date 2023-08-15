@@ -1,1 +1,0 @@
-savedcmd_drivers/md/dm-writecache.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/md/dm-writecache.ko drivers/md/dm-writecache.o drivers/md/dm-writecache.mod.o;  true

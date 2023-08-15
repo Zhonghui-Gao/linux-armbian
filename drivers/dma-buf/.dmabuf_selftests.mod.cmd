@@ -1,1 +1,0 @@
-savedcmd_drivers/dma-buf/dmabuf_selftests.mod := printf '%s\n'   selftest.o st-dma-fence.o st-dma-fence-chain.o st-dma-fence-unwrap.o st-dma-resv.o | awk '!x[$$0]++ { print("drivers/dma-buf/"$$0) }' > drivers/dma-buf/dmabuf_selftests.mod

@@ -1,1 +1,0 @@
-savedcmd_drivers/crypto/inside-secure/crypto_safexcel.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/crypto/inside-secure/crypto_safexcel.o @drivers/crypto/inside-secure/crypto_safexcel.mod 

@@ -1,1 +1,0 @@
-savedcmd_drivers/net/mdio/mdio-mux-multiplexer.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/mdio/mdio-mux-multiplexer.ko drivers/net/mdio/mdio-mux-multiplexer.o drivers/net/mdio/mdio-mux-multiplexer.mod.o;  true

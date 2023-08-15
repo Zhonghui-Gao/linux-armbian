@@ -1,1 +1,0 @@
-savedcmd_sound/soc/xilinx/snd-soc-xlnx-spdif.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/xilinx/snd-soc-xlnx-spdif.ko sound/soc/xilinx/snd-soc-xlnx-spdif.o sound/soc/xilinx/snd-soc-xlnx-spdif.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/panel/panel-kingdisplay-kd097d04.mod := printf '%s\n'   panel-kingdisplay-kd097d04.o | awk '!x[$$0]++ { print("drivers/gpu/drm/panel/"$$0) }' > drivers/gpu/drm/panel/panel-kingdisplay-kd097d04.mod

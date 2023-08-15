@@ -1,6 +1,0 @@
-drivers/usb/gadget/udc/net2280.o
-drivers/usb/gadget/udc/snps_udc_core.o
-drivers/usb/gadget/udc/amd5536udc_pci.o
-drivers/usb/gadget/udc/goku_udc.o
-drivers/usb/gadget/udc/pch_udc.o
-drivers/usb/gadget/udc/max3420_udc.o

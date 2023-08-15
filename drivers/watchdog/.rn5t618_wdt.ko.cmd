@@ -1,1 +1,0 @@
-savedcmd_drivers/watchdog/rn5t618_wdt.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/watchdog/rn5t618_wdt.ko drivers/watchdog/rn5t618_wdt.o drivers/watchdog/rn5t618_wdt.mod.o;  true

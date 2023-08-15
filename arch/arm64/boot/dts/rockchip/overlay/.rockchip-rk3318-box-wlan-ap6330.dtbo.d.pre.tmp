@@ -1,5 +1,0 @@
-rockchip-rk3318-box-wlan-ap6330.o: \
- arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3318-box-wlan-ap6330.dts \
- scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
- scripts/dtc/include-prefixes/dt-bindings/pinctrl/rockchip.h \
- scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h

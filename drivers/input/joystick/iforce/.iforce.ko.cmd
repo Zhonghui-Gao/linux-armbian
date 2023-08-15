@@ -1,1 +1,0 @@
-savedcmd_drivers/input/joystick/iforce/iforce.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/joystick/iforce/iforce.ko drivers/input/joystick/iforce/iforce.o drivers/input/joystick/iforce/iforce.mod.o;  true

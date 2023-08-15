@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/industrialio-sw-trigger.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/industrialio-sw-trigger.ko drivers/iio/industrialio-sw-trigger.o drivers/iio/industrialio-sw-trigger.mod.o;  true

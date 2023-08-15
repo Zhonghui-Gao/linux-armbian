@@ -1,1 +1,0 @@
-savedcmd_drivers/soc/rockchip/built-in.a := rm -f drivers/soc/rockchip/built-in.a;  printf "drivers/soc/rockchip/%s " grf.o io-domain.o pm_domains.o | xargs aarch64-linux-gnu-ar cDPrST drivers/soc/rockchip/built-in.a

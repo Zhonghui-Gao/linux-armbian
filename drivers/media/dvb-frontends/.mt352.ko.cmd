@@ -1,1 +1,0 @@
-savedcmd_drivers/media/dvb-frontends/mt352.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/mt352.ko drivers/media/dvb-frontends/mt352.o drivers/media/dvb-frontends/mt352.mod.o;  true

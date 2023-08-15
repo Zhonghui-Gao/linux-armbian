@@ -1,1 +1,0 @@
-savedcmd_drivers/mtd/hyperbus/hyperbus-core.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/mtd/hyperbus/hyperbus-core.ko drivers/mtd/hyperbus/hyperbus-core.o drivers/mtd/hyperbus/hyperbus-core.mod.o;  true

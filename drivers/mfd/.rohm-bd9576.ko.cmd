@@ -1,1 +1,0 @@
-savedcmd_drivers/mfd/rohm-bd9576.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/mfd/rohm-bd9576.ko drivers/mfd/rohm-bd9576.o drivers/mfd/rohm-bd9576.mod.o;  true

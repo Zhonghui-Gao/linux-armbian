@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/go7007/go7007-usb.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/go7007/go7007-usb.ko drivers/media/usb/go7007/go7007-usb.o drivers/media/usb/go7007/go7007-usb.mod.o;  true

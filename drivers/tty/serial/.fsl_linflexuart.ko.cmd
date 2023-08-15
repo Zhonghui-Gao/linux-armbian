@@ -1,1 +1,0 @@
-savedcmd_drivers/tty/serial/fsl_linflexuart.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/tty/serial/fsl_linflexuart.ko drivers/tty/serial/fsl_linflexuart.o drivers/tty/serial/fsl_linflexuart.mod.o;  true

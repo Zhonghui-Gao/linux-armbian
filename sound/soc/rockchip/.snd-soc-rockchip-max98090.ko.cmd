@@ -1,1 +1,0 @@
-savedcmd_sound/soc/rockchip/snd-soc-rockchip-max98090.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/rockchip/snd-soc-rockchip-max98090.ko sound/soc/rockchip/snd-soc-rockchip-max98090.o sound/soc/rockchip/snd-soc-rockchip-max98090.mod.o;  true

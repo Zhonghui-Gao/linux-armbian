@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/frequency/adf4371.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/frequency/adf4371.ko drivers/iio/frequency/adf4371.o drivers/iio/frequency/adf4371.mod.o;  true

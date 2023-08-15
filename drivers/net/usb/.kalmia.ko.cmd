@@ -1,1 +1,0 @@
-savedcmd_drivers/net/usb/kalmia.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/usb/kalmia.ko drivers/net/usb/kalmia.o drivers/net/usb/kalmia.mod.o;  true
