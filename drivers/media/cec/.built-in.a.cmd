@@ -1,0 +1,1 @@
+savedcmd_drivers/media/cec/built-in.a := rm -f drivers/media/cec/built-in.a;  printf "drivers/media/cec/%s " core/built-in.a i2c/built-in.a platform/built-in.a usb/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/media/cec/built-in.a

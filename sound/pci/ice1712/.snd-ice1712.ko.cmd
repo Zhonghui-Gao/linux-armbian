@@ -1,0 +1,1 @@
+savedcmd_sound/pci/ice1712/snd-ice1712.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/pci/ice1712/snd-ice1712.ko sound/pci/ice1712/snd-ice1712.o sound/pci/ice1712/snd-ice1712.mod.o;  true

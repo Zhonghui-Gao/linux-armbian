@@ -1,0 +1,1 @@
+savedcmd_drivers/i3c/master/mipi-i3c-hci/mipi-i3c-hci.mod := printf '%s\n'   core.o ext_caps.o pio.o dma.o cmd_v1.o cmd_v2.o dat_v1.o dct_v1.o | awk '!x[$$0]++ { print("drivers/i3c/master/mipi-i3c-hci/"$$0) }' > drivers/i3c/master/mipi-i3c-hci/mipi-i3c-hci.mod

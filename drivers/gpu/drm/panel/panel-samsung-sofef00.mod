@@ -1,0 +1,1 @@
+drivers/gpu/drm/panel/panel-samsung-sofef00.o

@@ -1,0 +1,3 @@
+drivers/phy/cadence/phy-cadence-torrent.o
+drivers/phy/cadence/cdns-dphy.o
+drivers/phy/cadence/phy-cadence-sierra.o

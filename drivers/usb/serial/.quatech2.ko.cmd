@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/serial/quatech2.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/serial/quatech2.ko drivers/usb/serial/quatech2.o drivers/usb/serial/quatech2.mod.o;  true

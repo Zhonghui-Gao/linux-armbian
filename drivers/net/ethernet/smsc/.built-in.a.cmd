@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/smsc/built-in.a := rm -f drivers/net/ethernet/smsc/built-in.a;  printf "drivers/net/ethernet/smsc/%s " smc91x.o smsc911x.o | xargs aarch64-linux-gnu-ar cDPrST drivers/net/ethernet/smsc/built-in.a

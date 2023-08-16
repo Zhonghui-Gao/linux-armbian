@@ -1,0 +1,1 @@
+savedcmd_drivers/media/rc/keymaps/rc-genius-tvgo-a11mce.mod := printf '%s\n'   rc-genius-tvgo-a11mce.o | awk '!x[$$0]++ { print("drivers/media/rc/keymaps/"$$0) }' > drivers/media/rc/keymaps/rc-genius-tvgo-a11mce.mod

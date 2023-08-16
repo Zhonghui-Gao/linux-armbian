@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/marvell/octeontx2/nic/rvu_nicpf.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/marvell/octeontx2/nic/rvu_nicpf.ko drivers/net/ethernet/marvell/octeontx2/nic/rvu_nicpf.o drivers/net/ethernet/marvell/octeontx2/nic/rvu_nicpf.mod.o;  true

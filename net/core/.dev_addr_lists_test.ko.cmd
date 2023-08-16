@@ -1,0 +1,1 @@
+savedcmd_net/core/dev_addr_lists_test.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/core/dev_addr_lists_test.ko net/core/dev_addr_lists_test.o net/core/dev_addr_lists_test.mod.o;  true

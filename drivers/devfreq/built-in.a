@@ -1,0 +1,15 @@
+!<thin>
+//                                              106       `
+devfreq.o/
+devfreq-event.o/
+governor_simpleondemand.o/
+rk3399_dmc.o/
+rk3328_dmc.o/
+event/rockchip-dfi.o/
+
+/0              0           0     0     644     72416     `
+/11             0           0     0     644     18976     `
+/28             0           0     0     644     4952      `
+/55             0           0     0     644     13928     `
+/69             0           0     0     644     27768     `
+/83             0           0     0     644     15032     `

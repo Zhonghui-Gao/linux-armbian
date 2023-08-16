@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/renesas/modules.order := {   cat drivers/media/platform/renesas/rcar-vin/modules.order;   cat drivers/media/platform/renesas/rzg2l-cru/modules.order;   cat drivers/media/platform/renesas/vsp1/modules.order; :; } > drivers/media/platform/renesas/modules.order

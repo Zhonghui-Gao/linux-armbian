@@ -1,0 +1,3 @@
+drivers/phy/rockchip/phy-rockchip-dphy-rx0.o
+drivers/phy/rockchip/phy-rockchip-inno-csidphy.o
+drivers/phy/rockchip/phy-rockchip-inno-dsidphy.o

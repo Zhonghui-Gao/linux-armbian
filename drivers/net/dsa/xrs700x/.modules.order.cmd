@@ -1,0 +1,1 @@
+savedcmd_drivers/net/dsa/xrs700x/modules.order := {   echo drivers/net/dsa/xrs700x/xrs700x.o;   echo drivers/net/dsa/xrs700x/xrs700x_i2c.o;   echo drivers/net/dsa/xrs700x/xrs700x_mdio.o; :; } > drivers/net/dsa/xrs700x/modules.order

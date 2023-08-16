@@ -1,0 +1,1 @@
+savedcmd_drivers/md/dm-clone.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/md/dm-clone.ko drivers/md/dm-clone.o drivers/md/dm-clone.mod.o;  true

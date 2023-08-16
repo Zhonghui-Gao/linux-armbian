@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/trigger/iio-trig-hrtimer.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/trigger/iio-trig-hrtimer.ko drivers/iio/trigger/iio-trig-hrtimer.o drivers/iio/trigger/iio-trig-hrtimer.mod.o;  true

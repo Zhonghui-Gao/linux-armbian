@@ -1,0 +1,50 @@
+!<thin>
+//                                              484       `
+wcn_bus.o/
+platform/wcn_boot.o/
+platform/wcn_dump.o/
+platform/bufring.o/
+platform/wcn_txrx.o/
+platform/wcn_op.o/
+platform/wcn_parn_parser.o/
+platform/rdc_debug.o/
+platform/wcn_log.o/
+platform/wcn_misc.o/
+platform/wcn_procfs.o/
+platform/loopcheck.o/
+platform/wcn_swd_dp.o/
+sdio/sdiohal_main.o/
+sdio/sdiohal_common.o/
+sdio/sdiohal_tx.o/
+sdio/sdiohal_rx.o/
+sdio/sdio_v3.o/
+sdio/sdiohal_ctl.o/
+sleep/sdio_int.o/
+sleep/slp_mgr.o/
+sleep/slp_sdio.o/
+sleep/slp_test.o/
+platform/mem_pd_mgr.o/
+/0              0           0     0     644     14712     `
+/11             0           0     0     644     92544     `
+/32             0           0     0     644     41584     `
+/53             0           0     0     644     11064     `
+/73             0           0     0     644     11560     `
+/94             0           0     0     644     5264      `
+/113            0           0     0     644     6296      `
+/141            0           0     0     644     19072     `
+/163            0           0     0     644     14048     `
+/183            0           0     0     644     5648      `
+/204            0           0     0     644     31360     `
+/227            0           0     0     644     11536     `
+/249            0           0     0     644     10624     `
+/272            0           0     0     644     52616     `
+/293            0           0     0     644     32776     `
+/316            0           0     0     644     5920      `
+/335            0           0     0     644     9816      `
+/354            0           0     0     644     7576      `
+/370            0           0     0     644     28840     `
+/390            0           0     0     644     15040     `
+/408            0           0     0     644     9256      `
+/425            0           0     0     644     3144      `
+/443            0           0     0     644     2680      `
+/461            0           0     0     644     21312     `

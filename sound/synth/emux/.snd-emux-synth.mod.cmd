@@ -1,0 +1,1 @@
+savedcmd_sound/synth/emux/snd-emux-synth.mod := printf '%s\n'   emux.o emux_synth.o emux_seq.o emux_nrpn.o emux_effect.o emux_hwdep.o soundfont.o emux_proc.o | awk '!x[$$0]++ { print("sound/synth/emux/"$$0) }' > sound/synth/emux/snd-emux-synth.mod

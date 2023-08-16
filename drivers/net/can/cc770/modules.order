@@ -1,0 +1,3 @@
+drivers/net/can/cc770/cc770.o
+drivers/net/can/cc770/cc770_isa.o
+drivers/net/can/cc770/cc770_platform.o

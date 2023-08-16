@@ -1,0 +1,1 @@
+savedcmd_drivers/char/built-in.a := rm -f drivers/char/built-in.a;  printf "drivers/char/%s " mem.o random.o misc.o virtio_console.o hw_random/built-in.a agp/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/char/built-in.a

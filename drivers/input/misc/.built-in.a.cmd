@@ -1,0 +1,1 @@
+savedcmd_drivers/input/misc/built-in.a := rm -f drivers/input/misc/built-in.a;  printf "drivers/input/misc/%s " rk805-pwrkey.o xen-kbdfront.o | xargs aarch64-linux-gnu-ar cDPrST drivers/input/misc/built-in.a

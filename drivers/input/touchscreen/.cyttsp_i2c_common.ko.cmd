@@ -1,0 +1,1 @@
+savedcmd_drivers/input/touchscreen/cyttsp_i2c_common.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/cyttsp_i2c_common.ko drivers/input/touchscreen/cyttsp_i2c_common.o drivers/input/touchscreen/cyttsp_i2c_common.mod.o;  true

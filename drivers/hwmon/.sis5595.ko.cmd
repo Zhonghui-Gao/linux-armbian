@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/sis5595.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/sis5595.ko drivers/hwmon/sis5595.o drivers/hwmon/sis5595.mod.o;  true

@@ -1,0 +1,4 @@
+drivers/usb/usbip/usbip-core.o
+drivers/usb/usbip/vhci-hcd.o
+drivers/usb/usbip/usbip-host.o
+drivers/usb/usbip/usbip-vudc.o

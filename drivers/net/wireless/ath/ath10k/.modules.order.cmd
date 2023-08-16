@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/ath/ath10k/modules.order := {   echo drivers/net/wireless/ath/ath10k/ath10k_core.o;   echo drivers/net/wireless/ath/ath10k/ath10k_pci.o;   echo drivers/net/wireless/ath/ath10k/ath10k_sdio.o;   echo drivers/net/wireless/ath/ath10k/ath10k_usb.o; :; } > drivers/net/wireless/ath/ath10k/modules.order

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/asix/ax88796c.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/asix/ax88796c.ko drivers/net/ethernet/asix/ax88796c.o drivers/net/ethernet/asix/ax88796c.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/leds/trigger/ledtrig-backlight.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/leds/trigger/ledtrig-backlight.ko drivers/leds/trigger/ledtrig-backlight.o drivers/leds/trigger/ledtrig-backlight.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/staging/fbtft/fb_st7789v.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/staging/fbtft/fb_st7789v.ko drivers/staging/fbtft/fb_st7789v.o drivers/staging/fbtft/fb_st7789v.mod.o;  true

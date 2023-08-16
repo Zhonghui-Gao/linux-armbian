@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/pmbus/fsp-3y.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/pmbus/fsp-3y.ko drivers/hwmon/pmbus/fsp-3y.o drivers/hwmon/pmbus/fsp-3y.mod.o;  true

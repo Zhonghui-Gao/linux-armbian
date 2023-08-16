@@ -1,0 +1,1 @@
+savedcmd_drivers/net/dsa/b53/b53_mdio.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/dsa/b53/b53_mdio.ko drivers/net/dsa/b53/b53_mdio.o drivers/net/dsa/b53/b53_mdio.mod.o;  true

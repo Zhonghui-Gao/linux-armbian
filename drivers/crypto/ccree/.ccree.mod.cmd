@@ -1,0 +1,1 @@
+savedcmd_drivers/crypto/ccree/ccree.mod := printf '%s\n'   cc_driver.o cc_buffer_mgr.o cc_request_mgr.o cc_cipher.o cc_hash.o cc_aead.o cc_sram_mgr.o cc_debugfs.o cc_pm.o | awk '!x[$$0]++ { print("drivers/crypto/ccree/"$$0) }' > drivers/crypto/ccree/ccree.mod

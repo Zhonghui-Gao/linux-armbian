@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/realtek/rtlwifi/rtl8192ee/rtl8192ee.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/wireless/realtek/rtlwifi/rtl8192ee/rtl8192ee.o @drivers/net/wireless/realtek/rtlwifi/rtl8192ee/rtl8192ee.mod 

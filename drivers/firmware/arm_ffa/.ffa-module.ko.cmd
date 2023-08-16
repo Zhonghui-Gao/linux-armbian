@@ -1,0 +1,1 @@
+savedcmd_drivers/firmware/arm_ffa/ffa-module.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/firmware/arm_ffa/ffa-module.ko drivers/firmware/arm_ffa/ffa-module.o drivers/firmware/arm_ffa/ffa-module.mod.o;  true

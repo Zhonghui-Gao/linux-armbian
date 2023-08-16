@@ -1,0 +1,1 @@
+savedcmd_drivers/media/dvb-frontends/ves1x93.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/ves1x93.ko drivers/media/dvb-frontends/ves1x93.o drivers/media/dvb-frontends/ves1x93.mod.o;  true

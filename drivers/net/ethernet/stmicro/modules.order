@@ -1,0 +1,5 @@
+drivers/net/ethernet/stmicro/stmmac/stmmac.o
+drivers/net/ethernet/stmicro/stmmac/stmmac-platform.o
+drivers/net/ethernet/stmicro/stmmac/dwmac-rk.o
+drivers/net/ethernet/stmicro/stmmac/dwmac-generic.o
+drivers/net/ethernet/stmicro/stmmac/dwmac-loongson.o

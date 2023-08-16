@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/w83l786ng.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/w83l786ng.ko drivers/hwmon/w83l786ng.o drivers/hwmon/w83l786ng.mod.o;  true

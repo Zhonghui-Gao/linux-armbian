@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/hisilicon/built-in.a := rm -f drivers/net/ethernet/hisilicon/built-in.a;  printf "drivers/net/ethernet/hisilicon/%s " hix5hd2_gmac.o hns_mdio.o hns/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/net/ethernet/hisilicon/built-in.a

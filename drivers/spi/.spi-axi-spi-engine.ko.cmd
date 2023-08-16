@@ -1,0 +1,1 @@
+savedcmd_drivers/spi/spi-axi-spi-engine.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/spi/spi-axi-spi-engine.ko drivers/spi/spi-axi-spi-engine.o drivers/spi/spi-axi-spi-engine.mod.o;  true

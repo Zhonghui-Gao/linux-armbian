@@ -1,0 +1,1 @@
+savedcmd_sound/soc/generic/snd-soc-audio-graph-card2.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/generic/snd-soc-audio-graph-card2.ko sound/soc/generic/snd-soc-audio-graph-card2.o sound/soc/generic/snd-soc-audio-graph-card2.mod.o;  true

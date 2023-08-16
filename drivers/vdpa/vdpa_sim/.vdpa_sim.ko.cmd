@@ -1,0 +1,1 @@
+savedcmd_drivers/vdpa/vdpa_sim/vdpa_sim.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/vdpa/vdpa_sim/vdpa_sim.ko drivers/vdpa/vdpa_sim/vdpa_sim.o drivers/vdpa/vdpa_sim/vdpa_sim.mod.o;  true

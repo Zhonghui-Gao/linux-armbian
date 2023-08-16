@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/ath/ath11k/modules.order := {   echo drivers/net/wireless/ath/ath11k/ath11k.o;   echo drivers/net/wireless/ath/ath11k/ath11k_pci.o; :; } > drivers/net/wireless/ath/ath11k/modules.order

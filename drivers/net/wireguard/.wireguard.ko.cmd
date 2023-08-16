@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireguard/wireguard.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wireguard/wireguard.ko drivers/net/wireguard/wireguard.o drivers/net/wireguard/wireguard.mod.o;  true

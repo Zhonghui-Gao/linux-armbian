@@ -1,0 +1,1 @@
+savedcmd_drivers/input/misc/iqs7222.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/iqs7222.ko drivers/input/misc/iqs7222.o drivers/input/misc/iqs7222.mod.o;  true

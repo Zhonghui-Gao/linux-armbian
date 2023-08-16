@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/st/cw1200/modules.order := {   echo drivers/net/wireless/st/cw1200/cw1200_core.o;   echo drivers/net/wireless/st/cw1200/cw1200_wlan_sdio.o;   echo drivers/net/wireless/st/cw1200/cw1200_wlan_spi.o; :; } > drivers/net/wireless/st/cw1200/modules.order

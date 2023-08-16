@@ -1,0 +1,4 @@
+drivers/usb/class/cdc-acm.o
+drivers/usb/class/usblp.o
+drivers/usb/class/cdc-wdm.o
+drivers/usb/class/usbtmc.o

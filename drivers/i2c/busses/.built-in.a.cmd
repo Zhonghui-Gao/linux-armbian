@@ -1,0 +1,1 @@
+savedcmd_drivers/i2c/busses/built-in.a := rm -f drivers/i2c/busses/built-in.a;  printf "drivers/i2c/busses/%s " i2c-designware-common.o i2c-designware-master.o i2c-designware-platdrv.o i2c-rk3x.o i2c-cros-ec-tunnel.o | xargs aarch64-linux-gnu-ar cDPrST drivers/i2c/busses/built-in.a

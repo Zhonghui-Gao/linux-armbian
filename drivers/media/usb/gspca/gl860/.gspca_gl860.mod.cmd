@@ -1,0 +1,1 @@
+savedcmd_drivers/media/usb/gspca/gl860/gspca_gl860.mod := printf '%s\n'   gl860.o gl860-mi1320.o gl860-ov2640.o gl860-ov9655.o gl860-mi2020.o | awk '!x[$$0]++ { print("drivers/media/usb/gspca/gl860/"$$0) }' > drivers/media/usb/gspca/gl860/gspca_gl860.mod

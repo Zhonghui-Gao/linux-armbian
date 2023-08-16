@@ -1,0 +1,1 @@
+savedcmd_sound/drivers/snd-mtpav.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/drivers/snd-mtpav.ko sound/drivers/snd-mtpav.o sound/drivers/snd-mtpav.mod.o;  true

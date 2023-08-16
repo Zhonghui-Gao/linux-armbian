@@ -1,0 +1,1 @@
+savedcmd_sound/virtio/virtio_snd.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/virtio/virtio_snd.ko sound/virtio/virtio_snd.o sound/virtio/virtio_snd.mod.o;  true

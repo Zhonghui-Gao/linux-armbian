@@ -1,0 +1,3 @@
+drivers/vdpa/vdpa_sim/vdpa_sim.o
+drivers/vdpa/vdpa_sim/vdpa_sim_net.o
+drivers/vdpa/vdpa_sim/vdpa_sim_blk.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/can/peak_canfd/peak_pciefd.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/can/peak_canfd/peak_pciefd.o @drivers/net/can/peak_canfd/peak_pciefd.mod 

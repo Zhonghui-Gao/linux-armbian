@@ -1,0 +1,1 @@
+savedcmd_drivers/pci/endpoint/functions/pci-epf-ntb.mod := printf '%s\n'   pci-epf-ntb.o | awk '!x[$$0]++ { print("drivers/pci/endpoint/functions/"$$0) }' > drivers/pci/endpoint/functions/pci-epf-ntb.mod

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/dsa/microchip/modules.order := {   echo drivers/net/dsa/microchip/ksz_switch.o;   echo drivers/net/dsa/microchip/ksz9477_i2c.o;   echo drivers/net/dsa/microchip/ksz8863_smi.o; :; } > drivers/net/dsa/microchip/modules.order

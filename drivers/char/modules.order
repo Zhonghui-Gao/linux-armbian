@@ -1,0 +1,5 @@
+drivers/char/hw_random/arm_smccc_trng.o
+drivers/char/hw_random/cn10k-rng.o
+drivers/char/ttyprintk.o
+drivers/char/xillybus/xillybus_class.o
+drivers/char/xillybus/xillyusb.o

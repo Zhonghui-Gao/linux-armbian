@@ -1,0 +1,1 @@
+savedcmd_drivers/rtc/rtc-cadence.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-cadence.ko drivers/rtc/rtc-cadence.o drivers/rtc/rtc-cadence.mod.o;  true

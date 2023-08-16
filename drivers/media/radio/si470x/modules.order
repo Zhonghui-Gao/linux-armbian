@@ -1,0 +1,3 @@
+drivers/media/radio/si470x/radio-si470x-common.o
+drivers/media/radio/si470x/radio-si470x-usb.o
+drivers/media/radio/si470x/radio-si470x-i2c.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/input/misc/max77650-onkey.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/max77650-onkey.ko drivers/input/misc/max77650-onkey.o drivers/input/misc/max77650-onkey.mod.o;  true

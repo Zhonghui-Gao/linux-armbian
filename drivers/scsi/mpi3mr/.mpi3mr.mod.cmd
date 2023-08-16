@@ -1,0 +1,1 @@
+savedcmd_drivers/scsi/mpi3mr/mpi3mr.mod := printf '%s\n'   mpi3mr_os.o mpi3mr_fw.o mpi3mr_app.o mpi3mr_transport.o | awk '!x[$$0]++ { print("drivers/scsi/mpi3mr/"$$0) }' > drivers/scsi/mpi3mr/mpi3mr.mod

@@ -1,0 +1,1 @@
+savedcmd_drivers/xen/xen-pciback/xen-pciback.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/xen/xen-pciback/xen-pciback.ko drivers/xen/xen-pciback/xen-pciback.o drivers/xen/xen-pciback/xen-pciback.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/tty/n_hdlc.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/tty/n_hdlc.ko drivers/tty/n_hdlc.o drivers/tty/n_hdlc.mod.o;  true

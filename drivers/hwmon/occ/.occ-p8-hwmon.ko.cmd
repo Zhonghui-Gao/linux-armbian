@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/occ/occ-p8-hwmon.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/occ/occ-p8-hwmon.ko drivers/hwmon/occ/occ-p8-hwmon.o drivers/hwmon/occ/occ-p8-hwmon.mod.o;  true

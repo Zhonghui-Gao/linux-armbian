@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/ltc2947-core.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/ltc2947-core.ko drivers/hwmon/ltc2947-core.o drivers/hwmon/ltc2947-core.mod.o;  true

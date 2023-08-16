@@ -1,0 +1,8 @@
+drivers/leds/trigger/ledtrig-oneshot.o
+drivers/leds/trigger/ledtrig-backlight.o
+drivers/leds/trigger/ledtrig-transient.o
+drivers/leds/trigger/ledtrig-camera.o
+drivers/leds/trigger/ledtrig-netdev.o
+drivers/leds/trigger/ledtrig-pattern.o
+drivers/leds/trigger/ledtrig-audio.o
+drivers/leds/trigger/ledtrig-tty.o

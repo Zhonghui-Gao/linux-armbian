@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/bridge/built-in.a := rm -f drivers/gpu/drm/bridge/built-in.a;  printf "drivers/gpu/drm/bridge/%s " analogix/built-in.a cadence/built-in.a imx/built-in.a synopsys/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/gpu/drm/bridge/built-in.a

@@ -1,0 +1,1 @@
+savedcmd_drivers/nfc/st-nci/modules.order := {   echo drivers/nfc/st-nci/st-nci.o;   echo drivers/nfc/st-nci/st-nci_i2c.o;   echo drivers/nfc/st-nci/st-nci_spi.o; :; } > drivers/nfc/st-nci/modules.order

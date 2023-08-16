@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/common/hid-sensors/hid-sensor-iio-common.mod := printf '%s\n'   hid-sensor-attributes.o | awk '!x[$$0]++ { print("drivers/iio/common/hid-sensors/"$$0) }' > drivers/iio/common/hid-sensors/hid-sensor-iio-common.mod

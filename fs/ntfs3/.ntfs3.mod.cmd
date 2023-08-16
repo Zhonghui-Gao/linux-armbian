@@ -1,0 +1,1 @@
+savedcmd_fs/ntfs3/ntfs3.mod := printf '%s\n'   attrib.o attrlist.o bitfunc.o bitmap.o dir.o fsntfs.o frecord.o file.o fslog.o inode.o index.o lznt.o namei.o record.o run.o super.o upcase.o xattr.o lib/decompress_common.o lib/lzx_decompress.o lib/xpress_decompress.o | awk '!x[$$0]++ { print("fs/ntfs3/"$$0) }' > fs/ntfs3/ntfs3.mod

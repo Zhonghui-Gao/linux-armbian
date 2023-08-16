@@ -1,0 +1,2 @@
+drivers/cxl/core/cxl_core.o
+drivers/cxl/cxl_port.o

@@ -1,0 +1,5 @@
+drivers/input/joystick/iforce/iforce.o
+drivers/input/joystick/iforce/iforce-usb.o
+drivers/input/joystick/qwiic-joystick.o
+drivers/input/joystick/sensehat-joystick.o
+drivers/input/joystick/xpad.o

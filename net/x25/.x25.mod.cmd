@@ -1,0 +1,1 @@
+savedcmd_net/x25/x25.mod := printf '%s\n'   af_x25.o x25_dev.o x25_facilities.o x25_in.o x25_link.o x25_out.o x25_route.o x25_subr.o x25_timer.o x25_proc.o x25_forward.o sysctl_net_x25.o | awk '!x[$$0]++ { print("net/x25/"$$0) }' > net/x25/x25.mod

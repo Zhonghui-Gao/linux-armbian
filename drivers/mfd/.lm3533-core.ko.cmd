@@ -1,0 +1,1 @@
+savedcmd_drivers/mfd/lm3533-core.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/mfd/lm3533-core.ko drivers/mfd/lm3533-core.o drivers/mfd/lm3533-core.mod.o;  true

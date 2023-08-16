@@ -1,0 +1,3 @@
+drivers/net/dsa/microchip/ksz_switch.o
+drivers/net/dsa/microchip/ksz9477_i2c.o
+drivers/net/dsa/microchip/ksz8863_smi.o

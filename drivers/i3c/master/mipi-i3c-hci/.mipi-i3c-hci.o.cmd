@@ -1,0 +1,1 @@
+savedcmd_drivers/i3c/master/mipi-i3c-hci/mipi-i3c-hci.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/i3c/master/mipi-i3c-hci/mipi-i3c-hci.o @drivers/i3c/master/mipi-i3c-hci/mipi-i3c-hci.mod 

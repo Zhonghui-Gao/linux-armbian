@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/gadget/function/usb_f_printer.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/usb/gadget/function/usb_f_printer.o @drivers/usb/gadget/function/usb_f_printer.mod 

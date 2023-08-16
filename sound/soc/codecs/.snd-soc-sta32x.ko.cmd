@@ -1,0 +1,1 @@
+savedcmd_sound/soc/codecs/snd-soc-sta32x.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-sta32x.ko sound/soc/codecs/snd-soc-sta32x.o sound/soc/codecs/snd-soc-sta32x.mod.o;  true

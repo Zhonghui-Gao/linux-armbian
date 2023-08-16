@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/rtl8189fs/8189fs.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack --strip-debug  -r -o drivers/net/wireless/rtl8189fs/8189fs.o @drivers/net/wireless/rtl8189fs/8189fs.mod 

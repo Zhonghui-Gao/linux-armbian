@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/potentiometer/modules.order := {   echo drivers/iio/potentiometer/ad5110.o;   echo drivers/iio/potentiometer/ad5272.o;   echo drivers/iio/potentiometer/max5432.o;   echo drivers/iio/potentiometer/mcp4018.o;   echo drivers/iio/potentiometer/mcp41010.o; :; } > drivers/iio/potentiometer/modules.order

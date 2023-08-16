@@ -1,0 +1,6 @@
+drivers/iio/common/hid-sensors/hid-sensor-iio-common.o
+drivers/iio/common/hid-sensors/hid-sensor-trigger.o
+drivers/iio/common/ms_sensors/ms_sensors_i2c.o
+drivers/iio/common/st_sensors/st_sensors_i2c.o
+drivers/iio/common/st_sensors/st_sensors_spi.o
+drivers/iio/common/st_sensors/st_sensors.o

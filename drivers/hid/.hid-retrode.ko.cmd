@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/hid-retrode.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-retrode.ko drivers/hid/hid-retrode.o drivers/hid/hid-retrode.mod.o;  true

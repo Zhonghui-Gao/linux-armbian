@@ -1,0 +1,1 @@
+savedcmd_drivers/dma/virt-dma.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/dma/virt-dma.ko drivers/dma/virt-dma.o drivers/dma/virt-dma.mod.o;  true

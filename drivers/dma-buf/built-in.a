@@ -1,0 +1,17 @@
+!<thin>
+//                                              108       `
+dma-buf.o/
+dma-fence.o/
+dma-fence-array.o/
+dma-fence-chain.o/
+dma-fence-unwrap.o/
+dma-resv.o/
+sync_file.o/
+
+/0              0           0     0     644     41136     `
+/11             0           0     0     644     44752     `
+/24             0           0     0     644     10720     `
+/43             0           0     0     644     15448     `
+/62             0           0     0     644     6680      `
+/82             0           0     0     644     23944     `
+/94             0           0     0     644     11176     `

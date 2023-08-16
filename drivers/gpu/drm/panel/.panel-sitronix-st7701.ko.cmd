@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/panel/panel-sitronix-st7701.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/panel/panel-sitronix-st7701.ko drivers/gpu/drm/panel/panel-sitronix-st7701.o drivers/gpu/drm/panel/panel-sitronix-st7701.mod.o;  true

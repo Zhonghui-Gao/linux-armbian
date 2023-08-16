@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/realtek/rtlwifi/rtl8723com/rtl8723-common.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/wireless/realtek/rtlwifi/rtl8723com/rtl8723-common.o @drivers/net/wireless/realtek/rtlwifi/rtl8723com/rtl8723-common.mod 

@@ -1,0 +1,1 @@
+savedcmd_drivers/input/touchscreen/tps6507x-ts.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/tps6507x-ts.ko drivers/input/touchscreen/tps6507x-ts.o drivers/input/touchscreen/tps6507x-ts.mod.o;  true

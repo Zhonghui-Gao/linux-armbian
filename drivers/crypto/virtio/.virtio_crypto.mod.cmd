@@ -1,0 +1,1 @@
+savedcmd_drivers/crypto/virtio/virtio_crypto.mod := printf '%s\n'   virtio_crypto_skcipher_algs.o virtio_crypto_akcipher_algs.o virtio_crypto_mgr.o virtio_crypto_core.o | awk '!x[$$0]++ { print("drivers/crypto/virtio/"$$0) }' > drivers/crypto/virtio/virtio_crypto.mod

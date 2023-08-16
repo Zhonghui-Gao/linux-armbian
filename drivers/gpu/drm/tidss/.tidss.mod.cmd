@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/tidss/tidss.mod := printf '%s\n'   tidss_crtc.o tidss_drv.o tidss_encoder.o tidss_kms.o tidss_irq.o tidss_plane.o tidss_scale_coefs.o tidss_dispc.o | awk '!x[$$0]++ { print("drivers/gpu/drm/tidss/"$$0) }' > drivers/gpu/drm/tidss/tidss.mod

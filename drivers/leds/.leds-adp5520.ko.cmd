@@ -1,0 +1,1 @@
+savedcmd_drivers/leds/leds-adp5520.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/leds/leds-adp5520.ko drivers/leds/leds-adp5520.o drivers/leds/leds-adp5520.mod.o;  true

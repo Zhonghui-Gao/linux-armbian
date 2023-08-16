@@ -1,0 +1,5 @@
+net/bluetooth/bluetooth.o
+net/bluetooth/rfcomm/rfcomm.o
+net/bluetooth/bnep/bnep.o
+net/bluetooth/hidp/hidp.o
+net/bluetooth/bluetooth_6lowpan.o

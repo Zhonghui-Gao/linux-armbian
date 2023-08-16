@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/uwe5622/tty-sdio/sprdbt_tty.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/wireless/uwe5622/tty-sdio/sprdbt_tty.o @drivers/net/wireless/uwe5622/tty-sdio/sprdbt_tty.mod 

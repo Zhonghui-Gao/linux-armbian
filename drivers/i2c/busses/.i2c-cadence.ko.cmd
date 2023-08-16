@@ -1,0 +1,1 @@
+savedcmd_drivers/i2c/busses/i2c-cadence.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/i2c/busses/i2c-cadence.ko drivers/i2c/busses/i2c-cadence.o drivers/i2c/busses/i2c-cadence.mod.o;  true

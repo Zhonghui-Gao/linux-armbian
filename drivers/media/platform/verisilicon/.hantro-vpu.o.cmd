@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/verisilicon/hantro-vpu.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/media/platform/verisilicon/hantro-vpu.o @drivers/media/platform/verisilicon/hantro-vpu.mod 

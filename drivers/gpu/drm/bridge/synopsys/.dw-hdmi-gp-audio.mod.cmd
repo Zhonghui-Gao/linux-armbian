@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/bridge/synopsys/dw-hdmi-gp-audio.mod := printf '%s\n'   dw-hdmi-gp-audio.o | awk '!x[$$0]++ { print("drivers/gpu/drm/bridge/synopsys/"$$0) }' > drivers/gpu/drm/bridge/synopsys/dw-hdmi-gp-audio.mod

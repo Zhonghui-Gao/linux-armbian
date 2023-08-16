@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/isp1760/built-in.a := rm -f drivers/usb/isp1760/built-in.a;  printf "drivers/usb/isp1760/%s " isp1760-core.o isp1760-if.o isp1760-hcd.o isp1760-udc.o | xargs aarch64-linux-gnu-ar cDPrST drivers/usb/isp1760/built-in.a

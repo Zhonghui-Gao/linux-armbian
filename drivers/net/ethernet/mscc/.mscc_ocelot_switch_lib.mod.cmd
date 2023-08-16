@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/mscc/mscc_ocelot_switch_lib.mod := printf '%s\n'   ocelot.o ocelot_devlink.o ocelot_flower.o ocelot_io.o ocelot_mm.o ocelot_police.o ocelot_ptp.o ocelot_stats.o ocelot_vcap.o vsc7514_regs.o | awk '!x[$$0]++ { print("drivers/net/ethernet/mscc/"$$0) }' > drivers/net/ethernet/mscc/mscc_ocelot_switch_lib.mod

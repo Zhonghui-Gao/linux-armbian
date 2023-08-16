@@ -1,0 +1,1 @@
+savedcmd_drivers/nfc/st-nci/st-nci.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/nfc/st-nci/st-nci.ko drivers/nfc/st-nci/st-nci.o drivers/nfc/st-nci/st-nci.mod.o;  true

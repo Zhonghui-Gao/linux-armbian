@@ -1,0 +1,3 @@
+drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0u.o
+drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0e.o
+drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0-common.o

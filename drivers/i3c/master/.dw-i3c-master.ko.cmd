@@ -1,0 +1,1 @@
+savedcmd_drivers/i3c/master/dw-i3c-master.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/i3c/master/dw-i3c-master.ko drivers/i3c/master/dw-i3c-master.o drivers/i3c/master/dw-i3c-master.mod.o;  true

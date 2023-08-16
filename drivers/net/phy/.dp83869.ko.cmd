@@ -1,0 +1,1 @@
+savedcmd_drivers/net/phy/dp83869.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/phy/dp83869.ko drivers/net/phy/dp83869.o drivers/net/phy/dp83869.mod.o;  true

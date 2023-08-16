@@ -1,0 +1,1 @@
+savedcmd_drivers/crypto/hisilicon/sec/hisi_sec.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/crypto/hisilicon/sec/hisi_sec.ko drivers/crypto/hisilicon/sec/hisi_sec.o drivers/crypto/hisilicon/sec/hisi_sec.mod.o;  true

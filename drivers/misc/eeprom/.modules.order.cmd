@@ -1,0 +1,1 @@
+savedcmd_drivers/misc/eeprom/modules.order := {   echo drivers/misc/eeprom/at24.o;   echo drivers/misc/eeprom/at25.o;   echo drivers/misc/eeprom/eeprom.o;   echo drivers/misc/eeprom/eeprom_93cx6.o;   echo drivers/misc/eeprom/ee1004.o; :; } > drivers/misc/eeprom/modules.order

@@ -1,0 +1,1 @@
+savedcmd_drivers/rtc/rtc-rc5t583.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-rc5t583.ko drivers/rtc/rtc-rc5t583.o drivers/rtc/rtc-rc5t583.mod.o;  true

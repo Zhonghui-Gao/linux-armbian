@@ -1,0 +1,16 @@
+drivers/net/wwan/t7xx/t7xx_pci.o
+drivers/net/wwan/t7xx/t7xx_pcie_mac.o
+drivers/net/wwan/t7xx/t7xx_mhccif.o
+drivers/net/wwan/t7xx/t7xx_state_monitor.o
+drivers/net/wwan/t7xx/t7xx_modem_ops.o
+drivers/net/wwan/t7xx/t7xx_cldma.o
+drivers/net/wwan/t7xx/t7xx_hif_cldma.o
+drivers/net/wwan/t7xx/t7xx_port_proxy.o
+drivers/net/wwan/t7xx/t7xx_port_ctrl_msg.o
+drivers/net/wwan/t7xx/t7xx_port_wwan.o
+drivers/net/wwan/t7xx/t7xx_hif_dpmaif.o
+drivers/net/wwan/t7xx/t7xx_hif_dpmaif_tx.o
+drivers/net/wwan/t7xx/t7xx_hif_dpmaif_rx.o
+drivers/net/wwan/t7xx/t7xx_dpmaif.o
+drivers/net/wwan/t7xx/t7xx_netdev.o
+drivers/net/wwan/t7xx/t7xx_port_trace.o

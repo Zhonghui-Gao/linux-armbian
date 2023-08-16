@@ -1,0 +1,1 @@
+savedcmd_net/ieee802154/6lowpan/ieee802154_6lowpan.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o net/ieee802154/6lowpan/ieee802154_6lowpan.o @net/ieee802154/6lowpan/ieee802154_6lowpan.mod 

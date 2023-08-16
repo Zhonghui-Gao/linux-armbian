@@ -1,0 +1,1 @@
+savedcmd_drivers/power/supply/lt3651-charger.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/lt3651-charger.ko drivers/power/supply/lt3651-charger.o drivers/power/supply/lt3651-charger.mod.o;  true

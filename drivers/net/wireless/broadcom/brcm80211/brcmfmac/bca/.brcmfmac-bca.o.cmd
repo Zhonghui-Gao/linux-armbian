@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/broadcom/brcm80211/brcmfmac/bca/brcmfmac-bca.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/wireless/broadcom/brcm80211/brcmfmac/bca/brcmfmac-bca.o @drivers/net/wireless/broadcom/brcm80211/brcmfmac/bca/brcmfmac-bca.mod 

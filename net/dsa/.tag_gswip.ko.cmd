@@ -1,0 +1,1 @@
+savedcmd_net/dsa/tag_gswip.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/dsa/tag_gswip.ko net/dsa/tag_gswip.o net/dsa/tag_gswip.mod.o;  true

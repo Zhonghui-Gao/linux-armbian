@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/atheros/atl1c/atl1c.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/ethernet/atheros/atl1c/atl1c.o @drivers/net/ethernet/atheros/atl1c/atl1c.mod 

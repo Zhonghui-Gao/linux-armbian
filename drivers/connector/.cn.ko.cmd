@@ -1,0 +1,1 @@
+savedcmd_drivers/connector/cn.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/connector/cn.ko drivers/connector/cn.o drivers/connector/cn.mod.o;  true

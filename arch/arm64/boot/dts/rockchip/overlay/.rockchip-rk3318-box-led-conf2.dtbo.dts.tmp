@@ -1,0 +1,59 @@
+# 0 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3318-box-led-conf2.dts"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3318-box-led-conf2.dts"
+/dts-v1/;
+/plugin/;
+
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h" 1
+# 5 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3318-box-led-conf2.dts" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/input/input.h" 1
+# 13 "./scripts/dtc/include-prefixes/dt-bindings/input/input.h"
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/input/linux-event-codes.h" 1
+# 14 "./scripts/dtc/include-prefixes/dt-bindings/input/input.h" 2
+# 6 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3318-box-led-conf2.dts" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/pinctrl/rockchip.h" 1
+# 7 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3318-box-led-conf2.dts" 2
+
+
+&gpio_led {
+
+ working {
+  gpios = <&gpio2 6 1>;
+  linux,default-trigger = "mmc2";
+ };
+# 29 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3318-box-led-conf2.dts"
+};
+
+&vcc_otg_vbus {
+ gpio = <&gpio0 27 0>;
+};
+
+&working_led {
+ rockchip,pins = <2 6 0 &pcfg_pull_none_2ma>;
+};
+
+&io_domains {
+ vccio6-supply = <&vcc_18>;
+};
+
+
+
+
+&sdio {
+ /delete-property/ mmc-pwrseq;
+ status = "disabled";
+};
+
+&sdio_ext {
+ mmc-pwrseq = <&sdio_pwrseq>;
+ status = "okay";
+};
+
+&sdmmc_ext {
+ status = "disabled";
+};
+
+&spdif {
+ pinctrl-0 = <&spdifm1_tx>;
+};

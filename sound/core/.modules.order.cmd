@@ -1,0 +1,1 @@
+savedcmd_sound/core/modules.order := {   echo sound/core/snd.o;   echo sound/core/snd-hwdep.o;   echo sound/core/snd-timer.o;   echo sound/core/snd-pcm.o;   echo sound/core/snd-pcm-dmaengine.o;   echo sound/core/snd-seq-device.o;   echo sound/core/snd-rawmidi.o;   cat sound/core/seq/modules.order;   echo sound/core/snd-compress.o; :; } > sound/core/modules.order

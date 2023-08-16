@@ -1,0 +1,1 @@
+savedcmd_arch/arm64/kvm/hyp/vhe/built-in.a := rm -f arch/arm64/kvm/hyp/vhe/built-in.a;  printf "arch/arm64/kvm/hyp/vhe/%s " timer-sr.o sysreg-sr.o debug-sr.o switch.o tlb.o ../vgic-v3-sr.o ../aarch32.o ../vgic-v2-cpuif-proxy.o ../entry.o ../fpsimd.o ../hyp-entry.o ../exception.o | xargs aarch64-linux-gnu-ar cDPrST arch/arm64/kvm/hyp/vhe/built-in.a

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu.o @drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu.mod 

@@ -1,0 +1,5 @@
+drivers/i3c/i3c.o
+drivers/i3c/master/i3c-master-cdns.o
+drivers/i3c/master/dw-i3c-master.o
+drivers/i3c/master/svc-i3c-master.o
+drivers/i3c/master/mipi-i3c-hci/mipi-i3c-hci.o

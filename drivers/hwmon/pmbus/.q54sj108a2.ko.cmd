@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/pmbus/q54sj108a2.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/pmbus/q54sj108a2.ko drivers/hwmon/pmbus/q54sj108a2.o drivers/hwmon/pmbus/q54sj108a2.mod.o;  true

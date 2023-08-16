@@ -1,0 +1,1 @@
+savedcmd_drivers/input/keyboard/cypress-sf.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/keyboard/cypress-sf.ko drivers/input/keyboard/cypress-sf.o drivers/input/keyboard/cypress-sf.mod.o;  true

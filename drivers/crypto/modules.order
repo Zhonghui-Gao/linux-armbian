@@ -1,0 +1,10 @@
+drivers/crypto/hisilicon/sec/hisi_sec.o
+drivers/crypto/atmel-i2c.o
+drivers/crypto/atmel-ecc.o
+drivers/crypto/atmel-sha204a.o
+drivers/crypto/cavium/zip/thunderx_zip.o
+drivers/crypto/ccree/ccree.o
+drivers/crypto/cavium/nitrox/n5pf.o
+drivers/crypto/rockchip/rk_crypto.o
+drivers/crypto/virtio/virtio_crypto.o
+drivers/crypto/inside-secure/crypto_safexcel.o

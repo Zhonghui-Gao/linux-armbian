@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/ti/wlcore/wlcore_spi.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/wireless/ti/wlcore/wlcore_spi.o @drivers/net/wireless/ti/wlcore/wlcore_spi.mod 

@@ -1,0 +1,1 @@
+savedcmd_drivers/leds/leds-an30259a.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/leds/leds-an30259a.ko drivers/leds/leds-an30259a.o drivers/leds/leds-an30259a.mod.o;  true

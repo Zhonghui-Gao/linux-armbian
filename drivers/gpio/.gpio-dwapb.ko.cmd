@@ -1,0 +1,1 @@
+savedcmd_drivers/gpio/gpio-dwapb.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpio/gpio-dwapb.ko drivers/gpio/gpio-dwapb.o drivers/gpio/gpio-dwapb.mod.o;  true

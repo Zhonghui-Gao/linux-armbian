@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/marvell/octeontx2/nic/rvu_nicpf.mod := printf '%s\n'   otx2_pf.o otx2_common.o otx2_txrx.o otx2_ethtool.o otx2_flows.o otx2_tc.o cn10k.o otx2_dmac_flt.o otx2_devlink.o otx2_dcbnl.o cn10k_macsec.o | awk '!x[$$0]++ { print("drivers/net/ethernet/marvell/octeontx2/nic/"$$0) }' > drivers/net/ethernet/marvell/octeontx2/nic/rvu_nicpf.mod

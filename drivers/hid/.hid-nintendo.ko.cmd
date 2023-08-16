@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/hid-nintendo.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-nintendo.ko drivers/hid/hid-nintendo.o drivers/hid/hid-nintendo.mod.o;  true

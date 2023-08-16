@@ -1,0 +1,1 @@
+savedcmd_drivers/net/can/m_can/tcan4x5x.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/can/m_can/tcan4x5x.ko drivers/net/can/m_can/tcan4x5x.o drivers/net/can/m_can/tcan4x5x.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/ath/ath9k/ath9k_pci_owl_loader.mod := printf '%s\n'   ath9k_pci_owl_loader.o | awk '!x[$$0]++ { print("drivers/net/wireless/ath/ath9k/"$$0) }' > drivers/net/wireless/ath/ath9k/ath9k_pci_owl_loader.mod

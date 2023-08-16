@@ -1,0 +1,9 @@
+drivers/dma/virt-dma.o
+drivers/dma/altera-msgdma.o
+drivers/dma/bcm-sba-raid.o
+drivers/dma/dw-axi-dmac/dw-axi-dmac-platform.o
+drivers/dma/dw-edma/dw-edma.o
+drivers/dma/dw-edma/dw-edma-pcie.o
+drivers/dma/fsl-qdma.o
+drivers/dma/plx_dma.o
+drivers/dma/sf-pdma/sf-pdma.o

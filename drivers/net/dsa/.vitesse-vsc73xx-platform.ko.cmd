@@ -1,0 +1,1 @@
+savedcmd_drivers/net/dsa/vitesse-vsc73xx-platform.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/dsa/vitesse-vsc73xx-platform.ko drivers/net/dsa/vitesse-vsc73xx-platform.o drivers/net/dsa/vitesse-vsc73xx-platform.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/dsa/b53/modules.order := {   echo drivers/net/dsa/b53/b53_common.o;   echo drivers/net/dsa/b53/b53_spi.o;   echo drivers/net/dsa/b53/b53_mdio.o;   echo drivers/net/dsa/b53/b53_mmap.o;   echo drivers/net/dsa/b53/b53_srab.o;   echo drivers/net/dsa/b53/b53_serdes.o; :; } > drivers/net/dsa/b53/modules.order

@@ -1,0 +1,15 @@
+drivers/net/wireless/ssv6051/ssv6051-generic-wlan.o
+drivers/net/wireless/ssv6051/ssvdevice/ssvdevice.o
+drivers/net/wireless/ssv6051/ssvdevice/ssv_cmd.o
+drivers/net/wireless/ssv6051/hci/ssv_hci.o
+drivers/net/wireless/ssv6051/smac/init.o
+drivers/net/wireless/ssv6051/smac/dev.o
+drivers/net/wireless/ssv6051/smac/ssv_rc.o
+drivers/net/wireless/ssv6051/smac/ssv_ht_rc.o
+drivers/net/wireless/ssv6051/smac/ap.o
+drivers/net/wireless/ssv6051/smac/ampdu.o
+drivers/net/wireless/ssv6051/smac/efuse.o
+drivers/net/wireless/ssv6051/smac/ssv_pm.o
+drivers/net/wireless/ssv6051/smac/sar.o
+drivers/net/wireless/ssv6051/smac/ssv_cfgvendor.o
+drivers/net/wireless/ssv6051/hwif/sdio/sdio.o

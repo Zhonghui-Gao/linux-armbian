@@ -1,0 +1,1 @@
+savedcmd_drivers/vfio/pci/built-in.a := rm -f drivers/vfio/pci/built-in.a;  printf "drivers/vfio/pci/%s " vfio_pci_core.o vfio_pci_intrs.o vfio_pci_rdwr.o vfio_pci_config.o vfio_pci.o | xargs aarch64-linux-gnu-ar cDPrST drivers/vfio/pci/built-in.a

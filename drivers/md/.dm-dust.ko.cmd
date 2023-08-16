@@ -1,0 +1,1 @@
+savedcmd_drivers/md/dm-dust.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/md/dm-dust.ko drivers/md/dm-dust.o drivers/md/dm-dust.mod.o;  true

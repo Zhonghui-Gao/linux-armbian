@@ -1,0 +1,1 @@
+savedcmd_sound/i2c/snd-cs8427.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/i2c/snd-cs8427.ko sound/i2c/snd-cs8427.o sound/i2c/snd-cs8427.mod.o;  true

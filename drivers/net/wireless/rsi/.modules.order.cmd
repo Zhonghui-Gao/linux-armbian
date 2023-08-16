@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/rsi/modules.order := {   echo drivers/net/wireless/rsi/rsi_91x.o;   echo drivers/net/wireless/rsi/rsi_sdio.o;   echo drivers/net/wireless/rsi/rsi_usb.o; :; } > drivers/net/wireless/rsi/modules.order

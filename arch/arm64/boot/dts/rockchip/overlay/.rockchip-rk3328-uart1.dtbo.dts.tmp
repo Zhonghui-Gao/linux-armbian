@@ -1,0 +1,21 @@
+# 0 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3328-uart1.dts"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3328-uart1.dts"
+/dts-v1/;
+
+/ {
+ compatible = "rockchip,rk3328";
+
+ fragment@1 {
+  target = <0xffffffff>;
+
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+ __fixups__ {
+  uart1 = "/fragment@1:target:0";
+ };
+};

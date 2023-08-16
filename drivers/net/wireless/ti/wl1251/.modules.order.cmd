@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/ti/wl1251/modules.order := {   echo drivers/net/wireless/ti/wl1251/wl1251.o;   echo drivers/net/wireless/ti/wl1251/wl1251_spi.o;   echo drivers/net/wireless/ti/wl1251/wl1251_sdio.o; :; } > drivers/net/wireless/ti/wl1251/modules.order

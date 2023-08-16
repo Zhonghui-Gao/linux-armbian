@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/mscc/mscc_ocelot.mod := printf '%s\n'   ocelot_fdma.o ocelot_net.o ocelot_vsc7514.o | awk '!x[$$0]++ { print("drivers/net/ethernet/mscc/"$$0) }' > drivers/net/ethernet/mscc/mscc_ocelot.mod

@@ -1,0 +1,1 @@
+savedcmd_sound/virtio/virtio_snd.mod := printf '%s\n'   virtio_card.o virtio_chmap.o virtio_ctl_msg.o virtio_jack.o virtio_pcm.o virtio_pcm_msg.o virtio_pcm_ops.o | awk '!x[$$0]++ { print("sound/virtio/"$$0) }' > sound/virtio/virtio_snd.mod
