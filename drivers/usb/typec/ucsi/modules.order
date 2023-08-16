@@ -1,0 +1,2 @@
+drivers/usb/typec/ucsi/typec_ucsi.o
+drivers/usb/typec/ucsi/ucsi_ccg.o

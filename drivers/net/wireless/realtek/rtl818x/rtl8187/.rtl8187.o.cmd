@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8187.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8187.o @drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8187.mod 

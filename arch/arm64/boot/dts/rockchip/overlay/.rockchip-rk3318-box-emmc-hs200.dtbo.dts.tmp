@@ -1,0 +1,18 @@
+# 0 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3318-box-emmc-hs200.dts"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3318-box-emmc-hs200.dts"
+/dts-v1/;
+/plugin/;
+
+/ {
+
+ fragment@0 {
+  target = <&emmc>;
+  __overlay__ {
+   status = "okay";
+   mmc-hs200-1_8v;
+  };
+ };
+
+};

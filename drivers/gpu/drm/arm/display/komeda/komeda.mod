@@ -1,0 +1,15 @@
+drivers/gpu/drm/arm/display/komeda/komeda_drv.o
+drivers/gpu/drm/arm/display/komeda/komeda_dev.o
+drivers/gpu/drm/arm/display/komeda/komeda_format_caps.o
+drivers/gpu/drm/arm/display/komeda/komeda_color_mgmt.o
+drivers/gpu/drm/arm/display/komeda/komeda_pipeline.o
+drivers/gpu/drm/arm/display/komeda/komeda_pipeline_state.o
+drivers/gpu/drm/arm/display/komeda/komeda_framebuffer.o
+drivers/gpu/drm/arm/display/komeda/komeda_kms.o
+drivers/gpu/drm/arm/display/komeda/komeda_crtc.o
+drivers/gpu/drm/arm/display/komeda/komeda_plane.o
+drivers/gpu/drm/arm/display/komeda/komeda_wb_connector.o
+drivers/gpu/drm/arm/display/komeda/komeda_private_obj.o
+drivers/gpu/drm/arm/display/komeda/komeda_event.o
+drivers/gpu/drm/arm/display/komeda/d71/d71_dev.o
+drivers/gpu/drm/arm/display/komeda/d71/d71_component.o

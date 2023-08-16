@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ppp/ppp_synctty.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/ppp/ppp_synctty.ko drivers/net/ppp/ppp_synctty.o drivers/net/ppp/ppp_synctty.mod.o;  true

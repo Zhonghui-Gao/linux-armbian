@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/imu/built-in.a := rm -f drivers/iio/imu/built-in.a;  printf "drivers/iio/imu/%s " bmi160/built-in.a bno055/built-in.a inv_icm42600/built-in.a inv_mpu6050/built-in.a st_lsm6dsx/built-in.a st_lsm9ds0/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/iio/imu/built-in.a

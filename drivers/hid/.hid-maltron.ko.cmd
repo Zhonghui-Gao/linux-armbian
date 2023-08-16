@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/hid-maltron.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-maltron.ko drivers/hid/hid-maltron.o drivers/hid/hid-maltron.mod.o;  true

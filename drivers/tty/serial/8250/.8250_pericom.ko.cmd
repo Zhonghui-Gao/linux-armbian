@@ -1,0 +1,1 @@
+savedcmd_drivers/tty/serial/8250/8250_pericom.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/tty/serial/8250/8250_pericom.ko drivers/tty/serial/8250/8250_pericom.o drivers/tty/serial/8250/8250_pericom.mod.o;  true

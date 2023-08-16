@@ -1,0 +1,1 @@
+savedcmd_net/ieee802154/ieee802154.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/ieee802154/ieee802154.ko net/ieee802154/ieee802154.o net/ieee802154/ieee802154.mod.o;  true

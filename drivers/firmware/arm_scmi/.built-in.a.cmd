@@ -1,0 +1,1 @@
+savedcmd_drivers/firmware/arm_scmi/built-in.a := rm -f drivers/firmware/arm_scmi/built-in.a;  printf "drivers/firmware/arm_scmi/%s " bus.o driver.o notify.o base.o clock.o perf.o power.o reset.o sensors.o system.o voltage.o powercap.o shmem.o mailbox.o smc.o scmi_pm_domain.o | xargs aarch64-linux-gnu-ar cDPrST drivers/firmware/arm_scmi/built-in.a

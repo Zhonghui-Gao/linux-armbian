@@ -1,0 +1,1 @@
+savedcmd_drivers/dma/dw-axi-dmac/dw-axi-dmac-platform.mod := printf '%s\n'   dw-axi-dmac-platform.o | awk '!x[$$0]++ { print("drivers/dma/dw-axi-dmac/"$$0) }' > drivers/dma/dw-axi-dmac/dw-axi-dmac-platform.mod

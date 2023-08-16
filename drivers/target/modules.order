@@ -1,0 +1,7 @@
+drivers/target/target_core_mod.o
+drivers/target/target_core_iblock.o
+drivers/target/target_core_file.o
+drivers/target/target_core_pscsi.o
+drivers/target/target_core_user.o
+drivers/target/loopback/tcm_loop.o
+drivers/target/iscsi/iscsi_target_mod.o

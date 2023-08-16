@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/display/built-in.a := rm -f drivers/gpu/drm/display/built-in.a;  printf "drivers/gpu/drm/display/%s " drm_display_helper_mod.o drm_dp_dual_mode_helper.o drm_dp_helper.o drm_dp_mst_topology.o drm_dsc_helper.o drm_hdmi_helper.o drm_scdc_helper.o drm_dp_cec.o | xargs aarch64-linux-gnu-ar cDPrST drivers/gpu/drm/display/built-in.a

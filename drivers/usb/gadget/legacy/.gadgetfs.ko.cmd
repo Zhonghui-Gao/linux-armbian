@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/gadget/legacy/gadgetfs.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/legacy/gadgetfs.ko drivers/usb/gadget/legacy/gadgetfs.o drivers/usb/gadget/legacy/gadgetfs.mod.o;  true

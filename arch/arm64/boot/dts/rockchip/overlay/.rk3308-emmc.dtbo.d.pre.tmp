@@ -1,0 +1,1 @@
+rk3308-emmc.o: arch/arm64/boot/dts/rockchip/overlay/rk3308-emmc.dts

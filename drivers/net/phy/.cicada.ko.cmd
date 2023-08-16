@@ -1,0 +1,1 @@
+savedcmd_drivers/net/phy/cicada.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/phy/cicada.ko drivers/net/phy/cicada.o drivers/net/phy/cicada.mod.o;  true

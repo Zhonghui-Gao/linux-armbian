@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/aquacomputer_d5next.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/aquacomputer_d5next.ko drivers/hwmon/aquacomputer_d5next.o drivers/hwmon/aquacomputer_d5next.mod.o;  true

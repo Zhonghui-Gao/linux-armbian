@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/scheduler/gpu-sched.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/scheduler/gpu-sched.ko drivers/gpu/drm/scheduler/gpu-sched.o drivers/gpu/drm/scheduler/gpu-sched.mod.o;  true

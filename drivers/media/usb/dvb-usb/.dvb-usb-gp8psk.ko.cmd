@@ -1,0 +1,1 @@
+savedcmd_drivers/media/usb/dvb-usb/dvb-usb-gp8psk.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/dvb-usb/dvb-usb-gp8psk.ko drivers/media/usb/dvb-usb/dvb-usb-gp8psk.o drivers/media/usb/dvb-usb/dvb-usb-gp8psk.mod.o;  true

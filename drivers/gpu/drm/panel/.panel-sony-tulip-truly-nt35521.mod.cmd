@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/panel/panel-sony-tulip-truly-nt35521.mod := printf '%s\n'   panel-sony-tulip-truly-nt35521.o | awk '!x[$$0]++ { print("drivers/gpu/drm/panel/"$$0) }' > drivers/gpu/drm/panel/panel-sony-tulip-truly-nt35521.mod

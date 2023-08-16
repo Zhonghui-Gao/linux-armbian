@@ -1,0 +1,1 @@
+savedcmd_drivers/nfc/nfcmrvl/nfcmrvl.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/nfc/nfcmrvl/nfcmrvl.ko drivers/nfc/nfcmrvl/nfcmrvl.o drivers/nfc/nfcmrvl/nfcmrvl.mod.o;  true

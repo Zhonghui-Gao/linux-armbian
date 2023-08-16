@@ -1,0 +1,1 @@
+savedcmd_drivers/net/can/cc770/modules.order := {   echo drivers/net/can/cc770/cc770.o;   echo drivers/net/can/cc770/cc770_isa.o;   echo drivers/net/can/cc770/cc770_platform.o; :; } > drivers/net/can/cc770/modules.order

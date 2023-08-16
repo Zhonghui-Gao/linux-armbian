@@ -1,0 +1,1 @@
+savedcmd_arch/arm64/kernel/probes/built-in.a := rm -f arch/arm64/kernel/probes/built-in.a;  printf "arch/arm64/kernel/probes/%s " kprobes.o decode-insn.o kprobes_trampoline.o simulate-insn.o uprobes.o | xargs aarch64-linux-gnu-ar cDPrST arch/arm64/kernel/probes/built-in.a

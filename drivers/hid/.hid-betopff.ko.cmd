@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/hid-betopff.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-betopff.ko drivers/hid/hid-betopff.o drivers/hid/hid-betopff.mod.o;  true

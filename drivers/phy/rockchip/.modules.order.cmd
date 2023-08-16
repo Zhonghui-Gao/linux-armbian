@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/rockchip/modules.order := {   echo drivers/phy/rockchip/phy-rockchip-dphy-rx0.o;   echo drivers/phy/rockchip/phy-rockchip-inno-csidphy.o;   echo drivers/phy/rockchip/phy-rockchip-inno-dsidphy.o; :; } > drivers/phy/rockchip/modules.order

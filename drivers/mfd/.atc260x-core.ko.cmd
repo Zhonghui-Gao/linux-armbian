@@ -1,0 +1,1 @@
+savedcmd_drivers/mfd/atc260x-core.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/mfd/atc260x-core.ko drivers/mfd/atc260x-core.o drivers/mfd/atc260x-core.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/vmxnet3/vmxnet3.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/vmxnet3/vmxnet3.ko drivers/net/vmxnet3/vmxnet3.o drivers/net/vmxnet3/vmxnet3.mod.o;  true

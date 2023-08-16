@@ -1,0 +1,1 @@
+savedcmd_drivers/net/netdevsim/netdevsim.mod := printf '%s\n'   netdev.o dev.o ethtool.o fib.o bus.o health.o hwstats.o udp_tunnels.o bpf.o ipsec.o psample.o | awk '!x[$$0]++ { print("drivers/net/netdevsim/"$$0) }' > drivers/net/netdevsim/netdevsim.mod

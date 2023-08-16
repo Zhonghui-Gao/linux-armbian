@@ -1,0 +1,1 @@
+savedcmd_drivers/media/rc/keymaps/rc-beelink-mxiii.mod := printf '%s\n'   rc-beelink-mxiii.o | awk '!x[$$0]++ { print("drivers/media/rc/keymaps/"$$0) }' > drivers/media/rc/keymaps/rc-beelink-mxiii.mod

@@ -1,0 +1,3 @@
+net/nfc/nci/nci.o
+net/nfc/nci/nci_spi.o
+net/nfc/nci/nci_uart.o

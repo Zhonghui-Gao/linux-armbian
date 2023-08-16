@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/xilinx/xilinx_emaclite.mod := printf '%s\n'   xilinx_emaclite.o | awk '!x[$$0]++ { print("drivers/net/ethernet/xilinx/"$$0) }' > drivers/net/ethernet/xilinx/xilinx_emaclite.mod

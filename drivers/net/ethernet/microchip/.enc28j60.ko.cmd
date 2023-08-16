@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/microchip/enc28j60.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/microchip/enc28j60.ko drivers/net/ethernet/microchip/enc28j60.o drivers/net/ethernet/microchip/enc28j60.mod.o;  true

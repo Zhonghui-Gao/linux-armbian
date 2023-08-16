@@ -1,0 +1,1 @@
+savedcmd_drivers/media/usb/hackrf/hackrf.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/hackrf/hackrf.ko drivers/media/usb/hackrf/hackrf.o drivers/media/usb/hackrf/hackrf.mod.o;  true

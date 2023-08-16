@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/hid-prodikeys.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-prodikeys.ko drivers/hid/hid-prodikeys.o drivers/hid/hid-prodikeys.mod.o;  true

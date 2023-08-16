@@ -1,0 +1,15 @@
+!<thin>
+//                                              88        `
+mem.o/
+random.o/
+misc.o/
+virtio_console.o/
+hw_random/core.o/
+hw_random/rockchip-rng.o/
+
+/0              0           0     0     644     13352     `
+/7              0           0     0     644     49384     `
+/17             0           0     0     644     9360      `
+/25             0           0     0     644     42568     `
+/43             0           0     0     644     25328     `
+/61             0           0     0     644     13368     `

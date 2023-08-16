@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/qualcomm/qca_7k_common.mod := printf '%s\n'   qca_7k_common.o | awk '!x[$$0]++ { print("drivers/net/ethernet/qualcomm/"$$0) }' > drivers/net/ethernet/qualcomm/qca_7k_common.mod

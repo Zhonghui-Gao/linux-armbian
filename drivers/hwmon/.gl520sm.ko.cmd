@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/gl520sm.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/gl520sm.ko drivers/hwmon/gl520sm.o drivers/hwmon/gl520sm.mod.o;  true

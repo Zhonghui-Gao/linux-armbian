@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wwan/wwan_hwsim.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wwan/wwan_hwsim.ko drivers/net/wwan/wwan_hwsim.o drivers/net/wwan/wwan_hwsim.mod.o;  true

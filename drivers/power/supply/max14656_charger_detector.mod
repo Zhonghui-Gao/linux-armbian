@@ -1,0 +1,1 @@
+drivers/power/supply/max14656_charger_detector.o

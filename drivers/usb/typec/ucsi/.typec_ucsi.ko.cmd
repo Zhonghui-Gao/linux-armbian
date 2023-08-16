@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/typec/ucsi/typec_ucsi.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/typec/ucsi/typec_ucsi.ko drivers/usb/typec/ucsi/typec_ucsi.o drivers/usb/typec/ucsi/typec_ucsi.mod.o;  true

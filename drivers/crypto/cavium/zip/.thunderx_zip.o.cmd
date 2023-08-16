@@ -1,0 +1,1 @@
+savedcmd_drivers/crypto/cavium/zip/thunderx_zip.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/crypto/cavium/zip/thunderx_zip.o @drivers/crypto/cavium/zip/thunderx_zip.mod 

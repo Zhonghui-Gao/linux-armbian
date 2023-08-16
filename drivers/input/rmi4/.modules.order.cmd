@@ -1,0 +1,1 @@
+savedcmd_drivers/input/rmi4/modules.order := {   echo drivers/input/rmi4/rmi_core.o;   echo drivers/input/rmi4/rmi_i2c.o;   echo drivers/input/rmi4/rmi_spi.o;   echo drivers/input/rmi4/rmi_smbus.o; :; } > drivers/input/rmi4/modules.order

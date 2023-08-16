@@ -1,0 +1,1 @@
+savedcmd_drivers/regulator/slg51000-regulator.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/regulator/slg51000-regulator.ko drivers/regulator/slg51000-regulator.o drivers/regulator/slg51000-regulator.mod.o;  true

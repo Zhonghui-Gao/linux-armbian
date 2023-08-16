@@ -1,0 +1,1 @@
+savedcmd_drivers/net/dsa/sja1105/sja1105.mod := printf '%s\n'   sja1105_spi.o sja1105_main.o sja1105_mdio.o sja1105_flower.o sja1105_ethtool.o sja1105_devlink.o sja1105_clocking.o sja1105_static_config.o sja1105_dynamic_config.o | awk '!x[$$0]++ { print("drivers/net/dsa/sja1105/"$$0) }' > drivers/net/dsa/sja1105/sja1105.mod

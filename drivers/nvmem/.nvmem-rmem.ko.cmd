@@ -1,0 +1,1 @@
+savedcmd_drivers/nvmem/nvmem-rmem.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/nvmem/nvmem-rmem.ko drivers/nvmem/nvmem-rmem.o drivers/nvmem/nvmem-rmem.mod.o;  true

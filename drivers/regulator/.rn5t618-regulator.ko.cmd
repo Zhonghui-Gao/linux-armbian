@@ -1,0 +1,1 @@
+savedcmd_drivers/regulator/rn5t618-regulator.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/regulator/rn5t618-regulator.ko drivers/regulator/rn5t618-regulator.o drivers/regulator/rn5t618-regulator.mod.o;  true

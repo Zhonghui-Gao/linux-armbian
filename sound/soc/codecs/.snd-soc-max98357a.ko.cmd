@@ -1,0 +1,1 @@
+savedcmd_sound/soc/codecs/snd-soc-max98357a.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-max98357a.ko sound/soc/codecs/snd-soc-max98357a.o sound/soc/codecs/snd-soc-max98357a.mod.o;  true

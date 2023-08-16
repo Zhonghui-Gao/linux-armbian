@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/position/hid-sensor-custom-intel-hinge.mod := printf '%s\n'   hid-sensor-custom-intel-hinge.o | awk '!x[$$0]++ { print("drivers/iio/position/"$$0) }' > drivers/iio/position/hid-sensor-custom-intel-hinge.mod

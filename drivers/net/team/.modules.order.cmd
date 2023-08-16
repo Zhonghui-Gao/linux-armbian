@@ -1,0 +1,1 @@
+savedcmd_drivers/net/team/modules.order := {   echo drivers/net/team/team.o;   echo drivers/net/team/team_mode_broadcast.o;   echo drivers/net/team/team_mode_roundrobin.o;   echo drivers/net/team/team_mode_random.o;   echo drivers/net/team/team_mode_activebackup.o;   echo drivers/net/team/team_mode_loadbalance.o; :; } > drivers/net/team/modules.order

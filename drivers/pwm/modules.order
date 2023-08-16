@@ -1,0 +1,5 @@
+drivers/pwm/pwm-atmel-tcb.o
+drivers/pwm/pwm-cros-ec.o
+drivers/pwm/pwm-dwc.o
+drivers/pwm/pwm-ntxec.o
+drivers/pwm/pwm-xilinx.o

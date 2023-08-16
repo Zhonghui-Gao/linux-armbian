@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/gadget/legacy/g_hid.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/legacy/g_hid.ko drivers/usb/gadget/legacy/g_hid.o drivers/usb/gadget/legacy/g_hid.mod.o;  true

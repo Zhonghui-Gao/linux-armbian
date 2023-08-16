@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/panel/panel-samsung-db7430.mod := printf '%s\n'   panel-samsung-db7430.o | awk '!x[$$0]++ { print("drivers/gpu/drm/panel/"$$0) }' > drivers/gpu/drm/panel/panel-samsung-db7430.mod

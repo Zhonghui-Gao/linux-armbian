@@ -1,0 +1,225 @@
+!<thin>
+//                                              2218      `
+drm_aperture.o/
+drm_atomic.o/
+drm_atomic_uapi.o/
+drm_auth.o/
+drm_blend.o/
+drm_bridge.o/
+drm_cache.o/
+drm_client.o/
+drm_client_modeset.o/
+drm_color_mgmt.o/
+drm_connector.o/
+drm_crtc.o/
+drm_displayid.o/
+drm_drv.o/
+drm_dumb_buffers.o/
+drm_edid.o/
+drm_encoder.o/
+drm_file.o/
+drm_fourcc.o/
+drm_framebuffer.o/
+drm_gem.o/
+drm_ioctl.o/
+drm_lease.o/
+drm_managed.o/
+drm_mm.o/
+drm_mode_config.o/
+drm_mode_object.o/
+drm_modes.o/
+drm_modeset_lock.o/
+drm_plane.o/
+drm_prime.o/
+drm_print.o/
+drm_property.o/
+drm_syncobj.o/
+drm_sysfs.o/
+drm_trace_points.o/
+drm_vblank.o/
+drm_vblank_work.o/
+drm_vma_manager.o/
+drm_writeback.o/
+drm_agpsupport.o/
+drm_bufs.o/
+drm_context.o/
+drm_dma.o/
+drm_hashtab.o/
+drm_irq.o/
+drm_legacy_misc.o/
+drm_lock.o/
+drm_memory.o/
+drm_scatter.o/
+drm_vm.o/
+drm_ioc32.o/
+drm_panel.o/
+drm_of.o/
+drm_pci.o/
+drm_debugfs.o/
+drm_debugfs_crc.o/
+drm_panel_orientation_quirks.o/
+drm_gem_dma_helper.o/
+drm_fbdev_dma.o/
+drm_fb_dma_helper.o/
+drm_atomic_helper.o/
+drm_atomic_state_helper.o/
+drm_bridge_connector.o/
+drm_crtc_helper.o/
+drm_damage_helper.o/
+drm_encoder_slave.o/
+drm_flip_work.o/
+drm_format_helper.o/
+drm_gem_atomic_helper.o/
+drm_gem_framebuffer_helper.o/
+drm_kms_helper_common.o/
+drm_modeset_helper.o/
+drm_plane_helper.o/
+drm_probe_helper.o/
+drm_rect.o/
+drm_self_refresh_helper.o/
+drm_simple_kms_helper.o/
+bridge/panel.o/
+drm_fbdev_generic.o/
+drm_fb_helper.o/
+drm_mipi_dsi.o/
+display/drm_display_helper_mod.o/
+display/drm_dp_dual_mode_helper.o/
+display/drm_dp_helper.o/
+display/drm_dp_mst_topology.o/
+display/drm_dsc_helper.o/
+display/drm_hdmi_helper.o/
+display/drm_scdc_helper.o/
+display/drm_dp_cec.o/
+rockchip/rockchip_drm_drv.o/
+rockchip/rockchip_drm_fb.o/
+rockchip/rockchip_drm_gem.o/
+rockchip/rockchip_drm_vop2.o/
+rockchip/rockchip_vop2_reg.o/
+rockchip/rockchip_drm_vop.o/
+rockchip/rockchip_vop_reg.o/
+rockchip/analogix_dp-rockchip.o/
+rockchip/cdn-dp-core.o/
+rockchip/cdn-dp-reg.o/
+rockchip/dw_hdmi-rockchip.o/
+rockchip/dw-mipi-dsi-rockchip.o/
+rockchip/inno_hdmi.o/
+rockchip/rockchip_lvds.o/
+rockchip/rockchip_rgb.o/
+rockchip/rk3066_hdmi.o/
+bridge/analogix/analogix_dp_core.o/
+bridge/analogix/analogix_dp_reg.o/
+bridge/analogix/analogix-i2c-dptx.o/
+bridge/synopsys/dw-hdmi.o/
+bridge/synopsys/dw-mipi-dsi.o/
+
+/0              0           0     0     644     5160      `
+/16             0           0     0     644     48912     `
+/30             0           0     0     644     24280     `
+/49             0           0     0     644     12976     `
+/61             0           0     0     644     11648     `
+/74             0           0     0     644     23856     `
+/88             0           0     0     644     7432      `
+/101            0           0     0     644     15368     `
+/115            0           0     0     644     22968     `
+/137            0           0     0     644     13800     `
+/155            0           0     0     644     77232     `
+/172            0           0     0     644     21736     `
+/184            0           0     0     644     3000      `
+/201            0           0     0     644     29456     `
+/212            0           0     0     644     2040      `
+/232            0           0     0     644     114888    `
+/244            0           0     0     644     9568      `
+/259            0           0     0     644     20760     `
+/271            0           0     0     644     11216     `
+/285            0           0     0     644     25656     `
+/304            0           0     0     644     42280     `
+/315            0           0     0     644     34528     `
+/328            0           0     0     644     14264     `
+/341            0           0     0     644     9400      `
+/356            0           0     0     644     17328     `
+/366            0           0     0     644     19392     `
+/385            0           0     0     644     16152     `
+/404            0           0     0     644     52024     `
+/417            0           0     0     644     17032     `
+/437            0           0     0     644     31224     `
+/450            0           0     0     644     26464     `
+/463            0           0     0     644     17648     `
+/476            0           0     0     644     21168     `
+/492            0           0     0     644     35576     `
+/507            0           0     0     644     16200     `
+/520            0           0     0     644     13648     `
+/540            0           0     0     644     56168     `
+/554            0           0     0     644     8688      `
+/573            0           0     0     644     9384      `
+/592            0           0     0     644     12848     `
+/609            0           0     0     644     1112      `
+/627            0           0     0     644     23136     `
+/639            0           0     0     644     7248      `
+/654            0           0     0     644     2784      `
+/665            0           0     0     644     3288      `
+/680            0           0     0     644     4768      `
+/691            0           0     0     644     3104      `
+/710            0           0     0     644     8368      `
+/722            0           0     0     644     4064      `
+/736            0           0     0     644     3952      `
+/751            0           0     0     644     9536      `
+/761            0           0     0     644     17176     `
+/774            0           0     0     644     11616     `
+/787            0           0     0     644     15072     `
+/797            0           0     0     644     6936      `
+/808            0           0     0     644     18672     `
+/823            0           0     0     644     10864     `
+/842            0           0     0     644     20168     `
+/874            0           0     0     644     16160     `
+/896            0           0     0     644     10696     `
+/913            0           0     0     644     4664      `
+/934            0           0     0     644     78968     `
+/955            0           0     0     644     30952     `
+/982            0           0     0     644     6288      `
+/1006           0           0     0     644     22360     `
+/1025           0           0     0     644     8664      `
+/1046           0           0     0     644     9088      `
+/1067           0           0     0     644     7664      `
+/1084           0           0     0     644     22648     `
+/1105           0           0     0     644     14736     `
+/1130           0           0     0     644     17808     `
+/1160           0           0     0     644     1600      `
+/1185           0           0     0     644     8128      `
+/1207           0           0     0     644     8224      `
+/1227           0           0     0     644     29536     `
+/1247           0           0     0     644     8088      `
+/1259           0           0     0     644     8496      `
+/1286           0           0     0     644     11192     `
+/1311           0           0     0     644     17168     `
+/1327           0           0     0     644     11816     `
+/1348           0           0     0     644     52520     `
+/1365           0           0     0     644     45648     `
+/1381           0           0     0     644     2784      `
+/1415           0           0     0     644     14888     `
+/1450           0           0     0     644     103768    `
+/1475           0           0     0     644     108024    `
+/1506           0           0     0     644     5720      `
+/1532           0           0     0     644     5304      `
+/1559           0           0     0     644     7360      `
+/1586           0           0     0     644     12544     `
+/1608           0           0     0     644     15744     `
+/1637           0           0     0     644     3656      `
+/1665           0           0     0     644     9480      `
+/1694           0           0     0     644     40056     `
+/1724           0           0     0     644     5008      `
+/1754           0           0     0     644     52896     `
+/1783           0           0     0     644     25504     `
+/1812           0           0     0     644     11064     `
+/1845           0           0     0     644     32176     `
+/1869           0           0     0     644     15144     `
+/1892           0           0     0     644     15592     `
+/1921           0           0     0     644     31768     `
+/1954           0           0     0     644     14568     `
+/1976           0           0     0     644     18768     `
+/2002           0           0     0     644     6328      `
+/2027           0           0     0     644     16104     `
+/2051           0           0     0     644     43504     `
+/2087           0           0     0     644     21792     `
+/2122           0           0     0     644     4432      `
+/2159           0           0     0     644     78296     `
+/2186           0           0     0     644     21184     `

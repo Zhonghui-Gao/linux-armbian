@@ -1,0 +1,1 @@
+savedcmd_drivers/gnss/modules.order := {   echo drivers/gnss/gnss.o;   echo drivers/gnss/gnss-serial.o;   echo drivers/gnss/gnss-mtk.o;   echo drivers/gnss/gnss-sirf.o;   echo drivers/gnss/gnss-ubx.o;   echo drivers/gnss/gnss-usb.o; :; } > drivers/gnss/modules.order

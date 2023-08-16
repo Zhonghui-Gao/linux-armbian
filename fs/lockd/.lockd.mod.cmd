@@ -1,0 +1,1 @@
+savedcmd_fs/lockd/lockd.mod := printf '%s\n'   clntlock.o clntproc.o clntxdr.o host.o svc.o svclock.o svcshare.o svcproc.o svcsubs.o mon.o trace.o xdr.o clnt4xdr.o xdr4.o svc4proc.o procfs.o | awk '!x[$$0]++ { print("fs/lockd/"$$0) }' > fs/lockd/lockd.mod

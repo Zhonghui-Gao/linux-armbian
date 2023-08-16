@@ -1,0 +1,1 @@
+savedcmd_drivers/misc/vmw_vmci/vmw_vmci.mod := printf '%s\n'   vmci_context.o vmci_datagram.o vmci_doorbell.o vmci_driver.o vmci_event.o vmci_guest.o vmci_handle_array.o vmci_host.o vmci_queue_pair.o vmci_resource.o vmci_route.o | awk '!x[$$0]++ { print("drivers/misc/vmw_vmci/"$$0) }' > drivers/misc/vmw_vmci/vmw_vmci.mod

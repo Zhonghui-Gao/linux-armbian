@@ -1,0 +1,1 @@
+savedcmd_sound/xen/snd_xen_front.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/xen/snd_xen_front.ko sound/xen/snd_xen_front.o sound/xen/snd_xen_front.mod.o;  true

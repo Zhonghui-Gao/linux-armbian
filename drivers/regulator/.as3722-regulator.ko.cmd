@@ -1,0 +1,1 @@
+savedcmd_drivers/regulator/as3722-regulator.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/regulator/as3722-regulator.ko drivers/regulator/as3722-regulator.o drivers/regulator/as3722-regulator.mod.o;  true

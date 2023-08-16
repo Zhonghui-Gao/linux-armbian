@@ -1,0 +1,3 @@
+drivers/net/ethernet/marvell/octeontx2/nic/rvu_nicpf.o
+drivers/net/ethernet/marvell/octeontx2/nic/otx2_ptp.o
+drivers/net/ethernet/marvell/octeontx2/nic/rvu_nicvf.o

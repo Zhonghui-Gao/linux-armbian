@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/uwe5622/unisocwifi/sprdwl_ng.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/uwe5622/unisocwifi/sprdwl_ng.ko drivers/net/wireless/uwe5622/unisocwifi/sprdwl_ng.o drivers/net/wireless/uwe5622/unisocwifi/sprdwl_ng.mod.o;  true

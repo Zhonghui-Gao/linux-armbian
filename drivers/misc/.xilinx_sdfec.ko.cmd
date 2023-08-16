@@ -1,0 +1,1 @@
+savedcmd_drivers/misc/xilinx_sdfec.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/misc/xilinx_sdfec.ko drivers/misc/xilinx_sdfec.o drivers/misc/xilinx_sdfec.mod.o;  true

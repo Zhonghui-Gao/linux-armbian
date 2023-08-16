@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/rtl8812au/88XXau.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/rtl8812au/88XXau.ko drivers/net/wireless/rtl8812au/88XXau.o drivers/net/wireless/rtl8812au/88XXau.mod.o;  true

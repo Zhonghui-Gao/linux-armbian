@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/engleder/tsnep.mod := printf '%s\n'   tsnep_main.o tsnep_ethtool.o tsnep_ptp.o tsnep_tc.o tsnep_rxnfc.o tsnep_xdp.o | awk '!x[$$0]++ { print("drivers/net/ethernet/engleder/"$$0) }' > drivers/net/ethernet/engleder/tsnep.mod

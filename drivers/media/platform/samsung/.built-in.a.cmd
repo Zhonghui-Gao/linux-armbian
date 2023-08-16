@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/samsung/built-in.a := rm -f drivers/media/platform/samsung/built-in.a;  printf "drivers/media/platform/samsung/%s " exynos-gsc/built-in.a exynos4-is/built-in.a s3c-camif/built-in.a s5p-g2d/built-in.a s5p-jpeg/built-in.a s5p-mfc/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/media/platform/samsung/built-in.a

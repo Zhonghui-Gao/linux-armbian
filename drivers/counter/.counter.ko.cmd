@@ -1,0 +1,1 @@
+savedcmd_drivers/counter/counter.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/counter/counter.ko drivers/counter/counter.o drivers/counter/counter.mod.o;  true

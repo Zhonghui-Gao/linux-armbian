@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/motorola/phy-mapphone-mdm6600.mod := printf '%s\n'   phy-mapphone-mdm6600.o | awk '!x[$$0]++ { print("drivers/phy/motorola/"$$0) }' > drivers/phy/motorola/phy-mapphone-mdm6600.mod

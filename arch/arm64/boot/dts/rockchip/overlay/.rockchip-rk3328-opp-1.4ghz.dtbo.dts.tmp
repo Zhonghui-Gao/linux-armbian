@@ -1,0 +1,19 @@
+# 0 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3328-opp-1.4ghz.dts"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3328-opp-1.4ghz.dts"
+/dts-v1/;
+
+/ {
+    compatible = "rockchip,rk3328";
+    fragment@0 {
+        target-path = "/opp_table0";
+        __overlay__ {
+  opp-1392000000 {
+   opp-hz = /bits/ 64 <1392000000>;
+   opp-microvolt = <1400000>;
+   clock-latency-ns = <40000>;
+  };
+        };
+    };
+};

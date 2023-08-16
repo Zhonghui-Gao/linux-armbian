@@ -1,0 +1,1 @@
+savedcmd_drivers/dma-buf/built-in.a := rm -f drivers/dma-buf/built-in.a;  printf "drivers/dma-buf/%s " dma-buf.o dma-fence.o dma-fence-array.o dma-fence-chain.o dma-fence-unwrap.o dma-resv.o sync_file.o | xargs aarch64-linux-gnu-ar cDPrST drivers/dma-buf/built-in.a

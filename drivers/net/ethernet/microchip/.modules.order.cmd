@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/microchip/modules.order := {   cat drivers/net/ethernet/microchip/vcap/modules.order;   echo drivers/net/ethernet/microchip/enc28j60.o;   cat drivers/net/ethernet/microchip/lan966x/modules.order; :; } > drivers/net/ethernet/microchip/modules.order

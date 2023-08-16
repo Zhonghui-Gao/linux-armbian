@@ -1,0 +1,1 @@
+savedcmd_drivers/dma/bcm-sba-raid.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/dma/bcm-sba-raid.ko drivers/dma/bcm-sba-raid.o drivers/dma/bcm-sba-raid.mod.o;  true

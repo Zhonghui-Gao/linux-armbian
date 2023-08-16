@@ -1,0 +1,1 @@
+savedcmd_lib/reed_solomon/test_rslib.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o lib/reed_solomon/test_rslib.ko lib/reed_solomon/test_rslib.o lib/reed_solomon/test_rslib.mod.o;  true

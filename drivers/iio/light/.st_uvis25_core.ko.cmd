@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/light/st_uvis25_core.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/light/st_uvis25_core.ko drivers/iio/light/st_uvis25_core.o drivers/iio/light/st_uvis25_core.mod.o;  true

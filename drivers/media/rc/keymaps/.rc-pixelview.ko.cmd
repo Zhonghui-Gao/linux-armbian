@@ -1,0 +1,1 @@
+savedcmd_drivers/media/rc/keymaps/rc-pixelview.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-pixelview.ko drivers/media/rc/keymaps/rc-pixelview.o drivers/media/rc/keymaps/rc-pixelview.mod.o;  true

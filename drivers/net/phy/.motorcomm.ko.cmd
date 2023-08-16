@@ -1,0 +1,1 @@
+savedcmd_drivers/net/phy/motorcomm.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/phy/motorcomm.ko drivers/net/phy/motorcomm.o drivers/net/phy/motorcomm.mod.o;  true

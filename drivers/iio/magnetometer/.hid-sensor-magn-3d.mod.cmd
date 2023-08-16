@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/magnetometer/hid-sensor-magn-3d.mod := printf '%s\n'   hid-sensor-magn-3d.o | awk '!x[$$0]++ { print("drivers/iio/magnetometer/"$$0) }' > drivers/iio/magnetometer/hid-sensor-magn-3d.mod

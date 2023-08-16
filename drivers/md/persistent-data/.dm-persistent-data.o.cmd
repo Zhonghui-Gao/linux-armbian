@@ -1,0 +1,1 @@
+savedcmd_drivers/md/persistent-data/dm-persistent-data.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/md/persistent-data/dm-persistent-data.o @drivers/md/persistent-data/dm-persistent-data.mod 

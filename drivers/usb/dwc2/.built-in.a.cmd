@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/dwc2/built-in.a := rm -f drivers/usb/dwc2/built-in.a;  printf "drivers/usb/dwc2/%s " core.o core_intr.o platform.o drd.o params.o hcd.o hcd_intr.o hcd_queue.o hcd_ddma.o gadget.o debugfs.o | xargs aarch64-linux-gnu-ar cDPrST drivers/usb/dwc2/built-in.a

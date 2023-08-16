@@ -1,0 +1,1 @@
+savedcmd_drivers/devfreq/modules.order := {   cat drivers/devfreq/event/modules.order;   echo drivers/devfreq/governor_performance.o;   echo drivers/devfreq/governor_powersave.o;   echo drivers/devfreq/governor_userspace.o;   echo drivers/devfreq/governor_passive.o; :; } > drivers/devfreq/modules.order

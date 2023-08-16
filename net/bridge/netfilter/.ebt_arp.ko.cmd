@@ -1,0 +1,1 @@
+savedcmd_net/bridge/netfilter/ebt_arp.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/bridge/netfilter/ebt_arp.ko net/bridge/netfilter/ebt_arp.o net/bridge/netfilter/ebt_arp.mod.o;  true

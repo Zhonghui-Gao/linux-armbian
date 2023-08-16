@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/hid-viewsonic.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-viewsonic.ko drivers/hid/hid-viewsonic.o drivers/hid/hid-viewsonic.mod.o;  true

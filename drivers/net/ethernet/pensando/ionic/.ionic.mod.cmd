@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/pensando/ionic/ionic.mod := printf '%s\n'   ionic_main.o ionic_bus_pci.o ionic_devlink.o ionic_dev.o ionic_debugfs.o ionic_lif.o ionic_rx_filter.o ionic_ethtool.o ionic_txrx.o ionic_stats.o ionic_fw.o ionic_phc.o | awk '!x[$$0]++ { print("drivers/net/ethernet/pensando/ionic/"$$0) }' > drivers/net/ethernet/pensando/ionic/ionic.mod

@@ -1,0 +1,3 @@
+drivers/xen/xen-pciback/xen-pciback.o
+drivers/xen/xen-scsiback.o
+drivers/xen/xen-front-pgdir-shbuf.o

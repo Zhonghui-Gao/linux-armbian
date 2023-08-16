@@ -1,0 +1,2 @@
+rockchip-rk3399-opp-2ghz.o: \
+ arch/arm64/boot/dts/rockchip/overlay/rockchip-rk3399-opp-2ghz.dts

@@ -1,0 +1,1 @@
+savedcmd_net/netfilter/ipvs/ip_vs_twos.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netfilter/ipvs/ip_vs_twos.ko net/netfilter/ipvs/ip_vs_twos.o net/netfilter/ipvs/ip_vs_twos.mod.o;  true

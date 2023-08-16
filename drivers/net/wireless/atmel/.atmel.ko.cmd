@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/atmel/atmel.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/atmel/atmel.ko drivers/net/wireless/atmel/atmel.o drivers/net/wireless/atmel/atmel.mod.o;  true

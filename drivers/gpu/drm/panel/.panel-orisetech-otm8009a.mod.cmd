@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/panel/panel-orisetech-otm8009a.mod := printf '%s\n'   panel-orisetech-otm8009a.o | awk '!x[$$0]++ { print("drivers/gpu/drm/panel/"$$0) }' > drivers/gpu/drm/panel/panel-orisetech-otm8009a.mod

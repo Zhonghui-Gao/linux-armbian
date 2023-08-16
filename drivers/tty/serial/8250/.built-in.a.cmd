@@ -1,0 +1,1 @@
+savedcmd_drivers/tty/serial/8250/built-in.a := rm -f drivers/tty/serial/8250/built-in.a;  printf "drivers/tty/serial/8250/%s " 8250_core.o 8250_port.o 8250_dma.o 8250_dwlib.o 8250_fintek.o 8250_pcilib.o 8250_early.o 8250_fsl.o 8250_dw.o 8250_of.o | xargs aarch64-linux-gnu-ar cDPrST drivers/tty/serial/8250/built-in.a

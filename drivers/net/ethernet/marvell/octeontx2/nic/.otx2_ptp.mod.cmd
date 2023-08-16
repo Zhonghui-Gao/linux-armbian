@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/marvell/octeontx2/nic/otx2_ptp.mod := printf '%s\n'   otx2_ptp.o | awk '!x[$$0]++ { print("drivers/net/ethernet/marvell/octeontx2/nic/"$$0) }' > drivers/net/ethernet/marvell/octeontx2/nic/otx2_ptp.mod

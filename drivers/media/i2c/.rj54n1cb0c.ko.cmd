@@ -1,0 +1,1 @@
+savedcmd_drivers/media/i2c/rj54n1cb0c.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/rj54n1cb0c.ko drivers/media/i2c/rj54n1cb0c.o drivers/media/i2c/rj54n1cb0c.mod.o;  true

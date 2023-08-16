@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/magnetometer/ak8975.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/magnetometer/ak8975.ko drivers/iio/magnetometer/ak8975.o drivers/iio/magnetometer/ak8975.mod.o;  true

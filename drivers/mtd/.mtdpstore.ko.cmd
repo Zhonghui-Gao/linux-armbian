@@ -1,0 +1,1 @@
+savedcmd_drivers/mtd/mtdpstore.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/mtd/mtdpstore.ko drivers/mtd/mtdpstore.o drivers/mtd/mtdpstore.mod.o;  true

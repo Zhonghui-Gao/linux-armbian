@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/cadence/cdns-dphy.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/phy/cadence/cdns-dphy.ko drivers/phy/cadence/cdns-dphy.o drivers/phy/cadence/cdns-dphy.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/quantenna/qtnfmac/qtnfmac_pcie.mod := printf '%s\n'   shm_ipc.o pcie/pcie.o pcie/pearl_pcie.o pcie/topaz_pcie.o debug.o | awk '!x[$$0]++ { print("drivers/net/wireless/quantenna/qtnfmac/"$$0) }' > drivers/net/wireless/quantenna/qtnfmac/qtnfmac_pcie.mod

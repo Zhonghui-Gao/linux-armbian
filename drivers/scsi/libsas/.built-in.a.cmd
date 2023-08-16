@@ -1,0 +1,1 @@
+savedcmd_drivers/scsi/libsas/built-in.a := rm -f drivers/scsi/libsas/built-in.a;  printf "drivers/scsi/libsas/%s " sas_init.o sas_phy.o sas_port.o sas_event.o sas_discover.o sas_expander.o sas_scsi_host.o sas_task.o sas_ata.o sas_host_smp.o | xargs aarch64-linux-gnu-ar cDPrST drivers/scsi/libsas/built-in.a

@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/image/microtek.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/image/microtek.ko drivers/usb/image/microtek.o drivers/usb/image/microtek.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/phy/dp83td510.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/phy/dp83td510.ko drivers/net/phy/dp83td510.o drivers/net/phy/dp83td510.mod.o;  true

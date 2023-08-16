@@ -1,0 +1,3 @@
+drivers/nvme/target/nvmet.o
+drivers/nvme/target/nvme-loop.o
+drivers/nvme/target/nvmet-fc.o

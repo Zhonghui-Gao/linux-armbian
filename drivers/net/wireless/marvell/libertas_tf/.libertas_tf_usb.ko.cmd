@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/marvell/libertas_tf/libertas_tf_usb.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/marvell/libertas_tf/libertas_tf_usb.ko drivers/net/wireless/marvell/libertas_tf/libertas_tf_usb.o drivers/net/wireless/marvell/libertas_tf/libertas_tf_usb.mod.o;  true

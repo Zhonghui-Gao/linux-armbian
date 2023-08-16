@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/broadcom/brcm80211/brcmfmac/wcc/modules.order := {   echo drivers/net/wireless/broadcom/brcm80211/brcmfmac/wcc/brcmfmac-wcc.o; :; } > drivers/net/wireless/broadcom/brcm80211/brcmfmac/wcc/modules.order

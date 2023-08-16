@@ -1,0 +1,1 @@
+savedcmd_drivers/vhost/modules.order := {   echo drivers/vhost/vhost_net.o;   echo drivers/vhost/vhost_scsi.o;   echo drivers/vhost/vringh.o;   echo drivers/vhost/vhost_vdpa.o;   echo drivers/vhost/vhost.o;   echo drivers/vhost/vhost_iotlb.o; :; } > drivers/vhost/modules.order

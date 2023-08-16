@@ -1,0 +1,1 @@
+savedcmd_drivers/media/usb/airspy/airspy.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/airspy/airspy.ko drivers/media/usb/airspy/airspy.o drivers/media/usb/airspy/airspy.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/pci/controller/dwc/built-in.a := rm -f drivers/pci/controller/dwc/built-in.a;  printf "drivers/pci/controller/dwc/%s " pcie-designware.o pcie-designware-host.o pcie-dw-rockchip.o | xargs aarch64-linux-gnu-ar cDPrST drivers/pci/controller/dwc/built-in.a

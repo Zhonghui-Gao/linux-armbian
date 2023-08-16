@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/ath/ath6kl/modules.order := {   echo drivers/net/wireless/ath/ath6kl/ath6kl_core.o;   echo drivers/net/wireless/ath/ath6kl/ath6kl_sdio.o;   echo drivers/net/wireless/ath/ath6kl/ath6kl_usb.o; :; } > drivers/net/wireless/ath/ath6kl/modules.order

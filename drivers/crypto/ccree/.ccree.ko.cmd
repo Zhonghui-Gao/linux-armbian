@@ -1,0 +1,1 @@
+savedcmd_drivers/crypto/ccree/ccree.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/crypto/ccree/ccree.ko drivers/crypto/ccree/ccree.o drivers/crypto/ccree/ccree.mod.o;  true

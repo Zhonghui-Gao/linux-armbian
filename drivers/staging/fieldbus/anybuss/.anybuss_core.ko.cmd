@@ -1,0 +1,1 @@
+savedcmd_drivers/staging/fieldbus/anybuss/anybuss_core.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/staging/fieldbus/anybuss/anybuss_core.ko drivers/staging/fieldbus/anybuss/anybuss_core.o drivers/staging/fieldbus/anybuss/anybuss_core.mod.o;  true

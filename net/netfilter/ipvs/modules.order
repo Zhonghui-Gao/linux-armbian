@@ -1,0 +1,17 @@
+net/netfilter/ipvs/ip_vs.o
+net/netfilter/ipvs/ip_vs_rr.o
+net/netfilter/ipvs/ip_vs_wrr.o
+net/netfilter/ipvs/ip_vs_lc.o
+net/netfilter/ipvs/ip_vs_wlc.o
+net/netfilter/ipvs/ip_vs_fo.o
+net/netfilter/ipvs/ip_vs_ovf.o
+net/netfilter/ipvs/ip_vs_lblc.o
+net/netfilter/ipvs/ip_vs_lblcr.o
+net/netfilter/ipvs/ip_vs_dh.o
+net/netfilter/ipvs/ip_vs_sh.o
+net/netfilter/ipvs/ip_vs_mh.o
+net/netfilter/ipvs/ip_vs_sed.o
+net/netfilter/ipvs/ip_vs_nq.o
+net/netfilter/ipvs/ip_vs_twos.o
+net/netfilter/ipvs/ip_vs_ftp.o
+net/netfilter/ipvs/ip_vs_pe_sip.o

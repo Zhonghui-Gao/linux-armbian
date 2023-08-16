@@ -1,0 +1,1 @@
+savedcmd_drivers/misc/cardreader/modules.order := {   echo drivers/misc/cardreader/alcor_pci.o;   echo drivers/misc/cardreader/rtsx_pci.o;   echo drivers/misc/cardreader/rtsx_usb.o; :; } > drivers/misc/cardreader/modules.order

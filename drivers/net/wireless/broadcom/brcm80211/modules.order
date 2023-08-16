@@ -1,0 +1,6 @@
+drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.o
+drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.o
+drivers/net/wireless/broadcom/brcm80211/brcmfmac/wcc/brcmfmac-wcc.o
+drivers/net/wireless/broadcom/brcm80211/brcmfmac/cyw/brcmfmac-cyw.o
+drivers/net/wireless/broadcom/brcm80211/brcmfmac/bca/brcmfmac-bca.o
+drivers/net/wireless/broadcom/brcm80211/brcmsmac/brcmsmac.o

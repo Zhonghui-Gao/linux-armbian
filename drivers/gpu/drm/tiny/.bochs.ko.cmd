@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/tiny/bochs.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/tiny/bochs.ko drivers/gpu/drm/tiny/bochs.o drivers/gpu/drm/tiny/bochs.mod.o;  true

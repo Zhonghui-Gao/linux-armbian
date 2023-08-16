@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/nvidia/built-in.a := rm -f drivers/media/platform/nvidia/built-in.a;  printf "drivers/media/platform/nvidia/%s " tegra-vde/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/media/platform/nvidia/built-in.a

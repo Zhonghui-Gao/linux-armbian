@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/microchip/lan966x/lan966x-switch.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/ethernet/microchip/lan966x/lan966x-switch.o @drivers/net/ethernet/microchip/lan966x/lan966x-switch.mod 

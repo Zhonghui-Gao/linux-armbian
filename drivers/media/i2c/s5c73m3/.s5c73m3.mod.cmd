@@ -1,0 +1,1 @@
+savedcmd_drivers/media/i2c/s5c73m3/s5c73m3.mod := printf '%s\n'   s5c73m3-core.o s5c73m3-spi.o s5c73m3-ctrls.o | awk '!x[$$0]++ { print("drivers/media/i2c/s5c73m3/"$$0) }' > drivers/media/i2c/s5c73m3/s5c73m3.mod

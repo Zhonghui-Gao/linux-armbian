@@ -1,0 +1,9 @@
+drivers/net/ieee802154/fakelb.o
+drivers/net/ieee802154/at86rf230.o
+drivers/net/ieee802154/mrf24j40.o
+drivers/net/ieee802154/cc2520.o
+drivers/net/ieee802154/atusb.o
+drivers/net/ieee802154/adf7242.o
+drivers/net/ieee802154/ca8210.o
+drivers/net/ieee802154/mcr20a.o
+drivers/net/ieee802154/mac802154_hwsim.o

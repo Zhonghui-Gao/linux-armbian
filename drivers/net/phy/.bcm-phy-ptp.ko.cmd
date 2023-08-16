@@ -1,0 +1,1 @@
+savedcmd_drivers/net/phy/bcm-phy-ptp.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/phy/bcm-phy-ptp.ko drivers/net/phy/bcm-phy-ptp.o drivers/net/phy/bcm-phy-ptp.mod.o;  true

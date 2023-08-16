@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/stmicro/stmmac/stmmac.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/ethernet/stmicro/stmmac/stmmac.o @drivers/net/ethernet/stmicro/stmmac/stmmac.mod 

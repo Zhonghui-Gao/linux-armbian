@@ -1,0 +1,2 @@
+drivers/counter/counter.o
+drivers/counter/interrupt-cnt.o

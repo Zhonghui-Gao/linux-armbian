@@ -1,0 +1,1 @@
+drivers/hwmon/sbrmi.o

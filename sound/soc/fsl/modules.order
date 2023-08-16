@@ -1,0 +1,4 @@
+sound/soc/fsl/snd-soc-fsl-audmix.o
+sound/soc/fsl/snd-soc-fsl-micfil.o
+sound/soc/fsl/snd-soc-fsl-utils.o
+sound/soc/fsl/snd-soc-fsl-xcvr.o

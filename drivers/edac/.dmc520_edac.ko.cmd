@@ -1,0 +1,1 @@
+savedcmd_drivers/edac/dmc520_edac.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/edac/dmc520_edac.ko drivers/edac/dmc520_edac.o drivers/edac/dmc520_edac.mod.o;  true

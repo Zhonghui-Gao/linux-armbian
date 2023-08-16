@@ -1,0 +1,12 @@
+!<thin>
+//                                              72        `
+mailbox.o/
+arm_mhu.o/
+arm_mhu_db.o/
+platform_mhu.o/
+rockchip-mailbox.o/
+/0              0           0     0     644     22024     `
+/11             0           0     0     644     6736      `
+/22             0           0     0     644     10760     `
+/36             0           0     0     644     7624      `
+/52             0           0     0     644     10040     `

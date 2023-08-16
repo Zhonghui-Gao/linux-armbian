@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/panel/panel-tpo-td043mtea1.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/panel/panel-tpo-td043mtea1.ko drivers/gpu/drm/panel/panel-tpo-td043mtea1.o drivers/gpu/drm/panel/panel-tpo-td043mtea1.mod.o;  true

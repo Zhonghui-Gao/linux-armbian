@@ -1,0 +1,8 @@
+drivers/net/can/usb/usb_8dev.o
+drivers/net/can/usb/ems_usb.o
+drivers/net/can/usb/etas_es58x/etas_es58x.o
+drivers/net/can/usb/gs_usb.o
+drivers/net/can/usb/kvaser_usb/kvaser_usb.o
+drivers/net/can/usb/mcba_usb.o
+drivers/net/can/usb/peak_usb/peak_usb.o
+drivers/net/can/usb/ucan.o

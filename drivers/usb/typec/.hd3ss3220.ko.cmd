@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/typec/hd3ss3220.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/typec/hd3ss3220.ko drivers/usb/typec/hd3ss3220.o drivers/usb/typec/hd3ss3220.mod.o;  true

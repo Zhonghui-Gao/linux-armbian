@@ -1,0 +1,1 @@
+savedcmd_net/netfilter/nf_flow_table.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netfilter/nf_flow_table.ko net/netfilter/nf_flow_table.o net/netfilter/nf_flow_table.mod.o;  true

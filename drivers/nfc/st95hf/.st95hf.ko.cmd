@@ -1,0 +1,1 @@
+savedcmd_drivers/nfc/st95hf/st95hf.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/nfc/st95hf/st95hf.ko drivers/nfc/st95hf/st95hf.o drivers/nfc/st95hf/st95hf.mod.o;  true

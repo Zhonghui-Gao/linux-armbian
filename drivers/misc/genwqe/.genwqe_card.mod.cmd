@@ -1,0 +1,1 @@
+savedcmd_drivers/misc/genwqe/genwqe_card.mod := printf '%s\n'   card_base.o card_dev.o card_ddcb.o card_sysfs.o card_debugfs.o card_utils.o | awk '!x[$$0]++ { print("drivers/misc/genwqe/"$$0) }' > drivers/misc/genwqe/genwqe_card.mod

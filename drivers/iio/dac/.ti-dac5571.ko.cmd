@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/dac/ti-dac5571.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/dac/ti-dac5571.ko drivers/iio/dac/ti-dac5571.o drivers/iio/dac/ti-dac5571.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/nfc/pn533/modules.order := {   echo drivers/nfc/pn533/pn533.o;   echo drivers/nfc/pn533/pn533_usb.o;   echo drivers/nfc/pn533/pn533_i2c.o;   echo drivers/nfc/pn533/pn532_uart.o; :; } > drivers/nfc/pn533/modules.order

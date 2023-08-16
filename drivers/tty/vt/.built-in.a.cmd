@@ -1,0 +1,1 @@
+savedcmd_drivers/tty/vt/built-in.a := rm -f drivers/tty/vt/built-in.a;  printf "drivers/tty/vt/%s " vt_ioctl.o vc_screen.o selection.o keyboard.o consolemap.o consolemap_deftbl.o vt.o defkeymap.o | xargs aarch64-linux-gnu-ar cDPrST drivers/tty/vt/built-in.a
