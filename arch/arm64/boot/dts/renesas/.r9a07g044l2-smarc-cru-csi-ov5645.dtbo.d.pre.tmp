@@ -1,0 +1,5 @@
+r9a07g044l2-smarc-cru-csi-ov5645.o: \
+ arch/arm64/boot/dts/renesas/r9a07g044l2-smarc-cru-csi-ov5645.dtso \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/rzg2l-pinctrl.h \
+ arch/arm64/boot/dts/renesas/rz-smarc-cru-csi-ov5645.dtsi

@@ -1,0 +1,24 @@
+imx8qm-apalis-ixora-v1.1.o: \
+ arch/arm64/boot/dts/freescale/imx8qm-apalis-ixora-v1.1.dts \
+ arch/arm64/boot/dts/freescale/imx8qm-apalis.dtsi \
+ arch/arm64/boot/dts/freescale/imx8qm-apalis-v1.1.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/pwm/pwm.h \
+ arch/arm64/boot/dts/freescale/imx8qm.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/imx8-lpcg.h \
+ scripts/dtc/include-prefixes/dt-bindings/firmware/imx/rsrc.h \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/pads-imx8qm.h \
+ arch/arm64/boot/dts/freescale/imx8-ss-vpu.dtsi \
+ arch/arm64/boot/dts/freescale/imx8-ss-img.dtsi \
+ arch/arm64/boot/dts/freescale/imx8-ss-dma.dtsi \
+ arch/arm64/boot/dts/freescale/imx8-ss-conn.dtsi \
+ arch/arm64/boot/dts/freescale/imx8-ss-lsio.dtsi \
+ arch/arm64/boot/dts/freescale/imx8qm-ss-img.dtsi \
+ arch/arm64/boot/dts/freescale/imx8qm-ss-dma.dtsi \
+ arch/arm64/boot/dts/freescale/imx8qm-ss-conn.dtsi \
+ arch/arm64/boot/dts/freescale/imx8qm-ss-lsio.dtsi \
+ arch/arm64/boot/dts/freescale/imx8-apalis-v1.1.dtsi \
+ arch/arm64/boot/dts/freescale/imx8-apalis-ixora-v1.1.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/leds/common.h

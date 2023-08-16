@@ -1,0 +1,14 @@
+k3-am68-sk-base-board.o: arch/arm64/boot/dts/ti/k3-am68-sk-base-board.dts \
+ arch/arm64/boot/dts/ti/k3-am68-sk-som.dtsi \
+ arch/arm64/boot/dts/ti/k3-j721s2.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/soc/ti,sci_pm_domain.h \
+ arch/arm64/boot/dts/ti/k3-pinctrl.h \
+ arch/arm64/boot/dts/ti/k3-j721s2-main.dtsi \
+ arch/arm64/boot/dts/ti/k3-j721s2-mcu-wakeup.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/net/ti-dp83867.h \
+ scripts/dtc/include-prefixes/dt-bindings/phy/phy-cadence.h \
+ scripts/dtc/include-prefixes/dt-bindings/phy/phy.h \
+ scripts/dtc/include-prefixes/dt-bindings/mux/ti-serdes.h

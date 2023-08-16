@@ -1,0 +1,287 @@
+# 0 "arch/arm64/boot/dts/nuvoton/nuvoton-npcm845-evb.dts"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "arch/arm64/boot/dts/nuvoton/nuvoton-npcm845-evb.dts"
+
+
+
+/dts-v1/;
+# 1 "arch/arm64/boot/dts/nuvoton/nuvoton-npcm845.dtsi" 1
+
+
+
+# 1 "arch/arm64/boot/dts/nuvoton/nuvoton-common-npcm8xx.dtsi" 1
+
+
+
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/clock/nuvoton,npcm845-clk.h" 1
+# 5 "arch/arm64/boot/dts/nuvoton/nuvoton-common-npcm8xx.dtsi" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h" 1
+# 9 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h"
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h" 1
+# 10 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h" 2
+# 6 "arch/arm64/boot/dts/nuvoton/nuvoton-common-npcm8xx.dtsi" 2
+
+
+/ {
+ #address-cells = <2>;
+ #size-cells = <2>;
+ interrupt-parent = <&gic>;
+
+ soc {
+  #address-cells = <2>;
+  #size-cells = <2>;
+  compatible = "simple-bus";
+  interrupt-parent = <&gic>;
+  ranges;
+
+  gcr: system-controller@f0800000 {
+   compatible = "nuvoton,npcm845-gcr", "syscon";
+   reg = <0x0 0xf0800000 0x0 0x1000>;
+  };
+
+  gic: interrupt-controller@dfff9000 {
+   compatible = "arm,gic-400";
+   reg = <0x0 0xdfff9000 0x0 0x1000>,
+         <0x0 0xdfffa000 0x0 0x2000>,
+         <0x0 0xdfffc000 0x0 0x2000>,
+         <0x0 0xdfffe000 0x0 0x2000>;
+   interrupts = <1 9 ((((1 << (4)) - 1) << 8) | 8)>;
+   #interrupt-cells = <3>;
+   interrupt-controller;
+   #address-cells = <0>;
+   ppi-partitions {
+    ppi_cluster0: interrupt-partition-0 {
+     affinity = <&cpu0 &cpu1 &cpu2 &cpu3>;
+    };
+   };
+  };
+ };
+
+ ahb {
+  #address-cells = <2>;
+  #size-cells = <2>;
+  compatible = "simple-bus";
+  interrupt-parent = <&gic>;
+  ranges;
+
+  rstc: reset-controller@f0801000 {
+   compatible = "nuvoton,npcm845-reset";
+   reg = <0x0 0xf0801000 0x0 0x78>;
+   #reset-cells = <2>;
+   nuvoton,sysgcr = <&gcr>;
+  };
+
+  clk: clock-controller@f0801000 {
+   compatible = "nuvoton,npcm845-clk";
+   #clock-cells = <1>;
+   reg = <0x0 0xf0801000 0x0 0x1000>;
+  };
+
+  apb {
+   #address-cells = <1>;
+   #size-cells = <1>;
+   compatible = "simple-bus";
+   interrupt-parent = <&gic>;
+   ranges = <0x0 0x0 0xf0000000 0x00300000>,
+    <0xfff00000 0x0 0xfff00000 0x00016000>;
+
+   timer0: timer@8000 {
+    compatible = "nuvoton,npcm845-timer";
+    interrupts = <0 32 4>;
+    reg = <0x8000 0x1C>;
+    clocks = <&clk 31>;
+    clock-names = "refclk";
+   };
+
+   serial0: serial@0 {
+    compatible = "nuvoton,npcm845-uart", "nuvoton,npcm750-uart";
+    reg = <0x0 0x1000>;
+    clocks = <&clk 6>;
+    interrupts = <0 192 4>;
+    reg-shift = <2>;
+    status = "disabled";
+   };
+
+   serial1: serial@1000 {
+    compatible = "nuvoton,npcm845-uart", "nuvoton,npcm750-uart";
+    reg = <0x1000 0x1000>;
+    clocks = <&clk 6>;
+    interrupts = <0 193 4>;
+    reg-shift = <2>;
+    status = "disabled";
+   };
+
+   serial2: serial@2000 {
+    compatible = "nuvoton,npcm845-uart", "nuvoton,npcm750-uart";
+    reg = <0x2000 0x1000>;
+    clocks = <&clk 6>;
+    interrupts = <0 194 4>;
+    reg-shift = <2>;
+    status = "disabled";
+   };
+
+   serial3: serial@3000 {
+    compatible = "nuvoton,npcm845-uart", "nuvoton,npcm750-uart";
+    reg = <0x3000 0x1000>;
+    clocks = <&clk 6>;
+    interrupts = <0 195 4>;
+    reg-shift = <2>;
+    status = "disabled";
+   };
+
+   serial4: serial@4000 {
+    compatible = "nuvoton,npcm845-uart", "nuvoton,npcm750-uart";
+    reg = <0x4000 0x1000>;
+    clocks = <&clk 6>;
+    interrupts = <0 196 4>;
+    reg-shift = <2>;
+    status = "disabled";
+   };
+
+   serial5: serial@5000 {
+    compatible = "nuvoton,npcm845-uart", "nuvoton,npcm750-uart";
+    reg = <0x5000 0x1000>;
+    clocks = <&clk 6>;
+    interrupts = <0 197 4>;
+    reg-shift = <2>;
+    status = "disabled";
+   };
+
+   serial6: serial@6000 {
+    compatible = "nuvoton,npcm845-uart", "nuvoton,npcm750-uart";
+    reg = <0x6000 0x1000>;
+    clocks = <&clk 6>;
+    interrupts = <0 198 4>;
+    reg-shift = <2>;
+    status = "disabled";
+   };
+
+   watchdog0: watchdog@801c {
+    compatible = "nuvoton,npcm845-wdt", "nuvoton,npcm750-wdt";
+    interrupts = <0 47 4>;
+    reg = <0x801c 0x4>;
+    status = "disabled";
+    clocks = <&clk 31>;
+    syscon = <&gcr>;
+   };
+
+   watchdog1: watchdog@901c {
+    compatible = "nuvoton,npcm845-wdt", "nuvoton,npcm750-wdt";
+    interrupts = <0 48 4>;
+    reg = <0x901c 0x4>;
+    status = "disabled";
+    clocks = <&clk 31>;
+    syscon = <&gcr>;
+   };
+
+   watchdog2: watchdog@a01c {
+    compatible = "nuvoton,npcm845-wdt", "nuvoton,npcm750-wdt";
+    interrupts = <0 49 4>;
+    reg = <0xa01c 0x4>;
+    status = "disabled";
+    clocks = <&clk 31>;
+    syscon = <&gcr>;
+   };
+  };
+ };
+};
+# 5 "arch/arm64/boot/dts/nuvoton/nuvoton-npcm845.dtsi" 2
+
+/ {
+ #address-cells = <2>;
+ #size-cells = <2>;
+
+ cpus {
+  #address-cells = <2>;
+  #size-cells = <0>;
+
+  cpu0: cpu@0 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a35";
+   clocks = <&clk 0>;
+   reg = <0x0 0x0>;
+   next-level-cache = <&l2>;
+   enable-method = "psci";
+  };
+
+  cpu1: cpu@1 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a35";
+   clocks = <&clk 0>;
+   reg = <0x0 0x1>;
+   next-level-cache = <&l2>;
+   enable-method = "psci";
+  };
+
+  cpu2: cpu@2 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a35";
+   clocks = <&clk 0>;
+   reg = <0x0 0x2>;
+   next-level-cache = <&l2>;
+   enable-method = "psci";
+  };
+
+  cpu3: cpu@3 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a35";
+   clocks = <&clk 0>;
+   reg = <0x0 0x3>;
+   next-level-cache = <&l2>;
+   enable-method = "psci";
+  };
+
+  l2: l2-cache {
+   compatible = "cache";
+  };
+ };
+
+ arm-pmu {
+  compatible = "arm,cortex-a35-pmu";
+  interrupts = <0 242 4>,
+        <0 243 4>,
+        <0 244 4>,
+        <0 245 4>;
+  interrupt-affinity = <&cpu0>, <&cpu1>, <&cpu2>, <&cpu3>;
+ };
+
+ psci {
+  compatible = "arm,psci-1.0";
+  method = "smc";
+ };
+
+ timer {
+  compatible = "arm,armv8-timer";
+  interrupts = <1 13 ((((1 << (4)) - 1) << 8) | 8)>,
+        <1 14 ((((1 << (4)) - 1) << 8) | 8)>,
+        <1 11 ((((1 << (4)) - 1) << 8) | 8)>,
+        <1 10 ((((1 << (4)) - 1) << 8) | 8)>;
+ };
+};
+# 6 "arch/arm64/boot/dts/nuvoton/nuvoton-npcm845-evb.dts" 2
+
+/ {
+ model = "Nuvoton npcm845 Development Board (Device Tree)";
+ compatible = "nuvoton,npcm845-evb", "nuvoton,npcm845";
+
+ aliases {
+  serial0 = &serial0;
+ };
+
+ chosen {
+  stdout-path = &serial0;
+ };
+
+ memory {
+  reg = <0x0 0x0 0x0 0x40000000>;
+ };
+};
+
+&serial0 {
+ status = "okay";
+};
+
+&watchdog1 {
+ status = "okay";
+};

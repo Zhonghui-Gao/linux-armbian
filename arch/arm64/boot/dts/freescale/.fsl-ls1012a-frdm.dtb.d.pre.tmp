@@ -1,0 +1,6 @@
+fsl-ls1012a-frdm.o: arch/arm64/boot/dts/freescale/fsl-ls1012a-frdm.dts \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ arch/arm64/boot/dts/freescale/fsl-ls1012a.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/fsl,qoriq-clockgen.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/thermal/thermal.h

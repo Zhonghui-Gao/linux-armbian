@@ -1,0 +1,9 @@
+tmpv7708-visrobo-vrb.o: \
+ arch/arm64/boot/dts/toshiba/tmpv7708-visrobo-vrb.dts \
+ arch/arm64/boot/dts/toshiba/tmpv7708-visrobo-vrc.dtsi \
+ arch/arm64/boot/dts/toshiba/tmpv7708.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/toshiba,tmpv770x.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ arch/arm64/boot/dts/toshiba/tmpv7708_pins.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h

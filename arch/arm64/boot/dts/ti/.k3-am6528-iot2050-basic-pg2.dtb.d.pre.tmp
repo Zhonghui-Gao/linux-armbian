@@ -1,0 +1,18 @@
+k3-am6528-iot2050-basic-pg2.o: \
+ arch/arm64/boot/dts/ti/k3-am6528-iot2050-basic-pg2.dts \
+ arch/arm64/boot/dts/ti/k3-am6528-iot2050-basic-common.dtsi \
+ arch/arm64/boot/dts/ti/k3-am65-iot2050-common.dtsi \
+ arch/arm64/boot/dts/ti/k3-am654.dtsi arch/arm64/boot/dts/ti/k3-am65.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/soc/ti,sci_pm_domain.h \
+ arch/arm64/boot/dts/ti/k3-pinctrl.h \
+ arch/arm64/boot/dts/ti/k3-am65-main.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/phy/phy-am654-serdes.h \
+ arch/arm64/boot/dts/ti/k3-am65-mcu.dtsi \
+ arch/arm64/boot/dts/ti/k3-am65-wakeup.dtsi \
+ arch/arm64/boot/dts/ti/k3-am654-industrial-thermal.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/thermal/thermal.h \
+ scripts/dtc/include-prefixes/dt-bindings/phy/phy.h \
+ arch/arm64/boot/dts/ti/k3-am65-iot2050-common-pg2.dtsi

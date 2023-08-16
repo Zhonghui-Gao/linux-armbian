@@ -1,0 +1,1 @@
+savedcmd_arch/arm64/boot/dts/ti/k3-j721e-evm.dtb := ./scripts/dtc/fdtoverlay -o arch/arm64/boot/dts/ti/k3-j721e-evm.dtb -i arch/arm64/boot/dts/ti/k3-j721e-common-proc-board.dtb arch/arm64/boot/dts/ti/k3-j721e-evm-quad-port-eth-exp.dtbo

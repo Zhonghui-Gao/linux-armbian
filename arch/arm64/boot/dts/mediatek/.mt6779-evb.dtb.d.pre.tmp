@@ -1,0 +1,7 @@
+mt6779-evb.o: arch/arm64/boot/dts/mediatek/mt6779-evb.dts \
+ arch/arm64/boot/dts/mediatek/mt6779.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/mt6779-clk.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/mt6779-pinfunc.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/mt65xx.h

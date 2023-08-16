@@ -1,0 +1,7 @@
+nuvoton-npcm845-evb.o: \
+ arch/arm64/boot/dts/nuvoton/nuvoton-npcm845-evb.dts \
+ arch/arm64/boot/dts/nuvoton/nuvoton-npcm845.dtsi \
+ arch/arm64/boot/dts/nuvoton/nuvoton-common-npcm8xx.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/nuvoton,npcm845-clk.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h

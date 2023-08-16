@@ -1,0 +1,1 @@
+savedcmd_arch/arm64/boot/dts/freescale/fsl-ls1028a-qds-9999.dtb := ./scripts/dtc/fdtoverlay -o arch/arm64/boot/dts/freescale/fsl-ls1028a-qds-9999.dtb -i arch/arm64/boot/dts/freescale/fsl-ls1028a-qds.dtb arch/arm64/boot/dts/freescale/fsl-ls1028a-qds-9999.dtbo

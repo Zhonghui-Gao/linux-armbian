@@ -1,0 +1,64 @@
+# 0 "arch/arm64/boot/dts/renesas/salvator-panel-aa104xd12.dtso"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "arch/arm64/boot/dts/renesas/salvator-panel-aa104xd12.dtso"
+# 9 "arch/arm64/boot/dts/renesas/salvator-panel-aa104xd12.dtso"
+/dts-v1/;
+/plugin/;
+
+&{/} {
+# 1 "arch/arm64/boot/dts/renesas/panel-aa104xd12.dtsi" 1
+
+
+
+
+
+
+
+panel {
+ compatible = "mitsubishi,aa104xd12", "panel-lvds";
+
+ width-mm = <210>;
+ height-mm = <158>;
+ data-mapping = "jeida-18";
+
+ panel-timing {
+
+  clock-frequency = <65000000>;
+  hactive = <1024>;
+  vactive = <768>;
+  hsync-len = <136>;
+  hfront-porch = <20>;
+  hback-porch = <160>;
+  vfront-porch = <3>;
+  vback-porch = <29>;
+  vsync-len = <6>;
+ };
+
+ port {
+ };
+};
+# 14 "arch/arm64/boot/dts/renesas/salvator-panel-aa104xd12.dtso" 2
+};
+
+&{/panel} {
+ backlight = <&backlight>;
+
+ port {
+  panel_in: endpoint {
+   remote-endpoint = <&lvds0_out>;
+  };
+ };
+};
+
+&lvds0 {
+ status = "okay";
+
+ ports {
+  port@1 {
+   lvds0_out: endpoint {
+    remote-endpoint = <&panel_in>;
+   };
+  };
+ };
+};

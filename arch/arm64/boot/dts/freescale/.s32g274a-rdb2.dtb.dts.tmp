@@ -1,0 +1,168 @@
+# 0 "arch/arm64/boot/dts/freescale/s32g274a-rdb2.dts"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "arch/arm64/boot/dts/freescale/s32g274a-rdb2.dts"
+
+
+
+
+
+
+/dts-v1/;
+
+# 1 "arch/arm64/boot/dts/freescale/s32g2.dtsi" 1
+# 9 "arch/arm64/boot/dts/freescale/s32g2.dtsi"
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h" 1
+# 9 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h"
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h" 1
+# 10 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h" 2
+# 10 "arch/arm64/boot/dts/freescale/s32g2.dtsi" 2
+
+/ {
+ compatible = "nxp,s32g2";
+ interrupt-parent = <&gic>;
+ #address-cells = <2>;
+ #size-cells = <2>;
+
+ cpus {
+  #address-cells = <1>;
+  #size-cells = <0>;
+
+  cpu0: cpu@0 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a53";
+   reg = <0x0>;
+   enable-method = "psci";
+   next-level-cache = <&cluster0_l2>;
+  };
+
+  cpu1: cpu@1 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a53";
+   reg = <0x1>;
+   enable-method = "psci";
+   next-level-cache = <&cluster0_l2>;
+  };
+
+  cpu2: cpu@100 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a53";
+   reg = <0x100>;
+   enable-method = "psci";
+   next-level-cache = <&cluster1_l2>;
+  };
+
+  cpu3: cpu@101 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a53";
+   reg = <0x101>;
+   enable-method = "psci";
+   next-level-cache = <&cluster1_l2>;
+  };
+
+  cluster0_l2: l2-cache0 {
+   compatible = "cache";
+   cache-level = <2>;
+  };
+
+  cluster1_l2: l2-cache1 {
+   compatible = "cache";
+   cache-level = <2>;
+  };
+ };
+
+ pmu {
+  compatible = "arm,cortex-a53-pmu";
+  interrupts = <1 7 4>;
+ };
+
+ timer {
+  compatible = "arm,armv8-timer";
+  interrupts = <1 13 8>,
+        <1 14 8>,
+        <1 11 8>,
+        <1 10 8>;
+ };
+
+ firmware {
+  psci {
+   compatible = "arm,psci-1.0";
+   method = "smc";
+  };
+ };
+
+ soc@0 {
+  compatible = "simple-bus";
+  #address-cells = <1>;
+  #size-cells = <1>;
+  ranges = <0 0 0 0x80000000>;
+
+  uart0: serial@401c8000 {
+   compatible = "nxp,s32g2-linflexuart",
+         "fsl,s32v234-linflexuart";
+   reg = <0x401c8000 0x3000>;
+   interrupts = <0 82 1>;
+   status = "disabled";
+  };
+
+  uart1: serial@401cc000 {
+   compatible = "nxp,s32g2-linflexuart",
+         "fsl,s32v234-linflexuart";
+   reg = <0x401cc000 0x3000>;
+   interrupts = <0 83 1>;
+   status = "disabled";
+  };
+
+  uart2: serial@402bc000 {
+   compatible = "nxp,s32g2-linflexuart",
+         "fsl,s32v234-linflexuart";
+   reg = <0x402bc000 0x3000>;
+   interrupts = <0 84 1>;
+   status = "disabled";
+  };
+
+  gic: interrupt-controller@50800000 {
+   compatible = "arm,gic-v3";
+   reg = <0x50800000 0x10000>,
+         <0x50880000 0x80000>,
+         <0x50400000 0x2000>,
+         <0x50410000 0x2000>,
+         <0x50420000 0x2000>;
+   interrupts = <1 9 4>;
+   interrupt-controller;
+   #interrupt-cells = <3>;
+  };
+ };
+};
+# 10 "arch/arm64/boot/dts/freescale/s32g274a-rdb2.dts" 2
+
+/ {
+ model = "NXP S32G2 Reference Design Board 2 (S32G-VNP-RDB2)";
+ compatible = "nxp,s32g274a-rdb2", "nxp,s32g2";
+
+ aliases {
+  serial0 = &uart0;
+  serial1 = &uart1;
+ };
+
+ chosen {
+  stdout-path = "serial0:115200n8";
+ };
+
+
+ memory@80000000 {
+  device_type = "memory";
+  reg = <0x0 0x80000000 0 0x80000000>,
+        <0x8 0x80000000 0 0x80000000>;
+ };
+};
+
+
+&uart0 {
+ status = "okay";
+};
+
+
+&uart1 {
+ status = "okay";
+};

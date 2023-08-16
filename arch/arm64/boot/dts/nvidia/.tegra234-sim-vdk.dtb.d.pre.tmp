@@ -1,0 +1,12 @@
+tegra234-sim-vdk.o: arch/arm64/boot/dts/nvidia/tegra234-sim-vdk.dts \
+ arch/arm64/boot/dts/nvidia/tegra234.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/tegra234-clock.h \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/tegra234-gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/mailbox/tegra186-hsp.h \
+ scripts/dtc/include-prefixes/dt-bindings/memory/tegra234-mc.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/pinctrl-tegra-io-pad.h \
+ scripts/dtc/include-prefixes/dt-bindings/power/tegra234-powergate.h \
+ scripts/dtc/include-prefixes/dt-bindings/reset/tegra234-reset.h

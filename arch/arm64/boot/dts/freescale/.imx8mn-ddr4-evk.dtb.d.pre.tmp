@@ -1,0 +1,14 @@
+imx8mn-ddr4-evk.o: arch/arm64/boot/dts/freescale/imx8mn-ddr4-evk.dts \
+ arch/arm64/boot/dts/freescale/imx8mn.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/imx8mn-clock.h \
+ scripts/dtc/include-prefixes/dt-bindings/power/imx8mn-power.h \
+ scripts/dtc/include-prefixes/dt-bindings/reset/imx8mq-reset.h \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/input/input.h \
+ scripts/dtc/include-prefixes/dt-bindings/input/linux-event-codes.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/thermal/thermal.h \
+ arch/arm64/boot/dts/freescale/imx8mn-pinfunc.h \
+ arch/arm64/boot/dts/freescale/imx8mn-evk.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/usb/pd.h

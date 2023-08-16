@@ -1,0 +1,12 @@
+bcm4906-netgear-r8000p.o: \
+ arch/arm64/boot/dts/broadcom/bcmbca/bcm4906-netgear-r8000p.dts \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/input/input.h \
+ scripts/dtc/include-prefixes/dt-bindings/input/linux-event-codes.h \
+ scripts/dtc/include-prefixes/dt-bindings/leds/common.h \
+ arch/arm64/boot/dts/broadcom/bcmbca/bcm4906.dtsi \
+ arch/arm64/boot/dts/broadcom/bcmbca/bcm4908.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/phy/phy.h \
+ scripts/dtc/include-prefixes/dt-bindings/soc/bcm-pmb.h

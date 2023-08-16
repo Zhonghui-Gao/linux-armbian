@@ -1,0 +1,8 @@
+imx8ulp-evk.o: arch/arm64/boot/dts/freescale/imx8ulp-evk.dts \
+ arch/arm64/boot/dts/freescale/imx8ulp.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/imx8ulp-clock.h \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/power/imx8ulp-power.h \
+ arch/arm64/boot/dts/freescale/imx8ulp-pinfunc.h

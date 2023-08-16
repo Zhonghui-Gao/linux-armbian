@@ -1,0 +1,26 @@
+mt8192-asurada-hayato-r1.o: \
+ arch/arm64/boot/dts/mediatek/mt8192-asurada-hayato-r1.dts \
+ arch/arm64/boot/dts/mediatek/mt8192-asurada.dtsi \
+ arch/arm64/boot/dts/mediatek/mt8192.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/mt8192-clk.h \
+ scripts/dtc/include-prefixes/dt-bindings/gce/mt8192-gce.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/memory/mt8192-larb-port.h \
+ scripts/dtc/include-prefixes/dt-bindings/memory/mtk-memory-port.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/mt8192-pinfunc.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/mt65xx.h \
+ scripts/dtc/include-prefixes/dt-bindings/phy/phy.h \
+ scripts/dtc/include-prefixes/dt-bindings/power/mt8192-power.h \
+ scripts/dtc/include-prefixes/dt-bindings/reset/mt8192-resets.h \
+ arch/arm64/boot/dts/mediatek/mt6359.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/spmi/spmi.h \
+ scripts/dtc/include-prefixes/arm/cros-ec-keyboard.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/input/input.h \
+ scripts/dtc/include-prefixes/dt-bindings/input/linux-event-codes.h \
+ scripts/dtc/include-prefixes/dt-bindings/input/cros-ec-keyboard.h \
+ scripts/dtc/include-prefixes/arm/cros-ec-sbs.dtsi \
+ arch/arm64/boot/dts/mediatek/mt8192-asurada-audio-rt1015p-rt5682.dtsi \
+ arch/arm64/boot/dts/mediatek/mt8192-asurada-audio-rt5682.dtsi \
+ arch/arm64/boot/dts/mediatek/mt8192-asurada-audio-rt1015p.dtsi

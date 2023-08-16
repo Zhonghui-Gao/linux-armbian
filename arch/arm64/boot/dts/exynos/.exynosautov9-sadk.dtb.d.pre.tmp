@@ -1,0 +1,10 @@
+exynosautov9-sadk.o: arch/arm64/boot/dts/exynos/exynosautov9-sadk.dts \
+ arch/arm64/boot/dts/exynos/exynosautov9.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/samsung,exynosautov9.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/soc/samsung,boot-mode.h \
+ scripts/dtc/include-prefixes/dt-bindings/soc/samsung,exynos-usi.h \
+ arch/arm64/boot/dts/exynos/exynosautov9-pinctrl.dtsi \
+ arch/arm64/boot/dts/exynos/exynos-pinctrl.h \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h

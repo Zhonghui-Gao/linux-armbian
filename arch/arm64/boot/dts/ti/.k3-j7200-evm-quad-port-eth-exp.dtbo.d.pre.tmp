@@ -1,0 +1,5 @@
+k3-j7200-evm-quad-port-eth-exp.o: \
+ arch/arm64/boot/dts/ti/k3-j7200-evm-quad-port-eth-exp.dtso \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/mux/ti-serdes.h \
+ arch/arm64/boot/dts/ti/k3-pinctrl.h

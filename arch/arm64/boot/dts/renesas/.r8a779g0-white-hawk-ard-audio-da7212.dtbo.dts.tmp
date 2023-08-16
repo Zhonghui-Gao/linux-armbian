@@ -1,0 +1,131 @@
+# 0 "arch/arm64/boot/dts/renesas/r8a779g0-white-hawk-ard-audio-da7212.dtso"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "arch/arm64/boot/dts/renesas/r8a779g0-white-hawk-ard-audio-da7212.dtso"
+# 72 "arch/arm64/boot/dts/renesas/r8a779g0-white-hawk-ard-audio-da7212.dtso"
+/dts-v1/;
+/plugin/;
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/clock/r8a779g0-cpg-mssr.h" 1
+
+
+
+
+
+
+
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/clock/renesas-cpg-mssr.h" 1
+# 9 "./scripts/dtc/include-prefixes/dt-bindings/clock/r8a779g0-cpg-mssr.h" 2
+# 75 "arch/arm64/boot/dts/renesas/r8a779g0-white-hawk-ard-audio-da7212.dtso" 2
+
+&{/} {
+ sound_card: sound {
+  compatible = "audio-graph-card";
+  label = "rcar-sound";
+
+  dais = <&rsnd_port>;
+ };
+
+ tpu_clk: tpu-clk {
+  compatible = "pwm-clock";
+  #clock-cells = <0>;
+
+
+  clock-frequency = <11289600>;
+  pwms = <&tpu 0 88 0>;
+
+
+
+
+ };
+
+};
+
+&pfc {
+ sound_pins: sound {
+  groups = "ssi_ctrl", "ssi_data";
+  function = "ssi";
+ };
+
+ sound_clk_pins: sound-clk {
+  groups = "audio_clkin", "audio_clkout";
+  function = "audio_clk";
+ };
+
+ tpu0_pins: tpu0 {
+  groups = "tpu_to0_a";
+  function = "tpu";
+ };
+};
+
+&tpu {
+ pinctrl-0 = <&tpu0_pins>;
+ pinctrl-names = "default";
+
+ status = "okay";
+};
+
+&i2c0 {
+ #address-cells = <1>;
+ #size-cells = <0>;
+
+ codec@1a {
+  compatible = "dlg,da7212";
+
+  #sound-dai-cells = <0>;
+  reg = <0x1a>;
+
+  clocks = <&rcar_sound>;
+  clock-names = "mclk";
+
+  dlg,micbias1-lvl = <2500>;
+  dlg,micbias2-lvl = <2500>;
+  dlg,dmic-data-sel = "lrise_rfall";
+  dlg,dmic-samplephase = "between_clkedge";
+  dlg,dmic-clkrate = <3000000>;
+
+  VDDA-supply = <&reg_1p8v>;
+  VDDMIC-supply = <&reg_3p3v>;
+  VDDIO-supply = <&reg_3p3v>;
+
+  port {
+   da7212_endpoint: endpoint {
+    remote-endpoint = <&rsnd_endpoint>;
+   };
+  };
+ };
+};
+
+&rcar_sound {
+ pinctrl-0 = <&sound_clk_pins>, <&sound_pins>;
+ pinctrl-names = "default";
+
+
+ #sound-dai-cells = <0>;
+
+
+ #clock-cells = <0>;
+ clock-frequency = <5644800>;
+
+
+ status = "okay";
+
+
+ clocks = <&cpg 1 2926>, <&cpg 1 2927>, <&tpu_clk>;
+
+ ports {
+  rsnd_port: port {
+   rsnd_endpoint: endpoint {
+    remote-endpoint = <&da7212_endpoint>;
+
+    dai-format = "i2s";
+    bitclock-master = <&rsnd_endpoint>;
+    frame-master = <&rsnd_endpoint>;
+
+
+    playback = <&ssi0>;
+
+
+   };
+  };
+ };
+};

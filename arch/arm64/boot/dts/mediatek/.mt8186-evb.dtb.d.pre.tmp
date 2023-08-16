@@ -1,0 +1,12 @@
+mt8186-evb.o: arch/arm64/boot/dts/mediatek/mt8186-evb.dts \
+ arch/arm64/boot/dts/mediatek/mt8186.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/mt8186-clk.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/memory/mt8186-memory-port.h \
+ scripts/dtc/include-prefixes/dt-bindings/memory/mtk-memory-port.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/mt8186-pinfunc.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/mt65xx.h \
+ scripts/dtc/include-prefixes/dt-bindings/power/mt8186-power.h \
+ scripts/dtc/include-prefixes/dt-bindings/phy/phy.h \
+ scripts/dtc/include-prefixes/dt-bindings/reset/mt8186-resets.h

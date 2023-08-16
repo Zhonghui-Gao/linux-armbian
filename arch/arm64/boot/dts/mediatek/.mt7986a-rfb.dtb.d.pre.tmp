@@ -1,0 +1,8 @@
+mt7986a-rfb.o: arch/arm64/boot/dts/mediatek/mt7986a-rfb.dts \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/mt65xx.h \
+ arch/arm64/boot/dts/mediatek/mt7986a.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/clock/mt7986-clk.h \
+ scripts/dtc/include-prefixes/dt-bindings/reset/mt7986-resets.h \
+ scripts/dtc/include-prefixes/dt-bindings/phy/phy.h

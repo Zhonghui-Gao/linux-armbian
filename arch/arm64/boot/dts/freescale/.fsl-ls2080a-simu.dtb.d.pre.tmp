@@ -1,0 +1,7 @@
+fsl-ls2080a-simu.o: arch/arm64/boot/dts/freescale/fsl-ls2080a-simu.dts \
+ arch/arm64/boot/dts/freescale/fsl-ls2080a.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/fsl,qoriq-clockgen.h \
+ arch/arm64/boot/dts/freescale/fsl-ls208xa.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/thermal/thermal.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h

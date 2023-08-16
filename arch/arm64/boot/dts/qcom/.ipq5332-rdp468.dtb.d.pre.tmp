@@ -1,0 +1,6 @@
+ipq5332-rdp468.o: arch/arm64/boot/dts/qcom/ipq5332-rdp468.dts \
+ arch/arm64/boot/dts/qcom/ipq5332.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/qcom,apss-ipq.h \
+ scripts/dtc/include-prefixes/dt-bindings/clock/qcom,ipq5332-gcc.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h

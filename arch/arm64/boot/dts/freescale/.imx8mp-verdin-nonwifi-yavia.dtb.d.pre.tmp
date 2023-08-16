@@ -1,0 +1,20 @@
+imx8mp-verdin-nonwifi-yavia.o: \
+ arch/arm64/boot/dts/freescale/imx8mp-verdin-nonwifi-yavia.dts \
+ arch/arm64/boot/dts/freescale/imx8mp-verdin.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/phy/phy-imx8-pcie.h \
+ scripts/dtc/include-prefixes/dt-bindings/pwm/pwm.h \
+ arch/arm64/boot/dts/freescale/imx8mp.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/imx8mp-clock.h \
+ scripts/dtc/include-prefixes/dt-bindings/power/imx8mp-power.h \
+ scripts/dtc/include-prefixes/dt-bindings/reset/imx8mp-reset.h \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/input/input.h \
+ scripts/dtc/include-prefixes/dt-bindings/input/linux-event-codes.h \
+ scripts/dtc/include-prefixes/dt-bindings/interconnect/fsl,imx8mp.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/thermal/thermal.h \
+ arch/arm64/boot/dts/freescale/imx8mp-pinfunc.h \
+ arch/arm64/boot/dts/freescale/imx8mp-verdin-nonwifi.dtsi \
+ arch/arm64/boot/dts/freescale/imx8mp-verdin-yavia.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/leds/common.h

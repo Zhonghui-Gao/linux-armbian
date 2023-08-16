@@ -1,0 +1,4 @@
+bcm963158.o: arch/arm64/boot/dts/broadcom/bcmbca/bcm963158.dts \
+ arch/arm64/boot/dts/broadcom/bcmbca/bcm63158.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h

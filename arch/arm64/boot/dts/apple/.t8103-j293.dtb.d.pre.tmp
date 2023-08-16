@@ -1,0 +1,9 @@
+t8103-j293.o: arch/arm64/boot/dts/apple/t8103-j293.dts \
+ arch/arm64/boot/dts/apple/t8103.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/apple-aic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/apple.h \
+ arch/arm64/boot/dts/apple/t8103-pmgr.dtsi \
+ arch/arm64/boot/dts/apple/t8103-jxxx.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/leds/common.h

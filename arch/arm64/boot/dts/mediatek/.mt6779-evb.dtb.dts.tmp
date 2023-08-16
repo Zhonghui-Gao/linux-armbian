@@ -1,0 +1,331 @@
+# 0 "arch/arm64/boot/dts/mediatek/mt6779-evb.dts"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "arch/arm64/boot/dts/mediatek/mt6779-evb.dts"
+
+
+
+
+
+
+
+/dts-v1/;
+# 1 "arch/arm64/boot/dts/mediatek/mt6779.dtsi" 1
+
+
+
+
+
+
+
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/clock/mt6779-clk.h" 1
+# 9 "arch/arm64/boot/dts/mediatek/mt6779.dtsi" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h" 1
+# 10 "arch/arm64/boot/dts/mediatek/mt6779.dtsi" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h" 1
+# 11 "arch/arm64/boot/dts/mediatek/mt6779.dtsi" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/pinctrl/mt6779-pinfunc.h" 1
+# 11 "./scripts/dtc/include-prefixes/dt-bindings/pinctrl/mt6779-pinfunc.h"
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/pinctrl/mt65xx.h" 1
+# 12 "./scripts/dtc/include-prefixes/dt-bindings/pinctrl/mt6779-pinfunc.h" 2
+# 12 "arch/arm64/boot/dts/mediatek/mt6779.dtsi" 2
+
+/ {
+ compatible = "mediatek,mt6779";
+ interrupt-parent = <&sysirq>;
+ #address-cells = <2>;
+ #size-cells = <2>;
+
+ psci {
+  compatible = "arm,psci-0.2";
+  method = "smc";
+ };
+
+ cpus {
+  #address-cells = <1>;
+  #size-cells = <0>;
+
+  cpu0: cpu@0 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a55";
+   enable-method = "psci";
+   reg = <0x000>;
+  };
+
+  cpu1: cpu@1 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a55";
+   enable-method = "psci";
+   reg = <0x100>;
+  };
+
+  cpu2: cpu@2 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a55";
+   enable-method = "psci";
+   reg = <0x200>;
+  };
+
+  cpu3: cpu@3 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a55";
+   enable-method = "psci";
+   reg = <0x300>;
+  };
+
+  cpu4: cpu@4 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a55";
+   enable-method = "psci";
+   reg = <0x400>;
+  };
+
+  cpu5: cpu@5 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a55";
+   enable-method = "psci";
+   reg = <0x500>;
+  };
+
+  cpu6: cpu@6 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a75";
+   enable-method = "psci";
+   reg = <0x600>;
+  };
+
+  cpu7: cpu@7 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a75";
+   enable-method = "psci";
+   reg = <0x700>;
+  };
+ };
+
+ pmu {
+  compatible = "arm,armv8-pmuv3";
+  interrupt-parent = <&gic>;
+  interrupts = <1 7 8 0>;
+ };
+
+ clk26m: oscillator-26m {
+  compatible = "fixed-clock";
+  #clock-cells = <0>;
+  clock-frequency = <26000000>;
+  clock-output-names = "clk26m";
+ };
+
+ clk32k: oscillator-32k {
+  compatible = "fixed-clock";
+  #clock-cells = <0>;
+  clock-frequency = <32768>;
+  clock-output-names = "clk32k";
+ };
+
+ timer {
+  compatible = "arm,armv8-timer";
+  interrupt-parent = <&gic>;
+  interrupts = <1 13 8 0>,
+        <1 14 8 0>,
+        <1 11 8 0>,
+        <1 10 8 0>;
+ };
+
+ soc {
+  #address-cells = <2>;
+  #size-cells = <2>;
+  compatible = "simple-bus";
+  ranges;
+
+  gic: interrupt-controller@c000000 {
+   compatible = "arm,gic-v3";
+   #interrupt-cells = <4>;
+   interrupt-parent = <&gic>;
+   interrupt-controller;
+   reg = <0 0x0c000000 0 0x40000>,
+         <0 0x0c040000 0 0x200000>;
+   interrupts = <1 9 4 0>;
+
+   ppi-partitions {
+    ppi_cluster0: interrupt-partition-0 {
+     affinity = <&cpu0 &cpu1 &cpu2 &cpu3 &cpu4 &cpu5>;
+
+    };
+    ppi_cluster1: interrupt-partition-1 {
+     affinity = <&cpu6 &cpu7>;
+    };
+   };
+
+  };
+
+  sysirq: intpol-controller@c53a650 {
+   compatible = "mediatek,mt6779-sysirq",
+         "mediatek,mt6577-sysirq";
+   interrupt-controller;
+   #interrupt-cells = <3>;
+   interrupt-parent = <&gic>;
+   reg = <0 0x0c53a650 0 0x50>;
+  };
+
+  topckgen: clock-controller@10000000 {
+   compatible = "mediatek,mt6779-topckgen", "syscon";
+   reg = <0 0x10000000 0 0x1000>;
+   #clock-cells = <1>;
+  };
+
+  infracfg_ao: clock-controller@10001000 {
+   compatible = "mediatek,mt6779-infracfg_ao", "syscon";
+   reg = <0 0x10001000 0 0x1000>;
+   #clock-cells = <1>;
+  };
+
+  pio: pinctrl@10005000 {
+   compatible = "mediatek,mt6779-pinctrl";
+   reg = <0 0x10005000 0 0x1000>,
+         <0 0x11c20000 0 0x1000>,
+         <0 0x11d10000 0 0x1000>,
+         <0 0x11e20000 0 0x1000>,
+         <0 0x11e70000 0 0x1000>,
+         <0 0x11ea0000 0 0x1000>,
+         <0 0x11f20000 0 0x1000>,
+         <0 0x11f30000 0 0x1000>,
+         <0 0x1000b000 0 0x1000>;
+   reg-names = "gpio", "iocfg_rm",
+        "iocfg_br", "iocfg_lm",
+        "iocfg_lb", "iocfg_rt",
+        "iocfg_lt", "iocfg_tl",
+        "eint";
+   gpio-controller;
+   #gpio-cells = <2>;
+   gpio-ranges = <&pio 0 0 210>;
+   interrupt-controller;
+   #interrupt-cells = <2>;
+   interrupts = <0 204 4>;
+  };
+
+  apmixed: clock-controller@1000c000 {
+   compatible = "mediatek,mt6779-apmixed", "syscon";
+   reg = <0 0x1000c000 0 0xe00>;
+   #clock-cells = <1>;
+  };
+
+  pwrap: pwrap@1000d000 {
+   compatible = "mediatek,mt6779-pwrap";
+   reg = <0 0x1000d000 0 0x1000>;
+   reg-names = "pwrap";
+   interrupts = <0 212 4>;
+   clocks = <&clk26m>, <&infracfg_ao 2>;
+   clock-names = "spi", "wrap";
+  };
+
+  devapc: devapc@10207000 {
+   compatible = "mediatek,mt6779-devapc";
+   reg = <0 0x10207000 0 0x1000>;
+   interrupts = <0 168 8>;
+   clocks = <&infracfg_ao 45>;
+   clock-names = "devapc-infra-clock";
+  };
+
+  uart0: serial@11002000 {
+   compatible = "mediatek,mt6779-uart",
+         "mediatek,mt6577-uart";
+   reg = <0 0x11002000 0 0x400>;
+   interrupts = <0 115 8>;
+   clocks = <&clk26m>, <&infracfg_ao 21>;
+   clock-names = "baud", "bus";
+   status = "disabled";
+  };
+
+  uart1: serial@11003000 {
+   compatible = "mediatek,mt6779-uart",
+         "mediatek,mt6577-uart";
+   reg = <0 0x11003000 0 0x400>;
+   interrupts = <0 116 8>;
+   clocks = <&clk26m>, <&infracfg_ao 22>;
+   clock-names = "baud", "bus";
+   status = "disabled";
+  };
+
+  uart2: serial@11004000 {
+   compatible = "mediatek,mt6779-uart",
+         "mediatek,mt6577-uart";
+   reg = <0 0x11004000 0 0x400>;
+   interrupts = <0 117 8>;
+   clocks = <&clk26m>, <&infracfg_ao 23>;
+   clock-names = "baud", "bus";
+   status = "disabled";
+  };
+
+  audio: clock-controller@11210000 {
+   compatible = "mediatek,mt6779-audio", "syscon";
+   reg = <0 0x11210000 0 0x1000>;
+   #clock-cells = <1>;
+  };
+
+  mfgcfg: clock-controller@13fbf000 {
+   compatible = "mediatek,mt6779-mfgcfg", "syscon";
+   reg = <0 0x13fbf000 0 0x1000>;
+   #clock-cells = <1>;
+  };
+
+  mmsys: syscon@14000000 {
+   compatible = "mediatek,mt6779-mmsys", "syscon";
+   reg = <0 0x14000000 0 0x1000>;
+   #clock-cells = <1>;
+  };
+
+  imgsys: clock-controller@15020000 {
+   compatible = "mediatek,mt6779-imgsys", "syscon";
+   reg = <0 0x15020000 0 0x1000>;
+   #clock-cells = <1>;
+  };
+
+  vdecsys: clock-controller@16000000 {
+   compatible = "mediatek,mt6779-vdecsys", "syscon";
+   reg = <0 0x16000000 0 0x1000>;
+   #clock-cells = <1>;
+  };
+
+  vencsys: clock-controller@17000000 {
+   compatible = "mediatek,mt6779-vencsys", "syscon";
+   reg = <0 0x17000000 0 0x1000>;
+   #clock-cells = <1>;
+  };
+
+  camsys: clock-controller@1a000000 {
+   compatible = "mediatek,mt6779-camsys", "syscon";
+   reg = <0 0x1a000000 0 0x10000>;
+   #clock-cells = <1>;
+  };
+
+  ipesys: clock-controller@1b000000 {
+   compatible = "mediatek,mt6779-ipesys", "syscon";
+   reg = <0 0x1b000000 0 0x1000>;
+   #clock-cells = <1>;
+  };
+
+ };
+};
+# 10 "arch/arm64/boot/dts/mediatek/mt6779-evb.dts" 2
+
+/ {
+ model = "MediaTek MT6779 EVB";
+ compatible = "mediatek,mt6779-evb", "mediatek,mt6779";
+
+ aliases {
+  serial0 = &uart0;
+ };
+
+ memory@40000000 {
+  device_type = "memory";
+  reg = <0 0x40000000 0 0x1e800000>;
+ };
+
+ chosen {
+  stdout-path = "serial0:921600n8";
+ };
+};
+
+&uart0 {
+ status = "okay";
+};

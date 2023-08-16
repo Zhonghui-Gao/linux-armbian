@@ -1,0 +1,6 @@
+tmpv7708-rm-mbrc.o: arch/arm64/boot/dts/toshiba/tmpv7708-rm-mbrc.dts \
+ arch/arm64/boot/dts/toshiba/tmpv7708.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/toshiba,tmpv770x.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ arch/arm64/boot/dts/toshiba/tmpv7708_pins.dtsi

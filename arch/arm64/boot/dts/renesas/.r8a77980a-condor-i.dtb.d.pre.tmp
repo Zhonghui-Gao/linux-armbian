@@ -1,0 +1,10 @@
+r8a77980a-condor-i.o: arch/arm64/boot/dts/renesas/r8a77980a-condor-i.dts \
+ arch/arm64/boot/dts/renesas/r8a77980a.dtsi \
+ arch/arm64/boot/dts/renesas/r8a77980.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/r8a77980-cpg-mssr.h \
+ scripts/dtc/include-prefixes/dt-bindings/clock/renesas-cpg-mssr.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/power/r8a77980-sysc.h \
+ arch/arm64/boot/dts/renesas/condor-common.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h

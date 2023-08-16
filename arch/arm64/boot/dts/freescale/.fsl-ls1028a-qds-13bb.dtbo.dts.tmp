@@ -1,0 +1,85 @@
+# 0 "arch/arm64/boot/dts/freescale/fsl-ls1028a-qds-13bb.dtso"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "arch/arm64/boot/dts/freescale/fsl-ls1028a-qds-13bb.dtso"
+# 12 "arch/arm64/boot/dts/freescale/fsl-ls1028a-qds-13bb.dtso"
+/dts-v1/;
+/plugin/;
+
+&mdio_slot1 {
+ #address-cells = <1>;
+ #size-cells = <0>;
+
+ slot1_sgmii: ethernet-phy@2 {
+
+  reg = <0x2>;
+  compatible = "ethernet-phy-ieee802.3-c45";
+ };
+};
+
+&enetc_port0 {
+ phy-handle = <&slot1_sgmii>;
+ phy-mode = "usxgmii";
+ managed = "in-band-status";
+ status = "okay";
+};
+
+&mdio_slot2 {
+ #address-cells = <1>;
+ #size-cells = <0>;
+
+
+ slot2_qxgmii0: ethernet-phy@0 {
+  reg = <0x0>;
+  compatible = "ethernet-phy-ieee802.3-c45";
+ };
+
+ slot2_qxgmii1: ethernet-phy@1 {
+  reg = <0x1>;
+  compatible = "ethernet-phy-ieee802.3-c45";
+ };
+
+ slot2_qxgmii2: ethernet-phy@2 {
+  reg = <0x2>;
+  compatible = "ethernet-phy-ieee802.3-c45";
+ };
+
+ slot2_qxgmii3: ethernet-phy@3 {
+  reg = <0x3>;
+  compatible = "ethernet-phy-ieee802.3-c45";
+ };
+};
+
+&mscc_felix_ports {
+ port@0 {
+  status = "okay";
+  phy-handle = <&slot2_qxgmii0>;
+  phy-mode = "usxgmii";
+  managed = "in-band-status";
+ };
+
+ port@1 {
+  status = "okay";
+  phy-handle = <&slot2_qxgmii1>;
+  phy-mode = "usxgmii";
+  managed = "in-band-status";
+ };
+
+ port@2 {
+  status = "okay";
+  phy-handle = <&slot2_qxgmii2>;
+  phy-mode = "usxgmii";
+  managed = "in-band-status";
+ };
+
+ port@3 {
+  status = "okay";
+  phy-handle = <&slot2_qxgmii3>;
+  phy-mode = "usxgmii";
+  managed = "in-band-status";
+ };
+};
+
+&mscc_felix {
+ status = "okay";
+};

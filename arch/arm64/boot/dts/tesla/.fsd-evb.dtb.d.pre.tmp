@@ -1,0 +1,8 @@
+fsd-evb.o: arch/arm64/boot/dts/tesla/fsd-evb.dts \
+ arch/arm64/boot/dts/tesla/fsd.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/fsd-clk.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ arch/arm64/boot/dts/tesla/fsd-pinctrl.dtsi \
+ arch/arm64/boot/dts/tesla/fsd-pinctrl.h \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h

@@ -1,0 +1,3 @@
+draak-ebisu-panel-aa104xd12.o: \
+ arch/arm64/boot/dts/renesas/draak-ebisu-panel-aa104xd12.dtso \
+ arch/arm64/boot/dts/renesas/panel-aa104xd12.dtsi

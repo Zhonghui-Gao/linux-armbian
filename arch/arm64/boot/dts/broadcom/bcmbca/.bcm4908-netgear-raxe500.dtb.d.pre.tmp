@@ -1,0 +1,7 @@
+bcm4908-netgear-raxe500.o: \
+ arch/arm64/boot/dts/broadcom/bcmbca/bcm4908-netgear-raxe500.dts \
+ arch/arm64/boot/dts/broadcom/bcmbca/bcm4908.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/phy/phy.h \
+ scripts/dtc/include-prefixes/dt-bindings/soc/bcm-pmb.h

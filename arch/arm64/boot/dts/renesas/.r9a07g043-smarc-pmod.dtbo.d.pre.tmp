@@ -1,0 +1,3 @@
+r9a07g043-smarc-pmod.o: \
+ arch/arm64/boot/dts/renesas/r9a07g043-smarc-pmod.dtso \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/rzg2l-pinctrl.h

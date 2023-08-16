@@ -1,0 +1,16 @@
+mt8167-pumpkin.o: arch/arm64/boot/dts/mediatek/mt8167-pumpkin.dts \
+ arch/arm64/boot/dts/mediatek/mt8167.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/mt8167-clk.h \
+ scripts/dtc/include-prefixes/dt-bindings/clock/mt8516-clk.h \
+ scripts/dtc/include-prefixes/dt-bindings/memory/mt8167-larb-port.h \
+ scripts/dtc/include-prefixes/dt-bindings/memory/mtk-memory-port.h \
+ scripts/dtc/include-prefixes/dt-bindings/power/mt8167-power.h \
+ arch/arm64/boot/dts/mediatek/mt8167-pinfunc.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/mt65xx.h \
+ arch/arm64/boot/dts/mediatek/mt8516.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/phy/phy.h \
+ arch/arm64/boot/dts/mediatek/mt8516-pinfunc.h \
+ arch/arm64/boot/dts/mediatek/pumpkin-common.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h

@@ -1,0 +1,352 @@
+# 0 "arch/arm64/boot/dts/qcom/ipq9574-al02-c7.dts"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "arch/arm64/boot/dts/qcom/ipq9574-al02-c7.dts"
+# 9 "arch/arm64/boot/dts/qcom/ipq9574-al02-c7.dts"
+/dts-v1/;
+
+# 1 "arch/arm64/boot/dts/qcom/ipq9574.dtsi" 1
+# 9 "arch/arm64/boot/dts/qcom/ipq9574.dtsi"
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h" 1
+# 9 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h"
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h" 1
+# 10 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h" 2
+# 10 "arch/arm64/boot/dts/qcom/ipq9574.dtsi" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/clock/qcom,ipq9574-gcc.h" 1
+# 11 "arch/arm64/boot/dts/qcom/ipq9574.dtsi" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/reset/qcom,ipq9574-gcc.h" 1
+# 12 "arch/arm64/boot/dts/qcom/ipq9574.dtsi" 2
+
+/ {
+ interrupt-parent = <&intc>;
+ #address-cells = <2>;
+ #size-cells = <2>;
+
+ clocks {
+  bias_pll_ubi_nc_clk: bias-pll-ubi-nc-clk {
+   compatible = "fixed-clock";
+   clock-frequency = <353000000>;
+   #clock-cells = <0>;
+  };
+
+  sleep_clk: sleep-clk {
+   compatible = "fixed-clock";
+   #clock-cells = <0>;
+  };
+
+  xo_board_clk: xo-board-clk {
+   compatible = "fixed-clock";
+   #clock-cells = <0>;
+  };
+ };
+
+ cpus {
+  #address-cells = <1>;
+  #size-cells = <0>;
+
+  CPU0: cpu@0 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a73";
+   reg = <0x0>;
+   enable-method = "psci";
+   next-level-cache = <&L2_0>;
+  };
+
+  CPU1: cpu@1 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a73";
+   reg = <0x1>;
+   enable-method = "psci";
+   next-level-cache = <&L2_0>;
+  };
+
+  CPU2: cpu@2 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a73";
+   reg = <0x2>;
+   enable-method = "psci";
+   next-level-cache = <&L2_0>;
+  };
+
+  CPU3: cpu@3 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a73";
+   reg = <0x3>;
+   enable-method = "psci";
+   next-level-cache = <&L2_0>;
+  };
+
+  L2_0: l2-cache {
+   compatible = "cache";
+   cache-level = <2>;
+   cache-unified;
+  };
+ };
+
+ memory@40000000 {
+  device_type = "memory";
+
+  reg = <0x0 0x40000000 0x0 0x0>;
+ };
+
+ pmu {
+  compatible = "arm,cortex-a73-pmu";
+  interrupts = <1 7 ((((1 << (4)) - 1) << 8) | 4)>;
+ };
+
+ psci {
+  compatible = "arm,psci-1.0";
+  method = "smc";
+ };
+
+ reserved-memory {
+  #address-cells = <2>;
+  #size-cells = <2>;
+  ranges;
+
+  tz_region: tz@4a600000 {
+   reg = <0x0 0x4a600000 0x0 0x400000>;
+   no-map;
+  };
+ };
+
+ soc: soc@0 {
+  compatible = "simple-bus";
+  #address-cells = <1>;
+  #size-cells = <1>;
+  ranges = <0 0 0 0xffffffff>;
+
+  tlmm: pinctrl@1000000 {
+   compatible = "qcom,ipq9574-tlmm";
+   reg = <0x01000000 0x300000>;
+   interrupts = <0 208 4>;
+   gpio-controller;
+   #gpio-cells = <2>;
+   gpio-ranges = <&tlmm 0 0 65>;
+   interrupt-controller;
+   #interrupt-cells = <2>;
+
+   uart2_pins: uart2-state {
+    pins = "gpio34", "gpio35";
+    function = "blsp2_uart";
+    drive-strength = <8>;
+    bias-disable;
+   };
+  };
+
+  gcc: clock-controller@1800000 {
+   compatible = "qcom,ipq9574-gcc";
+   reg = <0x01800000 0x80000>;
+   clocks = <&xo_board_clk>,
+     <&sleep_clk>,
+     <&bias_pll_ubi_nc_clk>,
+     <0>,
+     <0>,
+     <0>,
+     <0>,
+     <0>;
+   #clock-cells = <1>;
+   #reset-cells = <1>;
+   #power-domain-cells = <1>;
+  };
+
+  sdhc_1: mmc@7804000 {
+   compatible = "qcom,ipq9574-sdhci", "qcom,sdhci-msm-v5";
+   reg = <0x07804000 0x1000>, <0x07805000 0x1000>;
+   reg-names = "hc", "cqhci";
+
+   interrupts = <0 123 4>,
+         <0 138 4>;
+   interrupt-names = "hc_irq", "pwr_irq";
+
+   clocks = <&gcc 103>,
+     <&gcc 100>,
+     <&xo_board_clk>;
+   clock-names = "iface", "core", "xo";
+   non-removable;
+   status = "disabled";
+  };
+
+  blsp1_uart2: serial@78b1000 {
+   compatible = "qcom,msm-uartdm-v1.4", "qcom,msm-uartdm";
+   reg = <0x078b1000 0x200>;
+   interrupts = <0 306 4>;
+   clocks = <&gcc 43>,
+     <&gcc 113>;
+   clock-names = "core", "iface";
+   status = "disabled";
+  };
+
+  intc: interrupt-controller@b000000 {
+   compatible = "qcom,msm-qgic2";
+   reg = <0x0b000000 0x1000>,
+         <0x0b002000 0x2000>,
+         <0x0b001000 0x1000>,
+         <0x0b004000 0x2000>;
+   #address-cells = <1>;
+   #size-cells = <1>;
+   interrupt-controller;
+   #interrupt-cells = <3>;
+   interrupts = <1 9 ((((1 << (4)) - 1) << 8) | 4)>;
+   ranges = <0 0x0b00c000 0x3000>;
+
+   v2m0: v2m@0 {
+    compatible = "arm,gic-v2m-frame";
+    reg = <0x00000000 0xffd>;
+    msi-controller;
+   };
+
+   v2m1: v2m@1000 {
+    compatible = "arm,gic-v2m-frame";
+    reg = <0x00001000 0xffd>;
+    msi-controller;
+   };
+
+   v2m2: v2m@2000 {
+    compatible = "arm,gic-v2m-frame";
+    reg = <0x00002000 0xffd>;
+    msi-controller;
+   };
+  };
+
+  timer@b120000 {
+   compatible = "arm,armv7-timer-mem";
+   reg = <0x0b120000 0x1000>;
+   #address-cells = <1>;
+   #size-cells = <1>;
+   ranges;
+
+   frame@b120000 {
+    reg = <0x0b121000 0x1000>,
+          <0x0b122000 0x1000>;
+    frame-number = <0>;
+    interrupts = <0 8 4>,
+          <0 7 4>;
+   };
+
+   frame@b123000 {
+    reg = <0x0b123000 0x1000>;
+    frame-number = <1>;
+    interrupts = <0 9 4>;
+    status = "disabled";
+   };
+
+   frame@b124000 {
+    reg = <0x0b124000 0x1000>;
+    frame-number = <2>;
+    interrupts = <0 10 4>;
+    status = "disabled";
+   };
+
+   frame@b125000 {
+    reg = <0x0b125000 0x1000>;
+    frame-number = <3>;
+    interrupts = <0 11 4>;
+    status = "disabled";
+   };
+
+   frame@b126000 {
+    reg = <0x0b126000 0x1000>;
+    frame-number = <4>;
+    interrupts = <0 12 4>;
+    status = "disabled";
+   };
+
+   frame@b127000 {
+    reg = <0x0b127000 0x1000>;
+    frame-number = <5>;
+    interrupts = <0 13 4>;
+    status = "disabled";
+   };
+
+   frame@b128000 {
+    reg = <0x0b128000 0x1000>;
+    frame-number = <6>;
+    interrupts = <0 14 4>;
+    status = "disabled";
+   };
+  };
+ };
+
+ timer {
+  compatible = "arm,armv8-timer";
+  interrupts = <1 2 ((((1 << (4)) - 1) << 8) | 8)>,
+        <1 3 ((((1 << (4)) - 1) << 8) | 8)>,
+        <1 4 ((((1 << (4)) - 1) << 8) | 8)>,
+        <1 1 ((((1 << (4)) - 1) << 8) | 8)>;
+ };
+};
+# 12 "arch/arm64/boot/dts/qcom/ipq9574-al02-c7.dts" 2
+
+/ {
+ model = "Qualcomm Technologies, Inc. IPQ9574/AP-AL02-C7";
+ compatible = "qcom,ipq9574-ap-al02-c7", "qcom,ipq9574";
+
+ aliases {
+  serial0 = &blsp1_uart2;
+ };
+
+ chosen {
+  stdout-path = "serial0:115200n8";
+ };
+};
+
+&blsp1_uart2 {
+ pinctrl-0 = <&uart2_pins>;
+ pinctrl-names = "default";
+ status = "okay";
+};
+
+&sdhc_1 {
+ pinctrl-0 = <&sdc_default_state>;
+ pinctrl-names = "default";
+ mmc-ddr-1_8v;
+ mmc-hs200-1_8v;
+ mmc-hs400-1_8v;
+ mmc-hs400-enhanced-strobe;
+ max-frequency = <384000000>;
+ bus-width = <8>;
+ status = "okay";
+};
+
+&sleep_clk {
+ clock-frequency = <32000>;
+};
+
+&tlmm {
+ sdc_default_state: sdc-default-state {
+  clk-pins {
+   pins = "gpio5";
+   function = "sdc_clk";
+   drive-strength = <8>;
+   bias-disable;
+  };
+
+  cmd-pins {
+   pins = "gpio4";
+   function = "sdc_cmd";
+   drive-strength = <8>;
+   bias-pull-up;
+  };
+
+  data-pins {
+   pins = "gpio0", "gpio1", "gpio2",
+          "gpio3", "gpio6", "gpio7",
+          "gpio8", "gpio9";
+   function = "sdc_data";
+   drive-strength = <8>;
+   bias-pull-up;
+  };
+
+  rclk-pins {
+   pins = "gpio10";
+   function = "sdc_rclk";
+   drive-strength = <8>;
+   bias-pull-down;
+  };
+ };
+};
+
+&xo_board_clk {
+ clock-frequency = <24000000>;
+};

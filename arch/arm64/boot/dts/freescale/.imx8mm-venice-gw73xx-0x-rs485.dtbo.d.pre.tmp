@@ -1,0 +1,4 @@
+imx8mm-venice-gw73xx-0x-rs485.o: \
+ arch/arm64/boot/dts/freescale/imx8mm-venice-gw73xx-0x-rs485.dtso \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ arch/arm64/boot/dts/freescale/imx8mm-pinfunc.h

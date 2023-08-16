@@ -1,0 +1,26 @@
+# 0 "arch/arm64/boot/dts/mediatek/mt7986a-bananapi-bpi-r3-sd.dtso"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "arch/arm64/boot/dts/mediatek/mt7986a-bananapi-bpi-r3-sd.dtso"
+
+
+
+
+
+
+/dts-v1/;
+/plugin/;
+
+/ {
+ compatible = "bananapi,bpi-r3", "mediatek,mt7986a";
+
+ fragment@0 {
+  target-path = "/soc/mmc@11230000";
+  __overlay__ {
+   bus-width = <4>;
+   max-frequency = <52000000>;
+   cap-sd-highspeed;
+   status = "okay";
+  };
+ };
+};

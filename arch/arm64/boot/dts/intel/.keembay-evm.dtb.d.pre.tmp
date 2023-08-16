@@ -1,0 +1,4 @@
+keembay-evm.o: arch/arm64/boot/dts/intel/keembay-evm.dts \
+ arch/arm64/boot/dts/intel/keembay-soc.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h

@@ -1,0 +1,16 @@
+imx8mm-venice-gw7904.o: \
+ arch/arm64/boot/dts/freescale/imx8mm-venice-gw7904.dts \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/input/linux-event-codes.h \
+ scripts/dtc/include-prefixes/dt-bindings/leds/common.h \
+ scripts/dtc/include-prefixes/dt-bindings/phy/phy-imx8-pcie.h \
+ arch/arm64/boot/dts/freescale/imx8mm.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/imx8mm-clock.h \
+ scripts/dtc/include-prefixes/dt-bindings/input/input.h \
+ scripts/dtc/include-prefixes/dt-bindings/input/linux-event-codes.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/power/imx8mm-power.h \
+ scripts/dtc/include-prefixes/dt-bindings/reset/imx8mq-reset.h \
+ scripts/dtc/include-prefixes/dt-bindings/thermal/thermal.h \
+ arch/arm64/boot/dts/freescale/imx8mm-pinfunc.h

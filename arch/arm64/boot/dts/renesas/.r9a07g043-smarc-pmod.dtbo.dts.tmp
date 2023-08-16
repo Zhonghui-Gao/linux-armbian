@@ -1,0 +1,31 @@
+# 0 "arch/arm64/boot/dts/renesas/r9a07g043-smarc-pmod.dtso"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "arch/arm64/boot/dts/renesas/r9a07g043-smarc-pmod.dtso"
+# 21 "arch/arm64/boot/dts/renesas/r9a07g043-smarc-pmod.dtso"
+/dts-v1/;
+/plugin/;
+
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/pinctrl/rzg2l-pinctrl.h" 1
+# 25 "arch/arm64/boot/dts/renesas/r9a07g043-smarc-pmod.dtso" 2
+
+&pinctrl {
+ can0-stb-hog {
+  status = "disabled";
+ };
+
+ can1-stb-hog {
+  status = "disabled";
+ };
+
+ sci0_pins: sci0-pins {
+  pinmux = <((2) * 8 + (2) | ((5) << 16))>,
+    <((2) * 8 + (3) | ((5) << 16))>;
+ };
+};
+
+&sci0 {
+ pinctrl-0 = <&sci0_pins>;
+ pinctrl-names = "default";
+ status = "okay";
+};

@@ -5768,7 +5768,7 @@
   compatible = "gpio-leds";
 
   led_user: led-0 {
-   gpios = <&gpio0 15 0>;
+   gpios = <&gpio0 16 1>;
    function = "heartbeat";
    color = <3>;
    linux,default-trigger = "heartbeat";
