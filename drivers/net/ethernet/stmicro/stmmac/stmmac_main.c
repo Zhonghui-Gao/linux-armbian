@@ -7480,7 +7480,7 @@ int stmmac_shutdown(struct device *dev)
 	struct stmmac_priv *priv = netdev_priv(ndev);
 	printk("stmmac_shutdown\n");
 
-	if(!netif_running(dev))
+	if(!netif_running(ndev))
 		return 0;
 	
 	if(priv->dev->dev_addr)
@@ -7503,9 +7503,9 @@ int stmmac_shutdown(struct device *dev)
 		//ce0a, 3ba9, dd29,
 		//set mac addr
 		phy_write(priv->dev->phydev, 0x1f, 0x0d8c);
-		phy_write(priv->dev->phydev, 0x10, ((u16)priv->dev->phydev[1] << 8) + priv->dev->phydev[0]);
-		phy_write(priv->dev->phydev, 0x11, ((u16)priv->dev->phydev[2] << 8) + priv->dev->phydev[3]);
-		phy_write(priv->dev->phydev, 0x12, ((u16)priv->dev->phydev[6] << 8) + priv->dev->phydev[5]);
+		phy_write(priv->dev->phydev, 0x10, ((u16)priv->dev->dev_addr[1] << 8) + priv->dev->dev_addr[0]);
+		phy_write(priv->dev->phydev, 0x11, ((u16)priv->dev->dev_addr[3] << 8) + priv->dev->dev_addr[2]);
+		phy_write(priv->dev->phydev, 0x12, ((u16)priv->dev->dev_addr[5] << 8) + priv->dev->dev_addr[4]);
 
 		//Set Max packet length
 		phy_write(priv->dev->phydev, 0x1f, 0x0d8a);
@@ -7519,9 +7519,12 @@ int stmmac_shutdown(struct device *dev)
 		//Page 0x0d8a Reg19 bit[15]= 1 
 		phy_write(priv->dev->phydev, 0x1f, 0x0d8a);
 		value = phy_read(priv->dev->phydev, 0x13);
-		phy_write(priv->dev->phydev, 0x13, value | BIT(15));		
+		phy_write(priv->dev->phydev, 0x13, value | BIT(15));	
+		return 0;
 	}
-	
+#endif
+	return 0;
+
 }
 EXPORT_SYMBOL_GPL(stmmac_shutdown);
 
