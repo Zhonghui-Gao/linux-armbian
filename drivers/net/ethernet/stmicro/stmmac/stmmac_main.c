@@ -7519,7 +7519,10 @@ int stmmac_shutdown(struct device *dev)
 		//Page 0x0d8a Reg19 bit[15]= 1 
 		phy_write(priv->dev->phydev, 0x1f, 0x0d8a);
 		value = phy_read(priv->dev->phydev, 0x13);
-		phy_write(priv->dev->phydev, 0x13, value | BIT(15));	
+		phy_write(priv->dev->phydev, 0x13, value | BIT(15));
+		
+		phy_write(priv->dev->phydev, 0x1f, 0xa42);
+			
 		return 0;
 	}
 #endif
