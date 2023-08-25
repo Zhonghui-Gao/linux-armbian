@@ -7465,6 +7465,68 @@ void stmmac_dvr_remove(struct device *dev)
 EXPORT_SYMBOL_GPL(stmmac_dvr_remove);
 
 /**
+ * stmmac_shutdown 
+ * @dev: device pointer
+ * user: add
+ * Description: wol mac address
+ * program the PMT register (for WoL), clean and release driver resources.
+ */
+
+int stmmac_shutdown(struct device *dev)
+{
+	int value;
+#if 1
+	struct net_device *ndev = dev_get_drvdata(dev);
+	struct stmmac_priv *priv = netdev_priv(ndev);
+	printk("stmmac_shutdown\n");
+
+	if(!netif_running(dev))
+		return 0;
+	
+	if(priv->dev->dev_addr)
+	{
+		printk("stmmac_shutdown set MAC: %x, %x, %x, %x, %x, %x",
+				priv->dev->dev_addr[0],
+				priv->dev->dev_addr[1],
+				priv->dev->dev_addr[2],
+				priv->dev->dev_addr[3],
+				priv->dev->dev_addr[4],
+				priv->dev->dev_addr[5]);
+
+		//set PMEB mode
+		phy_write(priv->dev->phydev, 0x1f, 0x0d40);
+		value = phy_read(priv->dev->phydev, 0x16);
+		phy_write(priv->dev->phydev, 0x16,value | BIT(5));
+		
+		//set mac addr
+		//0a:ce:a9:3b:29:dd
+		//ce0a, 3ba9, dd29,
+		//set mac addr
+		phy_write(priv->dev->phydev, 0x1f, 0x0d8c);
+		phy_write(priv->dev->phydev, 0x10, ((u16)priv->dev->phydev[1] << 8) + priv->dev->phydev[0]);
+		phy_write(priv->dev->phydev, 0x11, ((u16)priv->dev->phydev[2] << 8) + priv->dev->phydev[3]);
+		phy_write(priv->dev->phydev, 0x12, ((u16)priv->dev->phydev[6] << 8) + priv->dev->phydev[5]);
+
+		//Set Max packet length
+		phy_write(priv->dev->phydev, 0x1f, 0x0d8a);
+		phy_write(priv->dev->phydev, 0x11, 0x9fff);
+
+		//Enable WOL Magic Packet Event
+		phy_write(priv->dev->phydev, 0x1f, 0x0d8a);
+		phy_write(priv->dev->phydev, 0x10, 0x1000);
+
+		//disable rgmii pad
+		//Page 0x0d8a Reg19 bit[15]= 1 
+		phy_write(priv->dev->phydev, 0x1f, 0x0d8a);
+		value = phy_read(priv->dev->phydev, 0x13);
+		phy_write(priv->dev->phydev, 0x13, value | BIT(15));		
+	}
+	
+}
+EXPORT_SYMBOL_GPL(stmmac_shutdown);
+
+
+/**
  * stmmac_suspend - suspend callback
  * @dev: device pointer
  * Description: this is the function to suspend the device and it is called

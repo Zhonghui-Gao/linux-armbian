@@ -1871,8 +1871,14 @@ static int rk_gmac_remove(struct platform_device *pdev)
 
 	rk_gmac_powerdown(bsp_priv);
 
-	return 0;
+	return ret;
 }
+
+static int rk_gmac_shutdown(struct platform_device *pdev)
+{
+	stmmac_shutdown(&pdev->dev);
+}
+
 
 #ifdef CONFIG_PM_SLEEP
 static int rk_gmac_suspend(struct device *dev)
@@ -1926,6 +1932,7 @@ MODULE_DEVICE_TABLE(of, rk_gmac_dwmac_match);
 static struct platform_driver rk_gmac_dwmac_driver = {
 	.probe  = rk_gmac_probe,
 	.remove = rk_gmac_remove,
+	.shutdown= rk_gmac_shutdown,
 	.driver = {
 		.name           = "rk_gmac-dwmac",
 		.pm		= &rk_gmac_pm_ops,

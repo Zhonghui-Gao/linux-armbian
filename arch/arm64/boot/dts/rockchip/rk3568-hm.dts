@@ -43,7 +43,7 @@
 		compatible = "gpio-leds";
 
 		led_user: led-0 {
-			gpios = <&gpio0 RK_PC0 GPIO_ACTIVE_LOW>;
+			gpios = <&gpio0 RK_PB7 GPIO_ACTIVE_HIGH>;
 			function = LED_FUNCTION_HEARTBEAT;
 			color = <LED_COLOR_ID_BLUE>;
 			linux,default-trigger = "heartbeat";
@@ -244,7 +244,7 @@
 };
 
 &gmac1 {
-	snps,reset-gpio = <&gpio3 RK_PB0 GPIO_ACTIVE_LOW>;
+	snps,reset-gpio = <&gpio2 RK_PD1 GPIO_ACTIVE_LOW>;
 	snps,reset-active-low;
 	/* Reset time is 20ms, 100ms for rtl8211f */
 	snps,reset-delays-us = <0 20000 100000>;
