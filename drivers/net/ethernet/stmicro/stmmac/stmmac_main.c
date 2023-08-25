@@ -7528,7 +7528,6 @@ int stmmac_shutdown(struct device *dev)
 }
 EXPORT_SYMBOL_GPL(stmmac_shutdown);
 
-
 /**
  * stmmac_suspend - suspend callback
  * @dev: device pointer
