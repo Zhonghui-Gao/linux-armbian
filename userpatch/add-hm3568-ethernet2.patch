@@ -1,0 +1,64 @@
+diff --git a/arch/arm64/boot/dts/rockchip/rk3568-hm.dts b/arch/arm64/boot/dts/rockchip/rk3568-hm.dts
+index ab8c8e0bfcf5..3517a7bf6023 100644
+--- a/arch/arm64/boot/dts/rockchip/rk3568-hm.dts
++++ b/arch/arm64/boot/dts/rockchip/rk3568-hm.dts
+@@ -12,7 +12,8 @@
+ 	compatible = "roymark,hm3568", "rockchip,rk3568";
+ 
+ 	aliases {
+-		ethernet0 = &gmac1;
++		ethernet0 = &gmac0;
++		ethernet1 = &gmac1;
+ 		mmc0 = &sdmmc0;
+ 		mmc1 = &sdhci;
+ 	};
+@@ -243,8 +244,34 @@
+ 	cpu-supply = <&vdd_cpu>;
+ };
+ 
++&gmac0 {
++	snps,reset-gpio = <&gpio2 RK_PD0 GPIO_ACTIVE_LOW>;
++	snps,reset-active-low;
++	/* Reset time is 20ms, 100ms for rtl8211f */
++	snps,reset-delays-us = <0 20000 100000>;
++
++	assigned-clocks = <&cru SCLK_GMAC1_RX_TX>, <&cru SCLK_GMAC1>;
++	assigned-clock-parents = <&cru SCLK_GMAC1_RGMII_SPEED>, <&gmac0_clkin>;
++	clock_in_out = "input";
++	phy-handle = <&rgmii_phy0>;
++	phy-mode = "rgmii";
++
++	pinctrl-names = "default";
++	pinctrl-0 = <&gmac1m0_miim
++		     &gmac1m0_tx_bus2
++		     &gmac1m0_rx_bus2
++		     &gmac1m0_rgmii_clk
++		     &gmac1m0_rgmii_bus
++		     &gmac1m0_clkinout>;
++
++	tx_delay = <0x4f>;
++	rx_delay = <0x26>;
++
++	status = "okay";
++};
++
+ &gmac1 {
+-	snps,reset-gpio = <&gpio3 RK_PB0 GPIO_ACTIVE_LOW>;
++	snps,reset-gpio = <&gpio2 RK_PD1 GPIO_ACTIVE_LOW>;
+ 	snps,reset-active-low;
+ 	/* Reset time is 20ms, 100ms for rtl8211f */
+ 	snps,reset-delays-us = <0 20000 100000>;
+@@ -576,6 +603,13 @@
+ 	status = "okay";
+ };
+ 
++&mdio0 {
++	rgmii_phy0: ethernet-phy@0 {
++		compatible = "ethernet-phy-ieee802.3-c22";
++		reg = <0x0>;
++	};
++};
++
+ &mdio1 {
+ 	rgmii_phy1: ethernet-phy@0 {
+ 		compatible = "ethernet-phy-ieee802.3-c22";
