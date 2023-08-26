@@ -36,10 +36,10 @@ index 07ea5ab0a60b..fc7f94a5e564 100644
  int stmmac_dvr_probe(struct device *device,
  		     struct plat_stmmacenet_data *plat_dat,
 diff --git a/drivers/net/ethernet/stmicro/stmmac/stmmac_main.c b/drivers/net/ethernet/stmicro/stmmac/stmmac_main.c
-index 0ffbc9fb3f06..bd8e98a0cc65 100644
+index 0ffbc9fb3f06..2ce58e626475 100644
 --- a/drivers/net/ethernet/stmicro/stmmac/stmmac_main.c
 +++ b/drivers/net/ethernet/stmicro/stmmac/stmmac_main.c
-@@ -7464,6 +7464,73 @@ void stmmac_dvr_remove(struct device *dev)
+@@ -7464,6 +7464,72 @@ void stmmac_dvr_remove(struct device *dev)
  }
  EXPORT_SYMBOL_GPL(stmmac_dvr_remove);
  
@@ -72,7 +72,7 @@ index 0ffbc9fb3f06..bd8e98a0cc65 100644
 +				priv->dev->dev_addr[4],
 +				priv->dev->dev_addr[5]);
 +
-+		//set PMEB mode
++		//set INTB pin
 +		phy_write(priv->dev->phydev, 0x1f, 0x0d40);
 +		value = phy_read(priv->dev->phydev, 0x16);
 +		phy_write(priv->dev->phydev, 0x16,value | BIT(5));
@@ -102,7 +102,6 @@ index 0ffbc9fb3f06..bd8e98a0cc65 100644
 +		
 +		phy_write(priv->dev->phydev, 0x1f, 0xa42);
 +			
-+		return 0;
 +	}
 +#endif
 +	return 0;
