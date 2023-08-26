@@ -17,7 +17,7 @@ index ab8c8e0bfcf5..3517a7bf6023 100644
  };
  
 +&gmac0 {
-+	snps,reset-gpio = <&gpio2 RK_PD0 GPIO_ACTIVE_LOW>;
++	snps,reset-gpio = <&gpio2 RK_PD3 GPIO_ACTIVE_LOW>;
 +	snps,reset-active-low;
 +	/* Reset time is 20ms, 100ms for rtl8211f */
 +	snps,reset-delays-us = <0 20000 100000>;
