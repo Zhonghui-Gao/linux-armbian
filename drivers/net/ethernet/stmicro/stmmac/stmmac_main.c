@@ -7493,7 +7493,7 @@ int stmmac_shutdown(struct device *dev)
 				priv->dev->dev_addr[4],
 				priv->dev->dev_addr[5]);
 
-		//set PMEB mode
+		//set INTB pin
 		phy_write(priv->dev->phydev, 0x1f, 0x0d40);
 		value = phy_read(priv->dev->phydev, 0x16);
 		phy_write(priv->dev->phydev, 0x16,value | BIT(5));
@@ -7523,7 +7523,6 @@ int stmmac_shutdown(struct device *dev)
 		
 		phy_write(priv->dev->phydev, 0x1f, 0xa42);
 			
-		return 0;
 	}
 #endif
 	return 0;
