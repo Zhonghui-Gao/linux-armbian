@@ -1,0 +1,118 @@
+diff --git a/arch/arm64/boot/dts/rockchip/rk3568-hm.dts b/arch/arm64/boot/dts/rockchip/rk3568-hm.dts
+index ab8c8e0bfcf5..4f2dea5add7a 100644
+--- a/arch/arm64/boot/dts/rockchip/rk3568-hm.dts
++++ b/arch/arm64/boot/dts/rockchip/rk3568-hm.dts
+@@ -12,7 +12,8 @@
+ 	compatible = "roymark,hm3568", "rockchip,rk3568";
+ 
+ 	aliases {
+-		ethernet0 = &gmac1;
++		ethernet0 = &gmac0;
++		ethernet1 = &gmac1;
+ 		mmc0 = &sdmmc0;
+ 		mmc1 = &sdhci;
+ 	};
+@@ -39,6 +40,13 @@
+ 		#clock-cells = <0>;
+ 	};
+ 
++	gmac0_clkin: external-gmac0-clock {
++		compatible = "fixed-clock";
++		clock-frequency = <125000000>;
++		clock-output-names = "gmac0_clkin";
++		#clock-cells = <0>;
++	};	
++
+ 	leds {
+ 		compatible = "gpio-leds";
+ 
+@@ -243,8 +251,42 @@
+ 	cpu-supply = <&vdd_cpu>;
+ };
+ 
++&gmac0 {
++	snps,reset-gpio = <&gpio2 RK_PD3 GPIO_ACTIVE_LOW>;
++	snps,reset-active-low;
++	/* Reset time is 20ms, 100ms for rtl8211f */
++	snps,reset-delays-us = <0 20000 100000>;
++
++	assigned-clocks = <&cru SCLK_GMAC0_RX_TX>, <&cru SCLK_GMAC0>;
++	assigned-clock-parents = <&cru SCLK_GMAC0_RGMII_SPEED>, <&gmac0_clkin>;
++	clock_in_out = "input";
++	phy-handle = <&rgmii_phy0>;
++	phy-mode = "rgmii";
++
++	pinctrl-names = "default";
++	pinctrl-0 = <&gmac0_miim
++		     &gmac0_tx_bus2
++		     &gmac0_rx_bus2
++		     &gmac0_rgmii_clk
++		     &gmac0_rgmii_bus
++		     &gmac0_clkinout>;
++
++	tx_delay = <0x3c>;
++	rx_delay = <0x2f>;
++
++	status = "okay";
++};
++
++&mdio0 {
++	rgmii_phy0: ethernet-phy@0 {
++		compatible = "ethernet-phy-ieee802.3-c22";
++		reg = <0x0>;
++	};
++};
++
++
+ &gmac1 {
+-	snps,reset-gpio = <&gpio3 RK_PB0 GPIO_ACTIVE_LOW>;
++	snps,reset-gpio = <&gpio2 RK_PD1 GPIO_ACTIVE_LOW>;
+ 	snps,reset-active-low;
+ 	/* Reset time is 20ms, 100ms for rtl8211f */
+ 	snps,reset-delays-us = <0 20000 100000>;
+@@ -258,7 +300,7 @@
+ 	pinctrl-names = "default";
+ 	pinctrl-0 = <&gmac1m1_miim
+ 		     &gmac1m1_tx_bus2
+-		     &gmac1m1_rx_bus2
++		     &gmac1m1_rx_bifus2
+ 		     &gmac1m1_rgmii_clk
+ 		     &gmac1m1_rgmii_bus
+ 		     &gmac1m1_clkinout>;
+@@ -269,6 +311,13 @@
+ 	status = "okay";
+ };
+ 
++&mdio1 {
++	rgmii_phy1: ethernet-phy@0 {
++		compatible = "ethernet-phy-ieee802.3-c22";
++		reg = <0x0>;
++	};
++};
++
+ &gpu {
+ 	mali-supply = <&vdd_gpu>;
+ 	status = "okay";
+@@ -576,12 +625,6 @@
+ 	status = "okay";
+ };
+ 
+-&mdio1 {
+-	rgmii_phy1: ethernet-phy@0 {
+-		compatible = "ethernet-phy-ieee802.3-c22";
+-		reg = <0x0>;
+-	};
+-};
+ 
+ &pcie2x1 {
+ 	pinctrl-names = "default";
+@@ -619,7 +662,8 @@
+ 
+ 	ethernet {
+ 		eth_phy_rst: eth_phy_rst {
+-			rockchip,pins = <3 RK_PB0 RK_FUNC_GPIO &pcfg_pull_none>;
++			rockchip,pins = <2 RK_PD3 RK_FUNC_GPIO &pcfg_pull_none>;
++			rockchip,pins = <2 RK_PD1 RK_FUNC_GPIO &pcfg_pull_none>;
+ 		};
+ 	};
+ 
