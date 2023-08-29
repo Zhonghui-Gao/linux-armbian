@@ -1,18 +1,5 @@
 !<thin>
-//                                              620       `
-zstd_compress_module.o/
-compress/fse_compress.o/
-compress/hist.o/
-compress/huf_compress.o/
-compress/zstd_compress.o/
-compress/zstd_compress_literals.o/
-compress/zstd_compress_sequences.o/
-compress/zstd_compress_superblock.o/
-compress/zstd_double_fast.o/
-compress/zstd_fast.o/
-compress/zstd_lazy.o/
-compress/zstd_ldm.o/
-compress/zstd_opt.o/
+//                                              280       `
 zstd_decompress_module.o/
 decompress/huf_decompress.o/
 decompress/zstd_ddict.o/
@@ -24,27 +11,14 @@ common/entropy_common.o/
 common/error_private.o/
 common/fse_decompress.o/
 common/zstd_common.o/
-/0              0           0     0     644     12336     `
-/24             0           0     0     644     6552      `
-/49             0           0     0     644     2752      `
-/66             0           0     0     644     13984     `
-/91             0           0     0     644     74968     `
-/117            0           0     0     644     2728      `
-/152            0           0     0     644     6864      `
-/188            0           0     0     644     6256      `
-/225            0           0     0     644     30880     `
-/254            0           0     0     644     30992     `
-/276            0           0     0     644     176112    `
-/298            0           0     0     644     9760      `
-/319            0           0     0     644     44080     `
-/340            0           0     0     644     10520     `
-/366            0           0     0     644     23144     `
-/395            0           0     0     644     4016      `
-/420            0           0     0     644     24864     `
-/450            0           0     0     644     24792     `
-/486            0           0     0     644     7112      `
-/508            0           0     0     644     1168      `
-/524            0           0     0     644     3672      `
-/549            0           0     0     644     6096      `
-/573            0           0     0     644     8344      `
-/598            0           0     0     644     2224      `
+/0              0           0     0     644     22880     `
+/26             0           0     0     644     172496    `
+/55             0           0     0     644     22040     `
+/80             0           0     0     644     112408    `
+/110            0           0     0     644     140048    `
+/146            0           0     0     644     16416     `
+/168            0           0     0     644     3232      `
+/184            0           0     0     644     21304     `
+/209            0           0     0     644     11232     `
+/233            0           0     0     644     74736     `
+/258            0           0     0     644     12816     `

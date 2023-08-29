@@ -16,6 +16,4 @@ net/wireless/trace.o
 net/wireless/ocb.o
 net/wireless/pmsr.o
 net/wireless/of.o
-net/wireless/wext-compat.o
-net/wireless/wext-sme.o
 net/wireless/shipped-certs.o

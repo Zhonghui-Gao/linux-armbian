@@ -35,8 +35,6 @@ MODULE_INFO(retpoline, "Y");
 
 MODULE_INFO(depends, "ath10k_core");
 
-MODULE_ALIAS("of:N*T*Cqcom,ipq4019-wifi");
-MODULE_ALIAS("of:N*T*Cqcom,ipq4019-wifiC*");
 MODULE_ALIAS("pci:v00000777d000011ACsv*sd*bc*sc*i*");
 MODULE_ALIAS("pci:v0000168Cd0000003Csv*sd*bc*sc*i*");
 MODULE_ALIAS("pci:v0000168Cd00000041sv*sd*bc*sc*i*");

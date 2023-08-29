@@ -1,0 +1,1 @@
+savedcmd_drivers/crypto/caam/modules.order := {   echo drivers/crypto/caam/error.o;   echo drivers/crypto/caam/caam.o;   echo drivers/crypto/caam/caam_jr.o;   echo drivers/crypto/caam/caamalg_desc.o;   echo drivers/crypto/caam/caamhash_desc.o;   echo drivers/crypto/caam/dpaa2_caam.o; :; } > drivers/crypto/caam/modules.order

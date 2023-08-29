@@ -1,4 +1,4 @@
-savedcmd_arch/arm64/kernel/fpsimd.o := aarch64-linux-gnu-gcc -Wp,-MMD,arch/arm64/kernel/.fpsimd.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"arch/arm64/kernel/fpsimd"' -DKBUILD_BASENAME='"fpsimd"' -DKBUILD_MODNAME='"fpsimd"' -D__KBUILD_MODNAME=kmod_fpsimd -c -o arch/arm64/kernel/fpsimd.o arch/arm64/kernel/fpsimd.c  
+savedcmd_arch/arm64/kernel/fpsimd.o := aarch64-linux-gnu-gcc -Wp,-MMD,arch/arm64/kernel/.fpsimd.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -fno-var-tracking -femit-struct-debug-baseonly -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"arch/arm64/kernel/fpsimd"' -DKBUILD_BASENAME='"fpsimd"' -DKBUILD_MODNAME='"fpsimd"' -D__KBUILD_MODNAME=kmod_fpsimd -c -o arch/arm64/kernel/fpsimd.o arch/arm64/kernel/fpsimd.c  
 
 source_arch/arm64/kernel/fpsimd.o := arch/arm64/kernel/fpsimd.c
 
@@ -160,7 +160,36 @@ deps_arch/arm64/kernel/fpsimd.o := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/fortify-string.h \
+  include/linux/bottom_half.h \
+    $(wildcard include/config/TRACE_IRQFLAGS) \
+  include/linux/instruction_pointer.h \
+  include/linux/preempt.h \
+    $(wildcard include/config/PREEMPT_COUNT) \
+    $(wildcard include/config/DEBUG_PREEMPT) \
+    $(wildcard include/config/TRACE_PREEMPT_TOGGLE) \
+    $(wildcard include/config/PREEMPTION) \
+    $(wildcard include/config/PREEMPT_NOTIFIERS) \
+  include/linux/linkage.h \
+    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
+  arch/arm64/include/asm/linkage.h \
+  include/linux/list.h \
+    $(wildcard include/config/DEBUG_LIST) \
+  include/linux/container_of.h \
+  include/linux/poison.h \
+    $(wildcard include/config/ILLEGAL_POINTER_VALUE) \
+  arch/arm64/include/asm/preempt.h \
+    $(wildcard include/config/PREEMPT_DYNAMIC) \
+  include/linux/jump_label.h \
+    $(wildcard include/config/JUMP_LABEL) \
+    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
+  arch/arm64/include/asm/jump_label.h \
+  arch/arm64/include/asm/insn.h \
+  include/linux/thread_info.h \
+    $(wildcard include/config/THREAD_INFO_IN_TASK) \
+    $(wildcard include/config/GENERIC_ENTRY) \
+    $(wildcard include/config/HAVE_ARCH_WITHIN_STACK_FRAMES) \
+    $(wildcard include/config/HARDENED_USERCOPY) \
+    $(wildcard include/config/BUG) \
   include/linux/bug.h \
     $(wildcard include/config/GENERIC_BUG) \
     $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
@@ -168,7 +197,6 @@ deps_arch/arm64/kernel/fpsimd.o := \
   arch/arm64/include/asm/asm-bug.h \
     $(wildcard include/config/DEBUG_BUGVERBOSE) \
   include/asm-generic/bug.h \
-    $(wildcard include/config/BUG) \
     $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
   include/linux/instrumentation.h \
     $(wildcard include/config/NOINSTR_VALIDATION) \
@@ -185,9 +213,6 @@ deps_arch/arm64/kernel/fpsimd.o := \
     $(wildcard include/config/DYNAMIC_DEBUG) \
     $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
   include/linux/kern_levels.h \
-  include/linux/linkage.h \
-    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
-  arch/arm64/include/asm/linkage.h \
   include/linux/ratelimit_types.h \
   include/uapi/linux/param.h \
   arch/arm64/include/uapi/asm/param.h \
@@ -205,33 +230,6 @@ deps_arch/arm64/kernel/fpsimd.o := \
     $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
     $(wildcard include/config/LOCKDEP) \
     $(wildcard include/config/LOCK_STAT) \
-  include/linux/dynamic_debug.h \
-    $(wildcard include/config/JUMP_LABEL) \
-  include/linux/jump_label.h \
-    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
-  arch/arm64/include/asm/jump_label.h \
-  arch/arm64/include/asm/insn.h \
-  include/linux/bottom_half.h \
-    $(wildcard include/config/TRACE_IRQFLAGS) \
-  include/linux/instruction_pointer.h \
-  include/linux/preempt.h \
-    $(wildcard include/config/PREEMPT_COUNT) \
-    $(wildcard include/config/DEBUG_PREEMPT) \
-    $(wildcard include/config/TRACE_PREEMPT_TOGGLE) \
-    $(wildcard include/config/PREEMPTION) \
-    $(wildcard include/config/PREEMPT_NOTIFIERS) \
-  include/linux/list.h \
-    $(wildcard include/config/DEBUG_LIST) \
-  include/linux/container_of.h \
-  include/linux/poison.h \
-    $(wildcard include/config/ILLEGAL_POINTER_VALUE) \
-  arch/arm64/include/asm/preempt.h \
-    $(wildcard include/config/PREEMPT_DYNAMIC) \
-  include/linux/thread_info.h \
-    $(wildcard include/config/THREAD_INFO_IN_TASK) \
-    $(wildcard include/config/GENERIC_ENTRY) \
-    $(wildcard include/config/HAVE_ARCH_WITHIN_STACK_FRAMES) \
-    $(wildcard include/config/HARDENED_USERCOPY) \
   include/linux/restart_block.h \
   include/linux/time64.h \
   include/linux/math64.h \
@@ -708,11 +706,6 @@ deps_arch/arm64/kernel/fpsimd.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
-  arch/arm64/include/asm/uprobes.h \
-  arch/arm64/include/asm/debug-monitors.h \
-  arch/arm64/include/asm/esr.h \
-  arch/arm64/include/asm/probes.h \
-    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/percpu_counter.h \
@@ -963,6 +956,7 @@ deps_arch/arm64/kernel/fpsimd.o := \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/DEBUG_INFO_BTF_MODULES) \
     $(wildcard include/config/EVENT_TRACING) \
+    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/CONSTRUCTORS) \
     $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
@@ -987,6 +981,7 @@ deps_arch/arm64/kernel/fpsimd.o := \
   include/linux/error-injection.h \
   include/asm-generic/error-injection.h \
   include/linux/tracepoint-defs.h \
+  include/linux/dynamic_debug.h \
   arch/arm64/include/asm/module.h \
     $(wildcard include/config/ARM64_MODULE_PLTS) \
     $(wildcard include/config/DYNAMIC_FTRACE) \
@@ -1082,6 +1077,7 @@ deps_arch/arm64/kernel/fpsimd.o := \
   include/linux/nsproxy.h \
   include/linux/ns_common.h \
   include/uapi/linux/ptrace.h \
+  arch/arm64/include/asm/esr.h \
   arch/arm64/include/asm/exception.h \
   include/linux/interrupt.h \
     $(wildcard include/config/IRQ_FORCED_THREADING) \

@@ -1,0 +1,3 @@
+drivers/interconnect/imx/imx8mm-interconnect.o
+drivers/interconnect/imx/imx8mq-interconnect.o
+drivers/interconnect/imx/imx8mn-interconnect.o

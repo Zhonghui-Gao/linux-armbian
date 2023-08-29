@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/stmicro/stmmac/dwmac-imx.mod := printf '%s\n'   dwmac-imx.o | awk '!x[$$0]++ { print("drivers/net/ethernet/stmicro/stmmac/"$$0) }' > drivers/net/ethernet/stmicro/stmmac/dwmac-imx.mod

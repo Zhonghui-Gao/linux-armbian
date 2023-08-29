@@ -1,0 +1,5 @@
+drivers/pci/controller/dwc/pci-meson.o
+drivers/pci/controller/dwc/pcie-tegra194.o
+drivers/pci/controller/pcie-rockchip-host.o
+drivers/pci/controller/pcie-mediatek-gen3.o
+drivers/pci/controller/pcie-brcmstb.o

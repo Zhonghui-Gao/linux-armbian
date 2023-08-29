@@ -1,4 +1,4 @@
-savedcmd_lib/decompress.o := aarch64-linux-gnu-gcc -Wp,-MMD,lib/.decompress.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"lib/decompress"' -DKBUILD_BASENAME='"decompress"' -DKBUILD_MODNAME='"decompress"' -D__KBUILD_MODNAME=kmod_decompress -c -o lib/decompress.o lib/decompress.c  
+savedcmd_lib/decompress.o := aarch64-linux-gnu-gcc -Wp,-MMD,lib/.decompress.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -fno-var-tracking -femit-struct-debug-baseonly -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"lib/decompress"' -DKBUILD_BASENAME='"decompress"' -DKBUILD_MODNAME='"decompress"' -D__KBUILD_MODNAME=kmod_decompress -c -o lib/decompress.o lib/decompress.c  
 
 source_lib/decompress.o := lib/decompress.c
 
@@ -88,40 +88,23 @@ deps_lib/decompress.o := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/fortify-string.h \
-    $(wildcard include/config/KMSAN) \
-  include/linux/bug.h \
-    $(wildcard include/config/GENERIC_BUG) \
-    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
-  arch/arm64/include/asm/bug.h \
-  include/linux/stringify.h \
-  arch/arm64/include/asm/asm-bug.h \
-    $(wildcard include/config/DEBUG_BUGVERBOSE) \
-  arch/arm64/include/asm/brk-imm.h \
-  include/asm-generic/bug.h \
-    $(wildcard include/config/BUG) \
-    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
-    $(wildcard include/config/SMP) \
-  include/linux/instrumentation.h \
-    $(wildcard include/config/NOINSTR_VALIDATION) \
-  include/linux/once_lite.h \
-  include/linux/panic.h \
-    $(wildcard include/config/PANIC_TIMEOUT) \
-  include/linux/printk.h \
-    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
-    $(wildcard include/config/EARLY_PRINTK) \
-    $(wildcard include/config/PRINTK) \
-    $(wildcard include/config/PRINTK_INDEX) \
-    $(wildcard include/config/DYNAMIC_DEBUG) \
-    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
   include/linux/init.h \
     $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
     $(wildcard include/config/STRICT_KERNEL_RWX) \
     $(wildcard include/config/STRICT_MODULE_RWX) \
     $(wildcard include/config/LTO_CLANG) \
   include/linux/build_bug.h \
+  include/linux/stringify.h \
+  include/linux/printk.h \
+    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
+    $(wildcard include/config/EARLY_PRINTK) \
+    $(wildcard include/config/PRINTK) \
+    $(wildcard include/config/SMP) \
+    $(wildcard include/config/PRINTK_INDEX) \
+    $(wildcard include/config/DYNAMIC_DEBUG) \
+    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
   include/linux/kern_levels.h \
   include/linux/linkage.h \
     $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
@@ -160,17 +143,7 @@ deps_lib/decompress.o := \
     $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
     $(wildcard include/config/LOCKDEP) \
     $(wildcard include/config/LOCK_STAT) \
-  include/linux/dynamic_debug.h \
-    $(wildcard include/config/JUMP_LABEL) \
-  include/linux/jump_label.h \
-    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
-  arch/arm64/include/asm/jump_label.h \
-  arch/arm64/include/asm/insn.h \
-    $(wildcard include/config/ARM64_LSE_ATOMICS) \
-  arch/arm64/include/asm/insn-def.h \
-  include/linux/limits.h \
-  include/uapi/linux/limits.h \
-  include/vdso/limits.h \
+  include/linux/once_lite.h \
 
 lib/decompress.o: $(deps_lib/decompress.o)
 

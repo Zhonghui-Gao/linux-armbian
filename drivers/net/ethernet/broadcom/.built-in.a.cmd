@@ -1,1 +1,1 @@
-savedcmd_drivers/net/ethernet/broadcom/built-in.a := rm -f drivers/net/ethernet/broadcom/built-in.a;  aarch64-linux-gnu-ar cDPrST drivers/net/ethernet/broadcom/built-in.a
+savedcmd_drivers/net/ethernet/broadcom/built-in.a := rm -f drivers/net/ethernet/broadcom/built-in.a;  printf "drivers/net/ethernet/broadcom/%s " bcm4908_enet.o bgmac.o bgmac-platform.o | xargs aarch64-linux-gnu-ar cDPrST drivers/net/ethernet/broadcom/built-in.a

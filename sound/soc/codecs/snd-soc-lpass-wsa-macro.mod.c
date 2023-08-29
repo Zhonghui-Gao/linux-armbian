@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "snd-soc-core");
+MODULE_INFO(depends, "");
 
 MODULE_ALIAS("of:N*T*Cqcom,sc7280-lpass-wsa-macro");
 MODULE_ALIAS("of:N*T*Cqcom,sc7280-lpass-wsa-macroC*");

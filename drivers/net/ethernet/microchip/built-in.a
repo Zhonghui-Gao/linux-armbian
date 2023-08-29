@@ -1,8 +1,1 @@
-!<thin>
-//                                              58        `
-vcap/vcap_api_debugfs.o/
-vcap/vcap_api.o/
-vcap/vcap_tc.o/
-/0              0           0     0     644     16240     `
-/25             0           0     0     644     67648     `
-/42             0           0     0     644     13952     `
+!<arch>

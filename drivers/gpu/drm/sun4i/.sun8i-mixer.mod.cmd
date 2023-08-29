@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/sun4i/sun8i-mixer.mod := printf '%s\n'   sun8i_mixer.o sun8i_ui_layer.o sun8i_vi_layer.o sun8i_ui_scaler.o sun8i_vi_scaler.o sun8i_csc.o | awk '!x[$$0]++ { print("drivers/gpu/drm/sun4i/"$$0) }' > drivers/gpu/drm/sun4i/sun8i-mixer.mod

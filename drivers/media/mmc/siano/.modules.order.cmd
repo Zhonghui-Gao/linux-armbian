@@ -1,1 +1,1 @@
-savedcmd_drivers/media/mmc/siano/modules.order := {   echo drivers/media/mmc/siano/smssdio.o; :; } > drivers/media/mmc/siano/modules.order
+savedcmd_drivers/media/mmc/siano/modules.order := {  :; } > drivers/media/mmc/siano/modules.order

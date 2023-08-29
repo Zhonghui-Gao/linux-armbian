@@ -1,4 +1,4 @@
-savedcmd_drivers/gpu/drm/arm/display/komeda/komeda_pipeline_state.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/arm/display/komeda/.komeda_pipeline_state.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144 -I ./drivers/gpu/drm/arm/display/komeda/../include -I ./drivers/gpu/drm/arm/display/komeda  -DMODULE  -DKBUILD_BASENAME='"komeda_pipeline_state"' -DKBUILD_MODNAME='"komeda"' -D__KBUILD_MODNAME=kmod_komeda -c -o drivers/gpu/drm/arm/display/komeda/komeda_pipeline_state.o drivers/gpu/drm/arm/display/komeda/komeda_pipeline_state.c  
+savedcmd_drivers/gpu/drm/arm/display/komeda/komeda_pipeline_state.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/arm/display/komeda/.komeda_pipeline_state.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -fno-var-tracking -femit-struct-debug-baseonly -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144 -I ./drivers/gpu/drm/arm/display/komeda/../include -I ./drivers/gpu/drm/arm/display/komeda  -DMODULE  -DKBUILD_BASENAME='"komeda_pipeline_state"' -DKBUILD_MODNAME='"komeda"' -D__KBUILD_MODNAME=kmod_komeda -c -o drivers/gpu/drm/arm/display/komeda/komeda_pipeline_state.o drivers/gpu/drm/arm/display/komeda/komeda_pipeline_state.c  
 
 source_drivers/gpu/drm/arm/display/komeda/komeda_pipeline_state.o := drivers/gpu/drm/arm/display/komeda/komeda_pipeline_state.c
 
@@ -121,15 +121,6 @@ deps_drivers/gpu/drm/arm/display/komeda/komeda_pipeline_state.o := \
     $(wildcard include/config/LOCKDEP) \
     $(wildcard include/config/LOCK_STAT) \
   include/linux/once_lite.h \
-  include/linux/dynamic_debug.h \
-    $(wildcard include/config/JUMP_LABEL) \
-  include/linux/jump_label.h \
-    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
-  arch/arm64/include/asm/jump_label.h \
-  arch/arm64/include/asm/insn.h \
-    $(wildcard include/config/ARM64_LSE_ATOMICS) \
-  arch/arm64/include/asm/insn-def.h \
-  arch/arm64/include/asm/brk-imm.h \
   include/linux/seq_file.h \
     $(wildcard include/config/BINARY_PRINTF) \
     $(wildcard include/config/USER_NS) \
@@ -143,14 +134,15 @@ deps_drivers/gpu/drm/arm/display/komeda/komeda_pipeline_state.o := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/fortify-string.h \
-    $(wildcard include/config/KMSAN) \
+  include/linux/string_helpers.h \
+  include/linux/ctype.h \
   include/linux/bug.h \
     $(wildcard include/config/GENERIC_BUG) \
     $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
   arch/arm64/include/asm/bug.h \
   arch/arm64/include/asm/asm-bug.h \
     $(wildcard include/config/DEBUG_BUGVERBOSE) \
+  arch/arm64/include/asm/brk-imm.h \
   include/asm-generic/bug.h \
     $(wildcard include/config/BUG) \
     $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
@@ -158,11 +150,6 @@ deps_drivers/gpu/drm/arm/display/komeda/komeda_pipeline_state.o := \
     $(wildcard include/config/NOINSTR_VALIDATION) \
   include/linux/panic.h \
     $(wildcard include/config/PANIC_TIMEOUT) \
-  include/linux/limits.h \
-  include/uapi/linux/limits.h \
-  include/vdso/limits.h \
-  include/linux/string_helpers.h \
-  include/linux/ctype.h \
   include/linux/mutex.h \
     $(wildcard include/config/PREEMPT_RT) \
     $(wildcard include/config/MUTEX_SPIN_ON_OWNER) \
@@ -177,6 +164,7 @@ deps_drivers/gpu/drm/arm/display/komeda/komeda_pipeline_state.o := \
     $(wildcard include/config/ARM64_PSEUDO_NMI) \
   arch/arm64/include/asm/alternative-macros.h \
   arch/arm64/include/generated/asm/cpucaps.h \
+  arch/arm64/include/asm/insn-def.h \
   include/asm-generic/barrier.h \
   include/linux/spinlock_types.h \
   include/linux/rwlock_types.h \
@@ -203,6 +191,9 @@ deps_drivers/gpu/drm/arm/display/komeda/komeda_pipeline_state.o := \
     $(wildcard include/config/TRACING) \
     $(wildcard include/config/FTRACE_MCOUNT_RECORD) \
   include/linux/align.h \
+  include/linux/limits.h \
+  include/uapi/linux/limits.h \
+  include/vdso/limits.h \
   include/linux/bitops.h \
   include/linux/typecheck.h \
   include/uapi/linux/kernel.h \
@@ -224,6 +215,7 @@ deps_drivers/gpu/drm/arm/display/komeda/komeda_pipeline_state.o := \
   arch/arm64/include/asm/atomic.h \
   arch/arm64/include/asm/cmpxchg.h \
   arch/arm64/include/asm/lse.h \
+    $(wildcard include/config/ARM64_LSE_ATOMICS) \
   arch/arm64/include/asm/atomic_ll_sc.h \
     $(wildcard include/config/CC_HAS_K_CONSTRAINT) \
   arch/arm64/include/asm/alternative.h \
@@ -234,6 +226,7 @@ deps_drivers/gpu/drm/arm/display/komeda/komeda_pipeline_state.o := \
   include/linux/atomic/atomic-instrumented.h \
   include/linux/instrumented.h \
   include/linux/kmsan-checks.h \
+    $(wildcard include/config/KMSAN) \
   include/asm-generic/bitops/instrumented-atomic.h \
   include/asm-generic/bitops/lock.h \
   include/asm-generic/bitops/instrumented-lock.h \
@@ -276,6 +269,11 @@ deps_drivers/gpu/drm/arm/display/komeda/komeda_pipeline_state.o := \
     $(wildcard include/config/PREEMPTION) \
     $(wildcard include/config/PREEMPT_NOTIFIERS) \
   arch/arm64/include/asm/preempt.h \
+  include/linux/jump_label.h \
+    $(wildcard include/config/JUMP_LABEL) \
+    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
+  arch/arm64/include/asm/jump_label.h \
+  arch/arm64/include/asm/insn.h \
   include/linux/thread_info.h \
     $(wildcard include/config/THREAD_INFO_IN_TASK) \
     $(wildcard include/config/GENERIC_ENTRY) \
@@ -755,11 +753,6 @@ deps_drivers/gpu/drm/arm/display/komeda/komeda_pipeline_state.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
-  arch/arm64/include/asm/uprobes.h \
-  arch/arm64/include/asm/debug-monitors.h \
-  arch/arm64/include/asm/esr.h \
-  arch/arm64/include/asm/probes.h \
-    $(wildcard include/config/KPROBES) \
   include/linux/percpu_counter.h \
   arch/arm64/include/asm/mmu.h \
   include/linux/page-flags.h \
@@ -941,6 +934,7 @@ deps_drivers/gpu/drm/arm/display/komeda/komeda_pipeline_state.o := \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/DEBUG_INFO_BTF_MODULES) \
     $(wildcard include/config/EVENT_TRACING) \
+    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/CONSTRUCTORS) \
     $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
@@ -965,6 +959,7 @@ deps_drivers/gpu/drm/arm/display/komeda/komeda_pipeline_state.o := \
   include/linux/error-injection.h \
   include/asm-generic/error-injection.h \
   include/linux/tracepoint-defs.h \
+  include/linux/dynamic_debug.h \
   arch/arm64/include/asm/module.h \
     $(wildcard include/config/ARM64_MODULE_PLTS) \
     $(wildcard include/config/DYNAMIC_FTRACE) \
@@ -1020,6 +1015,7 @@ deps_drivers/gpu/drm/arm/display/komeda/komeda_pipeline_state.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
+  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1195,6 +1191,7 @@ deps_drivers/gpu/drm/arm/display/komeda/komeda_pipeline_state.o := \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
   arch/arm64/include/asm/kgdb.h \
+  arch/arm64/include/asm/debug-monitors.h \
   include/drm/drm_device.h \
     $(wildcard include/config/DRM_LEGACY) \
   include/drm/drm_legacy.h \

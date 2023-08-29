@@ -1,0 +1,1 @@
+savedcmd_sound/soc/mediatek/mt8183/snd-soc-mt8183-afe.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/mediatek/mt8183/snd-soc-mt8183-afe.ko sound/soc/mediatek/mt8183/snd-soc-mt8183-afe.o sound/soc/mediatek/mt8183/snd-soc-mt8183-afe.mod.o;  true

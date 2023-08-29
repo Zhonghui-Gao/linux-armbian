@@ -1,4 +1,4 @@
-savedcmd_net/ipv6/ip6_output.o := aarch64-linux-gnu-gcc -Wp,-MMD,net/ipv6/.ip6_output.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"net/ipv6/ipv6"' -DKBUILD_BASENAME='"ip6_output"' -DKBUILD_MODNAME='"ipv6"' -D__KBUILD_MODNAME=kmod_ipv6 -c -o net/ipv6/ip6_output.o net/ipv6/ip6_output.c  
+savedcmd_net/ipv6/ip6_output.o := aarch64-linux-gnu-gcc -Wp,-MMD,net/ipv6/.ip6_output.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -fno-var-tracking -femit-struct-debug-baseonly -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144  -DMODULE  -DKBUILD_BASENAME='"ip6_output"' -DKBUILD_MODNAME='"ipv6"' -D__KBUILD_MODNAME=kmod_ipv6 -c -o net/ipv6/ip6_output.o net/ipv6/ip6_output.c  
 
 source_net/ipv6/ip6_output.o := net/ipv6/ip6_output.c
 
@@ -204,12 +204,6 @@ deps_net/ipv6/ip6_output.o := \
     $(wildcard include/config/LOCKDEP) \
     $(wildcard include/config/LOCK_STAT) \
   include/linux/once_lite.h \
-  include/linux/dynamic_debug.h \
-    $(wildcard include/config/JUMP_LABEL) \
-  include/linux/jump_label.h \
-    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
-  arch/arm64/include/asm/jump_label.h \
-  arch/arm64/include/asm/insn.h \
   include/linux/static_call_types.h \
     $(wildcard include/config/HAVE_STATIC_CALL) \
     $(wildcard include/config/HAVE_STATIC_CALL_INLINE) \
@@ -220,18 +214,6 @@ deps_net/ipv6/ip6_output.o := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/fortify-string.h \
-  include/linux/bug.h \
-    $(wildcard include/config/GENERIC_BUG) \
-    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
-  arch/arm64/include/asm/bug.h \
-  arch/arm64/include/asm/asm-bug.h \
-    $(wildcard include/config/DEBUG_BUGVERBOSE) \
-  include/asm-generic/bug.h \
-    $(wildcard include/config/BUG) \
-    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
-  include/linux/instrumentation.h \
-    $(wildcard include/config/NOINSTR_VALIDATION) \
   include/linux/socket.h \
     $(wildcard include/config/PROC_FS) \
     $(wildcard include/config/COMPAT) \
@@ -247,6 +229,17 @@ deps_net/ipv6/ip6_output.o := \
     $(wildcard include/config/GENERIC_ENTRY) \
     $(wildcard include/config/HAVE_ARCH_WITHIN_STACK_FRAMES) \
     $(wildcard include/config/HARDENED_USERCOPY) \
+    $(wildcard include/config/BUG) \
+  include/linux/bug.h \
+    $(wildcard include/config/GENERIC_BUG) \
+    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
+  arch/arm64/include/asm/bug.h \
+  arch/arm64/include/asm/asm-bug.h \
+    $(wildcard include/config/DEBUG_BUGVERBOSE) \
+  include/asm-generic/bug.h \
+    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
+  include/linux/instrumentation.h \
+    $(wildcard include/config/NOINSTR_VALIDATION) \
   include/linux/restart_block.h \
   include/linux/time64.h \
   include/linux/math64.h \
@@ -346,6 +339,11 @@ deps_net/ipv6/ip6_output.o := \
   include/linux/poison.h \
     $(wildcard include/config/ILLEGAL_POINTER_VALUE) \
   arch/arm64/include/asm/preempt.h \
+  include/linux/jump_label.h \
+    $(wildcard include/config/JUMP_LABEL) \
+    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
+  arch/arm64/include/asm/jump_label.h \
+  arch/arm64/include/asm/insn.h \
   include/linux/irqflags.h \
     $(wildcard include/config/TRACE_IRQFLAGS) \
     $(wildcard include/config/IRQSOFF_TRACER) \
@@ -518,11 +516,6 @@ deps_net/ipv6/ip6_output.o := \
   include/uapi/linux/wait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
-  arch/arm64/include/asm/uprobes.h \
-  arch/arm64/include/asm/debug-monitors.h \
-  arch/arm64/include/asm/esr.h \
-  arch/arm64/include/asm/probes.h \
-    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/workqueue.h \
@@ -1105,7 +1098,6 @@ deps_net/ipv6/ip6_output.o := \
   include/uapi/linux/netfilter/nf_conntrack_common.h \
   include/linux/netfilter/nf_conntrack_sctp.h \
   include/uapi/linux/netfilter/nf_conntrack_sctp.h \
-  include/net/netns/flow_table.h \
   include/net/netns/nftables.h \
   include/net/netns/xfrm.h \
   include/uapi/linux/xfrm.h \
@@ -1148,6 +1140,7 @@ deps_net/ipv6/ip6_output.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
+    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/KPROBES_SANITY_TEST) \
     $(wildcard include/config/OPTPROBES) \
@@ -1186,6 +1179,7 @@ deps_net/ipv6/ip6_output.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
+  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1270,6 +1264,7 @@ deps_net/ipv6/ip6_output.o := \
   include/linux/rbtree_latch.h \
   include/linux/error-injection.h \
   include/asm-generic/error-injection.h \
+  include/linux/dynamic_debug.h \
   arch/arm64/include/asm/module.h \
     $(wildcard include/config/ARM64_MODULE_PLTS) \
     $(wildcard include/config/ARM64_ERRATUM_843419) \
@@ -1298,6 +1293,7 @@ deps_net/ipv6/ip6_output.o := \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
   arch/arm64/include/asm/kgdb.h \
+  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1367,8 +1363,6 @@ deps_net/ipv6/ip6_output.o := \
   include/linux/seq_file.h \
   include/linux/string_helpers.h \
   include/linux/ctype.h \
-  include/net/dcbnl.h \
-  include/uapi/linux/dcbnl.h \
   include/net/netprio_cgroup.h \
   include/linux/cgroup.h \
     $(wildcard include/config/DEBUG_CGROUP_REF) \

@@ -1,0 +1,1 @@
+savedcmd_sound/soc/codecs/snd-soc-msm8916-digital.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-msm8916-digital.ko sound/soc/codecs/snd-soc-msm8916-digital.o sound/soc/codecs/snd-soc-msm8916-digital.mod.o;  true

@@ -1,1 +1,1 @@
-savedcmd_drivers/iio/pressure/modules.order := {   echo drivers/iio/pressure/bmp280.o;   echo drivers/iio/pressure/bmp280-i2c.o;   echo drivers/iio/pressure/bmp280-spi.o;   echo drivers/iio/pressure/dlhl60d.o;   echo drivers/iio/pressure/dps310.o;   echo drivers/iio/pressure/hid-sensor-press.o;   echo drivers/iio/pressure/icp10100.o; :; } > drivers/iio/pressure/modules.order
+savedcmd_drivers/iio/pressure/modules.order := {   echo drivers/iio/pressure/cros_ec_baro.o;   echo drivers/iio/pressure/mpl3115.o; :; } > drivers/iio/pressure/modules.order

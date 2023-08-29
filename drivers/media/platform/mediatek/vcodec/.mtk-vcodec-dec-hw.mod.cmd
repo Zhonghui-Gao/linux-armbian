@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/mediatek/vcodec/mtk-vcodec-dec-hw.mod := printf '%s\n'   mtk_vcodec_dec_hw.o | awk '!x[$$0]++ { print("drivers/media/platform/mediatek/vcodec/"$$0) }' > drivers/media/platform/mediatek/vcodec/mtk-vcodec-dec-hw.mod

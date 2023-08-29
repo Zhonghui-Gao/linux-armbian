@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/stmicro/stmmac/dwmac-meson8b.mod := printf '%s\n'   dwmac-meson8b.o | awk '!x[$$0]++ { print("drivers/net/ethernet/stmicro/stmmac/"$$0) }' > drivers/net/ethernet/stmicro/stmmac/dwmac-meson8b.mod

@@ -1,13 +1,1 @@
-!<thin>
-//                                              132       `
-analogix/analogix_dp_core.o/
-analogix/analogix_dp_reg.o/
-analogix/analogix-i2c-dptx.o/
-synopsys/dw-hdmi.o/
-synopsys/dw-mipi-dsi.o/
-
-/0              0           0     0     644     43504     `
-/29             0           0     0     644     21792     `
-/57             0           0     0     644     4432      `
-/87             0           0     0     644     78296     `
-/107            0           0     0     644     21184     `
+!<arch>

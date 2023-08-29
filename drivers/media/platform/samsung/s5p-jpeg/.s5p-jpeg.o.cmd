@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/samsung/s5p-jpeg/s5p-jpeg.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/media/platform/samsung/s5p-jpeg/s5p-jpeg.o @drivers/media/platform/samsung/s5p-jpeg/s5p-jpeg.mod 

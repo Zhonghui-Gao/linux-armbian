@@ -33,6 +33,8 @@
 		};
 	};
 
+
+
 	gmac1_clkin: external-gmac1-clock {
 		compatible = "fixed-clock";
 		clock-frequency = <125000000>;
@@ -300,7 +302,7 @@
 	pinctrl-names = "default";
 	pinctrl-0 = <&gmac1m1_miim
 		     &gmac1m1_tx_bus2
-		     &gmac1m1_rx_bifus2
+		     &gmac1m1_rx_bus2
 		     &gmac1m1_rgmii_clk
 		     &gmac1m1_rgmii_bus
 		     &gmac1m1_clkinout>;
@@ -662,8 +664,8 @@
 
 	ethernet {
 		eth_phy_rst: eth_phy_rst {
-			rockchip,pins = <2 RK_PD3 RK_FUNC_GPIO &pcfg_pull_none>;
-			rockchip,pins = <2 RK_PD1 RK_FUNC_GPIO &pcfg_pull_none>;
+			rockchip,pins = <2 RK_PD3 RK_FUNC_GPIO &pcfg_pull_none>,
+					<2 RK_PD1 RK_FUNC_GPIO &pcfg_pull_none>;
 		};
 	};
 

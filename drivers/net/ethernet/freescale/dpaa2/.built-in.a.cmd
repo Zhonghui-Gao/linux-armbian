@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/freescale/dpaa2/built-in.a := rm -f drivers/net/ethernet/freescale/dpaa2/built-in.a;  printf "drivers/net/ethernet/freescale/dpaa2/%s " dpaa2-eth.o dpaa2-ethtool.o dpni.o dpaa2-mac.o dpmac.o dpaa2-eth-devlink.o dpaa2-xsk.o dpaa2-eth-debugfs.o dpaa2-ptp.o dprtc.o | xargs aarch64-linux-gnu-ar cDPrST drivers/net/ethernet/freescale/dpaa2/built-in.a

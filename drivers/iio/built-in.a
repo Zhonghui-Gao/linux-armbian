@@ -1,19 +1,16 @@
 !<thin>
-//                                              184       `
+//                                              138       `
 industrialio-core.o/
 industrialio-event.o/
 inkern.o/
 industrialio-buffer.o/
 industrialio-trigger.o/
-adc/rockchip_saradc.o/
-buffer/industrialio-triggered-buffer.o/
-buffer/kfifo_buf.o/
-
-/0              0           0     0     644     56104     `
-/21             0           0     0     644     11952     `
-/43             0           0     0     644     33104     `
-/53             0           0     0     644     36336     `
-/76             0           0     0     644     25808     `
-/100            0           0     0     644     20272     `
-/123            0           0     0     644     5712      `
-/163            0           0     0     644     8296      `
+adc/exynos_adc.o/
+adc/meson_saradc.o/
+/0              0           0     0     644     154168    `
+/21             0           0     0     644     69400     `
+/43             0           0     0     644     95632     `
+/53             0           0     0     644     147432    `
+/76             0           0     0     644     85232     `
+/100            0           0     0     644     102408    `
+/118            0           0     0     644     115712    `

@@ -1,1 +1,1 @@
-savedcmd_drivers/pci/controller/mobiveil/built-in.a := rm -f drivers/pci/controller/mobiveil/built-in.a;  aarch64-linux-gnu-ar cDPrST drivers/pci/controller/mobiveil/built-in.a
+savedcmd_drivers/pci/controller/mobiveil/built-in.a := rm -f drivers/pci/controller/mobiveil/built-in.a;  printf "drivers/pci/controller/mobiveil/%s " pcie-mobiveil.o pcie-mobiveil-host.o pcie-layerscape-gen4.o | xargs aarch64-linux-gnu-ar cDPrST drivers/pci/controller/mobiveil/built-in.a

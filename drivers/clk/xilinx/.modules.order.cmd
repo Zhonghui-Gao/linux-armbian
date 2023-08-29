@@ -1,1 +1,1 @@
-savedcmd_drivers/clk/xilinx/modules.order := {   echo drivers/clk/xilinx/clk-xlnx-clock-wizard.o; :; } > drivers/clk/xilinx/modules.order
+savedcmd_drivers/clk/xilinx/modules.order := {  :; } > drivers/clk/xilinx/modules.order

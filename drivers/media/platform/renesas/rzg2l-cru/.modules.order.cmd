@@ -1,1 +1,1 @@
-savedcmd_drivers/media/platform/renesas/rzg2l-cru/modules.order := {  :; } > drivers/media/platform/renesas/rzg2l-cru/modules.order
+savedcmd_drivers/media/platform/renesas/rzg2l-cru/modules.order := {   echo drivers/media/platform/renesas/rzg2l-cru/rzg2l-csi2.o;   echo drivers/media/platform/renesas/rzg2l-cru/rzg2l-cru.o; :; } > drivers/media/platform/renesas/rzg2l-cru/modules.order

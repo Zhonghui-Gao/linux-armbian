@@ -1,0 +1,1 @@
+savedcmd_sound/soc/mediatek/mt8183/mt8183-mt6358-ts3a227-max98357.mod := printf '%s\n'   mt8183-mt6358-ts3a227-max98357.o | awk '!x[$$0]++ { print("sound/soc/mediatek/mt8183/"$$0) }' > sound/soc/mediatek/mt8183/mt8183-mt6358-ts3a227-max98357.mod

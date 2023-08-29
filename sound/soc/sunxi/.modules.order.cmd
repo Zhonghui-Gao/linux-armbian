@@ -1,1 +1,1 @@
-savedcmd_sound/soc/sunxi/modules.order := {  :; } > sound/soc/sunxi/modules.order
+savedcmd_sound/soc/sunxi/modules.order := {   echo sound/soc/sunxi/sun4i-i2s.o;   echo sound/soc/sunxi/sun4i-spdif.o;   echo sound/soc/sunxi/sun8i-codec-analog.o;   echo sound/soc/sunxi/sun50i-codec-analog.o;   echo sound/soc/sunxi/sun8i-codec.o;   echo sound/soc/sunxi/sun8i-adda-pr-regmap.o; :; } > sound/soc/sunxi/modules.order

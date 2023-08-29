@@ -33,8 +33,9 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "snd-soc-core,snd-soc-rl6231,snd-soc-rt5514-spi");
+MODULE_INFO(depends, "snd-soc-rl6231,snd-soc-rt5514-spi");
 
 MODULE_ALIAS("i2c:rt5514");
 MODULE_ALIAS("of:N*T*Crealtek,rt5514");
 MODULE_ALIAS("of:N*T*Crealtek,rt5514C*");
+MODULE_ALIAS("acpi*:10EC5514:*");

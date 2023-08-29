@@ -1,5 +1,3 @@
 drivers/net/wwan/wwan.o
-drivers/net/wwan/wwan_hwsim.o
 drivers/net/wwan/mhi_wwan_ctrl.o
 drivers/net/wwan/mhi_wwan_mbim.o
-drivers/net/wwan/t7xx/mtk_t7xx.o

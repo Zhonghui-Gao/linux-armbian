@@ -1,1 +1,1 @@
-savedcmd_drivers/phy/freescale/modules.order := {  :; } > drivers/phy/freescale/modules.order
+savedcmd_drivers/phy/freescale/modules.order := {   echo drivers/phy/freescale/phy-fsl-imx8-mipi-dphy.o; :; } > drivers/phy/freescale/modules.order

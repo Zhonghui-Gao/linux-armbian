@@ -1,1 +1,1 @@
-savedcmd_drivers/gpu/drm/bridge/synopsys/built-in.a := rm -f drivers/gpu/drm/bridge/synopsys/built-in.a;  printf "drivers/gpu/drm/bridge/synopsys/%s " dw-hdmi.o dw-mipi-dsi.o | xargs aarch64-linux-gnu-ar cDPrST drivers/gpu/drm/bridge/synopsys/built-in.a
+savedcmd_drivers/gpu/drm/bridge/synopsys/built-in.a := rm -f drivers/gpu/drm/bridge/synopsys/built-in.a;  aarch64-linux-gnu-ar cDPrST drivers/gpu/drm/bridge/synopsys/built-in.a

@@ -1,1 +1,1 @@
-savedcmd_drivers/phy/allwinner/modules.order := {  :; } > drivers/phy/allwinner/modules.order
+savedcmd_drivers/phy/allwinner/modules.order := {   echo drivers/phy/allwinner/phy-sun6i-mipi-dphy.o; :; } > drivers/phy/allwinner/modules.order

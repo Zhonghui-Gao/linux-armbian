@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/allwinner/phy-sun6i-mipi-dphy.mod := printf '%s\n'   phy-sun6i-mipi-dphy.o | awk '!x[$$0]++ { print("drivers/phy/allwinner/"$$0) }' > drivers/phy/allwinner/phy-sun6i-mipi-dphy.mod

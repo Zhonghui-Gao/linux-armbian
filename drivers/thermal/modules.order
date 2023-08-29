@@ -1,1 +1,13 @@
-drivers/thermal/thermal_mmio.o
+drivers/thermal/broadcom/bcm2711_thermal.o
+drivers/thermal/broadcom/bcm2835_thermal.o
+drivers/thermal/broadcom/brcmstb_thermal.o
+drivers/thermal/qcom/qcom-spmi-adc-tm5.o
+drivers/thermal/qcom/qcom-spmi-temp-alarm.o
+drivers/thermal/qcom/lmh.o
+drivers/thermal/tegra/tegra-soctherm.o
+drivers/thermal/tegra/tegra-bpmp-thermal.o
+drivers/thermal/rockchip_thermal.o
+drivers/thermal/imx_sc_thermal.o
+drivers/thermal/imx8mm_thermal.o
+drivers/thermal/qoriq_thermal.o
+drivers/thermal/thermal-generic-adc.o

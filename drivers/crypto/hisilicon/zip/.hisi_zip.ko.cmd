@@ -1,0 +1,1 @@
+savedcmd_drivers/crypto/hisilicon/zip/hisi_zip.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/crypto/hisilicon/zip/hisi_zip.ko drivers/crypto/hisilicon/zip/hisi_zip.o drivers/crypto/hisilicon/zip/hisi_zip.mod.o;  true

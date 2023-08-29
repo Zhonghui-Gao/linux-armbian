@@ -1,1 +1,1 @@
-savedcmd_drivers/gpu/drm/bridge/analogix/modules.order := {   echo drivers/gpu/drm/bridge/analogix/analogix-anx6345.o;   echo drivers/gpu/drm/bridge/analogix/analogix-anx78xx.o; :; } > drivers/gpu/drm/bridge/analogix/modules.order
+savedcmd_drivers/gpu/drm/bridge/analogix/modules.order := {   echo drivers/gpu/drm/bridge/analogix/anx7625.o;   echo drivers/gpu/drm/bridge/analogix/analogix_dp.o; :; } > drivers/gpu/drm/bridge/analogix/modules.order

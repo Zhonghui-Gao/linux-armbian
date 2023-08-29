@@ -3,6 +3,5 @@ drivers/media/v4l2-core/v4l2-fwnode.o
 drivers/media/v4l2-core/v4l2-h264.o
 drivers/media/v4l2-core/v4l2-mem2mem.o
 drivers/media/v4l2-core/v4l2-vp9.o
-drivers/media/v4l2-core/tuner.o
 drivers/media/v4l2-core/v4l2-dv-timings.o
 drivers/media/v4l2-core/videodev.o

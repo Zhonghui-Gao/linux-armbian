@@ -1,5 +1,0 @@
-drivers/iio/proximity/cros_ec_mkbp_proximity.o
-drivers/iio/proximity/isl29501.o
-drivers/iio/proximity/mb1232.o
-drivers/iio/proximity/ping.o
-drivers/iio/proximity/vl53l0x-i2c.o

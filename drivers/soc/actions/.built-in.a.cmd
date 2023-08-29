@@ -1,0 +1,1 @@
+savedcmd_drivers/soc/actions/built-in.a := rm -f drivers/soc/actions/built-in.a;  printf "drivers/soc/actions/%s " owl-sps-helper.o owl-sps.o | xargs aarch64-linux-gnu-ar cDPrST drivers/soc/actions/built-in.a

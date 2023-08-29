@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/marvell/mwifiex/mwifiex_pcie.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/wireless/marvell/mwifiex/mwifiex_pcie.o @drivers/net/wireless/marvell/mwifiex/mwifiex_pcie.mod 

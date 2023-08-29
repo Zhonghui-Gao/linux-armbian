@@ -1,1 +1,1 @@
-savedcmd_drivers/net/wireless/realtek/modules.order := {   cat drivers/net/wireless/realtek/rtl818x/modules.order;   cat drivers/net/wireless/realtek/rtlwifi/modules.order;   cat drivers/net/wireless/realtek/rtl8xxxu/modules.order;   cat drivers/net/wireless/realtek/rtw88/modules.order; :; } > drivers/net/wireless/realtek/modules.order
+savedcmd_drivers/net/wireless/realtek/modules.order := {  :; } > drivers/net/wireless/realtek/modules.order

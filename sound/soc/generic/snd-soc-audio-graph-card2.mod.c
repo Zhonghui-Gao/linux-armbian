@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "snd-soc-simple-card-utils,snd-soc-core");
+MODULE_INFO(depends, "snd-soc-simple-card-utils");
 
 MODULE_ALIAS("of:N*T*Caudio-graph-card2");
 MODULE_ALIAS("of:N*T*Caudio-graph-card2C*");

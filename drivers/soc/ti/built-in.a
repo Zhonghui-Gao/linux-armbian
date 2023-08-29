@@ -1,1 +1,10 @@
-!<arch>
+!<thin>
+//                                              68        `
+ti_sci_pm_domains.o/
+ti_sci_inta_msi.o/
+k3-ringacc.o/
+k3-socinfo.o/
+/0              0           0     0     644     31856     `
+/21             0           0     0     644     28592     `
+/40             0           0     0     644     128064    `
+/54             0           0     0     644     26864     `

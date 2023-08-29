@@ -1,21 +1,9 @@
 !<thin>
-//                                              214       `
-phy-rockchip-dp.o/
+//                                              70        `
 phy-rockchip-emmc.o/
-phy-rockchip-inno-hdmi.o/
 phy-rockchip-inno-usb2.o/
-phy-rockchip-naneng-combphy.o/
-phy-rockchip-pcie.o/
-phy-rockchip-snps-pcie3.o/
 phy-rockchip-typec.o/
-phy-rockchip-usb.o/
 
-/0              0           0     0     644     7240      `
-/19             0           0     0     644     9816      `
-/40             0           0     0     644     31768     `
-/66             0           0     0     644     52872     `
-/92             0           0     0     644     17480     `
-/123            0           0     0     644     14072     `
-/144            0           0     0     644     13192     `
-/171            0           0     0     644     20664     `
-/193            0           0     0     644     16736     `
+/0              0           0     0     644     50480     `
+/21             0           0     0     644     122000    `
+/47             0           0     0     644     117256    `

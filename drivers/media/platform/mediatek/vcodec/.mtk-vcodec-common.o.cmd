@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/mediatek/vcodec/mtk-vcodec-common.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/media/platform/mediatek/vcodec/mtk-vcodec-common.o @drivers/media/platform/mediatek/vcodec/mtk-vcodec-common.mod 

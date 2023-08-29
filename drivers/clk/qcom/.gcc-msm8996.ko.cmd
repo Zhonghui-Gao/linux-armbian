@@ -1,0 +1,1 @@
+savedcmd_drivers/clk/qcom/gcc-msm8996.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/clk/qcom/gcc-msm8996.ko drivers/clk/qcom/gcc-msm8996.o drivers/clk/qcom/gcc-msm8996.mod.o;  true

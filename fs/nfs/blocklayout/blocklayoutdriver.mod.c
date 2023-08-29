@@ -33,5 +33,5 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "nfsv4,nfs,sunrpc");
+MODULE_INFO(depends, "");
 

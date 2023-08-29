@@ -147,14 +147,6 @@ deps_kernel/bounds.s := \
     $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
     $(wildcard include/config/LOCKDEP) \
     $(wildcard include/config/LOCK_STAT) \
-  include/linux/dynamic_debug.h \
-    $(wildcard include/config/JUMP_LABEL) \
-  include/linux/jump_label.h \
-    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
-  arch/arm64/include/asm/jump_label.h \
-  arch/arm64/include/asm/insn.h \
-    $(wildcard include/config/ARM64_LSE_ATOMICS) \
-  arch/arm64/include/asm/insn-def.h \
   include/linux/mmdebug.h \
     $(wildcard include/config/DEBUG_VM_IRQSOFF) \
     $(wildcard include/config/DEBUG_VIRTUAL) \
@@ -193,6 +185,7 @@ deps_kernel/bounds.s := \
     $(wildcard include/config/ARM64_PSEUDO_NMI) \
   arch/arm64/include/asm/alternative-macros.h \
   arch/arm64/include/generated/asm/cpucaps.h \
+  arch/arm64/include/asm/insn-def.h \
   include/asm-generic/barrier.h \
   arch/arm64/include/asm/bitops.h \
   include/asm-generic/bitops/builtin-__ffs.h \
@@ -210,6 +203,7 @@ deps_kernel/bounds.s := \
   arch/arm64/include/asm/atomic.h \
   arch/arm64/include/asm/cmpxchg.h \
   arch/arm64/include/asm/lse.h \
+    $(wildcard include/config/ARM64_LSE_ATOMICS) \
   arch/arm64/include/asm/atomic_ll_sc.h \
     $(wildcard include/config/CC_HAS_K_CONSTRAINT) \
   arch/arm64/include/asm/alternative.h \

@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/mediatek/phy-mtk-mipi-dsi-drv.mod := printf '%s\n'   phy-mtk-mipi-dsi.o phy-mtk-mipi-dsi-mt8173.o phy-mtk-mipi-dsi-mt8183.o | awk '!x[$$0]++ { print("drivers/phy/mediatek/"$$0) }' > drivers/phy/mediatek/phy-mtk-mipi-dsi-drv.mod

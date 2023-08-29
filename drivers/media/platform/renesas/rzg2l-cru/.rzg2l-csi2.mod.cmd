@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/renesas/rzg2l-cru/rzg2l-csi2.mod := printf '%s\n'   rzg2l-csi2.o | awk '!x[$$0]++ { print("drivers/media/platform/renesas/rzg2l-cru/"$$0) }' > drivers/media/platform/renesas/rzg2l-cru/rzg2l-csi2.mod

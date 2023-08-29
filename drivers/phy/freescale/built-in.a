@@ -1,1 +1,6 @@
-!<arch>
+!<thin>
+//                                              44        `
+phy-fsl-imx8mq-usb.o/
+phy-fsl-imx8m-pcie.o/
+/0              0           0     0     644     56168     `
+/22             0           0     0     644     57496     `

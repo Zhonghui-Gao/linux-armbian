@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/bridge/cadence/cdns-mhdp8546.mod := printf '%s\n'   cdns-mhdp8546-core.o cdns-mhdp8546-hdcp.o cdns-mhdp8546-j721e.o | awk '!x[$$0]++ { print("drivers/gpu/drm/bridge/cadence/"$$0) }' > drivers/gpu/drm/bridge/cadence/cdns-mhdp8546.mod

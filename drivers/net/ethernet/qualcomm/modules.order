@@ -1,3 +1,2 @@
 drivers/net/ethernet/qualcomm/emac/qcom-emac.o
-drivers/net/ethernet/qualcomm/qca_7k_common.o
-drivers/net/ethernet/qualcomm/qcauart.o
+drivers/net/ethernet/qualcomm/rmnet/rmnet.o

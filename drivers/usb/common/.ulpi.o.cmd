@@ -1,4 +1,4 @@
-savedcmd_drivers/usb/common/ulpi.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/usb/common/.ulpi.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"drivers/usb/common/ulpi"' -DKBUILD_BASENAME='"ulpi"' -DKBUILD_MODNAME='"ulpi"' -D__KBUILD_MODNAME=kmod_ulpi -c -o drivers/usb/common/ulpi.o drivers/usb/common/ulpi.c  
+savedcmd_drivers/usb/common/ulpi.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/usb/common/.ulpi.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -fno-var-tracking -femit-struct-debug-baseonly -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"drivers/usb/common/ulpi"' -DKBUILD_BASENAME='"ulpi"' -DKBUILD_MODNAME='"ulpi"' -D__KBUILD_MODNAME=kmod_ulpi -c -o drivers/usb/common/ulpi.o drivers/usb/common/ulpi.c  
 
 source_drivers/usb/common/ulpi.o := drivers/usb/common/ulpi.c
 
@@ -79,60 +79,42 @@ deps_drivers/usb/common/ulpi.o := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/fortify-string.h \
-    $(wildcard include/config/KMSAN) \
-  include/linux/bug.h \
-    $(wildcard include/config/GENERIC_BUG) \
-    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
-  arch/arm64/include/asm/bug.h \
-  include/linux/stringify.h \
-  arch/arm64/include/asm/asm-bug.h \
-    $(wildcard include/config/DEBUG_BUGVERBOSE) \
-  arch/arm64/include/asm/brk-imm.h \
-  include/asm-generic/bug.h \
-    $(wildcard include/config/BUG) \
-    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
-    $(wildcard include/config/SMP) \
-  include/linux/instrumentation.h \
-    $(wildcard include/config/NOINSTR_VALIDATION) \
-  include/linux/once_lite.h \
-  include/linux/panic.h \
-    $(wildcard include/config/PANIC_TIMEOUT) \
-  include/linux/printk.h \
-    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
-    $(wildcard include/config/EARLY_PRINTK) \
+  include/linux/device.h \
+    $(wildcard include/config/GENERIC_MSI_IRQ) \
+    $(wildcard include/config/ENERGY_MODEL) \
+    $(wildcard include/config/PINCTRL) \
+    $(wildcard include/config/DMA_OPS) \
+    $(wildcard include/config/DMA_DECLARE_COHERENT) \
+    $(wildcard include/config/DMA_CMA) \
+    $(wildcard include/config/SWIOTLB) \
+    $(wildcard include/config/NUMA) \
+    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_DEVICE) \
+    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU) \
+    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU_ALL) \
+    $(wildcard include/config/DMA_OPS_BYPASS) \
+    $(wildcard include/config/PM_SLEEP) \
+    $(wildcard include/config/OF) \
+    $(wildcard include/config/LOCKDEP) \
+    $(wildcard include/config/DEVTMPFS) \
+  include/linux/dev_printk.h \
     $(wildcard include/config/PRINTK) \
-    $(wildcard include/config/PRINTK_INDEX) \
     $(wildcard include/config/DYNAMIC_DEBUG) \
     $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
-  include/linux/init.h \
-    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
-    $(wildcard include/config/STRICT_KERNEL_RWX) \
-    $(wildcard include/config/STRICT_MODULE_RWX) \
-    $(wildcard include/config/LTO_CLANG) \
-  include/linux/build_bug.h \
-  include/linux/kern_levels.h \
-  include/linux/linkage.h \
-    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
-  include/linux/export.h \
-    $(wildcard include/config/MODVERSIONS) \
-    $(wildcard include/config/MODULES) \
-    $(wildcard include/config/TRIM_UNUSED_KSYMS) \
-  arch/arm64/include/asm/linkage.h \
+  include/linux/ratelimit.h \
   include/linux/ratelimit_types.h \
   include/linux/bits.h \
   include/linux/const.h \
   include/vdso/const.h \
   include/uapi/linux/const.h \
   include/vdso/bits.h \
+  include/linux/build_bug.h \
   include/uapi/linux/param.h \
   arch/arm64/include/uapi/asm/param.h \
   include/asm-generic/param.h \
     $(wildcard include/config/HZ) \
   include/uapi/asm-generic/param.h \
   include/linux/spinlock_types_raw.h \
+    $(wildcard include/config/SMP) \
     $(wildcard include/config/DEBUG_SPINLOCK) \
     $(wildcard include/config/DEBUG_LOCK_ALLOC) \
   arch/arm64/include/asm/spinlock_types.h \
@@ -149,37 +131,7 @@ deps_drivers/usb/common/ulpi.o := \
   include/linux/byteorder/generic.h \
   include/linux/lockdep_types.h \
     $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
-    $(wildcard include/config/LOCKDEP) \
     $(wildcard include/config/LOCK_STAT) \
-  include/linux/dynamic_debug.h \
-    $(wildcard include/config/JUMP_LABEL) \
-  include/linux/jump_label.h \
-    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
-  arch/arm64/include/asm/jump_label.h \
-  arch/arm64/include/asm/insn.h \
-    $(wildcard include/config/ARM64_LSE_ATOMICS) \
-  arch/arm64/include/asm/insn-def.h \
-  include/linux/limits.h \
-  include/uapi/linux/limits.h \
-  include/vdso/limits.h \
-  include/linux/device.h \
-    $(wildcard include/config/GENERIC_MSI_IRQ) \
-    $(wildcard include/config/ENERGY_MODEL) \
-    $(wildcard include/config/PINCTRL) \
-    $(wildcard include/config/DMA_OPS) \
-    $(wildcard include/config/DMA_DECLARE_COHERENT) \
-    $(wildcard include/config/DMA_CMA) \
-    $(wildcard include/config/SWIOTLB) \
-    $(wildcard include/config/NUMA) \
-    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_DEVICE) \
-    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU) \
-    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU_ALL) \
-    $(wildcard include/config/DMA_OPS_BYPASS) \
-    $(wildcard include/config/PM_SLEEP) \
-    $(wildcard include/config/OF) \
-    $(wildcard include/config/DEVTMPFS) \
-  include/linux/dev_printk.h \
-  include/linux/ratelimit.h \
   include/linux/sched.h \
     $(wildcard include/config/DEBUG_ATOMIC_SLEEP) \
     $(wildcard include/config/PREEMPT_RT) \
@@ -240,6 +192,7 @@ deps_drivers/usb/common/ulpi.o := \
     $(wildcard include/config/SCHED_MM_CID) \
     $(wildcard include/config/FAULT_INJECTION) \
     $(wildcard include/config/LATENCYTOP) \
+    $(wildcard include/config/KMSAN) \
     $(wildcard include/config/KUNIT) \
     $(wildcard include/config/FUNCTION_GRAPH_TRACER) \
     $(wildcard include/config/TRACING) \
@@ -280,6 +233,9 @@ deps_drivers/usb/common/ulpi.o := \
     $(wildcard include/config/ARM64_PSEUDO_NMI) \
   arch/arm64/include/asm/alternative-macros.h \
   arch/arm64/include/generated/asm/cpucaps.h \
+  arch/arm64/include/asm/insn-def.h \
+  arch/arm64/include/asm/brk-imm.h \
+  include/linux/stringify.h \
   include/asm-generic/barrier.h \
   include/linux/rcupdate.h \
     $(wildcard include/config/TINY_RCU) \
@@ -300,9 +256,19 @@ deps_drivers/usb/common/ulpi.o := \
   arch/arm64/include/asm/atomic.h \
   arch/arm64/include/asm/cmpxchg.h \
   arch/arm64/include/asm/lse.h \
+    $(wildcard include/config/ARM64_LSE_ATOMICS) \
   arch/arm64/include/asm/atomic_ll_sc.h \
     $(wildcard include/config/CC_HAS_K_CONSTRAINT) \
+  include/linux/export.h \
+    $(wildcard include/config/MODVERSIONS) \
+    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
+    $(wildcard include/config/MODULES) \
+    $(wildcard include/config/TRIM_UNUSED_KSYMS) \
   arch/arm64/include/asm/alternative.h \
+  include/linux/init.h \
+    $(wildcard include/config/STRICT_KERNEL_RWX) \
+    $(wildcard include/config/STRICT_MODULE_RWX) \
+    $(wildcard include/config/LTO_CLANG) \
   arch/arm64/include/asm/atomic_lse.h \
   include/linux/atomic/atomic-arch-fallback.h \
     $(wildcard include/config/GENERIC_ATOMIC64) \
@@ -372,11 +338,43 @@ deps_drivers/usb/common/ulpi.o := \
   include/asm-generic/bitops/non-instrumented-non-atomic.h \
   include/asm-generic/bitops/le.h \
   include/asm-generic/bitops/ext2-atomic-setbit.h \
+  include/linux/bug.h \
+    $(wildcard include/config/GENERIC_BUG) \
+    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
+  arch/arm64/include/asm/bug.h \
+  arch/arm64/include/asm/asm-bug.h \
+    $(wildcard include/config/DEBUG_BUGVERBOSE) \
+  include/asm-generic/bug.h \
+    $(wildcard include/config/BUG) \
+    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
+  include/linux/instrumentation.h \
+    $(wildcard include/config/NOINSTR_VALIDATION) \
+  include/linux/once_lite.h \
+  include/linux/panic.h \
+    $(wildcard include/config/PANIC_TIMEOUT) \
+  include/linux/printk.h \
+    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
+    $(wildcard include/config/EARLY_PRINTK) \
+    $(wildcard include/config/PRINTK_INDEX) \
+  include/linux/kern_levels.h \
+  include/linux/linkage.h \
+    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
+  arch/arm64/include/asm/linkage.h \
+  include/linux/jump_label.h \
+    $(wildcard include/config/JUMP_LABEL) \
+    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
+  arch/arm64/include/asm/jump_label.h \
+  arch/arm64/include/asm/insn.h \
   include/linux/kernel.h \
     $(wildcard include/config/PREEMPT_VOLUNTARY_BUILD) \
     $(wildcard include/config/PREEMPT_) \
     $(wildcard include/config/FTRACE_MCOUNT_RECORD) \
   include/linux/align.h \
+  include/linux/limits.h \
+  include/uapi/linux/limits.h \
+  include/vdso/limits.h \
   include/linux/hex.h \
   include/linux/kstrtox.h \
   include/linux/math.h \
@@ -736,11 +734,6 @@ deps_drivers/usb/common/ulpi.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
-  arch/arm64/include/asm/uprobes.h \
-  arch/arm64/include/asm/debug-monitors.h \
-  arch/arm64/include/asm/esr.h \
-  arch/arm64/include/asm/probes.h \
-    $(wildcard include/config/KPROBES) \
   include/linux/percpu_counter.h \
   arch/arm64/include/asm/mmu.h \
   include/linux/page-flags.h \
@@ -825,6 +818,7 @@ deps_drivers/usb/common/ulpi.o := \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/DEBUG_INFO_BTF_MODULES) \
     $(wildcard include/config/EVENT_TRACING) \
+    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/CONSTRUCTORS) \
     $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
@@ -964,6 +958,7 @@ deps_drivers/usb/common/ulpi.o := \
   include/linux/error-injection.h \
   include/asm-generic/error-injection.h \
   include/linux/tracepoint-defs.h \
+  include/linux/dynamic_debug.h \
   arch/arm64/include/asm/module.h \
     $(wildcard include/config/ARM64_MODULE_PLTS) \
     $(wildcard include/config/DYNAMIC_FTRACE) \
@@ -1011,6 +1006,7 @@ deps_drivers/usb/common/ulpi.o := \
     $(wildcard include/config/ACPI_REDUCED_HARDWARE_ONLY) \
     $(wildcard include/config/ACPI_DEBUG) \
   include/linux/ctype.h \
+  arch/arm64/include/asm/acenv.h \
   include/acpi/acnames.h \
   include/acpi/actypes.h \
   include/acpi/acexcep.h \
@@ -1027,12 +1023,202 @@ deps_drivers/usb/common/ulpi.o := \
   include/acpi/acpixf.h \
   include/acpi/acconfig.h \
   include/acpi/acbuffer.h \
+  include/acpi/acpi_bus.h \
+    $(wildcard include/config/X86_ANDROID_TABLETS) \
+    $(wildcard include/config/ACPI_SYSTEM_POWER_STATES_SUPPORT) \
+    $(wildcard include/config/ACPI_SLEEP) \
+  include/acpi/acpi_drivers.h \
+    $(wildcard include/config/ACPI_DOCK) \
   include/acpi/acpi_numa.h \
     $(wildcard include/config/ACPI_HMAT) \
-  include/linux/debugfs.h \
-    $(wildcard include/config/DEBUG_FS) \
+  include/acpi/acpi_io.h \
+  include/linux/io.h \
+    $(wildcard include/config/HAS_IOPORT_MAP) \
+  arch/arm64/include/asm/io.h \
+  include/linux/pgtable.h \
+    $(wildcard include/config/HIGHPTE) \
+    $(wildcard include/config/ARCH_HAS_NONLEAF_PMD_YOUNG) \
+    $(wildcard include/config/GUP_GET_PXX_LOW_HIGH) \
+    $(wildcard include/config/HAVE_ARCH_TRANSPARENT_HUGEPAGE_PUD) \
+    $(wildcard include/config/HAVE_ARCH_SOFT_DIRTY) \
+    $(wildcard include/config/ARCH_ENABLE_THP_MIGRATION) \
+    $(wildcard include/config/ARCH_HAS_PTE_DEVMAP) \
+    $(wildcard include/config/HAVE_ARCH_HUGE_VMAP) \
+    $(wildcard include/config/X86_ESPFIX64) \
+  arch/arm64/include/asm/pgtable.h \
+    $(wildcard include/config/PAGE_TABLE_CHECK) \
+  arch/arm64/include/asm/proc-fns.h \
+  arch/arm64/include/asm/pgtable-prot.h \
+    $(wildcard include/config/ARM64_BTI_KERNEL) \
+  arch/arm64/include/asm/tlbflush.h \
+    $(wildcard include/config/ARM64_WORKAROUND_REPEAT_TLBI) \
+  arch/arm64/include/asm/fixmap.h \
+    $(wildcard include/config/ACPI_APEI_GHES) \
+    $(wildcard include/config/ARM_SDE_INTERFACE) \
+    $(wildcard include/config/UNMAP_KERNEL_AT_EL0) \
+    $(wildcard include/config/RELOCATABLE) \
+  include/asm-generic/fixmap.h \
+  include/linux/page_table_check.h \
+  include/asm-generic/pgtable_uffd.h \
+    $(wildcard include/config/HAVE_ARCH_USERFAULTFD_WP) \
+  arch/arm64/include/generated/asm/early_ioremap.h \
+  include/asm-generic/early_ioremap.h \
+    $(wildcard include/config/GENERIC_EARLY_IOREMAP) \
+  include/asm-generic/io.h \
+    $(wildcard include/config/GENERIC_IOMAP) \
+    $(wildcard include/config/TRACE_MMIO_ACCESS) \
+    $(wildcard include/config/GENERIC_IOREMAP) \
+  include/asm-generic/pci_iomap.h \
+    $(wildcard include/config/NO_GENERIC_PCI_IOPORT_MAP) \
+    $(wildcard include/config/GENERIC_PCI_IOMAP) \
+  include/linux/logic_pio.h \
+    $(wildcard include/config/INDIRECT_PIO) \
+  include/linux/vmalloc.h \
+    $(wildcard include/config/HAVE_ARCH_HUGE_VMALLOC) \
+  arch/arm64/include/asm/vmalloc.h \
+    $(wildcard include/config/PTDUMP_DEBUGFS) \
+  arch/arm64/include/asm/acpi.h \
+    $(wildcard include/config/ACPI_APEI) \
+  include/linux/efi.h \
+    $(wildcard include/config/X86_64) \
+    $(wildcard include/config/X86_32) \
+    $(wildcard include/config/EFI_ESRT) \
+    $(wildcard include/config/EFI_PCDP) \
+    $(wildcard include/config/EFI_SOFT_RESERVE) \
+    $(wildcard include/config/EFI_CAPSULE_LOADER) \
+    $(wildcard include/config/EFI_EMBEDDED_FIRMWARE) \
+    $(wildcard include/config/LOAD_UEFI_KEYS) \
+    $(wildcard include/config/XEN_EFI) \
+  include/linux/proc_fs.h \
+    $(wildcard include/config/PROC_PID_ARCH_STATUS) \
+  include/linux/rtc.h \
+    $(wildcard include/config/RTC_INTF_DEV_UIE_EMUL) \
+    $(wildcard include/config/RTC_HCTOSYS_DEVICE) \
+    $(wildcard include/config/RTC_NVMEM) \
+    $(wildcard include/config/RTC_INTF_SYSFS) \
+  include/linux/interrupt.h \
+    $(wildcard include/config/IRQ_FORCED_THREADING) \
+    $(wildcard include/config/GENERIC_IRQ_PROBE) \
+    $(wildcard include/config/IRQ_TIMINGS) \
+  include/linux/irqreturn.h \
+  include/linux/hardirq.h \
+  include/linux/context_tracking_state.h \
+    $(wildcard include/config/CONTEXT_TRACKING_USER) \
+    $(wildcard include/config/CONTEXT_TRACKING) \
+  include/linux/ftrace_irq.h \
+    $(wildcard include/config/HWLAT_TRACER) \
+    $(wildcard include/config/OSNOISE_TRACER) \
+  include/linux/vtime.h \
+    $(wildcard include/config/VIRT_CPU_ACCOUNTING) \
+    $(wildcard include/config/IRQ_TIME_ACCOUNTING) \
+  arch/arm64/include/asm/hardirq.h \
+  arch/arm64/include/asm/irq.h \
+  include/asm-generic/irq.h \
+  arch/arm64/include/asm/kvm_arm.h \
+  arch/arm64/include/asm/esr.h \
+  include/asm-generic/hardirq.h \
+  include/linux/irq.h \
+    $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
+    $(wildcard include/config/GENERIC_IRQ_IPI) \
+    $(wildcard include/config/IRQ_DOMAIN_HIERARCHY) \
+    $(wildcard include/config/DEPRECATED_IRQ_CPU_ONOFFLINE) \
+    $(wildcard include/config/GENERIC_IRQ_MIGRATION) \
+    $(wildcard include/config/GENERIC_PENDING_IRQ) \
+    $(wildcard include/config/HARDIRQS_SW_RESEND) \
+    $(wildcard include/config/GENERIC_IRQ_LEGACY) \
+    $(wildcard include/config/GENERIC_IRQ_MULTI_HANDLER) \
+  include/linux/irqhandler.h \
+  arch/arm64/include/generated/asm/irq_regs.h \
+  include/asm-generic/irq_regs.h \
+  include/linux/irqdesc.h \
+    $(wildcard include/config/GENERIC_IRQ_DEBUGFS) \
+    $(wildcard include/config/SPARSE_IRQ) \
+    $(wildcard include/config/IRQ_DOMAIN) \
+  arch/arm64/include/generated/asm/hw_irq.h \
+  include/asm-generic/hw_irq.h \
+  include/linux/nvmem-provider.h \
+    $(wildcard include/config/NVMEM) \
+  include/linux/gpio/consumer.h \
+    $(wildcard include/config/GPIO_SYSFS) \
+  include/uapi/linux/rtc.h \
   include/linux/seq_file.h \
   include/linux/string_helpers.h \
+  include/linux/cdev.h \
+  include/linux/poll.h \
+  include/uapi/linux/poll.h \
+  arch/arm64/include/generated/uapi/asm/poll.h \
+  include/uapi/asm-generic/poll.h \
+  include/uapi/linux/eventpoll.h \
+  include/linux/pstore.h \
+    $(wildcard include/config/ARM_THUMB) \
+    $(wildcard include/config/ARM) \
+  include/linux/kmsg_dump.h \
+  include/linux/range.h \
+  include/linux/reboot.h \
+  include/uapi/linux/reboot.h \
+  arch/arm64/include/generated/asm/emergency-restart.h \
+  include/asm-generic/emergency-restart.h \
+  include/linux/screen_info.h \
+  include/uapi/linux/screen_info.h \
+  include/linux/memblock.h \
+    $(wildcard include/config/ARCH_KEEP_MEMBLOCK) \
+    $(wildcard include/config/HAVE_MEMBLOCK_PHYS_MAP) \
+    $(wildcard include/config/MEMTEST) \
+  include/linux/mm.h \
+    $(wildcard include/config/HAVE_ARCH_MMAP_RND_BITS) \
+    $(wildcard include/config/HAVE_ARCH_MMAP_RND_COMPAT_BITS) \
+    $(wildcard include/config/MEM_SOFT_DIRTY) \
+    $(wildcard include/config/ARCH_USES_HIGH_VMA_FLAGS) \
+    $(wildcard include/config/ARCH_HAS_PKEYS) \
+    $(wildcard include/config/PPC) \
+    $(wildcard include/config/PARISC) \
+    $(wildcard include/config/SPARC64) \
+    $(wildcard include/config/HAVE_ARCH_USERFAULTFD_MINOR) \
+    $(wildcard include/config/SHMEM) \
+    $(wildcard include/config/MIGRATION) \
+    $(wildcard include/config/ARCH_HAS_PTE_SPECIAL) \
+    $(wildcard include/config/DEBUG_VM_RB) \
+    $(wildcard include/config/PAGE_POISONING) \
+    $(wildcard include/config/INIT_ON_ALLOC_DEFAULT_ON) \
+    $(wildcard include/config/INIT_ON_FREE_DEFAULT_ON) \
+    $(wildcard include/config/DEBUG_PAGEALLOC) \
+    $(wildcard include/config/ARCH_WANT_OPTIMIZE_VMEMMAP) \
+    $(wildcard include/config/HUGETLBFS) \
+    $(wildcard include/config/MAPPING_DIRTY_HELPERS) \
+  include/linux/mmap_lock.h \
+  include/linux/page_ext.h \
+  include/linux/stacktrace.h \
+    $(wildcard include/config/ARCH_STACKWALK) \
+    $(wildcard include/config/STACKTRACE) \
+    $(wildcard include/config/HAVE_RELIABLE_STACKTRACE) \
+  include/linux/stackdepot.h \
+    $(wildcard include/config/STACKDEPOT_ALWAYS_INIT) \
+    $(wildcard include/config/STACKDEPOT) \
+  include/linux/page_ref.h \
+    $(wildcard include/config/DEBUG_PAGE_REF) \
+  include/linux/memremap.h \
+    $(wildcard include/config/DEVICE_PRIVATE) \
+    $(wildcard include/config/PCI_P2PDMA) \
+  include/linux/huge_mm.h \
+  include/linux/sched/coredump.h \
+    $(wildcard include/config/CORE_DUMP_DEFAULT_ELF_HEADERS) \
+  include/linux/vmstat.h \
+    $(wildcard include/config/VM_EVENT_COUNTERS) \
+    $(wildcard include/config/DEBUG_TLBFLUSH) \
+    $(wildcard include/config/PER_VMA_LOCK_STATS) \
+  include/linux/vm_event_item.h \
+    $(wildcard include/config/MEMORY_BALLOON) \
+    $(wildcard include/config/BALLOON_COMPACTION) \
+    $(wildcard include/config/ZSWAP) \
+  arch/arm64/include/generated/asm/dma.h \
+  include/asm-generic/dma.h \
+  include/linux/psci.h \
+    $(wildcard include/config/ARM_PSCI_FW) \
+  include/linux/arm-smccc.h \
+    $(wildcard include/config/HAVE_ARM_SMCCC) \
+  arch/arm64/include/asm/smp_plat.h \
+  include/linux/debugfs.h \
+    $(wildcard include/config/DEBUG_FS) \
   include/linux/of.h \
     $(wildcard include/config/OF_DYNAMIC) \
     $(wildcard include/config/SPARC) \

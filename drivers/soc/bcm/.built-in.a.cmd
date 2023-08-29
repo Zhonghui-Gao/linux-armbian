@@ -1,1 +1,1 @@
-savedcmd_drivers/soc/bcm/built-in.a := rm -f drivers/soc/bcm/built-in.a;  printf "drivers/soc/bcm/%s " bcm63xx/built-in.a brcmstb/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/soc/bcm/built-in.a
+savedcmd_drivers/soc/bcm/built-in.a := rm -f drivers/soc/bcm/built-in.a;  printf "drivers/soc/bcm/%s " bcm2835-power.o raspberrypi-power.o bcm63xx/built-in.a brcmstb/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/soc/bcm/built-in.a

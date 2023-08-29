@@ -1,4 +1,4 @@
-savedcmd_drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcmsdh.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/broadcom/brcm80211/brcmfmac/.bcmsdh.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144 -DDEBUG -I ./drivers/net/wireless/broadcom/brcm80211/brcmfmac -I ./drivers/net/wireless/broadcom/brcm80211/brcmfmac/../include  -DMODULE  -DKBUILD_BASENAME='"bcmsdh"' -DKBUILD_MODNAME='"brcmfmac"' -D__KBUILD_MODNAME=kmod_brcmfmac -c -o drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcmsdh.o drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcmsdh.c  
+savedcmd_drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcmsdh.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/broadcom/brcm80211/brcmfmac/.bcmsdh.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -fno-var-tracking -femit-struct-debug-baseonly -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144 -I ./drivers/net/wireless/broadcom/brcm80211/brcmfmac -I ./drivers/net/wireless/broadcom/brcm80211/brcmfmac/../include  -DMODULE  -DKBUILD_BASENAME='"bcmsdh"' -DKBUILD_MODNAME='"brcmfmac"' -D__KBUILD_MODNAME=kmod_brcmfmac -c -o drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcmsdh.o drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcmsdh.c  
 
 source_drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcmsdh.o := drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcmsdh.c
 
@@ -297,7 +297,6 @@ deps_drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcmsdh.o := \
   include/linux/lockdep_types.h \
     $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
     $(wildcard include/config/LOCK_STAT) \
-  include/linux/dynamic_debug.h \
   include/linux/kernel.h \
     $(wildcard include/config/PREEMPT_VOLUNTARY_BUILD) \
     $(wildcard include/config/PREEMPT_DYNAMIC) \
@@ -345,7 +344,6 @@ deps_drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcmsdh.o := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/fortify-string.h \
   include/linux/gfp_types.h \
   include/linux/numa.h \
     $(wildcard include/config/NODES_SHIFT) \
@@ -821,11 +819,6 @@ deps_drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcmsdh.o := \
     $(wildcard include/config/MAPLE_RCU_DISABLED) \
     $(wildcard include/config/DEBUG_MAPLE_TREE) \
   include/linux/uprobes.h \
-  arch/arm64/include/asm/uprobes.h \
-  arch/arm64/include/asm/debug-monitors.h \
-  arch/arm64/include/asm/esr.h \
-  arch/arm64/include/asm/probes.h \
-    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   arch/arm64/include/asm/mmu.h \
@@ -846,7 +839,6 @@ deps_drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcmsdh.o := \
   include/uapi/linux/netfilter/nf_conntrack_common.h \
   include/linux/netfilter/nf_conntrack_sctp.h \
   include/uapi/linux/netfilter/nf_conntrack_sctp.h \
-  include/net/netns/flow_table.h \
   include/net/netns/nftables.h \
   include/net/netns/xfrm.h \
   include/uapi/linux/xfrm.h \
@@ -1069,6 +1061,7 @@ deps_drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcmsdh.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
+    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/KPROBES_SANITY_TEST) \
     $(wildcard include/config/OPTPROBES) \
@@ -1107,6 +1100,7 @@ deps_drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcmsdh.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
+  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1266,6 +1260,7 @@ deps_drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcmsdh.o := \
   include/linux/rbtree_latch.h \
   include/linux/error-injection.h \
   include/asm-generic/error-injection.h \
+  include/linux/dynamic_debug.h \
   arch/arm64/include/asm/module.h \
     $(wildcard include/config/ARM64_MODULE_PLTS) \
     $(wildcard include/config/ARM64_ERRATUM_843419) \
@@ -1294,6 +1289,7 @@ deps_drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcmsdh.o := \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
   arch/arm64/include/asm/kgdb.h \
+  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1362,8 +1358,6 @@ deps_drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcmsdh.o := \
   include/linux/seq_file.h \
   include/linux/string_helpers.h \
   include/linux/ctype.h \
-  include/net/dcbnl.h \
-  include/uapi/linux/dcbnl.h \
   include/net/netprio_cgroup.h \
   include/linux/cgroup.h \
     $(wildcard include/config/DEBUG_CGROUP_REF) \
@@ -1533,6 +1527,7 @@ deps_drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcmsdh.o := \
   include/acpi/platform/aclinux.h \
     $(wildcard include/config/ACPI_REDUCED_HARDWARE_ONLY) \
     $(wildcard include/config/ACPI_DEBUG) \
+  arch/arm64/include/asm/acenv.h \
   include/acpi/acnames.h \
   include/acpi/actypes.h \
   include/acpi/acexcep.h \
@@ -1549,8 +1544,66 @@ deps_drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcmsdh.o := \
   include/acpi/acpixf.h \
   include/acpi/acconfig.h \
   include/acpi/acbuffer.h \
+  include/acpi/acpi_bus.h \
+    $(wildcard include/config/X86_ANDROID_TABLETS) \
+    $(wildcard include/config/ACPI_SYSTEM_POWER_STATES_SUPPORT) \
+    $(wildcard include/config/ACPI_SLEEP) \
+  include/acpi/acpi_drivers.h \
+    $(wildcard include/config/ACPI_DOCK) \
   include/acpi/acpi_numa.h \
     $(wildcard include/config/ACPI_HMAT) \
+  include/acpi/acpi_io.h \
+  arch/arm64/include/asm/acpi.h \
+    $(wildcard include/config/ACPI_APEI) \
+  include/linux/efi.h \
+    $(wildcard include/config/X86_64) \
+    $(wildcard include/config/X86_32) \
+    $(wildcard include/config/EFI_ESRT) \
+    $(wildcard include/config/EFI_PCDP) \
+    $(wildcard include/config/EFI_SOFT_RESERVE) \
+    $(wildcard include/config/EFI_CAPSULE_LOADER) \
+    $(wildcard include/config/EFI_EMBEDDED_FIRMWARE) \
+    $(wildcard include/config/LOAD_UEFI_KEYS) \
+    $(wildcard include/config/XEN_EFI) \
+  include/linux/proc_fs.h \
+    $(wildcard include/config/PROC_PID_ARCH_STATUS) \
+  include/linux/rtc.h \
+    $(wildcard include/config/RTC_INTF_DEV_UIE_EMUL) \
+    $(wildcard include/config/RTC_HCTOSYS_DEVICE) \
+    $(wildcard include/config/RTC_NVMEM) \
+    $(wildcard include/config/RTC_INTF_SYSFS) \
+  include/linux/nvmem-provider.h \
+    $(wildcard include/config/NVMEM) \
+  include/linux/gpio/consumer.h \
+    $(wildcard include/config/GPIO_SYSFS) \
+  include/uapi/linux/rtc.h \
+  include/linux/cdev.h \
+  include/linux/poll.h \
+  include/uapi/linux/poll.h \
+  arch/arm64/include/generated/uapi/asm/poll.h \
+  include/uapi/asm-generic/poll.h \
+  include/uapi/linux/eventpoll.h \
+  include/linux/pstore.h \
+    $(wildcard include/config/ARM_THUMB) \
+    $(wildcard include/config/ARM) \
+  include/linux/kmsg_dump.h \
+  include/linux/reboot.h \
+  include/uapi/linux/reboot.h \
+  arch/arm64/include/generated/asm/emergency-restart.h \
+  include/asm-generic/emergency-restart.h \
+  include/linux/screen_info.h \
+  include/uapi/linux/screen_info.h \
+  include/linux/memblock.h \
+    $(wildcard include/config/ARCH_KEEP_MEMBLOCK) \
+    $(wildcard include/config/HAVE_MEMBLOCK_PHYS_MAP) \
+    $(wildcard include/config/MEMTEST) \
+  arch/arm64/include/generated/asm/dma.h \
+  include/asm-generic/dma.h \
+  include/linux/psci.h \
+    $(wildcard include/config/ARM_PSCI_FW) \
+  include/linux/arm-smccc.h \
+    $(wildcard include/config/HAVE_ARM_SMCCC) \
+  arch/arm64/include/asm/smp_plat.h \
   include/net/cfg80211.h \
     $(wildcard include/config/NL80211_TESTMODE) \
     $(wildcard include/config/CFG80211_WEXT) \

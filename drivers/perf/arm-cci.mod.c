@@ -35,3 +35,13 @@ MODULE_INFO(retpoline, "Y");
 
 MODULE_INFO(depends, "");
 
+MODULE_ALIAS("of:N*T*Carm,cci-400-pmu");
+MODULE_ALIAS("of:N*T*Carm,cci-400-pmuC*");
+MODULE_ALIAS("of:N*T*Carm,cci-400-pmu,r0");
+MODULE_ALIAS("of:N*T*Carm,cci-400-pmu,r0C*");
+MODULE_ALIAS("of:N*T*Carm,cci-400-pmu,r1");
+MODULE_ALIAS("of:N*T*Carm,cci-400-pmu,r1C*");
+MODULE_ALIAS("of:N*T*Carm,cci-500-pmu,r0");
+MODULE_ALIAS("of:N*T*Carm,cci-500-pmu,r0C*");
+MODULE_ALIAS("of:N*T*Carm,cci-550-pmu,r0");
+MODULE_ALIAS("of:N*T*Carm,cci-550-pmu,r0C*");

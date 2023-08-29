@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/rcar-du/rcar-du-drm.mod := printf '%s\n'   rcar_du_crtc.o rcar_du_drv.o rcar_du_encoder.o rcar_du_group.o rcar_du_kms.o rcar_du_plane.o rcar_du_vsp.o rcar_du_writeback.o | awk '!x[$$0]++ { print("drivers/gpu/drm/rcar-du/"$$0) }' > drivers/gpu/drm/rcar-du/rcar-du-drm.mod

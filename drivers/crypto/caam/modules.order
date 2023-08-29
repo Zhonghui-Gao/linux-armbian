@@ -1,0 +1,6 @@
+drivers/crypto/caam/error.o
+drivers/crypto/caam/caam.o
+drivers/crypto/caam/caam_jr.o
+drivers/crypto/caam/caamalg_desc.o
+drivers/crypto/caam/caamhash_desc.o
+drivers/crypto/caam/dpaa2_caam.o

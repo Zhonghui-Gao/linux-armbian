@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "bcm-phy-lib,bcm-phy-ptp");
+MODULE_INFO(depends, "bcm-phy-lib");
 
 MODULE_ALIAS("mdio:0000000000100000011000000111????");
 MODULE_ALIAS("mdio:0000000000100000011000001110????");

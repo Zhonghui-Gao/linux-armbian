@@ -1,4 +1,4 @@
-savedcmd_sound/soc/rockchip/rk3399_gru_sound.o := aarch64-linux-gnu-gcc -Wp,-MMD,sound/soc/rockchip/.rk3399_gru_sound.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144  -DMODULE  -DKBUILD_BASENAME='"rk3399_gru_sound"' -DKBUILD_MODNAME='"snd_soc_rk3399_gru_sound"' -D__KBUILD_MODNAME=kmod_snd_soc_rk3399_gru_sound -c -o sound/soc/rockchip/rk3399_gru_sound.o sound/soc/rockchip/rk3399_gru_sound.c  
+savedcmd_sound/soc/rockchip/rk3399_gru_sound.o := aarch64-linux-gnu-gcc -Wp,-MMD,sound/soc/rockchip/.rk3399_gru_sound.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -fno-var-tracking -femit-struct-debug-baseonly -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144  -DMODULE  -DKBUILD_BASENAME='"rk3399_gru_sound"' -DKBUILD_MODNAME='"snd_soc_rk3399_gru_sound"' -D__KBUILD_MODNAME=kmod_snd_soc_rk3399_gru_sound -c -o sound/soc/rockchip/rk3399_gru_sound.o sound/soc/rockchip/rk3399_gru_sound.c  
 
 source_sound/soc/rockchip/rk3399_gru_sound.o := sound/soc/rockchip/rk3399_gru_sound.c
 
@@ -267,7 +267,6 @@ deps_sound/soc/rockchip/rk3399_gru_sound.o := \
     $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
     $(wildcard include/config/LOCKDEP) \
     $(wildcard include/config/LOCK_STAT) \
-  include/linux/dynamic_debug.h \
   include/linux/kernel.h \
     $(wildcard include/config/PREEMPT_VOLUNTARY_BUILD) \
     $(wildcard include/config/PREEMPT_DYNAMIC) \
@@ -313,7 +312,6 @@ deps_sound/soc/rockchip/rk3399_gru_sound.o := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/fortify-string.h \
   include/linux/gfp_types.h \
   include/linux/numa.h \
     $(wildcard include/config/NODES_SHIFT) \
@@ -709,10 +707,6 @@ deps_sound/soc/rockchip/rk3399_gru_sound.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
-  arch/arm64/include/asm/uprobes.h \
-  arch/arm64/include/asm/debug-monitors.h \
-  arch/arm64/include/asm/esr.h \
-  arch/arm64/include/asm/probes.h \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/percpu_counter.h \
@@ -923,6 +917,7 @@ deps_sound/soc/rockchip/rk3399_gru_sound.o := \
   include/linux/error-injection.h \
   include/asm-generic/error-injection.h \
   include/linux/tracepoint-defs.h \
+  include/linux/dynamic_debug.h \
   arch/arm64/include/asm/module.h \
     $(wildcard include/config/ARM64_MODULE_PLTS) \
     $(wildcard include/config/DYNAMIC_FTRACE) \
@@ -1166,6 +1161,7 @@ deps_sound/soc/rockchip/rk3399_gru_sound.o := \
     $(wildcard include/config/ACPI_REDUCED_HARDWARE_ONLY) \
     $(wildcard include/config/ACPI_DEBUG) \
   include/linux/ctype.h \
+  arch/arm64/include/asm/acenv.h \
   include/acpi/acnames.h \
   include/acpi/actypes.h \
   include/acpi/acexcep.h \
@@ -1182,8 +1178,84 @@ deps_sound/soc/rockchip/rk3399_gru_sound.o := \
   include/acpi/acpixf.h \
   include/acpi/acconfig.h \
   include/acpi/acbuffer.h \
+  include/acpi/acpi_bus.h \
+    $(wildcard include/config/X86_ANDROID_TABLETS) \
+    $(wildcard include/config/ACPI_SYSTEM_POWER_STATES_SUPPORT) \
+    $(wildcard include/config/ACPI_SLEEP) \
+  include/acpi/acpi_drivers.h \
+    $(wildcard include/config/ACPI_DOCK) \
   include/acpi/acpi_numa.h \
     $(wildcard include/config/ACPI_HMAT) \
+  include/acpi/acpi_io.h \
+  arch/arm64/include/asm/acpi.h \
+    $(wildcard include/config/ACPI_APEI) \
+  include/linux/efi.h \
+    $(wildcard include/config/X86_64) \
+    $(wildcard include/config/X86_32) \
+    $(wildcard include/config/EFI_ESRT) \
+    $(wildcard include/config/EFI_PCDP) \
+    $(wildcard include/config/EFI_SOFT_RESERVE) \
+    $(wildcard include/config/EFI_CAPSULE_LOADER) \
+    $(wildcard include/config/EFI_EMBEDDED_FIRMWARE) \
+    $(wildcard include/config/LOAD_UEFI_KEYS) \
+    $(wildcard include/config/XEN_EFI) \
+  include/linux/proc_fs.h \
+    $(wildcard include/config/PROC_PID_ARCH_STATUS) \
+  include/linux/rtc.h \
+    $(wildcard include/config/RTC_INTF_DEV_UIE_EMUL) \
+    $(wildcard include/config/RTC_HCTOSYS_DEVICE) \
+    $(wildcard include/config/RTC_NVMEM) \
+    $(wildcard include/config/RTC_INTF_SYSFS) \
+  include/linux/interrupt.h \
+    $(wildcard include/config/IRQ_FORCED_THREADING) \
+    $(wildcard include/config/GENERIC_IRQ_PROBE) \
+    $(wildcard include/config/IRQ_TIMINGS) \
+  include/linux/hardirq.h \
+  include/linux/context_tracking_state.h \
+    $(wildcard include/config/CONTEXT_TRACKING_USER) \
+    $(wildcard include/config/CONTEXT_TRACKING) \
+  include/linux/ftrace_irq.h \
+    $(wildcard include/config/HWLAT_TRACER) \
+    $(wildcard include/config/OSNOISE_TRACER) \
+  include/linux/vtime.h \
+    $(wildcard include/config/VIRT_CPU_ACCOUNTING) \
+    $(wildcard include/config/IRQ_TIME_ACCOUNTING) \
+  arch/arm64/include/asm/hardirq.h \
+  arch/arm64/include/asm/kvm_arm.h \
+  arch/arm64/include/asm/esr.h \
+  include/asm-generic/hardirq.h \
+  include/linux/nvmem-provider.h \
+    $(wildcard include/config/NVMEM) \
+  include/uapi/linux/rtc.h \
+  include/linux/seq_file.h \
+  include/linux/string_helpers.h \
+  include/linux/cdev.h \
+  include/linux/poll.h \
+  include/uapi/linux/poll.h \
+  arch/arm64/include/generated/uapi/asm/poll.h \
+  include/uapi/asm-generic/poll.h \
+  include/uapi/linux/eventpoll.h \
+  include/linux/pstore.h \
+    $(wildcard include/config/ARM_THUMB) \
+    $(wildcard include/config/ARM) \
+  include/linux/kmsg_dump.h \
+  include/linux/reboot.h \
+  include/uapi/linux/reboot.h \
+  arch/arm64/include/generated/asm/emergency-restart.h \
+  include/asm-generic/emergency-restart.h \
+  include/linux/screen_info.h \
+  include/uapi/linux/screen_info.h \
+  include/linux/memblock.h \
+    $(wildcard include/config/ARCH_KEEP_MEMBLOCK) \
+    $(wildcard include/config/HAVE_MEMBLOCK_PHYS_MAP) \
+    $(wildcard include/config/MEMTEST) \
+  arch/arm64/include/generated/asm/dma.h \
+  include/asm-generic/dma.h \
+  include/linux/psci.h \
+    $(wildcard include/config/ARM_PSCI_FW) \
+  include/linux/arm-smccc.h \
+    $(wildcard include/config/HAVE_ARM_SMCCC) \
+  arch/arm64/include/asm/smp_plat.h \
   include/linux/u64_stats_sync.h \
   arch/arm64/include/generated/asm/local64.h \
   include/asm-generic/local64.h \
@@ -1213,8 +1285,6 @@ deps_sound/soc/rockchip/rk3399_gru_sound.o := \
     $(wildcard include/config/CGROUP_BPF) \
   include/uapi/linux/cgroupstats.h \
   include/uapi/linux/taskstats.h \
-  include/linux/seq_file.h \
-  include/linux/string_helpers.h \
   include/linux/ns_common.h \
   include/linux/nsproxy.h \
   include/linux/user_namespace.h \
@@ -1222,23 +1292,6 @@ deps_sound/soc/rockchip/rk3399_gru_sound.o := \
     $(wildcard include/config/FANOTIFY) \
     $(wildcard include/config/PERSISTENT_KEYRINGS) \
   include/linux/kernel_stat.h \
-  include/linux/interrupt.h \
-    $(wildcard include/config/IRQ_FORCED_THREADING) \
-    $(wildcard include/config/GENERIC_IRQ_PROBE) \
-    $(wildcard include/config/IRQ_TIMINGS) \
-  include/linux/hardirq.h \
-  include/linux/context_tracking_state.h \
-    $(wildcard include/config/CONTEXT_TRACKING_USER) \
-    $(wildcard include/config/CONTEXT_TRACKING) \
-  include/linux/ftrace_irq.h \
-    $(wildcard include/config/HWLAT_TRACER) \
-    $(wildcard include/config/OSNOISE_TRACER) \
-  include/linux/vtime.h \
-    $(wildcard include/config/VIRT_CPU_ACCOUNTING) \
-    $(wildcard include/config/IRQ_TIME_ACCOUNTING) \
-  arch/arm64/include/asm/hardirq.h \
-  arch/arm64/include/asm/kvm_arm.h \
-  include/asm-generic/hardirq.h \
   include/linux/cgroup-defs.h \
     $(wildcard include/config/CGROUP_NET_CLASSID) \
     $(wildcard include/config/CGROUP_NET_PRIO) \
@@ -1331,6 +1384,7 @@ deps_sound/soc/rockchip/rk3399_gru_sound.o := \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
   arch/arm64/include/asm/kgdb.h \
+  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1375,11 +1429,6 @@ deps_sound/soc/rockchip/rk3399_gru_sound.o := \
     $(wildcard include/config/SND_DMA_SGBUF) \
     $(wildcard include/config/HAS_DMA) \
   include/sound/minors.h \
-  include/linux/poll.h \
-  include/uapi/linux/poll.h \
-  arch/arm64/include/generated/uapi/asm/poll.h \
-  include/uapi/asm-generic/poll.h \
-  include/uapi/linux/eventpoll.h \
   include/linux/pm_qos.h \
     $(wildcard include/config/CPU_IDLE) \
   include/sound/pcm_params.h \

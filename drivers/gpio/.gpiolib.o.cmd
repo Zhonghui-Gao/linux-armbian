@@ -1,4 +1,4 @@
-savedcmd_drivers/gpio/gpiolib.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/gpio/.gpiolib.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"drivers/gpio/gpiolib"' -DKBUILD_BASENAME='"gpiolib"' -DKBUILD_MODNAME='"gpiolib"' -D__KBUILD_MODNAME=kmod_gpiolib -c -o drivers/gpio/gpiolib.o drivers/gpio/gpiolib.c  
+savedcmd_drivers/gpio/gpiolib.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/gpio/.gpiolib.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -fno-var-tracking -femit-struct-debug-baseonly -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"drivers/gpio/gpiolib"' -DKBUILD_BASENAME='"gpiolib"' -DKBUILD_MODNAME='"gpiolib"' -D__KBUILD_MODNAME=kmod_gpiolib -c -o drivers/gpio/gpiolib.o drivers/gpio/gpiolib.c  
 
 source_drivers/gpio/gpiolib.o := drivers/gpio/gpiolib.c
 
@@ -255,7 +255,6 @@ deps_drivers/gpio/gpiolib.o := \
   include/linux/lockdep_types.h \
     $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
     $(wildcard include/config/LOCK_STAT) \
-  include/linux/dynamic_debug.h \
   include/linux/restart_block.h \
   include/linux/time64.h \
   include/linux/math64.h \
@@ -409,7 +408,6 @@ deps_drivers/gpio/gpiolib.o := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/fortify-string.h \
   include/linux/numa.h \
     $(wildcard include/config/NODES_SHIFT) \
     $(wildcard include/config/NUMA_KEEP_MEMINFO) \
@@ -583,11 +581,6 @@ deps_drivers/gpio/gpiolib.o := \
   include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
-  arch/arm64/include/asm/uprobes.h \
-  arch/arm64/include/asm/debug-monitors.h \
-  arch/arm64/include/asm/esr.h \
-  arch/arm64/include/asm/probes.h \
-    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -867,6 +860,7 @@ deps_drivers/gpio/gpiolib.o := \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/DEBUG_INFO_BTF_MODULES) \
     $(wildcard include/config/EVENT_TRACING) \
+    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/CONSTRUCTORS) \
     $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
@@ -993,6 +987,7 @@ deps_drivers/gpio/gpiolib.o := \
   include/linux/error-injection.h \
   include/asm-generic/error-injection.h \
   include/linux/tracepoint-defs.h \
+  include/linux/dynamic_debug.h \
   arch/arm64/include/asm/module.h \
     $(wildcard include/config/ARM64_MODULE_PLTS) \
     $(wildcard include/config/DYNAMIC_FTRACE) \
@@ -1015,6 +1010,7 @@ deps_drivers/gpio/gpiolib.o := \
     $(wildcard include/config/ACPI_REDUCED_HARDWARE_ONLY) \
     $(wildcard include/config/ACPI_DEBUG) \
   include/linux/ctype.h \
+  arch/arm64/include/asm/acenv.h \
   include/acpi/acnames.h \
   include/acpi/actypes.h \
   include/acpi/acexcep.h \
@@ -1031,62 +1027,15 @@ deps_drivers/gpio/gpiolib.o := \
   include/acpi/acpixf.h \
   include/acpi/acconfig.h \
   include/acpi/acbuffer.h \
+  include/acpi/acpi_bus.h \
+    $(wildcard include/config/X86_ANDROID_TABLETS) \
+    $(wildcard include/config/ACPI_SYSTEM_POWER_STATES_SUPPORT) \
+    $(wildcard include/config/ACPI_SLEEP) \
+  include/acpi/acpi_drivers.h \
+    $(wildcard include/config/ACPI_DOCK) \
   include/acpi/acpi_numa.h \
     $(wildcard include/config/ACPI_HMAT) \
-  include/linux/compat.h \
-    $(wildcard include/config/ARCH_HAS_SYSCALL_WRAPPER) \
-    $(wildcard include/config/X86_X32_ABI) \
-    $(wildcard include/config/COMPAT_OLD_SIGACTION) \
-    $(wildcard include/config/ODD_RT_SIGACTION) \
-  include/linux/socket.h \
-  arch/arm64/include/generated/uapi/asm/socket.h \
-  include/uapi/asm-generic/socket.h \
-  arch/arm64/include/generated/uapi/asm/sockios.h \
-  include/uapi/asm-generic/sockios.h \
-  include/uapi/linux/sockios.h \
-  include/linux/uio.h \
-    $(wildcard include/config/ARCH_HAS_COPY_MC) \
-  include/uapi/linux/uio.h \
-  include/uapi/linux/socket.h \
-  include/uapi/linux/if.h \
-  include/uapi/linux/libc-compat.h \
-  include/uapi/linux/hdlc/ioctl.h \
-  include/uapi/linux/aio_abi.h \
-  arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/debugfs.h \
-  include/linux/seq_file.h \
-  include/linux/string_helpers.h \
-  include/linux/file.h \
-  include/linux/interrupt.h \
-    $(wildcard include/config/IRQ_FORCED_THREADING) \
-    $(wildcard include/config/GENERIC_IRQ_PROBE) \
-    $(wildcard include/config/IRQ_TIMINGS) \
-  include/linux/irqreturn.h \
-  include/linux/hardirq.h \
-  include/linux/context_tracking_state.h \
-    $(wildcard include/config/CONTEXT_TRACKING_USER) \
-    $(wildcard include/config/CONTEXT_TRACKING) \
-  include/linux/ftrace_irq.h \
-    $(wildcard include/config/HWLAT_TRACER) \
-    $(wildcard include/config/OSNOISE_TRACER) \
-  include/linux/vtime.h \
-    $(wildcard include/config/VIRT_CPU_ACCOUNTING) \
-    $(wildcard include/config/IRQ_TIME_ACCOUNTING) \
-  arch/arm64/include/asm/hardirq.h \
-  arch/arm64/include/asm/irq.h \
-  include/asm-generic/irq.h \
-  arch/arm64/include/asm/kvm_arm.h \
-  include/asm-generic/hardirq.h \
-  include/linux/irq.h \
-    $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
-    $(wildcard include/config/GENERIC_IRQ_IPI) \
-    $(wildcard include/config/DEPRECATED_IRQ_CPU_ONOFFLINE) \
-    $(wildcard include/config/GENERIC_IRQ_MIGRATION) \
-    $(wildcard include/config/GENERIC_PENDING_IRQ) \
-    $(wildcard include/config/HARDIRQS_SW_RESEND) \
-    $(wildcard include/config/GENERIC_IRQ_LEGACY) \
-    $(wildcard include/config/GENERIC_IRQ_MULTI_HANDLER) \
-  include/linux/irqhandler.h \
+  include/acpi/acpi_io.h \
   include/linux/io.h \
     $(wildcard include/config/HAS_IOPORT_MAP) \
   arch/arm64/include/asm/io.h \
@@ -1132,6 +1081,56 @@ deps_drivers/gpio/gpiolib.o := \
     $(wildcard include/config/HAVE_ARCH_HUGE_VMALLOC) \
   arch/arm64/include/asm/vmalloc.h \
     $(wildcard include/config/PTDUMP_DEBUGFS) \
+  arch/arm64/include/asm/acpi.h \
+    $(wildcard include/config/ACPI_APEI) \
+  include/linux/efi.h \
+    $(wildcard include/config/X86_64) \
+    $(wildcard include/config/X86_32) \
+    $(wildcard include/config/EFI_ESRT) \
+    $(wildcard include/config/EFI_PCDP) \
+    $(wildcard include/config/EFI_SOFT_RESERVE) \
+    $(wildcard include/config/EFI_CAPSULE_LOADER) \
+    $(wildcard include/config/EFI_EMBEDDED_FIRMWARE) \
+    $(wildcard include/config/LOAD_UEFI_KEYS) \
+    $(wildcard include/config/XEN_EFI) \
+  include/linux/proc_fs.h \
+    $(wildcard include/config/PROC_PID_ARCH_STATUS) \
+  include/linux/rtc.h \
+    $(wildcard include/config/RTC_INTF_DEV_UIE_EMUL) \
+    $(wildcard include/config/RTC_HCTOSYS_DEVICE) \
+    $(wildcard include/config/RTC_NVMEM) \
+    $(wildcard include/config/RTC_INTF_SYSFS) \
+  include/linux/interrupt.h \
+    $(wildcard include/config/IRQ_FORCED_THREADING) \
+    $(wildcard include/config/GENERIC_IRQ_PROBE) \
+    $(wildcard include/config/IRQ_TIMINGS) \
+  include/linux/irqreturn.h \
+  include/linux/hardirq.h \
+  include/linux/context_tracking_state.h \
+    $(wildcard include/config/CONTEXT_TRACKING_USER) \
+    $(wildcard include/config/CONTEXT_TRACKING) \
+  include/linux/ftrace_irq.h \
+    $(wildcard include/config/HWLAT_TRACER) \
+    $(wildcard include/config/OSNOISE_TRACER) \
+  include/linux/vtime.h \
+    $(wildcard include/config/VIRT_CPU_ACCOUNTING) \
+    $(wildcard include/config/IRQ_TIME_ACCOUNTING) \
+  arch/arm64/include/asm/hardirq.h \
+  arch/arm64/include/asm/irq.h \
+  include/asm-generic/irq.h \
+  arch/arm64/include/asm/kvm_arm.h \
+  arch/arm64/include/asm/esr.h \
+  include/asm-generic/hardirq.h \
+  include/linux/irq.h \
+    $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
+    $(wildcard include/config/GENERIC_IRQ_IPI) \
+    $(wildcard include/config/DEPRECATED_IRQ_CPU_ONOFFLINE) \
+    $(wildcard include/config/GENERIC_IRQ_MIGRATION) \
+    $(wildcard include/config/GENERIC_PENDING_IRQ) \
+    $(wildcard include/config/HARDIRQS_SW_RESEND) \
+    $(wildcard include/config/GENERIC_IRQ_LEGACY) \
+    $(wildcard include/config/GENERIC_IRQ_MULTI_HANDLER) \
+  include/linux/irqhandler.h \
   arch/arm64/include/generated/asm/irq_regs.h \
   include/asm-generic/irq_regs.h \
   include/linux/irqdesc.h \
@@ -1140,59 +1139,34 @@ deps_drivers/gpio/gpiolib.o := \
     $(wildcard include/config/IRQ_DOMAIN) \
   arch/arm64/include/generated/asm/hw_irq.h \
   include/asm-generic/hw_irq.h \
-  include/linux/of.h \
-    $(wildcard include/config/SPARC) \
-    $(wildcard include/config/OF_PROMTREE) \
-    $(wildcard include/config/OF_KOBJ) \
-    $(wildcard include/config/OF_NUMA) \
-    $(wildcard include/config/OF_OVERLAY) \
-  include/linux/pinctrl/consumer.h \
-  include/linux/pinctrl/pinctrl-state.h \
-  include/linux/gpio.h \
+  include/linux/nvmem-provider.h \
+    $(wildcard include/config/NVMEM) \
   include/linux/gpio/consumer.h \
     $(wildcard include/config/GPIO_SYSFS) \
-  include/linux/gpio/driver.h \
-    $(wildcard include/config/GPIO_GENERIC) \
-  include/linux/irqchip/chained_irq.h \
-  include/linux/irqdomain.h \
-    $(wildcard include/config/IRQ_DOMAIN_NOMAP) \
-  include/linux/irqdomain_defs.h \
-  include/linux/pinctrl/pinconf-generic.h \
-  include/linux/pinctrl/machine.h \
-  include/linux/pinctrl/pinctrl.h \
-    $(wildcard include/config/GENERIC_PINCONF) \
-  arch/arm64/include/generated/asm/msi.h \
-  include/asm-generic/msi.h \
-  include/linux/gpio/machine.h \
-  include/uapi/linux/gpio.h \
-  drivers/gpio/gpiolib-acpi.h \
-  drivers/gpio/gpiolib-cdev.h \
-  drivers/gpio/gpiolib-of.h \
-  drivers/gpio/gpiolib-swnode.h \
-  drivers/gpio/gpiolib-sysfs.h \
-  drivers/gpio/gpiolib.h \
+  include/uapi/linux/rtc.h \
+  include/linux/seq_file.h \
+  include/linux/string_helpers.h \
   include/linux/cdev.h \
-  include/trace/events/gpio.h \
-  include/linux/tracepoint.h \
-    $(wildcard include/config/HAVE_SYSCALL_TRACEPOINTS) \
-    $(wildcard include/config/ARCH_WANTS_NO_INSTR) \
-  include/linux/static_call.h \
-  include/linux/cpu.h \
-    $(wildcard include/config/PM_SLEEP_SMP) \
-    $(wildcard include/config/PM_SLEEP_SMP_NONZERO_CPU) \
-    $(wildcard include/config/HOTPLUG_SMT) \
-  include/linux/node.h \
-    $(wildcard include/config/HMEM_REPORTING) \
-  include/linux/cpuhotplug.h \
-  include/trace/define_trace.h \
-  include/trace/trace_events.h \
-  include/linux/trace_events.h \
-    $(wildcard include/config/DYNAMIC_EVENTS) \
-    $(wildcard include/config/KPROBE_EVENTS) \
-    $(wildcard include/config/UPROBE_EVENTS) \
-  include/linux/ring_buffer.h \
-    $(wildcard include/config/RING_BUFFER_ALLOW_SWAP) \
-    $(wildcard include/config/RING_BUFFER) \
+  include/linux/poll.h \
+  include/uapi/linux/poll.h \
+  arch/arm64/include/generated/uapi/asm/poll.h \
+  include/uapi/asm-generic/poll.h \
+  include/uapi/linux/eventpoll.h \
+  include/linux/pstore.h \
+    $(wildcard include/config/ARM_THUMB) \
+    $(wildcard include/config/ARM) \
+  include/linux/kmsg_dump.h \
+  include/linux/range.h \
+  include/linux/reboot.h \
+  include/uapi/linux/reboot.h \
+  arch/arm64/include/generated/asm/emergency-restart.h \
+  include/asm-generic/emergency-restart.h \
+  include/linux/screen_info.h \
+  include/uapi/linux/screen_info.h \
+  include/linux/memblock.h \
+    $(wildcard include/config/ARCH_KEEP_MEMBLOCK) \
+    $(wildcard include/config/HAVE_MEMBLOCK_PHYS_MAP) \
+    $(wildcard include/config/MEMTEST) \
   include/linux/mm.h \
     $(wildcard include/config/HAVE_ARCH_MMAP_RND_BITS) \
     $(wildcard include/config/HAVE_ARCH_MMAP_RND_COMPAT_BITS) \
@@ -1215,7 +1189,6 @@ deps_drivers/gpio/gpiolib.o := \
     $(wildcard include/config/HUGETLBFS) \
     $(wildcard include/config/MAPPING_DIRTY_HELPERS) \
   include/linux/mmap_lock.h \
-  include/linux/range.h \
   include/linux/page_ext.h \
   include/linux/stacktrace.h \
     $(wildcard include/config/ARCH_STACKWALK) \
@@ -1240,105 +1213,77 @@ deps_drivers/gpio/gpiolib.o := \
     $(wildcard include/config/MEMORY_BALLOON) \
     $(wildcard include/config/BALLOON_COMPACTION) \
     $(wildcard include/config/ZSWAP) \
-  include/linux/poll.h \
-  include/uapi/linux/poll.h \
-  arch/arm64/include/generated/uapi/asm/poll.h \
-  include/uapi/asm-generic/poll.h \
-  include/uapi/linux/eventpoll.h \
-  include/linux/trace_seq.h \
-  include/linux/seq_buf.h \
-  include/linux/perf_event.h \
-    $(wildcard include/config/FUNCTION_TRACER) \
-    $(wildcard include/config/CGROUP_PERF) \
-    $(wildcard include/config/GUEST_PERF_EVENTS) \
-  include/uapi/linux/perf_event.h \
-  include/uapi/linux/bpf_perf_event.h \
-  arch/arm64/include/uapi/asm/bpf_perf_event.h \
-  arch/arm64/include/asm/perf_event.h \
-  arch/arm64/include/generated/asm/local64.h \
-  include/asm-generic/local64.h \
-  arch/arm64/include/generated/asm/local.h \
-  include/asm-generic/local.h \
-  include/linux/pid_namespace.h \
-    $(wildcard include/config/MEMFD_CREATE) \
-    $(wildcard include/config/PID_NS) \
-  include/linux/nsproxy.h \
-  include/linux/ns_common.h \
-  include/linux/ftrace.h \
-    $(wildcard include/config/HAVE_DYNAMIC_FTRACE_WITH_ARGS) \
-    $(wildcard include/config/DYNAMIC_FTRACE_WITH_REGS) \
-    $(wildcard include/config/DYNAMIC_FTRACE_WITH_ARGS) \
-    $(wildcard include/config/DYNAMIC_FTRACE_WITH_DIRECT_CALLS) \
-    $(wildcard include/config/STACK_TRACER) \
-    $(wildcard include/config/DYNAMIC_FTRACE_WITH_CALL_OPS) \
-    $(wildcard include/config/FRAME_POINTER) \
-    $(wildcard include/config/FUNCTION_PROFILER) \
-    $(wildcard include/config/FTRACE_SYSCALLS) \
-  include/linux/trace_recursion.h \
-    $(wildcard include/config/FTRACE_RECORD_RECURSION) \
-  include/linux/trace_clock.h \
-  arch/arm64/include/generated/asm/trace_clock.h \
-  include/asm-generic/trace_clock.h \
-  include/linux/kallsyms.h \
-    $(wildcard include/config/KALLSYMS_ALL) \
-  include/linux/ptrace.h \
-  include/uapi/linux/ptrace.h \
-  arch/arm64/include/asm/ftrace.h \
-  include/linux/irq_work.h \
-    $(wildcard include/config/IRQ_WORK) \
-  arch/arm64/include/asm/irq_work.h \
-  include/linux/jump_label_ratelimit.h \
-  include/linux/perf_regs.h \
-    $(wildcard include/config/HAVE_PERF_REGS) \
-  arch/arm64/include/uapi/asm/perf_regs.h \
-  include/linux/cgroup.h \
-    $(wildcard include/config/DEBUG_CGROUP_REF) \
-    $(wildcard include/config/CGROUP_CPUACCT) \
-    $(wildcard include/config/SOCK_CGROUP_DATA) \
-    $(wildcard include/config/CGROUP_DATA) \
-    $(wildcard include/config/CGROUP_BPF) \
-  include/uapi/linux/cgroupstats.h \
-  include/uapi/linux/taskstats.h \
-  include/linux/user_namespace.h \
-    $(wildcard include/config/INOTIFY_USER) \
-    $(wildcard include/config/FANOTIFY) \
-    $(wildcard include/config/PERSISTENT_KEYRINGS) \
-  include/linux/kernel_stat.h \
-  include/linux/cgroup-defs.h \
-    $(wildcard include/config/CGROUP_NET_CLASSID) \
-    $(wildcard include/config/CGROUP_NET_PRIO) \
-  include/linux/u64_stats_sync.h \
-  include/linux/bpf-cgroup-defs.h \
-    $(wildcard include/config/BPF_LSM) \
-  include/linux/psi_types.h \
-  include/linux/kthread.h \
-  include/linux/cgroup_subsys.h \
-    $(wildcard include/config/CGROUP_DEVICE) \
-    $(wildcard include/config/CGROUP_FREEZER) \
-    $(wildcard include/config/CGROUP_HUGETLB) \
-    $(wildcard include/config/CGROUP_PIDS) \
-    $(wildcard include/config/CGROUP_RDMA) \
-    $(wildcard include/config/CGROUP_MISC) \
-    $(wildcard include/config/CGROUP_DEBUG) \
-  include/linux/cgroup_refcnt.h \
-  include/linux/security.h \
-    $(wildcard include/config/SECURITY_NETWORK) \
-    $(wildcard include/config/SECURITY_INFINIBAND) \
-    $(wildcard include/config/SECURITY_NETWORK_XFRM) \
-    $(wildcard include/config/SECURITY_PATH) \
-    $(wildcard include/config/SECURITYFS) \
-  include/linux/kernel_read_file.h \
-  include/linux/sockptr.h \
-  include/trace/stages/init.h \
-  include/trace/stages/stage1_struct_define.h \
-  include/trace/stages/stage2_data_offsets.h \
-  include/trace/stages/stage3_trace_output.h \
-  include/trace/stages/stage4_event_fields.h \
-  include/trace/stages/stage5_get_offsets.h \
-  include/trace/stages/stage6_event_callback.h \
-  include/trace/stages/stage7_class_define.h \
-  include/trace/perf.h \
-  include/trace/bpf_probe.h \
+  arch/arm64/include/generated/asm/dma.h \
+  include/asm-generic/dma.h \
+  include/linux/psci.h \
+    $(wildcard include/config/ARM_PSCI_FW) \
+  include/linux/arm-smccc.h \
+    $(wildcard include/config/HAVE_ARM_SMCCC) \
+  arch/arm64/include/asm/smp_plat.h \
+  include/linux/compat.h \
+    $(wildcard include/config/ARCH_HAS_SYSCALL_WRAPPER) \
+    $(wildcard include/config/X86_X32_ABI) \
+    $(wildcard include/config/COMPAT_OLD_SIGACTION) \
+    $(wildcard include/config/ODD_RT_SIGACTION) \
+  include/linux/socket.h \
+  arch/arm64/include/generated/uapi/asm/socket.h \
+  include/uapi/asm-generic/socket.h \
+  arch/arm64/include/generated/uapi/asm/sockios.h \
+  include/uapi/asm-generic/sockios.h \
+  include/uapi/linux/sockios.h \
+  include/linux/uio.h \
+    $(wildcard include/config/ARCH_HAS_COPY_MC) \
+  include/uapi/linux/uio.h \
+  include/uapi/linux/socket.h \
+  include/uapi/linux/if.h \
+  include/uapi/linux/libc-compat.h \
+  include/uapi/linux/hdlc/ioctl.h \
+  include/uapi/linux/aio_abi.h \
+  arch/arm64/include/asm/syscall_wrapper.h \
+  include/linux/debugfs.h \
+  include/linux/file.h \
+  include/linux/of.h \
+    $(wildcard include/config/SPARC) \
+    $(wildcard include/config/OF_PROMTREE) \
+    $(wildcard include/config/OF_KOBJ) \
+    $(wildcard include/config/OF_NUMA) \
+    $(wildcard include/config/OF_OVERLAY) \
+  include/linux/pinctrl/consumer.h \
+  include/linux/pinctrl/pinctrl-state.h \
+  include/linux/gpio.h \
+  include/linux/gpio/driver.h \
+    $(wildcard include/config/GPIO_GENERIC) \
+  include/linux/irqchip/chained_irq.h \
+  include/linux/irqdomain.h \
+    $(wildcard include/config/IRQ_DOMAIN_NOMAP) \
+  include/linux/irqdomain_defs.h \
+  include/linux/pinctrl/pinconf-generic.h \
+  include/linux/pinctrl/machine.h \
+  include/linux/pinctrl/pinctrl.h \
+    $(wildcard include/config/GENERIC_PINCONF) \
+  arch/arm64/include/generated/asm/msi.h \
+  include/asm-generic/msi.h \
+  include/linux/gpio/machine.h \
+  include/uapi/linux/gpio.h \
+  drivers/gpio/gpiolib-acpi.h \
+  drivers/gpio/gpiolib-cdev.h \
+  drivers/gpio/gpiolib-of.h \
+  drivers/gpio/gpiolib-swnode.h \
+  drivers/gpio/gpiolib-sysfs.h \
+  drivers/gpio/gpiolib.h \
+  include/trace/events/gpio.h \
+  include/linux/tracepoint.h \
+    $(wildcard include/config/HAVE_SYSCALL_TRACEPOINTS) \
+    $(wildcard include/config/ARCH_WANTS_NO_INSTR) \
+  include/linux/static_call.h \
+  include/linux/cpu.h \
+    $(wildcard include/config/PM_SLEEP_SMP) \
+    $(wildcard include/config/PM_SLEEP_SMP_NONZERO_CPU) \
+    $(wildcard include/config/HOTPLUG_SMT) \
+  include/linux/node.h \
+    $(wildcard include/config/HMEM_REPORTING) \
+  include/linux/cpuhotplug.h \
+  include/trace/define_trace.h \
 
 drivers/gpio/gpiolib.o: $(deps_drivers/gpio/gpiolib.o)
 

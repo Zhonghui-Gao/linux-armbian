@@ -1,0 +1,3 @@
+drivers/thermal/qcom/qcom-spmi-adc-tm5.o
+drivers/thermal/qcom/qcom-spmi-temp-alarm.o
+drivers/thermal/qcom/lmh.o

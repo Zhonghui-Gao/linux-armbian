@@ -1,0 +1,1 @@
+savedcmd_sound/soc/meson/snd-soc-meson-axg-sound-card.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/meson/snd-soc-meson-axg-sound-card.ko sound/soc/meson/snd-soc-meson-axg-sound-card.o sound/soc/meson/snd-soc-meson-axg-sound-card.mod.o;  true

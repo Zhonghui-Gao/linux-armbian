@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/samsung/exynos-gsc/exynos-gsc.mod := printf '%s\n'   gsc-core.o gsc-m2m.o gsc-regs.o | awk '!x[$$0]++ { print("drivers/media/platform/samsung/exynos-gsc/"$$0) }' > drivers/media/platform/samsung/exynos-gsc/exynos-gsc.mod

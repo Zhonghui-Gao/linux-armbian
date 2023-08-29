@@ -29,5 +29,5 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "ttm,drm_ttm_helper");
+MODULE_INFO(depends, "ttm,drm,drm_ttm_helper,drm_kms_helper");
 

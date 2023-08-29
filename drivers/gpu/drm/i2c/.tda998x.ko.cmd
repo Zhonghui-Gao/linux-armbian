@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/i2c/tda998x.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/i2c/tda998x.ko drivers/gpu/drm/i2c/tda998x.o drivers/gpu/drm/i2c/tda998x.mod.o;  true

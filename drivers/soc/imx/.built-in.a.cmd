@@ -1,1 +1,1 @@
-savedcmd_drivers/soc/imx/built-in.a := rm -f drivers/soc/imx/built-in.a;  aarch64-linux-gnu-ar cDPrST drivers/soc/imx/built-in.a
+savedcmd_drivers/soc/imx/built-in.a := rm -f drivers/soc/imx/built-in.a;  printf "drivers/soc/imx/%s " gpcv2.o soc-imx8m.o imx8m-blk-ctrl.o imx8mp-blk-ctrl.o imx93-src.o imx93-pd.o imx93-blk-ctrl.o | xargs aarch64-linux-gnu-ar cDPrST drivers/soc/imx/built-in.a

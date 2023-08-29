@@ -1,0 +1,34 @@
+!<thin>
+//                                              232       `
+soc-core.o/
+soc-dapm.o/
+soc-jack.o/
+soc-utils.o/
+soc-dai.o/
+soc-component.o/
+soc-pcm.o/
+soc-devres.o/
+soc-ops.o/
+soc-link.o/
+soc-card.o/
+soc-topology.o/
+soc-generic-dmaengine-pcm.o/
+soc-compress.o/
+apple/mca.o/
+samsung/dmaengine.o/
+/0              0           0     0     644     233672    `
+/12             0           0     0     644     277296    `
+/24             0           0     0     644     61472     `
+/36             0           0     0     644     42424     `
+/49             0           0     0     644     84648     `
+/60             0           0     0     644     138096    `
+/77             0           0     0     644     178096    `
+/88             0           0     0     644     33672     `
+/102            0           0     0     644     67864     `
+/113            0           0     0     644     36096     `
+/125            0           0     0     644     44920     `
+/137            0           0     0     644     120888    `
+/153            0           0     0     644     61928     `
+/182            0           0     0     644     59720     `
+/198            0           0     0     644     106144    `
+/211            0           0     0     644     40528     `

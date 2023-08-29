@@ -1,0 +1,1 @@
+savedcmd_drivers/spi/spi-tegra114.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/spi/spi-tegra114.ko drivers/spi/spi-tegra114.o drivers/spi/spi-tegra114.mod.o;  true

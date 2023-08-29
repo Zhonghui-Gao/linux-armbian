@@ -1,0 +1,1 @@
+savedcmd_drivers/devfreq/imx8m-ddrc.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/devfreq/imx8m-ddrc.ko drivers/devfreq/imx8m-ddrc.o drivers/devfreq/imx8m-ddrc.mod.o;  true

@@ -1,4 +1,4 @@
-savedcmd_drivers/scsi/scsi_common.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/scsi/.scsi_common.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"drivers/scsi/scsi_common"' -DKBUILD_BASENAME='"scsi_common"' -DKBUILD_MODNAME='"scsi_common"' -D__KBUILD_MODNAME=kmod_scsi_common -c -o drivers/scsi/scsi_common.o drivers/scsi/scsi_common.c  
+savedcmd_drivers/scsi/scsi_common.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/scsi/.scsi_common.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -fno-var-tracking -femit-struct-debug-baseonly -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"drivers/scsi/scsi_common"' -DKBUILD_BASENAME='"scsi_common"' -DKBUILD_MODNAME='"scsi_common"' -D__KBUILD_MODNAME=kmod_scsi_common -c -o drivers/scsi/scsi_common.o drivers/scsi/scsi_common.c  
 
 source_drivers/scsi/scsi_common.o := drivers/scsi/scsi_common.c
 
@@ -132,14 +132,6 @@ deps_drivers/scsi/scsi_common.o := \
     $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
     $(wildcard include/config/LOCKDEP) \
     $(wildcard include/config/LOCK_STAT) \
-  include/linux/dynamic_debug.h \
-    $(wildcard include/config/JUMP_LABEL) \
-  include/linux/jump_label.h \
-    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
-  arch/arm64/include/asm/jump_label.h \
-  arch/arm64/include/asm/insn.h \
-    $(wildcard include/config/ARM64_LSE_ATOMICS) \
-  arch/arm64/include/asm/insn-def.h \
   include/linux/kernel.h \
     $(wildcard include/config/PREEMPT_VOLUNTARY_BUILD) \
     $(wildcard include/config/PREEMPT_DYNAMIC) \
@@ -165,6 +157,7 @@ deps_drivers/scsi/scsi_common.o := \
     $(wildcard include/config/ARM64_PSEUDO_NMI) \
   arch/arm64/include/asm/alternative-macros.h \
   arch/arm64/include/generated/asm/cpucaps.h \
+  arch/arm64/include/asm/insn-def.h \
   include/asm-generic/barrier.h \
   arch/arm64/include/asm/bitops.h \
   include/asm-generic/bitops/builtin-__ffs.h \
@@ -182,6 +175,7 @@ deps_drivers/scsi/scsi_common.o := \
   arch/arm64/include/asm/atomic.h \
   arch/arm64/include/asm/cmpxchg.h \
   arch/arm64/include/asm/lse.h \
+    $(wildcard include/config/ARM64_LSE_ATOMICS) \
   arch/arm64/include/asm/atomic_ll_sc.h \
     $(wildcard include/config/CC_HAS_K_CONSTRAINT) \
   arch/arm64/include/asm/alternative.h \
@@ -224,7 +218,6 @@ deps_drivers/scsi/scsi_common.o := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/fortify-string.h \
   include/linux/module.h \
     $(wildcard include/config/SYSFS) \
     $(wildcard include/config/MODULES_TREE_LOOKUP) \
@@ -237,6 +230,7 @@ deps_drivers/scsi/scsi_common.o := \
     $(wildcard include/config/TREE_SRCU) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/DEBUG_INFO_BTF_MODULES) \
+    $(wildcard include/config/JUMP_LABEL) \
     $(wildcard include/config/EVENT_TRACING) \
     $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KUNIT) \
@@ -261,6 +255,10 @@ deps_drivers/scsi/scsi_common.o := \
   include/linux/kasan-enabled.h \
     $(wildcard include/config/KASAN) \
   include/linux/static_key.h \
+  include/linux/jump_label.h \
+    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
+  arch/arm64/include/asm/jump_label.h \
+  arch/arm64/include/asm/insn.h \
   arch/arm64/include/asm/cputype.h \
   arch/arm64/include/asm/sysreg.h \
     $(wildcard include/config/BROKEN_GAS_INST) \
@@ -708,10 +706,6 @@ deps_drivers/scsi/scsi_common.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
-  arch/arm64/include/asm/uprobes.h \
-  arch/arm64/include/asm/debug-monitors.h \
-  arch/arm64/include/asm/esr.h \
-  arch/arm64/include/asm/probes.h \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/percpu_counter.h \
@@ -922,6 +916,7 @@ deps_drivers/scsi/scsi_common.o := \
   include/linux/error-injection.h \
   include/asm-generic/error-injection.h \
   include/linux/tracepoint-defs.h \
+  include/linux/dynamic_debug.h \
   arch/arm64/include/asm/module.h \
     $(wildcard include/config/ARM64_MODULE_PLTS) \
     $(wildcard include/config/DYNAMIC_FTRACE) \

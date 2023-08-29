@@ -1,1 +1,1 @@
-savedcmd_drivers/clk/bcm/built-in.a := rm -f drivers/clk/bcm/built-in.a;  aarch64-linux-gnu-ar cDPrST drivers/clk/bcm/built-in.a
+savedcmd_drivers/clk/bcm/built-in.a := rm -f drivers/clk/bcm/built-in.a;  printf "drivers/clk/bcm/%s " clk-bcm63xx.o clk-iproc-armpll.o clk-iproc-pll.o clk-iproc-asiu.o clk-bcm2711-dvp.o clk-bcm2835.o clk-bcm2835-aux.o clk-ns2.o clk-sr.o | xargs aarch64-linux-gnu-ar cDPrST drivers/clk/bcm/built-in.a

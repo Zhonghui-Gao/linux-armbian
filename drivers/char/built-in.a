@@ -1,15 +1,79 @@
 !<thin>
-//                                              88        `
+//                                              768       `
 mem.o/
 random.o/
 misc.o/
 virtio_console.o/
 hw_random/core.o/
+hw_random/exynos-trng.o/
+hw_random/omap-rng.o/
+hw_random/virtio-rng.o/
+hw_random/hisi-rng.o/
+hw_random/bcm2835-rng.o/
+hw_random/iproc-rng200.o/
+hw_random/xgene-rng.o/
 hw_random/rockchip-rng.o/
+hw_random/meson-rng.o/
+hw_random/cavium-rng.o/
+hw_random/cavium-rng-vf.o/
+hw_random/mtk-rng.o/
+hw_random/optee-rng.o/
+hw_random/npcm-rng.o/
+hw_random/arm_smccc_trng.o/
+hw_random/cn10k-rng.o/
+tpm/tpm-chip.o/
+tpm/tpm-dev-common.o/
+tpm/tpm-dev.o/
+tpm/tpm-interface.o/
+tpm/tpm1-cmd.o/
+tpm/tpm2-cmd.o/
+tpm/tpmrm-dev.o/
+tpm/tpm2-space.o/
+tpm/tpm-sysfs.o/
+tpm/eventlog/common.o/
+tpm/eventlog/tpm1.o/
+tpm/eventlog/tpm2.o/
+tpm/tpm_ppi.o/
+tpm/eventlog/acpi.o/
+tpm/eventlog/efi.o/
+tpm/eventlog/of.o/
+tpm/tpm_i2c_infineon.o/
 
-/0              0           0     0     644     13352     `
-/7              0           0     0     644     49384     `
-/17             0           0     0     644     9360      `
-/25             0           0     0     644     42568     `
-/43             0           0     0     644     25328     `
-/61             0           0     0     644     13368     `
+/0              0           0     0     644     63264     `
+/7              0           0     0     644     180936    `
+/17             0           0     0     644     43944     `
+/25             0           0     0     644     191672    `
+/43             0           0     0     644     98224     `
+/61             0           0     0     644     48576     `
+/86             0           0     0     644     58992     `
+/108            0           0     0     644     43488     `
+/132            0           0     0     644     31496     `
+/154            0           0     0     644     38496     `
+/179            0           0     0     644     42704     `
+/205            0           0     0     644     55680     `
+/228            0           0     0     644     55664     `
+/254            0           0     0     644     26928     `
+/277            0           0     0     644     33656     `
+/301            0           0     0     644     43176     `
+/328            0           0     0     644     40432     `
+/349            0           0     0     644     32000     `
+/372            0           0     0     644     39632     `
+/394            0           0     0     644     28176     `
+/422            0           0     0     644     40360     `
+/445            0           0     0     644     59576     `
+/461            0           0     0     644     51952     `
+/483            0           0     0     644     35816     `
+/498            0           0     0     644     66120     `
+/519            0           0     0     644     60568     `
+/535            0           0     0     644     80576     `
+/551            0           0     0     644     29304     `
+/568            0           0     0     644     38640     `
+/586            0           0     0     644     84648     `
+/603            0           0     0     644     18984     `
+/626            0           0     0     644     20256     `
+/647            0           0     0     644     17592     `
+/668            0           0     0     644     44688     `
+/683            0           0     0     644     12272     `
+/704            0           0     0     644     16696     `
+/724            0           0     0     644     14960     `
+/743            0           0     0     644     64544     `

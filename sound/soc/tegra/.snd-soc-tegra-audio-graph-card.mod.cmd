@@ -1,0 +1,1 @@
+savedcmd_sound/soc/tegra/snd-soc-tegra-audio-graph-card.mod := printf '%s\n'   tegra_audio_graph_card.o | awk '!x[$$0]++ { print("sound/soc/tegra/"$$0) }' > sound/soc/tegra/snd-soc-tegra-audio-graph-card.mod

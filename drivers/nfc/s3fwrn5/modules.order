@@ -1,3 +1,2 @@
 drivers/nfc/s3fwrn5/s3fwrn5.o
 drivers/nfc/s3fwrn5/s3fwrn5_i2c.o
-drivers/nfc/s3fwrn5/s3fwrn82_uart.o

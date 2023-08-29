@@ -1,0 +1,1 @@
+savedcmd_drivers/mailbox/mtk-cmdq-mailbox.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/mailbox/mtk-cmdq-mailbox.ko drivers/mailbox/mtk-cmdq-mailbox.o drivers/mailbox/mtk-cmdq-mailbox.mod.o;  true

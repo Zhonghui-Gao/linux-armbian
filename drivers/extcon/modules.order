@@ -1,3 +1,1 @@
 drivers/extcon/extcon-ptn5150.o
-drivers/extcon/extcon-usbc-tusb320.o
-drivers/extcon/extcon-usbc-virtual-pd.o

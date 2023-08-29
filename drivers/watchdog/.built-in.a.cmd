@@ -1,1 +1,1 @@
-savedcmd_drivers/watchdog/built-in.a := rm -f drivers/watchdog/built-in.a;  printf "drivers/watchdog/%s " watchdog_core.o watchdog_dev.o dw_wdt.o | xargs aarch64-linux-gnu-ar cDPrST drivers/watchdog/built-in.a
+savedcmd_drivers/watchdog/built-in.a := rm -f drivers/watchdog/built-in.a;  printf "drivers/watchdog/%s " watchdog_core.o watchdog_dev.o sp805_wdt.o sbsa_gwdt.o s3c2410_wdt.o dw_wdt.o npcm_wdt.o imx2_wdt.o bcm2835_wdt.o mtk_wdt.o renesas_wdt.o rzg2l_wdt.o uniphier_wdt.o arm_smc_wdt.o | xargs aarch64-linux-gnu-ar cDPrST drivers/watchdog/built-in.a

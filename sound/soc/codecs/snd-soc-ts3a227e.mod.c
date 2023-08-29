@@ -33,8 +33,9 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "snd-soc-core,snd");
+MODULE_INFO(depends, "");
 
 MODULE_ALIAS("of:N*T*Cti,ts3a227e");
 MODULE_ALIAS("of:N*T*Cti,ts3a227eC*");
 MODULE_ALIAS("i2c:ts3a227e");
+MODULE_ALIAS("acpi*:104C227E:*");

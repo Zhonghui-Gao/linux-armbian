@@ -1,0 +1,1 @@
+savedcmd_drivers/clk/keystone/built-in.a := rm -f drivers/clk/keystone/built-in.a;  printf "drivers/clk/keystone/%s " sci-clk.o syscon-clk.o | xargs aarch64-linux-gnu-ar cDPrST drivers/clk/keystone/built-in.a

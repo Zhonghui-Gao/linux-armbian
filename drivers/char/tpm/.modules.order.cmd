@@ -1,0 +1,1 @@
+savedcmd_drivers/char/tpm/modules.order := {   echo drivers/char/tpm/tpm_tis_core.o;   echo drivers/char/tpm/tpm_tis.o;   echo drivers/char/tpm/tpm_tis_spi.o;   echo drivers/char/tpm/tpm_tis_i2c_cr50.o; :; } > drivers/char/tpm/modules.order

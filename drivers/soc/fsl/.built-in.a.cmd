@@ -1,1 +1,1 @@
-savedcmd_drivers/soc/fsl/built-in.a := rm -f drivers/soc/fsl/built-in.a;  aarch64-linux-gnu-ar cDPrST drivers/soc/fsl/built-in.a
+savedcmd_drivers/soc/fsl/built-in.a := rm -f drivers/soc/fsl/built-in.a;  printf "drivers/soc/fsl/%s " qbman/built-in.a rcpm.o guts.o dpio/built-in.a dpaa2-console.o | xargs aarch64-linux-gnu-ar cDPrST drivers/soc/fsl/built-in.a

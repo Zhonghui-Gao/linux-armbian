@@ -1,0 +1,1 @@
+savedcmd_sound/soc/sunxi/sun4i-i2s.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/sunxi/sun4i-i2s.ko sound/soc/sunxi/sun4i-i2s.o sound/soc/sunxi/sun4i-i2s.mod.o;  true

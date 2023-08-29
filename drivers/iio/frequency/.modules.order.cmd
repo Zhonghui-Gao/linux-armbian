@@ -1,1 +1,1 @@
-savedcmd_drivers/iio/frequency/modules.order := {   echo drivers/iio/frequency/adf4371.o;   echo drivers/iio/frequency/admv1013.o;   echo drivers/iio/frequency/adrf6780.o; :; } > drivers/iio/frequency/modules.order
+savedcmd_drivers/iio/frequency/modules.order := {  :; } > drivers/iio/frequency/modules.order

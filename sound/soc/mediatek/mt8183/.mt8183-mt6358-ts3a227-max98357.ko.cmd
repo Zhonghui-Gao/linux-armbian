@@ -1,0 +1,1 @@
+savedcmd_sound/soc/mediatek/mt8183/mt8183-mt6358-ts3a227-max98357.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/mediatek/mt8183/mt8183-mt6358-ts3a227-max98357.ko sound/soc/mediatek/mt8183/mt8183-mt6358-ts3a227-max98357.o sound/soc/mediatek/mt8183/mt8183-mt6358-ts3a227-max98357.mod.o;  true

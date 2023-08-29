@@ -29,5 +29,5 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "regmap-spi");
+MODULE_INFO(depends, "");
 

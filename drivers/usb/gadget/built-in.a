@@ -1,7 +1,20 @@
 !<thin>
-//                                              26        `
+//                                              164       `
 udc/core.o/
 udc/trace.o/
-
-/0              0           0     0     644     69104     `
-/12             0           0     0     644     45128     `
+udc/snps_udc_core.o/
+udc/rzv2m_usb3drd.o/
+udc/snps_udc_plat.o/
+udc/bdc/bdc_core.o/
+udc/bdc/bdc_cmd.o/
+udc/bdc/bdc_ep.o/
+udc/bdc/bdc_udc.o/
+/0              0           0     0     644     137336    `
+/12             0           0     0     644     3712      `
+/25             0           0     0     644     225232    `
+/46             0           0     0     644     44224     `
+/67             0           0     0     644     63856     `
+/88             0           0     0     644     87968     `
+/108            0           0     0     644     23448     `
+/127            0           0     0     644     101120    `
+/145            0           0     0     644     69008     `

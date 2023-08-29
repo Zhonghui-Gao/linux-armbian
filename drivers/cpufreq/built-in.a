@@ -1,26 +1,51 @@
 !<thin>
-//                                              238       `
+//                                              462       `
 cpufreq.o/
 freq_table.o/
 cpufreq_stats.o/
 cpufreq_performance.o/
-cpufreq_powersave.o/
 cpufreq_userspace.o/
 cpufreq_ondemand.o/
-cpufreq_conservative.o/
 cpufreq_governor.o/
 cpufreq_governor_attr_set.o/
+cpufreq-dt.o/
 cpufreq-dt-platdev.o/
+apple-soc-cpufreq.o/
+armada-37xx-cpufreq.o/
+brcmstb-avs-cpufreq.o/
+mediatek-cpufreq.o/
+qcom-cpufreq-hw.o/
+qcom-cpufreq-nvmem.o/
+scmi-cpufreq.o/
 scpi-cpufreq.o/
-/0              0           0     0     644     112048    `
-/11             0           0     0     644     16896     `
-/25             0           0     0     644     7784      `
-/42             0           0     0     644     5344      `
-/65             0           0     0     644     5200      `
-/86             0           0     0     644     10208     `
-/107            0           0     0     644     16816     `
-/127            0           0     0     644     10112     `
-/151            0           0     0     644     15904     `
-/171            0           0     0     644     5392      `
-/200            0           0     0     644     27912     `
-/222            0           0     0     644     10688     `
+tegra20-cpufreq.o/
+tegra124-cpufreq.o/
+tegra186-cpufreq.o/
+tegra194-cpufreq.o/
+ti-cpufreq.o/
+qoriq-cpufreq.o/
+
+/0              0           0     0     644     239936    `
+/11             0           0     0     644     34888     `
+/25             0           0     0     644     33736     `
+/42             0           0     0     644     20840     `
+/65             0           0     0     644     29792     `
+/86             0           0     0     644     65832     `
+/106            0           0     0     644     66160     `
+/126            0           0     0     644     27584     `
+/155            0           0     0     644     61192     `
+/169            0           0     0     644     46480     `
+/191            0           0     0     644     54768     `
+/212            0           0     0     644     44152     `
+/235            0           0     0     644     64536     `
+/258            0           0     0     644     80400     `
+/278            0           0     0     644     84648     `
+/297            0           0     0     644     46568     `
+/319            0           0     0     644     46320     `
+/335            0           0     0     644     39248     `
+/351            0           0     0     644     30760     `
+/370            0           0     0     644     31648     `
+/390            0           0     0     644     43160     `
+/410            0           0     0     644     73560     `
+/430            0           0     0     644     40696     `
+/444            0           0     0     644     44784     `

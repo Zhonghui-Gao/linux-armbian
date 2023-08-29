@@ -1,1 +1,1 @@
-savedcmd_drivers/crypto/built-in.a := rm -f drivers/crypto/built-in.a;  printf "drivers/crypto/%s " stm32/built-in.a xilinx/built-in.a hisilicon/built-in.a amlogic/built-in.a intel/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/crypto/built-in.a
+savedcmd_drivers/crypto/built-in.a := rm -f drivers/crypto/built-in.a;  printf "drivers/crypto/%s " allwinner/built-in.a stm32/built-in.a xilinx/built-in.a hisilicon/built-in.a intel/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/crypto/built-in.a

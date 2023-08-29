@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/freescale/fman/built-in.a := rm -f drivers/net/ethernet/freescale/fman/built-in.a;  printf "drivers/net/ethernet/freescale/fman/%s " fman_muram.o fman.o fman_sp.o fman_keygen.o fman_port.o mac.o fman_dtsec.o fman_memac.o fman_tgec.o | xargs aarch64-linux-gnu-ar cDPrST drivers/net/ethernet/freescale/fman/built-in.a

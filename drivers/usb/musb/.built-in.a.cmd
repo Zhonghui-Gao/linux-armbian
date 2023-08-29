@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/musb/built-in.a := rm -f drivers/usb/musb/built-in.a;  printf "drivers/usb/musb/%s " musb_core.o musb_trace.o musb_virthub.o musb_host.o musb_gadget_ep0.o musb_gadget.o musb_debugfs.o sunxi.o | xargs aarch64-linux-gnu-ar cDPrST drivers/usb/musb/built-in.a

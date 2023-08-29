@@ -1,39 +1,4 @@
 !<thin>
-//                                              300       `
-bcache/alloc.o/
-bcache/bset.o/
-bcache/btree.o/
-bcache/closure.o/
-bcache/debug.o/
-bcache/extents.o/
-bcache/io.o/
-bcache/journal.o/
-bcache/movinggc.o/
-bcache/request.o/
-bcache/stats.o/
-bcache/super.o/
-bcache/sysfs.o/
-bcache/trace.o/
-bcache/util.o/
-bcache/writeback.o/
-bcache/features.o/
+//                                              14        `
 dm-builtin.o/
-
-/0              0           0     0     644     14016     `
-/16             0           0     0     644     20080     `
-/31             0           0     0     644     68976     `
-/47             0           0     0     644     4672      `
-/65             0           0     0     644     5800      `
-/81             0           0     0     644     13248     `
-/99             0           0     0     644     6728      `
-/112            0           0     0     644     27608     `
-/130            0           0     0     644     9048      `
-/149            0           0     0     644     33160     `
-/167            0           0     0     644     8472      `
-/183            0           0     0     644     79832     `
-/199            0           0     0     644     50680     `
-/215            0           0     0     644     137312    `
-/231            0           0     0     644     6784      `
-/246            0           0     0     644     22256     `
-/266            0           0     0     644     3624      `
-/285            0           0     0     644     2208      `
+/0              0           0     0     644     29616     `

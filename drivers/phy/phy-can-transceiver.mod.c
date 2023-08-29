@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "mux-core");
+MODULE_INFO(depends, "");
 
 MODULE_ALIAS("of:N*T*Cti,tcan1042");
 MODULE_ALIAS("of:N*T*Cti,tcan1042C*");

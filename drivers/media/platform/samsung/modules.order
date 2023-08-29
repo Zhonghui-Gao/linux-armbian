@@ -1,0 +1,3 @@
+drivers/media/platform/samsung/exynos-gsc/exynos-gsc.o
+drivers/media/platform/samsung/s5p-jpeg/s5p-jpeg.o
+drivers/media/platform/samsung/s5p-mfc/s5p-mfc.o

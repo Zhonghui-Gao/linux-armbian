@@ -1,1 +1,1 @@
-savedcmd_drivers/ptp/modules.order := {   echo drivers/ptp/ptp_ines.o;   echo drivers/ptp/ptp_kvm.o;   echo drivers/ptp/ptp_clockmatrix.o;   echo drivers/ptp/ptp_idt82p33.o;   echo drivers/ptp/ptp_ocp.o; :; } > drivers/ptp/modules.order
+savedcmd_drivers/ptp/modules.order := {  :; } > drivers/ptp/modules.order

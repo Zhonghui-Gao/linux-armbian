@@ -33,13 +33,15 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "videodev,videobuf2-common,videobuf2-vmalloc,videobuf2-v4l2");
+MODULE_INFO(depends, "");
 
 MODULE_ALIAS("i2c:qt602240_ts");
 MODULE_ALIAS("i2c:atmel_mxt_ts");
 MODULE_ALIAS("i2c:atmel_mxt_tp");
 MODULE_ALIAS("i2c:maxtouch");
 MODULE_ALIAS("i2c:mXT224");
+MODULE_ALIAS("acpi*:ATML0000:*");
+MODULE_ALIAS("acpi*:ATML0001:*");
 MODULE_ALIAS("of:N*T*Catmel,maxtouch");
 MODULE_ALIAS("of:N*T*Catmel,maxtouchC*");
 MODULE_ALIAS("of:N*T*Catmel,qt602240_ts");

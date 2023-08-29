@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/raspberrypi-hwmon.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/raspberrypi-hwmon.ko drivers/hwmon/raspberrypi-hwmon.o drivers/hwmon/raspberrypi-hwmon.mod.o;  true

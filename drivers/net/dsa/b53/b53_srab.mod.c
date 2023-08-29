@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "dsa_core,b53_serdes,b53_common");
+MODULE_INFO(depends, "dsa_core,b53_common");
 
 MODULE_ALIAS("of:N*T*Cbrcm,bcm53010-srab");
 MODULE_ALIAS("of:N*T*Cbrcm,bcm53010-srabC*");

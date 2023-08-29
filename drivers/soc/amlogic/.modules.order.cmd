@@ -1,1 +1,1 @@
-savedcmd_drivers/soc/amlogic/modules.order := {  :; } > drivers/soc/amlogic/modules.order
+savedcmd_drivers/soc/amlogic/modules.order := {   echo drivers/soc/amlogic/meson-canvas.o; :; } > drivers/soc/amlogic/modules.order

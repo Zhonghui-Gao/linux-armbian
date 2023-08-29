@@ -1,0 +1,1 @@
+savedcmd_drivers/misc/pci_endpoint_test.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/misc/pci_endpoint_test.ko drivers/misc/pci_endpoint_test.o drivers/misc/pci_endpoint_test.mod.o;  true

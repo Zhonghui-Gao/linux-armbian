@@ -1,1 +1,1 @@
-savedcmd_drivers/reset/hisilicon/built-in.a := rm -f drivers/reset/hisilicon/built-in.a;  aarch64-linux-gnu-ar cDPrST drivers/reset/hisilicon/built-in.a
+savedcmd_drivers/reset/hisilicon/built-in.a := rm -f drivers/reset/hisilicon/built-in.a;  printf "drivers/reset/hisilicon/%s " hi6220_reset.o reset-hi3660.o | xargs aarch64-linux-gnu-ar cDPrST drivers/reset/hisilicon/built-in.a

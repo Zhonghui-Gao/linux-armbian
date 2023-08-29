@@ -1,0 +1,71 @@
+!<thin>
+//                                              632       `
+pinctrl-msm.o/
+pinctrl-ipq5332.o/
+pinctrl-ipq8074.o/
+pinctrl-ipq6018.o/
+pinctrl-ipq9574.o/
+pinctrl-msm8916.o/
+pinctrl-msm8953.o/
+pinctrl-msm8976.o/
+pinctrl-msm8994.o/
+pinctrl-msm8996.o/
+pinctrl-msm8998.o/
+pinctrl-qcm2290.o/
+pinctrl-qcs404.o/
+pinctrl-qdf2xxx.o/
+pinctrl-spmi-gpio.o/
+pinctrl-spmi-mpp.o/
+pinctrl-qdu1000.o/
+pinctrl-sa8775p.o/
+pinctrl-sc7180.o/
+pinctrl-sc7280.o/
+pinctrl-sc8180x.o/
+pinctrl-sc8280xp.o/
+pinctrl-sdm660.o/
+pinctrl-sdm670.o/
+pinctrl-sdm845.o/
+pinctrl-sm6115.o/
+pinctrl-sm6125.o/
+pinctrl-sm6350.o/
+pinctrl-sm6375.o/
+pinctrl-sm8150.o/
+pinctrl-sm8250.o/
+pinctrl-sm8350.o/
+pinctrl-sm8450.o/
+pinctrl-sm8550.o/
+
+/0              0           0     0     644     152400    `
+/15             0           0     0     644     78768     `
+/34             0           0     0     644     91640     `
+/53             0           0     0     644     97944     `
+/72             0           0     0     644     80304     `
+/91             0           0     0     644     124160    `
+/110            0           0     0     644     155904    `
+/129            0           0     0     644     124624    `
+/148            0           0     0     644     138688    `
+/167            0           0     0     644     173216    `
+/186            0           0     0     644     153248    `
+/205            0           0     0     644     117352    `
+/224            0           0     0     644     139744    `
+/242            0           0     0     644     34096     `
+/261            0           0     0     644     92528     `
+/282            0           0     0     644     75896     `
+/302            0           0     0     644     130880    `
+/321            0           0     0     644     141264    `
+/340            0           0     0     644     119376    `
+/358            0           0     0     644     155976    `
+/376            0           0     0     644     166048    `
+/395            0           0     0     644     187792    `
+/415            0           0     0     644     135168    `
+/433            0           0     0     644     134192    `
+/451            0           0     0     644     146936    `
+/469            0           0     0     644     102712    `
+/487            0           0     0     644     128400    `
+/505            0           0     0     644     141328    `
+/523            0           0     0     644     148520    `
+/541            0           0     0     644     150816    `
+/559            0           0     0     644     147024    `
+/577            0           0     0     644     163528    `
+/595            0           0     0     644     168680    `
+/613            0           0     0     644     170888    `

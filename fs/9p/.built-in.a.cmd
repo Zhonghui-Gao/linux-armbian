@@ -1,0 +1,1 @@
+savedcmd_fs/9p/built-in.a := rm -f fs/9p/built-in.a;  printf "fs/9p/%s " vfs_super.o vfs_inode.o vfs_inode_dotl.o vfs_addr.o vfs_file.o vfs_dir.o vfs_dentry.o v9fs.o fid.o xattr.o | xargs aarch64-linux-gnu-ar cDPrST fs/9p/built-in.a

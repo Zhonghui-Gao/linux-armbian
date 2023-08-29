@@ -1,1 +1,1 @@
-savedcmd_fs/overlayfs/modules.order := {  :; } > fs/overlayfs/modules.order
+savedcmd_fs/overlayfs/modules.order := {   echo fs/overlayfs/overlay.o; :; } > fs/overlayfs/modules.order

@@ -1,0 +1,1 @@
+savedcmd_sound/soc/tegra/snd-soc-tegra210-mvc.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/tegra/snd-soc-tegra210-mvc.ko sound/soc/tegra/snd-soc-tegra210-mvc.o sound/soc/tegra/snd-soc-tegra210-mvc.mod.o;  true

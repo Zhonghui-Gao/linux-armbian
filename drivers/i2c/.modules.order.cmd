@@ -1,1 +1,1 @@
-savedcmd_drivers/i2c/modules.order := {   cat drivers/i2c/algos/modules.order;   cat drivers/i2c/busses/modules.order;   cat drivers/i2c/muxes/modules.order;   echo drivers/i2c/i2c-smbus.o;   echo drivers/i2c/i2c-mux.o;   echo drivers/i2c/i2c-stub.o;   echo drivers/i2c/i2c-slave-eeprom.o; :; } > drivers/i2c/modules.order
+savedcmd_drivers/i2c/modules.order := {   cat drivers/i2c/algos/modules.order;   cat drivers/i2c/busses/modules.order;   cat drivers/i2c/muxes/modules.order; :; } > drivers/i2c/modules.order

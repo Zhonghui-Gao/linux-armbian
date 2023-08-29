@@ -33,8 +33,9 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "snd-soc-core,snd-pcm");
+MODULE_INFO(depends, "");
 
+MODULE_ALIAS("acpi*:DLGS7219:*");
 MODULE_ALIAS("i2c:da7219");
 MODULE_ALIAS("of:N*T*Cdlg,da7219");
 MODULE_ALIAS("of:N*T*Cdlg,da7219C*");

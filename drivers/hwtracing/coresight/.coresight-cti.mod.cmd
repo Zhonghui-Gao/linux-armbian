@@ -1,0 +1,1 @@
+savedcmd_drivers/hwtracing/coresight/coresight-cti.mod := printf '%s\n'   coresight-cti-core.o coresight-cti-platform.o coresight-cti-sysfs.o | awk '!x[$$0]++ { print("drivers/hwtracing/coresight/"$$0) }' > drivers/hwtracing/coresight/coresight-cti.mod

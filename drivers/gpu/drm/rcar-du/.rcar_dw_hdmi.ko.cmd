@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/rcar-du/rcar_dw_hdmi.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/rcar-du/rcar_dw_hdmi.ko drivers/gpu/drm/rcar-du/rcar_dw_hdmi.o drivers/gpu/drm/rcar-du/rcar_dw_hdmi.mod.o;  true

@@ -1,29 +1,55 @@
 !<thin>
-//                                              228       `
+//                                              476       `
 thermal_core.o/
 thermal_sysfs.o/
 thermal_trip.o/
 thermal_helpers.o/
 thermal_hwmon.o/
 thermal_of.o/
-gov_fair_share.o/
-gov_bang_bang.o/
 gov_step_wise.o/
-gov_user_space.o/
+gov_power_allocator.o/
 cpufreq_cooling.o/
 devfreq_cooling.o/
-rockchip_thermal.o/
+broadcom/ns-thermal.o/
+broadcom/sr-thermal.o/
+sun8i_thermal.o/
+rcar_thermal.o/
+rcar_gen3_thermal.o/
+rzg2l_thermal.o/
+samsung/exynos_tmu.o/
+armada_thermal.o/
+qcom/tsens.o/
+qcom/tsens-v2.o/
+qcom/tsens-v1.o/
+qcom/tsens-v0_1.o/
+qcom/tsens-8960.o/
+hisi_thermal.o/
+uniphier_thermal.o/
+amlogic_thermal.o/
 
-/0              0           0     0     644     74192     `
-/16             0           0     0     644     23560     `
-/33             0           0     0     644     6640      `
-/49             0           0     0     644     9088      `
-/68             0           0     0     644     10856     `
-/85             0           0     0     644     16680     `
-/99             0           0     0     644     3552      `
-/117            0           0     0     644     5352      `
-/134            0           0     0     644     5864      `
-/151            0           0     0     644     3224      `
-/169            0           0     0     644     8544      `
-/188            0           0     0     644     10136     `
-/207            0           0     0     644     29056     `
+/0              0           0     0     644     138864    `
+/16             0           0     0     644     61320     `
+/33             0           0     0     644     24664     `
+/49             0           0     0     644     27232     `
+/68             0           0     0     644     37064     `
+/85             0           0     0     644     49888     `
+/99             0           0     0     644     22472     `
+/116            0           0     0     644     41280     `
+/139            0           0     0     644     46424     `
+/158            0           0     0     644     42992     `
+/177            0           0     0     644     30128     `
+/200            0           0     0     644     30824     `
+/223            0           0     0     644     50184     `
+/240            0           0     0     644     65400     `
+/256            0           0     0     644     48600     `
+/277            0           0     0     644     41304     `
+/294            0           0     0     644     112152    `
+/316            0           0     0     644     58984     `
+/334            0           0     0     644     110352    `
+/348            0           0     0     644     38768     `
+/365            0           0     0     644     43752     `
+/382            0           0     0     644     51952     `
+/401            0           0     0     644     45488     `
+/420            0           0     0     644     61224     `
+/436            0           0     0     644     41304     `
+/456            0           0     0     644     39888     `

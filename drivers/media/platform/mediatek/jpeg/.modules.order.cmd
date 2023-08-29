@@ -1,1 +1,1 @@
-savedcmd_drivers/media/platform/mediatek/jpeg/modules.order := {  :; } > drivers/media/platform/mediatek/jpeg/modules.order
+savedcmd_drivers/media/platform/mediatek/jpeg/modules.order := {   echo drivers/media/platform/mediatek/jpeg/mtk_jpeg.o;   echo drivers/media/platform/mediatek/jpeg/mtk-jpeg-enc-hw.o;   echo drivers/media/platform/mediatek/jpeg/mtk-jpeg-dec-hw.o; :; } > drivers/media/platform/mediatek/jpeg/modules.order

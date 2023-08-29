@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/tegra/phy-tegra194-p2u.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/phy/tegra/phy-tegra194-p2u.ko drivers/phy/tegra/phy-tegra194-p2u.o drivers/phy/tegra/phy-tegra194-p2u.mod.o;  true

@@ -37,3 +37,4 @@ MODULE_INFO(depends, "");
 
 MODULE_ALIAS("of:N*T*Cqcom,fsm9900-emac");
 MODULE_ALIAS("of:N*T*Cqcom,fsm9900-emacC*");
+MODULE_ALIAS("acpi*:QCOM8070:*");

@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "snd-soc-core,snd,snd-soc-fsl-utils");
+MODULE_INFO(depends, "snd-soc-fsl-utils");
 
 MODULE_ALIAS("of:N*T*Cfsl,imx8mm-micfil");
 MODULE_ALIAS("of:N*T*Cfsl,imx8mm-micfilC*");

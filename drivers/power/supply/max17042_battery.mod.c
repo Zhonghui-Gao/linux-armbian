@@ -50,3 +50,4 @@ MODULE_ALIAS("of:N*T*Cmaxim,max17055");
 MODULE_ALIAS("of:N*T*Cmaxim,max17055C*");
 MODULE_ALIAS("of:N*T*Cmaxim,max77849-battery");
 MODULE_ALIAS("of:N*T*Cmaxim,max77849-batteryC*");
+MODULE_ALIAS("acpi*:MAX17047:*");

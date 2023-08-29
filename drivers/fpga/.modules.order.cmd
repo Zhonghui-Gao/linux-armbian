@@ -1,0 +1,1 @@
+savedcmd_drivers/fpga/modules.order := {   echo drivers/fpga/altera-cvp.o;   echo drivers/fpga/stratix10-soc.o;   echo drivers/fpga/fpga-bridge.o;   echo drivers/fpga/altera-freeze-bridge.o;   echo drivers/fpga/fpga-region.o;   echo drivers/fpga/of-fpga-region.o; :; } > drivers/fpga/modules.order

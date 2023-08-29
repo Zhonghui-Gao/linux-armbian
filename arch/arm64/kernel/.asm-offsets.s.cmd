@@ -266,7 +266,6 @@ deps_arch/arm64/kernel/asm-offsets.s := \
   include/linux/lockdep_types.h \
     $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
     $(wildcard include/config/LOCK_STAT) \
-  include/linux/dynamic_debug.h \
   include/linux/restart_block.h \
   include/linux/time64.h \
   include/linux/math64.h \
@@ -417,7 +416,6 @@ deps_arch/arm64/kernel/asm-offsets.s := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/fortify-string.h \
   include/linux/numa.h \
     $(wildcard include/config/NODES_SHIFT) \
     $(wildcard include/config/NUMA_KEEP_MEMINFO) \
@@ -590,11 +588,6 @@ deps_arch/arm64/kernel/asm-offsets.s := \
   include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
-  arch/arm64/include/asm/uprobes.h \
-  arch/arm64/include/asm/debug-monitors.h \
-  arch/arm64/include/asm/esr.h \
-  arch/arm64/include/asm/probes.h \
-    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -874,6 +867,7 @@ deps_arch/arm64/kernel/asm-offsets.s := \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/DEBUG_INFO_BTF_MODULES) \
     $(wildcard include/config/EVENT_TRACING) \
+    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/CONSTRUCTORS) \
     $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
@@ -1000,6 +994,7 @@ deps_arch/arm64/kernel/asm-offsets.s := \
   include/linux/error-injection.h \
   include/asm-generic/error-injection.h \
   include/linux/tracepoint-defs.h \
+  include/linux/dynamic_debug.h \
   arch/arm64/include/asm/module.h \
     $(wildcard include/config/ARM64_MODULE_PLTS) \
     $(wildcard include/config/DYNAMIC_FTRACE) \
@@ -1022,6 +1017,7 @@ deps_arch/arm64/kernel/asm-offsets.s := \
     $(wildcard include/config/ACPI_REDUCED_HARDWARE_ONLY) \
     $(wildcard include/config/ACPI_DEBUG) \
   include/linux/ctype.h \
+  arch/arm64/include/asm/acenv.h \
   include/acpi/acnames.h \
   include/acpi/actypes.h \
   include/acpi/acexcep.h \
@@ -1038,56 +1034,15 @@ deps_arch/arm64/kernel/asm-offsets.s := \
   include/acpi/acpixf.h \
   include/acpi/acconfig.h \
   include/acpi/acbuffer.h \
+  include/acpi/acpi_bus.h \
+    $(wildcard include/config/X86_ANDROID_TABLETS) \
+    $(wildcard include/config/ACPI_SYSTEM_POWER_STATES_SUPPORT) \
+    $(wildcard include/config/ACPI_SLEEP) \
+  include/acpi/acpi_drivers.h \
+    $(wildcard include/config/ACPI_DOCK) \
   include/acpi/acpi_numa.h \
     $(wildcard include/config/ACPI_HMAT) \
-  include/linux/cper.h \
-  include/linux/trace_seq.h \
-  include/linux/seq_buf.h \
-  arch/arm64/include/generated/uapi/asm/ioctls.h \
-  include/uapi/asm-generic/ioctls.h \
-  include/acpi/hed.h \
-  include/linux/ftrace.h \
-    $(wildcard include/config/HAVE_DYNAMIC_FTRACE_WITH_ARGS) \
-    $(wildcard include/config/DYNAMIC_FTRACE_WITH_REGS) \
-    $(wildcard include/config/STACK_TRACER) \
-    $(wildcard include/config/DYNAMIC_FTRACE_WITH_CALL_OPS) \
-    $(wildcard include/config/FRAME_POINTER) \
-    $(wildcard include/config/FUNCTION_PROFILER) \
-    $(wildcard include/config/FTRACE_SYSCALLS) \
-  include/linux/trace_recursion.h \
-    $(wildcard include/config/FTRACE_RECORD_RECURSION) \
-    $(wildcard include/config/ARCH_WANTS_NO_INSTR) \
-  include/linux/interrupt.h \
-    $(wildcard include/config/IRQ_FORCED_THREADING) \
-    $(wildcard include/config/GENERIC_IRQ_PROBE) \
-    $(wildcard include/config/IRQ_TIMINGS) \
-  include/linux/irqreturn.h \
-  include/linux/hardirq.h \
-  include/linux/context_tracking_state.h \
-    $(wildcard include/config/CONTEXT_TRACKING_USER) \
-    $(wildcard include/config/CONTEXT_TRACKING) \
-  include/linux/ftrace_irq.h \
-    $(wildcard include/config/HWLAT_TRACER) \
-    $(wildcard include/config/OSNOISE_TRACER) \
-  include/linux/vtime.h \
-    $(wildcard include/config/VIRT_CPU_ACCOUNTING) \
-    $(wildcard include/config/IRQ_TIME_ACCOUNTING) \
-  arch/arm64/include/asm/hardirq.h \
-  arch/arm64/include/asm/irq.h \
-  include/asm-generic/irq.h \
-  arch/arm64/include/asm/kvm_arm.h \
-  include/asm-generic/hardirq.h \
-  include/linux/irq.h \
-    $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
-    $(wildcard include/config/GENERIC_IRQ_IPI) \
-    $(wildcard include/config/IRQ_DOMAIN_HIERARCHY) \
-    $(wildcard include/config/DEPRECATED_IRQ_CPU_ONOFFLINE) \
-    $(wildcard include/config/GENERIC_IRQ_MIGRATION) \
-    $(wildcard include/config/GENERIC_PENDING_IRQ) \
-    $(wildcard include/config/HARDIRQS_SW_RESEND) \
-    $(wildcard include/config/GENERIC_IRQ_LEGACY) \
-    $(wildcard include/config/GENERIC_IRQ_MULTI_HANDLER) \
-  include/linux/irqhandler.h \
+  include/acpi/acpi_io.h \
   include/linux/io.h \
     $(wildcard include/config/HAS_IOPORT_MAP) \
   arch/arm64/include/asm/io.h \
@@ -1130,6 +1085,56 @@ deps_arch/arm64/kernel/asm-offsets.s := \
     $(wildcard include/config/HAVE_ARCH_HUGE_VMALLOC) \
   arch/arm64/include/asm/vmalloc.h \
     $(wildcard include/config/PTDUMP_DEBUGFS) \
+  arch/arm64/include/asm/acpi.h \
+  include/linux/efi.h \
+    $(wildcard include/config/X86_64) \
+    $(wildcard include/config/X86_32) \
+    $(wildcard include/config/EFI_ESRT) \
+    $(wildcard include/config/EFI_PCDP) \
+    $(wildcard include/config/EFI_SOFT_RESERVE) \
+    $(wildcard include/config/EFI_CAPSULE_LOADER) \
+    $(wildcard include/config/EFI_EMBEDDED_FIRMWARE) \
+    $(wildcard include/config/LOAD_UEFI_KEYS) \
+    $(wildcard include/config/XEN_EFI) \
+  include/linux/proc_fs.h \
+    $(wildcard include/config/PROC_PID_ARCH_STATUS) \
+  include/linux/rtc.h \
+    $(wildcard include/config/RTC_INTF_DEV_UIE_EMUL) \
+    $(wildcard include/config/RTC_HCTOSYS_DEVICE) \
+    $(wildcard include/config/RTC_NVMEM) \
+    $(wildcard include/config/RTC_INTF_SYSFS) \
+  include/linux/interrupt.h \
+    $(wildcard include/config/IRQ_FORCED_THREADING) \
+    $(wildcard include/config/GENERIC_IRQ_PROBE) \
+    $(wildcard include/config/IRQ_TIMINGS) \
+  include/linux/irqreturn.h \
+  include/linux/hardirq.h \
+  include/linux/context_tracking_state.h \
+    $(wildcard include/config/CONTEXT_TRACKING_USER) \
+    $(wildcard include/config/CONTEXT_TRACKING) \
+  include/linux/ftrace_irq.h \
+    $(wildcard include/config/HWLAT_TRACER) \
+    $(wildcard include/config/OSNOISE_TRACER) \
+  include/linux/vtime.h \
+    $(wildcard include/config/VIRT_CPU_ACCOUNTING) \
+    $(wildcard include/config/IRQ_TIME_ACCOUNTING) \
+  arch/arm64/include/asm/hardirq.h \
+  arch/arm64/include/asm/irq.h \
+  include/asm-generic/irq.h \
+  arch/arm64/include/asm/kvm_arm.h \
+  arch/arm64/include/asm/esr.h \
+  include/asm-generic/hardirq.h \
+  include/linux/irq.h \
+    $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
+    $(wildcard include/config/GENERIC_IRQ_IPI) \
+    $(wildcard include/config/IRQ_DOMAIN_HIERARCHY) \
+    $(wildcard include/config/DEPRECATED_IRQ_CPU_ONOFFLINE) \
+    $(wildcard include/config/GENERIC_IRQ_MIGRATION) \
+    $(wildcard include/config/GENERIC_PENDING_IRQ) \
+    $(wildcard include/config/HARDIRQS_SW_RESEND) \
+    $(wildcard include/config/GENERIC_IRQ_LEGACY) \
+    $(wildcard include/config/GENERIC_IRQ_MULTI_HANDLER) \
+  include/linux/irqhandler.h \
   arch/arm64/include/generated/asm/irq_regs.h \
   include/asm-generic/irq_regs.h \
   include/linux/irqdesc.h \
@@ -1138,11 +1143,34 @@ deps_arch/arm64/kernel/asm-offsets.s := \
     $(wildcard include/config/IRQ_DOMAIN) \
   arch/arm64/include/generated/asm/hw_irq.h \
   include/asm-generic/hw_irq.h \
-  include/linux/trace_clock.h \
-  arch/arm64/include/generated/asm/trace_clock.h \
-  include/asm-generic/trace_clock.h \
-  include/linux/kallsyms.h \
-    $(wildcard include/config/KALLSYMS_ALL) \
+  include/linux/nvmem-provider.h \
+    $(wildcard include/config/NVMEM) \
+  include/linux/gpio/consumer.h \
+    $(wildcard include/config/GPIO_SYSFS) \
+  include/uapi/linux/rtc.h \
+  include/linux/seq_file.h \
+  include/linux/string_helpers.h \
+  include/linux/cdev.h \
+  include/linux/poll.h \
+  include/uapi/linux/poll.h \
+  arch/arm64/include/generated/uapi/asm/poll.h \
+  include/uapi/asm-generic/poll.h \
+  include/uapi/linux/eventpoll.h \
+  include/linux/pstore.h \
+    $(wildcard include/config/ARM_THUMB) \
+    $(wildcard include/config/ARM) \
+  include/linux/kmsg_dump.h \
+  include/linux/range.h \
+  include/linux/reboot.h \
+  include/uapi/linux/reboot.h \
+  arch/arm64/include/generated/asm/emergency-restart.h \
+  include/asm-generic/emergency-restart.h \
+  include/linux/screen_info.h \
+  include/uapi/linux/screen_info.h \
+  include/linux/memblock.h \
+    $(wildcard include/config/ARCH_KEEP_MEMBLOCK) \
+    $(wildcard include/config/HAVE_MEMBLOCK_PHYS_MAP) \
+    $(wildcard include/config/MEMTEST) \
   include/linux/mm.h \
     $(wildcard include/config/HAVE_ARCH_MMAP_RND_BITS) \
     $(wildcard include/config/HAVE_ARCH_MMAP_RND_COMPAT_BITS) \
@@ -1165,7 +1193,6 @@ deps_arch/arm64/kernel/asm-offsets.s := \
     $(wildcard include/config/HUGETLBFS) \
     $(wildcard include/config/MAPPING_DIRTY_HELPERS) \
   include/linux/mmap_lock.h \
-  include/linux/range.h \
   include/linux/page_ext.h \
   include/linux/stacktrace.h \
     $(wildcard include/config/ARCH_STACKWALK) \
@@ -1190,6 +1217,35 @@ deps_arch/arm64/kernel/asm-offsets.s := \
     $(wildcard include/config/MEMORY_BALLOON) \
     $(wildcard include/config/BALLOON_COMPACTION) \
     $(wildcard include/config/ZSWAP) \
+  arch/arm64/include/generated/asm/dma.h \
+  include/asm-generic/dma.h \
+  include/linux/psci.h \
+    $(wildcard include/config/ARM_PSCI_FW) \
+  include/linux/arm-smccc.h \
+    $(wildcard include/config/HAVE_ARM_SMCCC) \
+  arch/arm64/include/asm/smp_plat.h \
+  include/linux/cper.h \
+  include/linux/trace_seq.h \
+  include/linux/seq_buf.h \
+  arch/arm64/include/generated/uapi/asm/ioctls.h \
+  include/uapi/asm-generic/ioctls.h \
+  include/acpi/hed.h \
+  include/linux/ftrace.h \
+    $(wildcard include/config/HAVE_DYNAMIC_FTRACE_WITH_ARGS) \
+    $(wildcard include/config/DYNAMIC_FTRACE_WITH_REGS) \
+    $(wildcard include/config/STACK_TRACER) \
+    $(wildcard include/config/DYNAMIC_FTRACE_WITH_CALL_OPS) \
+    $(wildcard include/config/FRAME_POINTER) \
+    $(wildcard include/config/FUNCTION_PROFILER) \
+    $(wildcard include/config/FTRACE_SYSCALLS) \
+  include/linux/trace_recursion.h \
+    $(wildcard include/config/FTRACE_RECORD_RECURSION) \
+    $(wildcard include/config/ARCH_WANTS_NO_INSTR) \
+  include/linux/trace_clock.h \
+  arch/arm64/include/generated/asm/trace_clock.h \
+  include/asm-generic/trace_clock.h \
+  include/linux/kallsyms.h \
+    $(wildcard include/config/KALLSYMS_ALL) \
   include/linux/ptrace.h \
   include/linux/pid_namespace.h \
     $(wildcard include/config/MEMFD_CREATE) \
@@ -1284,11 +1340,6 @@ deps_arch/arm64/kernel/asm-offsets.s := \
   include/linux/hashtable.h \
   include/uapi/linux/kvm.h \
   arch/arm64/include/uapi/asm/kvm.h \
-  include/linux/psci.h \
-    $(wildcard include/config/ARM_PSCI_FW) \
-  include/linux/arm-smccc.h \
-    $(wildcard include/config/HAVE_ARM_SMCCC) \
-    $(wildcard include/config/ARM) \
   include/linux/kvm_para.h \
   include/uapi/linux/kvm_para.h \
   arch/arm64/include/generated/uapi/asm/kvm_para.h \
@@ -1316,6 +1367,7 @@ deps_arch/arm64/kernel/asm-offsets.s := \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
   arch/arm64/include/asm/kgdb.h \
+  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   arch/arm64/include/asm/daifflags.h \
   arch/arm64/include/asm/kvm_asm.h \
@@ -1374,8 +1426,6 @@ deps_arch/arm64/kernel/asm-offsets.s := \
     $(wildcard include/config/CGROUP_BPF) \
   include/uapi/linux/cgroupstats.h \
   include/uapi/linux/taskstats.h \
-  include/linux/seq_file.h \
-  include/linux/string_helpers.h \
   include/linux/user_namespace.h \
     $(wildcard include/config/INOTIFY_USER) \
     $(wildcard include/config/FANOTIFY) \
@@ -1446,7 +1496,6 @@ deps_arch/arm64/kernel/asm-offsets.s := \
   include/uapi/linux/mempolicy.h \
   include/linux/freezer.h \
   arch/arm64/include/asm/signal32.h \
-  arch/arm64/include/asm/smp_plat.h \
   arch/arm64/include/asm/suspend.h \
   include/linux/kbuild.h \
 

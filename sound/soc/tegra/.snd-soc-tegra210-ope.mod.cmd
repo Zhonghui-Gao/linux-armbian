@@ -1,0 +1,1 @@
+savedcmd_sound/soc/tegra/snd-soc-tegra210-ope.mod := printf '%s\n'   tegra210_ope.o tegra210_mbdrc.o tegra210_peq.o | awk '!x[$$0]++ { print("sound/soc/tegra/"$$0) }' > sound/soc/tegra/snd-soc-tegra210-ope.mod

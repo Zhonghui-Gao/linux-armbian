@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "");
+MODULE_INFO(depends, "ipv6,llc,stp");
 
 
 MODULE_INFO(srcversion, "3BC68DC79BD9C6730D99D9C");

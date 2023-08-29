@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/samsung/s5p-mfc/s5p-mfc.mod := printf '%s\n'   s5p_mfc.o s5p_mfc_intr.o s5p_mfc_dec.o s5p_mfc_enc.o s5p_mfc_ctrl.o s5p_mfc_pm.o s5p_mfc_opr.o s5p_mfc_opr_v5.o s5p_mfc_opr_v6.o s5p_mfc_cmd.o s5p_mfc_cmd_v5.o s5p_mfc_cmd_v6.o | awk '!x[$$0]++ { print("drivers/media/platform/samsung/s5p-mfc/"$$0) }' > drivers/media/platform/samsung/s5p-mfc/s5p-mfc.mod

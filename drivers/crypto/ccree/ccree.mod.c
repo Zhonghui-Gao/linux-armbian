@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "");
+MODULE_INFO(depends, "authenc,libdes");
 
 MODULE_ALIAS("of:N*T*Carm,cryptocell-703-ree");
 MODULE_ALIAS("of:N*T*Carm,cryptocell-703-reeC*");

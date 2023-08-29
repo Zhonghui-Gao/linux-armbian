@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/host/xhci-pci.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/host/xhci-pci.ko drivers/usb/host/xhci-pci.o drivers/usb/host/xhci-pci.mod.o;  true

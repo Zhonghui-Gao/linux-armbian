@@ -1,0 +1,1 @@
+savedcmd_drivers/net/can/flexcan/flexcan.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/can/flexcan/flexcan.ko drivers/net/can/flexcan/flexcan.o drivers/net/can/flexcan/flexcan.mod.o;  true

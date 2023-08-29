@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "");
+MODULE_INFO(depends, "raid6_pq");
 
 MODULE_ALIAS("of:N*T*Cbrcm,iproc-sba");
 MODULE_ALIAS("of:N*T*Cbrcm,iproc-sbaC*");

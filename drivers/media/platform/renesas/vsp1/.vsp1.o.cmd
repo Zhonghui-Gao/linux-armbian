@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/renesas/vsp1/vsp1.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/media/platform/renesas/vsp1/vsp1.o @drivers/media/platform/renesas/vsp1/vsp1.mod 

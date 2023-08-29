@@ -1,0 +1,1 @@
+savedcmd_sound/soc/meson/snd-soc-meson-gx-sound-card.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o sound/soc/meson/snd-soc-meson-gx-sound-card.o @sound/soc/meson/snd-soc-meson-gx-sound-card.mod 

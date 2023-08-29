@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "gpu-sched,drm_shmem_helper");
+MODULE_INFO(depends, "drm,gpu-sched,drm_shmem_helper");
 
 MODULE_ALIAS("of:N*T*Carm,mali-400");
 MODULE_ALIAS("of:N*T*Carm,mali-400C*");

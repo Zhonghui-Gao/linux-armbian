@@ -38,11 +38,5 @@ net/mac80211/ocb.o
 net/mac80211/airtime.o
 net/mac80211/eht.o
 net/mac80211/led.o
-net/mac80211/mesh.o
-net/mac80211/mesh_pathtbl.o
-net/mac80211/mesh_plink.o
-net/mac80211/mesh_hwmp.o
-net/mac80211/mesh_sync.o
-net/mac80211/mesh_ps.o
 net/mac80211/pm.o
 net/mac80211/rc80211_minstrel_ht.o

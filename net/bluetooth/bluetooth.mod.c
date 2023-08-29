@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "rfkill");
+MODULE_INFO(depends, "ecdh_generic,rfkill");
 
 
-MODULE_INFO(srcversion, "EF8C0721A5665301904BE18");
+MODULE_INFO(srcversion, "7811CA31ABA8A54A29F0D95");

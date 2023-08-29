@@ -19,4 +19,6 @@ drivers/media/platform/verisilicon/hantro_hevc.o
 drivers/media/platform/verisilicon/hantro_mpeg2.o
 drivers/media/platform/verisilicon/hantro_vp8.o
 drivers/media/platform/verisilicon/hantro_vp9.o
+drivers/media/platform/verisilicon/imx8m_vpu_hw.o
 drivers/media/platform/verisilicon/rockchip_vpu_hw.o
+drivers/media/platform/verisilicon/sunxi_vpu_hw.o

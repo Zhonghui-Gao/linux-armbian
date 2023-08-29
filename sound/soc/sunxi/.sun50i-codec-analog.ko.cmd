@@ -1,0 +1,1 @@
+savedcmd_sound/soc/sunxi/sun50i-codec-analog.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/sunxi/sun50i-codec-analog.ko sound/soc/sunxi/sun50i-codec-analog.o sound/soc/sunxi/sun50i-codec-analog.mod.o;  true

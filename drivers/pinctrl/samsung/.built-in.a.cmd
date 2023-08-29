@@ -1,0 +1,1 @@
+savedcmd_drivers/pinctrl/samsung/built-in.a := rm -f drivers/pinctrl/samsung/built-in.a;  printf "drivers/pinctrl/samsung/%s " pinctrl-samsung.o pinctrl-exynos.o pinctrl-exynos-arm64.o | xargs aarch64-linux-gnu-ar cDPrST drivers/pinctrl/samsung/built-in.a

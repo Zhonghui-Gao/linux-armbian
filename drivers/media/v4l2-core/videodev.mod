@@ -12,5 +12,4 @@ drivers/media/v4l2-core/v4l2-ctrls-defs.o
 drivers/media/v4l2-core/v4l2-compat-ioctl32.o
 drivers/media/v4l2-core/v4l2-mc.o
 drivers/media/v4l2-core/v4l2-spi.o
-drivers/media/v4l2-core/v4l2-trace.o
 drivers/media/v4l2-core/v4l2-i2c.o

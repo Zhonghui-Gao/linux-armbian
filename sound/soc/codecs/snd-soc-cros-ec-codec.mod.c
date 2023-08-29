@@ -33,7 +33,8 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "snd-soc-core,snd,snd-pcm");
+MODULE_INFO(depends, "libsha256");
 
 MODULE_ALIAS("of:N*T*Cgoogle,cros-ec-codec");
 MODULE_ALIAS("of:N*T*Cgoogle,cros-ec-codecC*");
+MODULE_ALIAS("acpi*:GOOG0013:*");

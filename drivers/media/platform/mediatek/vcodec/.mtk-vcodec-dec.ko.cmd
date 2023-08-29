@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/mediatek/vcodec/mtk-vcodec-dec.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/platform/mediatek/vcodec/mtk-vcodec-dec.ko drivers/media/platform/mediatek/vcodec/mtk-vcodec-dec.o drivers/media/platform/mediatek/vcodec/mtk-vcodec-dec.mod.o;  true

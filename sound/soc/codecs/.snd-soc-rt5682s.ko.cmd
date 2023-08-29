@@ -1,0 +1,1 @@
+savedcmd_sound/soc/codecs/snd-soc-rt5682s.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-rt5682s.ko sound/soc/codecs/snd-soc-rt5682s.o sound/soc/codecs/snd-soc-rt5682s.mod.o;  true

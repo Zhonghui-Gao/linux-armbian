@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "snd-soc-core,snd-pcm");
+MODULE_INFO(depends, "");
 
 MODULE_ALIAS("i2c:tas5707");
 MODULE_ALIAS("i2c:tas5711");

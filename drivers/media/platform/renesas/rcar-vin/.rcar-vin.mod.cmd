@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/renesas/rcar-vin/rcar-vin.mod := printf '%s\n'   rcar-core.o rcar-dma.o rcar-v4l2.o | awk '!x[$$0]++ { print("drivers/media/platform/renesas/rcar-vin/"$$0) }' > drivers/media/platform/renesas/rcar-vin/rcar-vin.mod

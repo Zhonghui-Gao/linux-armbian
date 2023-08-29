@@ -1,5 +1,13 @@
-drivers/pwm/pwm-atmel-tcb.o
+drivers/pwm/pwm-bcm2835.o
+drivers/pwm/pwm-brcmstb.o
 drivers/pwm/pwm-cros-ec.o
-drivers/pwm/pwm-dwc.o
-drivers/pwm/pwm-ntxec.o
-drivers/pwm/pwm-xilinx.o
+drivers/pwm/pwm-imx27.o
+drivers/pwm/pwm-meson.o
+drivers/pwm/pwm-mediatek.o
+drivers/pwm/pwm-mtk-disp.o
+drivers/pwm/pwm-rcar.o
+drivers/pwm/pwm-renesas-tpu.o
+drivers/pwm/pwm-sl28cpld.o
+drivers/pwm/pwm-sun4i.o
+drivers/pwm/pwm-tegra.o
+drivers/pwm/pwm-visconti.o

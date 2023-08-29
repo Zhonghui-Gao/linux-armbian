@@ -1,1 +1,1 @@
-savedcmd_drivers/mtd/chips/modules.order := {   echo drivers/mtd/chips/cfi_probe.o;   echo drivers/mtd/chips/cfi_util.o;   echo drivers/mtd/chips/cfi_cmdset_0002.o;   echo drivers/mtd/chips/gen_probe.o; :; } > drivers/mtd/chips/modules.order
+savedcmd_drivers/mtd/chips/modules.order := {  :; } > drivers/mtd/chips/modules.order

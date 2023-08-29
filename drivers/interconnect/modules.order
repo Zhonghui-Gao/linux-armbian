@@ -1,0 +1,11 @@
+drivers/interconnect/imx/imx8mm-interconnect.o
+drivers/interconnect/imx/imx8mq-interconnect.o
+drivers/interconnect/imx/imx8mn-interconnect.o
+drivers/interconnect/qcom/qnoc-msm8916.o
+drivers/interconnect/qcom/qnoc-msm8996.o
+drivers/interconnect/qcom/icc-osm-l3.o
+drivers/interconnect/qcom/qnoc-qcs404.o
+drivers/interconnect/qcom/qnoc-sm8150.o
+drivers/interconnect/qcom/qnoc-sm8250.o
+drivers/interconnect/qcom/qnoc-sm8350.o
+drivers/interconnect/qcom/icc-smd-rpm.o

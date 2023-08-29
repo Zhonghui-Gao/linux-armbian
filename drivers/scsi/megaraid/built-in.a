@@ -1,0 +1,11 @@
+!<thin>
+//                                              88        `
+megaraid_sas_base.o/
+megaraid_sas_fusion.o/
+megaraid_sas_fp.o/
+megaraid_sas_debugfs.o/
+
+/0              0           0     0     644     437456    `
+/21             0           0     0     644     280080    `
+/44             0           0     0     644     77144     `
+/63             0           0     0     644     33496     `

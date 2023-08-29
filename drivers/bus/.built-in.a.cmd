@@ -1,1 +1,1 @@
-savedcmd_drivers/bus/built-in.a := rm -f drivers/bus/built-in.a;  printf "drivers/bus/%s " arm-cci.o brcmstb_gisb.o simple-pm-bus.o vexpress-config.o mhi/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/bus/built-in.a
+savedcmd_drivers/bus/built-in.a := rm -f drivers/bus/built-in.a;  printf "drivers/bus/%s " arm-cci.o hisi_lpc.o brcmstb_gisb.o fsl-mc/built-in.a qcom-ebi2.o sun50i-de2.o sunxi-rsb.o simple-pm-bus.o uniphier-system-bus.o vexpress-config.o mhi/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/bus/built-in.a

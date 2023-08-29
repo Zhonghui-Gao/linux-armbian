@@ -1,11 +1,2 @@
 drivers/scsi/raid_class.o
-drivers/scsi/scsi_transport_iscsi.o
-drivers/scsi/libiscsi.o
-drivers/scsi/libiscsi_tcp.o
-drivers/scsi/iscsi_tcp.o
-drivers/scsi/fdomain.o
-drivers/scsi/fdomain_pci.o
 drivers/scsi/mpt3sas/mpt3sas.o
-drivers/scsi/mpi3mr/mpi3mr.o
-drivers/scsi/sr_mod.o
-drivers/scsi/sg.o

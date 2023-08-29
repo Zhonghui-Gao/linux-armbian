@@ -1,1 +1,1 @@
-drivers/edac/dmc520_edac.o
+drivers/edac/layerscape_edac_mod.o

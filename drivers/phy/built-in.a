@@ -1,26 +1,106 @@
 !<thin>
-//                                              356       `
+//                                              1514      `
 phy-core.o/
 phy-core-mipi-dphy.o/
-rockchip/phy-rockchip-dp.o/
+phy-xgene.o/
+allwinner/phy-sun4i-usb.o/
+amlogic/phy-meson8b-usb2.o/
+amlogic/phy-meson-gxl-usb2.o/
+amlogic/phy-meson-g12a-usb2.o/
+amlogic/phy-meson-g12a-usb3-pcie.o/
+amlogic/phy-meson-g12a-mipi-dphy-analog.o/
+amlogic/phy-meson-axg-pcie.o/
+amlogic/phy-meson-axg-mipi-pcie-analog.o/
+amlogic/phy-meson-axg-mipi-dphy.o/
+broadcom/phy-bcm-ns2-pcie.o/
+broadcom/phy-bcm-ns2-usbdrd.o/
+broadcom/phy-brcm-sata.o/
+broadcom/phy-brcm-usb.o/
+broadcom/phy-brcm-usb-init.o/
+broadcom/phy-brcm-usb-init-synopsys.o/
+broadcom/phy-bcm-sr-pcie.o/
+broadcom/phy-bcm-sr-usb.o/
+freescale/phy-fsl-imx8mq-usb.o/
+freescale/phy-fsl-imx8m-pcie.o/
+hisilicon/phy-hi6220-usb.o/
+hisilicon/phy-histb-combphy.o/
+hisilicon/phy-hisi-inno-usb2.o/
+marvell/phy-mvebu-a3700-comphy.o/
+marvell/phy-mvebu-a3700-utmi.o/
+marvell/phy-mvebu-cp110-comphy.o/
+mediatek/phy-mtk-tphy.o/
+renesas/r8a779f0-ether-serdes.o/
+renesas/phy-rcar-gen3-pcie.o/
+renesas/phy-rcar-gen3-usb2.o/
 rockchip/phy-rockchip-emmc.o/
-rockchip/phy-rockchip-inno-hdmi.o/
 rockchip/phy-rockchip-inno-usb2.o/
-rockchip/phy-rockchip-naneng-combphy.o/
-rockchip/phy-rockchip-pcie.o/
-rockchip/phy-rockchip-snps-pcie3.o/
 rockchip/phy-rockchip-typec.o/
-rockchip/phy-rockchip-usb.o/
+samsung/phy-exynos-dp-video.o/
+samsung/phy-exynos-mipi-video.o/
+samsung/phy-samsung-ufs.o/
+samsung/phy-exynos7-ufs.o/
+samsung/phy-exynosautov9-ufs.o/
+samsung/phy-fsd-ufs.o/
 samsung/phy-samsung-usb2.o/
-/0              0           0     0     644     46240     `
-/12             0           0     0     644     4600      `
-/34             0           0     0     644     7240      `
-/62             0           0     0     644     9816      `
-/92             0           0     0     644     31768     `
-/127            0           0     0     644     52872     `
-/162            0           0     0     644     17480     `
-/202            0           0     0     644     14072     `
-/232            0           0     0     644     13192     `
-/268            0           0     0     644     20664     `
-/299            0           0     0     644     16736     `
-/328            0           0     0     644     11640     `
+samsung/phy-exynos5-usbdrd.o/
+socionext/phy-uniphier-usb2.o/
+socionext/phy-uniphier-usb3hs.o/
+socionext/phy-uniphier-usb3ss.o/
+socionext/phy-uniphier-ahci.o/
+tegra/xusb.o/
+tegra/xusb-tegra124.o/
+tegra/xusb-tegra210.o/
+tegra/xusb-tegra186.o/
+ti/phy-gmii-sel.o/
+/0              0           0     0     644     123024    `
+/12             0           0     0     644     34080     `
+/34             0           0     0     644     111528    `
+/47             0           0     0     644     107048    `
+/74             0           0     0     644     49216     `
+/102            0           0     0     644     48992     `
+/132            0           0     0     644     70408     `
+/163            0           0     0     644     64864     `
+/199            0           0     0     644     45056     `
+/242            0           0     0     644     45584     `
+/272            0           0     0     644     47640     `
+/314            0           0     0     644     48808     `
+/349            0           0     0     644     33808     `
+/378            0           0     0     644     78864     `
+/409            0           0     0     644     66456     `
+/435            0           0     0     644     77712     `
+/460            0           0     0     644     145008    `
+/490            0           0     0     644     52696     `
+/529            0           0     0     644     45928     `
+/557            0           0     0     644     57152     `
+/584            0           0     0     644     56168     `
+/616            0           0     0     644     57496     `
+/648            0           0     0     644     40992     `
+/676            0           0     0     644     54256     `
+/707            0           0     0     644     45848     `
+/739            0           0     0     644     89488     `
+/773            0           0     0     644     58648     `
+/805            0           0     0     644     118176    `
+/839            0           0     0     644     195360    `
+/864            0           0     0     644     93640     `
+/897            0           0     0     644     44576     `
+/927            0           0     0     644     101008    `
+/957            0           0     0     644     50480     `
+/987            0           0     0     644     122000    `
+/1022           0           0     0     644     117256    `
+/1053           0           0     0     644     40696     `
+/1084           0           0     0     644     47984     `
+/1117           0           0     0     644     61192     `
+/1144           0           0     0     644     29256     `
+/1171           0           0     0     644     28776     `
+/1203           0           0     0     644     28720     `
+/1226           0           0     0     644     50256     `
+/1254           0           0     0     644     87968     `
+/1284           0           0     0     644     45480     `
+/1315           0           0     0     644     67480     `
+/1348           0           0     0     644     60960     `
+/1381           0           0     0     644     90896     `
+/1412           0           0     0     644     145184    `
+/1426           0           0     0     644     166472    `
+/1449           0           0     0     644     340720    `
+/1472           0           0     0     644     174112    `
+/1495           0           0     0     644     50464     `

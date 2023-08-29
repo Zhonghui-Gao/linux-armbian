@@ -1,1 +1,9 @@
-!<arch>
+!<thin>
+//                                              70        `
+r8a779f0-ether-serdes.o/
+phy-rcar-gen3-pcie.o/
+phy-rcar-gen3-usb2.o/
+
+/0              0           0     0     644     93640     `
+/25             0           0     0     644     44576     `
+/47             0           0     0     644     101008    `

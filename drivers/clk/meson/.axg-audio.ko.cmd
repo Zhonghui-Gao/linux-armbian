@@ -1,0 +1,1 @@
+savedcmd_drivers/clk/meson/axg-audio.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/clk/meson/axg-audio.ko drivers/clk/meson/axg-audio.o drivers/clk/meson/axg-audio.mod.o;  true

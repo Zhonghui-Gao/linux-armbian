@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/sun4i/sun4i-tcon.mod := printf '%s\n'   sun4i_crtc.o sun4i_dotclock.o sun4i_lvds.o sun4i_tcon.o sun4i_rgb.o | awk '!x[$$0]++ { print("drivers/gpu/drm/sun4i/"$$0) }' > drivers/gpu/drm/sun4i/sun4i-tcon.mod

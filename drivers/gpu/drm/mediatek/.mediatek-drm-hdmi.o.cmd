@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/mediatek/mediatek-drm-hdmi.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/gpu/drm/mediatek/mediatek-drm-hdmi.o @drivers/gpu/drm/mediatek/mediatek-drm-hdmi.mod 

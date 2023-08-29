@@ -1,0 +1,1 @@
+savedcmd_drivers/net/dsa/ocelot/mscc_felix_dsa_lib.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/dsa/ocelot/mscc_felix_dsa_lib.o @drivers/net/dsa/ocelot/mscc_felix_dsa_lib.mod 

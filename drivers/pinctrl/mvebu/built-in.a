@@ -1,1 +1,13 @@
-!<arch>
+!<thin>
+//                                              104       `
+pinctrl-mvebu.o/
+pinctrl-armada-ap806.o/
+pinctrl-armada-cp110.o/
+pinctrl-armada-37xx.o/
+pinctrl-ac5.o/
+
+/0              0           0     0     644     60872     `
+/17             0           0     0     644     27704     `
+/41             0           0     0     644     71296     `
+/65             0           0     0     644     100096    `
+/88             0           0     0     644     38392     `

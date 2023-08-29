@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/mediatek/jpeg/mtk_jpeg.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/platform/mediatek/jpeg/mtk_jpeg.ko drivers/media/platform/mediatek/jpeg/mtk_jpeg.o drivers/media/platform/mediatek/jpeg/mtk_jpeg.mod.o;  true

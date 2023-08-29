@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/tegra/tegra-drm.mod := printf '%s\n'   drm.o uapi.o submit.o firewall.o gem.o fb.o dp.o hub.o plane.o dc.o output.o rgb.o hda.o hdmi.o mipi-phy.o dsi.o sor.o dpaux.o gr2d.o gr3d.o falcon.o vic.o nvdec.o riscv.o trace.o fbdev.o | awk '!x[$$0]++ { print("drivers/gpu/drm/tegra/"$$0) }' > drivers/gpu/drm/tegra/tegra-drm.mod

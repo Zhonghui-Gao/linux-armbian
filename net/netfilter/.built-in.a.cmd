@@ -1,1 +1,1 @@
-savedcmd_net/netfilter/built-in.a := rm -f net/netfilter/built-in.a;  printf "net/netfilter/%s " core.o nf_log.o nf_queue.o nf_sockopt.o utils.o nf_bpf_link.o nf_hooks_lwtunnel.o | xargs aarch64-linux-gnu-ar cDPrST net/netfilter/built-in.a
+savedcmd_net/netfilter/built-in.a := rm -f net/netfilter/built-in.a;  printf "net/netfilter/%s " core.o nf_log.o nf_queue.o nf_sockopt.o utils.o nf_bpf_link.o | xargs aarch64-linux-gnu-ar cDPrST net/netfilter/built-in.a

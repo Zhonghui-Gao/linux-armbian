@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/bridge/analogix/analogix_dp.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/gpu/drm/bridge/analogix/analogix_dp.o @drivers/gpu/drm/bridge/analogix/analogix_dp.mod 

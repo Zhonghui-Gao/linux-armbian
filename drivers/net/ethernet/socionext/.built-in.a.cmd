@@ -1,1 +1,1 @@
-savedcmd_drivers/net/ethernet/socionext/built-in.a := rm -f drivers/net/ethernet/socionext/built-in.a;  aarch64-linux-gnu-ar cDPrST drivers/net/ethernet/socionext/built-in.a
+savedcmd_drivers/net/ethernet/socionext/built-in.a := rm -f drivers/net/ethernet/socionext/built-in.a;  printf "drivers/net/ethernet/socionext/%s " sni_ave.o netsec.o | xargs aarch64-linux-gnu-ar cDPrST drivers/net/ethernet/socionext/built-in.a

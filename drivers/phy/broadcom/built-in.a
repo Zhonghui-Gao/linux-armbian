@@ -1,1 +1,19 @@
-!<arch>
+!<thin>
+//                                              164       `
+phy-bcm-ns2-pcie.o/
+phy-bcm-ns2-usbdrd.o/
+phy-brcm-sata.o/
+phy-brcm-usb.o/
+phy-brcm-usb-init.o/
+phy-brcm-usb-init-synopsys.o/
+phy-bcm-sr-pcie.o/
+phy-bcm-sr-usb.o/
+
+/0              0           0     0     644     33808     `
+/20             0           0     0     644     78864     `
+/42             0           0     0     644     66456     `
+/59             0           0     0     644     77712     `
+/75             0           0     0     644     145008    `
+/96             0           0     0     644     52696     `
+/126            0           0     0     644     45928     `
+/145            0           0     0     644     57152     `

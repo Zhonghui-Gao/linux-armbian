@@ -1,0 +1,1 @@
+savedcmd_drivers/thermal/tegra/tegra-soctherm.mod := printf '%s\n'   soctherm.o soctherm-fuse.o tegra132-soctherm.o tegra210-soctherm.o | awk '!x[$$0]++ { print("drivers/thermal/tegra/"$$0) }' > drivers/thermal/tegra/tegra-soctherm.mod

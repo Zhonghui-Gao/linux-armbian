@@ -1,0 +1,14 @@
+sound/soc/qcom/qdsp6/snd-q6dsp-common.o
+sound/soc/qcom/qdsp6/q6core.o
+sound/soc/qcom/qdsp6/q6afe.o
+sound/soc/qcom/qdsp6/q6afe-dai.o
+sound/soc/qcom/qdsp6/q6afe-clocks.o
+sound/soc/qcom/qdsp6/q6adm.o
+sound/soc/qcom/qdsp6/q6routing.o
+sound/soc/qcom/qdsp6/q6asm.o
+sound/soc/qcom/qdsp6/q6asm-dai.o
+sound/soc/qcom/qdsp6/snd-q6apm.o
+sound/soc/qcom/qdsp6/q6apm-dai.o
+sound/soc/qcom/qdsp6/q6apm-lpass-dais.o
+sound/soc/qcom/qdsp6/q6prm.o
+sound/soc/qcom/qdsp6/q6prm-clocks.o

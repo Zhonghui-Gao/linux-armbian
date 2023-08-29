@@ -33,10 +33,12 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "snd-soc-core,snd-soc-rl6231,snd-pcm");
+MODULE_INFO(depends, "snd-soc-rl6231");
 
 MODULE_ALIAS("i2c:rt5658");
 MODULE_ALIAS("i2c:rt5659");
+MODULE_ALIAS("acpi*:10EC5658:*");
+MODULE_ALIAS("acpi*:10EC5659:*");
 MODULE_ALIAS("of:N*T*Crealtek,rt5658");
 MODULE_ALIAS("of:N*T*Crealtek,rt5658C*");
 MODULE_ALIAS("of:N*T*Crealtek,rt5659");

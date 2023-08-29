@@ -1,0 +1,1 @@
+savedcmd_sound/soc/mediatek/mt8183/snd-soc-mt8183-afe.mod := printf '%s\n'   mt8183-afe-pcm.o mt8183-afe-clk.o mt8183-dai-i2s.o mt8183-dai-tdm.o mt8183-dai-pcm.o mt8183-dai-hostless.o mt8183-dai-adda.o | awk '!x[$$0]++ { print("sound/soc/mediatek/mt8183/"$$0) }' > sound/soc/mediatek/mt8183/snd-soc-mt8183-afe.mod

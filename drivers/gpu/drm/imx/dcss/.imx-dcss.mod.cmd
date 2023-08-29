@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/imx/dcss/imx-dcss.mod := printf '%s\n'   dcss-drv.o dcss-dev.o dcss-blkctl.o dcss-ctxld.o dcss-dtg.o dcss-ss.o dcss-dpr.o dcss-scaler.o dcss-kms.o dcss-crtc.o dcss-plane.o | awk '!x[$$0]++ { print("drivers/gpu/drm/imx/dcss/"$$0) }' > drivers/gpu/drm/imx/dcss/imx-dcss.mod

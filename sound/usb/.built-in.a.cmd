@@ -1,0 +1,1 @@
+savedcmd_sound/usb/built-in.a := rm -f sound/usb/built-in.a;  printf "sound/usb/%s " misc/built-in.a usx2y/built-in.a caiaq/built-in.a 6fire/built-in.a hiface/built-in.a bcd2000/built-in.a | xargs aarch64-linux-gnu-ar cDPrST sound/usb/built-in.a

@@ -1,14 +1,66 @@
 !<thin>
-//                                              134       `
+//                                              622       `
+pci-aardvark.o/
+pci-tegra.o/
+pcie-rcar.o/
+pcie-rcar-host.o/
+pcie-rcar-ep.o/
+pci-host-common.o/
+pci-host-generic.o/
+pci-thunder-ecam.o/
+pci-thunder-pem.o/
+pci-xgene.o/
+pci-xgene-msi.o/
+pcie-iproc.o/
+pcie-iproc-msi.o/
+pcie-iproc-platform.o/
+pcie-altera.o/
+pcie-altera-msi.o/
 pcie-rockchip.o/
-pcie-rockchip-ep.o/
-pcie-rockchip-host.o/
 dwc/pcie-designware.o/
 dwc/pcie-designware-host.o/
-dwc/pcie-dw-rockchip.o/
-/0              0           0     0     644     19192     `
-/17             0           0     0     644     10256     `
-/37             0           0     0     644     35448     `
-/59             0           0     0     644     23936     `
-/82             0           0     0     644     19880     `
-/110            0           0     0     644     9936      `
+dwc/pci-imx6.o/
+dwc/pci-layerscape.o/
+dwc/pcie-qcom.o/
+dwc/pcie-armada8k.o/
+dwc/pcie-kirin.o/
+dwc/pcie-histb.o/
+dwc/pcie-visconti.o/
+dwc/pcie-hisi.o/
+dwc/pcie-al.o/
+dwc/pcie-tegra194-acpi.o/
+mobiveil/pcie-mobiveil.o/
+mobiveil/pcie-mobiveil-host.o/
+mobiveil/pcie-layerscape-gen4.o/
+/0              0           0     0     644     192632    `
+/16             0           0     0     644     243472    `
+/29             0           0     0     644     21784     `
+/42             0           0     0     644     96592     `
+/60             0           0     0     644     68648     `
+/76             0           0     0     644     34088     `
+/95             0           0     0     644     31152     `
+/115            0           0     0     644     45536     `
+/135            0           0     0     644     47704     `
+/154            0           0     0     644     72400     `
+/167            0           0     0     644     77112     `
+/184            0           0     0     644     120680    `
+/198            0           0     0     644     73880     `
+/216            0           0     0     644     42536     `
+/239            0           0     0     644     86072     `
+/254            0           0     0     644     60040     `
+/273            0           0     0     644     69864     `
+/290            0           0     0     644     112048    `
+/313            0           0     0     644     78712     `
+/341            0           0     0     644     116512    `
+/357            0           0     0     644     42144     `
+/379            0           0     0     644     164520    `
+/396            0           0     0     644     51504     `
+/417            0           0     0     644     77400     `
+/435            0           0     0     644     72008     `
+/453            0           0     0     644     55592     `
+/474            0           0     0     644     34784     `
+/491            0           0     0     644     28000     `
+/506            0           0     0     644     35728     `
+/532            0           0     0     644     24352     `
+/558            0           0     0     644     69656     `
+/589            0           0     0     644     51696     `

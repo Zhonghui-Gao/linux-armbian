@@ -1,6 +1,2 @@
 drivers/net/dsa/b53/b53_common.o
-drivers/net/dsa/b53/b53_spi.o
-drivers/net/dsa/b53/b53_mdio.o
-drivers/net/dsa/b53/b53_mmap.o
 drivers/net/dsa/b53/b53_srab.o
-drivers/net/dsa/b53/b53_serdes.o

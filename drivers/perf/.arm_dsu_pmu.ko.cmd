@@ -1,0 +1,1 @@
+savedcmd_drivers/perf/arm_dsu_pmu.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/perf/arm_dsu_pmu.ko drivers/perf/arm_dsu_pmu.o drivers/perf/arm_dsu_pmu.mod.o;  true

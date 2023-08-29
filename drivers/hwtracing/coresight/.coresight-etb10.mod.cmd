@@ -1,0 +1,1 @@
+savedcmd_drivers/hwtracing/coresight/coresight-etb10.mod := printf '%s\n'   coresight-etb10.o | awk '!x[$$0]++ { print("drivers/hwtracing/coresight/"$$0) }' > drivers/hwtracing/coresight/coresight-etb10.mod

@@ -1,4 +1,15 @@
 sound/soc/fsl/snd-soc-fsl-audmix.o
+sound/soc/fsl/snd-soc-fsl-asoc-card.o
+sound/soc/fsl/snd-soc-fsl-asrc.o
+sound/soc/fsl/snd-soc-fsl-sai.o
+sound/soc/fsl/snd-soc-fsl-ssi.o
+sound/soc/fsl/snd-soc-fsl-spdif.o
+sound/soc/fsl/snd-soc-fsl-esai.o
 sound/soc/fsl/snd-soc-fsl-micfil.o
 sound/soc/fsl/snd-soc-fsl-utils.o
-sound/soc/fsl/snd-soc-fsl-xcvr.o
+sound/soc/fsl/snd-soc-fsl-easrc.o
+sound/soc/fsl/snd-soc-imx-audmux.o
+sound/soc/fsl/imx-pcm-dma.o
+sound/soc/fsl/snd-soc-imx-sgtl5000.o
+sound/soc/fsl/snd-soc-imx-spdif.o
+sound/soc/fsl/snd-soc-imx-audmix.o

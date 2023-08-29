@@ -1,7 +1,0 @@
-drivers/mmc/host/sdhci-milbeaut.o
-drivers/mmc/host/sdhci_am654.o
-drivers/mmc/host/alcor.o
-drivers/mmc/host/dw_mmc-hi3798cv200.o
-drivers/mmc/host/rtsx_pci_sdmmc.o
-drivers/mmc/host/rtsx_usb_sdmmc.o
-drivers/mmc/host/mmc_hsq.o

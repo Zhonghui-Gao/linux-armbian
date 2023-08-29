@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/mediatek/mediatek-drm-hdmi.mod := printf '%s\n'   mtk_cec.o mtk_hdmi.o mtk_hdmi_ddc.o | awk '!x[$$0]++ { print("drivers/gpu/drm/mediatek/"$$0) }' > drivers/gpu/drm/mediatek/mediatek-drm-hdmi.mod

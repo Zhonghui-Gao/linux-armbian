@@ -1,6 +1,3 @@
-drivers/md/dm-uevent.o
-drivers/md/dm-zone.o
-drivers/md/dm-audit.o
 drivers/md/dm.o
 drivers/md/dm-table.o
 drivers/md/dm-target.o

@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "snd-soc-core");
+MODULE_INFO(depends, "");
 
 MODULE_ALIAS("of:N*T*Ceverest,es7241");
 MODULE_ALIAS("of:N*T*Ceverest,es7241C*");

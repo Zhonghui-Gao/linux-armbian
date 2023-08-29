@@ -15,7 +15,7 @@ main:
 #APP
 // 19 "kernel/bounds.c" 1
 	
-.ascii "->NR_PAGEFLAGS 24 __NR_PAGEFLAGS"	//
+.ascii "->NR_PAGEFLAGS 25 __NR_PAGEFLAGS"	//
 // 0 "" 2
 // kernel/bounds.c:20: 	DEFINE(MAX_NR_ZONES, __MAX_NR_ZONES);
 // 20 "kernel/bounds.c" 1
@@ -32,15 +32,15 @@ main:
 	
 .ascii "->SPINLOCK_SIZE 4 sizeof(spinlock_t)"	//
 // 0 "" 2
-// kernel/bounds.c:26: 	DEFINE(LRU_GEN_WIDTH, order_base_2(MAX_NR_GENS + 1));
-// 26 "kernel/bounds.c" 1
+// kernel/bounds.c:29: 	DEFINE(LRU_GEN_WIDTH, 0);
+// 29 "kernel/bounds.c" 1
 	
-.ascii "->LRU_GEN_WIDTH 3 order_base_2(MAX_NR_GENS + 1)"	//
+.ascii "->LRU_GEN_WIDTH 0 0"	//
 // 0 "" 2
-// kernel/bounds.c:27: 	DEFINE(__LRU_REFS_WIDTH, MAX_NR_TIERS - 2);
-// 27 "kernel/bounds.c" 1
+// kernel/bounds.c:30: 	DEFINE(__LRU_REFS_WIDTH, 0);
+// 30 "kernel/bounds.c" 1
 	
-.ascii "->__LRU_REFS_WIDTH 2 MAX_NR_TIERS - 2"	//
+.ascii "->__LRU_REFS_WIDTH 0 0"	//
 // 0 "" 2
 // kernel/bounds.c:35: }
 #NO_APP

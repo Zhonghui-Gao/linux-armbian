@@ -1,1 +1,1 @@
-savedcmd_drivers/clk/socfpga/built-in.a := rm -f drivers/clk/socfpga/built-in.a;  aarch64-linux-gnu-ar cDPrST drivers/clk/socfpga/built-in.a
+savedcmd_drivers/clk/socfpga/built-in.a := rm -f drivers/clk/socfpga/built-in.a;  printf "drivers/clk/socfpga/%s " clk-s10.o clk-pll-s10.o clk-periph-s10.o clk-gate-s10.o clk-agilex.o | xargs aarch64-linux-gnu-ar cDPrST drivers/clk/socfpga/built-in.a

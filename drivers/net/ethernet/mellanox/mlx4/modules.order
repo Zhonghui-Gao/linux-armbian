@@ -1,0 +1,2 @@
+drivers/net/ethernet/mellanox/mlx4/mlx4_core.o
+drivers/net/ethernet/mellanox/mlx4/mlx4_en.o

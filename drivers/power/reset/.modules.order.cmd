@@ -1,1 +1,1 @@
-savedcmd_drivers/power/reset/modules.order := {   echo drivers/power/reset/atc260x-poweroff.o; :; } > drivers/power/reset/modules.order
+savedcmd_drivers/power/reset/modules.order := {   echo drivers/power/reset/qcom-pon.o;   echo drivers/power/reset/nvmem-reboot-mode.o; :; } > drivers/power/reset/modules.order

@@ -1,1 +1,1 @@
-savedcmd_drivers/gpu/drm/rcar-du/modules.order := {  :; } > drivers/gpu/drm/rcar-du/modules.order
+savedcmd_drivers/gpu/drm/rcar-du/modules.order := {   echo drivers/gpu/drm/rcar-du/rcar_cmm.o;   echo drivers/gpu/drm/rcar-du/rcar-du-drm.o;   echo drivers/gpu/drm/rcar-du/rcar_dw_hdmi.o;   echo drivers/gpu/drm/rcar-du/rcar_lvds.o;   echo drivers/gpu/drm/rcar-du/rcar_mipi_dsi.o;   echo drivers/gpu/drm/rcar-du/rzg2l_mipi_dsi.o; :; } > drivers/gpu/drm/rcar-du/modules.order

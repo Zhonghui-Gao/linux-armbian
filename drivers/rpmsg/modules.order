@@ -1,0 +1,4 @@
+drivers/rpmsg/rpmsg_char.o
+drivers/rpmsg/rpmsg_ctrl.o
+drivers/rpmsg/mtk_rpmsg.o
+drivers/rpmsg/qcom_glink_smem.o

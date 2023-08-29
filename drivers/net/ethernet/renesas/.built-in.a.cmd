@@ -1,1 +1,1 @@
-savedcmd_drivers/net/ethernet/renesas/built-in.a := rm -f drivers/net/ethernet/renesas/built-in.a;  aarch64-linux-gnu-ar cDPrST drivers/net/ethernet/renesas/built-in.a
+savedcmd_drivers/net/ethernet/renesas/built-in.a := rm -f drivers/net/ethernet/renesas/built-in.a;  printf "drivers/net/ethernet/renesas/%s " sh_eth.o ravb_main.o ravb_ptp.o rswitch.o rcar_gen4_ptp.o | xargs aarch64-linux-gnu-ar cDPrST drivers/net/ethernet/renesas/built-in.a

@@ -1,1 +1,11 @@
-!<arch>
+!<thin>
+//                                              80        `
+pinctrl-bcm2835.o/
+pinctrl-bcm4908.o/
+pinctrl-iproc-gpio.o/
+pinctrl-ns2-mux.o/
+
+/0              0           0     0     644     135128    `
+/19             0           0     0     644     56488     `
+/38             0           0     0     644     94824     `
+/60             0           0     0     644     83784     `

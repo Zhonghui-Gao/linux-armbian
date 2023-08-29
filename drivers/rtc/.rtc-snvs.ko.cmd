@@ -1,0 +1,1 @@
+savedcmd_drivers/rtc/rtc-snvs.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-snvs.ko drivers/rtc/rtc-snvs.o drivers/rtc/rtc-snvs.mod.o;  true

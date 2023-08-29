@@ -1,5 +1,14 @@
 drivers/net/ethernet/stmicro/stmmac/stmmac.o
 drivers/net/ethernet/stmicro/stmmac/stmmac-platform.o
+drivers/net/ethernet/stmicro/stmmac/dwmac-ipq806x.o
+drivers/net/ethernet/stmicro/stmmac/dwmac-meson.o
+drivers/net/ethernet/stmicro/stmmac/dwmac-meson8b.o
+drivers/net/ethernet/stmicro/stmmac/dwmac-qcom-ethqos.o
 drivers/net/ethernet/stmicro/stmmac/dwmac-rk.o
+drivers/net/ethernet/stmicro/stmmac/dwmac-altr-socfpga.o
+drivers/net/ethernet/stmicro/stmmac/dwmac-sunxi.o
+drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.o
 drivers/net/ethernet/stmicro/stmmac/dwmac-generic.o
-drivers/net/ethernet/stmicro/stmmac/dwmac-loongson.o
+drivers/net/ethernet/stmicro/stmmac/dwmac-imx.o
+drivers/net/ethernet/stmicro/stmmac/dwmac-tegra.o
+drivers/net/ethernet/stmicro/stmmac/dwmac-visconti.o

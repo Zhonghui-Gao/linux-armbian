@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "mdio");
+MODULE_INFO(depends, "libcrc32c,mdio");
 
 MODULE_ALIAS("pci:v000014E4d0000164Esv*sd*bc*sc*i*");
 MODULE_ALIAS("pci:v000014E4d0000164Fsv*sd*bc*sc*i*");

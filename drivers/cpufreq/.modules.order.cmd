@@ -1,1 +1,1 @@
-savedcmd_drivers/cpufreq/modules.order := {   echo drivers/cpufreq/cpufreq-dt.o; :; } > drivers/cpufreq/modules.order
+savedcmd_drivers/cpufreq/modules.order := {   echo drivers/cpufreq/cpufreq_powersave.o;   echo drivers/cpufreq/cpufreq_conservative.o;   echo drivers/cpufreq/cppc_cpufreq.o;   echo drivers/cpufreq/imx-cpufreq-dt.o;   echo drivers/cpufreq/mediatek-cpufreq-hw.o;   echo drivers/cpufreq/raspberrypi-cpufreq.o;   echo drivers/cpufreq/sun50i-cpufreq-nvmem.o; :; } > drivers/cpufreq/modules.order

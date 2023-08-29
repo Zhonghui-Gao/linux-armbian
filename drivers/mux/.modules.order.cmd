@@ -1,1 +1,1 @@
-savedcmd_drivers/mux/modules.order := {   echo drivers/mux/mux-core.o;   echo drivers/mux/mux-adg792a.o;   echo drivers/mux/mux-adgs1408.o;   echo drivers/mux/mux-gpio.o;   echo drivers/mux/mux-mmio.o; :; } > drivers/mux/modules.order
+savedcmd_drivers/mux/modules.order := {  :; } > drivers/mux/modules.order

@@ -63,4 +63,6 @@ MODULE_ALIAS("of:N*T*Cgoodix,gt9286");
 MODULE_ALIAS("of:N*T*Cgoodix,gt9286C*");
 MODULE_ALIAS("of:N*T*Cgoodix,gt967");
 MODULE_ALIAS("of:N*T*Cgoodix,gt967C*");
+MODULE_ALIAS("acpi*:GDIX1001:*");
+MODULE_ALIAS("acpi*:GDIX1002:*");
 MODULE_ALIAS("i2c:GDIX1001:00");

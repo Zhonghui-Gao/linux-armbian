@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/marvell/mvpp2/built-in.a := rm -f drivers/net/ethernet/marvell/mvpp2/built-in.a;  printf "drivers/net/ethernet/marvell/mvpp2/%s " mvpp2_main.o mvpp2_prs.o mvpp2_cls.o mvpp2_debugfs.o | xargs aarch64-linux-gnu-ar cDPrST drivers/net/ethernet/marvell/mvpp2/built-in.a

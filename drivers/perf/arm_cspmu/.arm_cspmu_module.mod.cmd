@@ -1,0 +1,1 @@
+savedcmd_drivers/perf/arm_cspmu/arm_cspmu_module.mod := printf '%s\n'   arm_cspmu.o nvidia_cspmu.o | awk '!x[$$0]++ { print("drivers/perf/arm_cspmu/"$$0) }' > drivers/perf/arm_cspmu/arm_cspmu_module.mod

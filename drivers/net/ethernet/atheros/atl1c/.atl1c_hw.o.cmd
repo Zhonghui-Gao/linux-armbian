@@ -1,4 +1,4 @@
-savedcmd_drivers/net/ethernet/atheros/atl1c/atl1c_hw.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/net/ethernet/atheros/atl1c/.atl1c_hw.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144  -DMODULE  -DKBUILD_BASENAME='"atl1c_hw"' -DKBUILD_MODNAME='"atl1c"' -D__KBUILD_MODNAME=kmod_atl1c -c -o drivers/net/ethernet/atheros/atl1c/atl1c_hw.o drivers/net/ethernet/atheros/atl1c/atl1c_hw.c  
+savedcmd_drivers/net/ethernet/atheros/atl1c/atl1c_hw.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/net/ethernet/atheros/atl1c/.atl1c_hw.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -fno-var-tracking -femit-struct-debug-baseonly -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144  -DMODULE  -DKBUILD_BASENAME='"atl1c_hw"' -DKBUILD_MODNAME='"atl1c"' -D__KBUILD_MODNAME=kmod_atl1c -c -o drivers/net/ethernet/atheros/atl1c/atl1c_hw.o drivers/net/ethernet/atheros/atl1c/atl1c_hw.c  
 
 source_drivers/net/ethernet/atheros/atl1c/atl1c_hw.o := drivers/net/ethernet/atheros/atl1c/atl1c_hw.c
 
@@ -104,60 +104,49 @@ deps_drivers/net/ethernet/atheros/atl1c/atl1c_hw.o := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/fortify-string.h \
-    $(wildcard include/config/KMSAN) \
-  include/linux/bug.h \
-    $(wildcard include/config/GENERIC_BUG) \
-    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
-  arch/arm64/include/asm/bug.h \
-  include/linux/stringify.h \
-  arch/arm64/include/asm/asm-bug.h \
-    $(wildcard include/config/DEBUG_BUGVERBOSE) \
-  arch/arm64/include/asm/brk-imm.h \
-  include/asm-generic/bug.h \
-    $(wildcard include/config/BUG) \
-    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
-    $(wildcard include/config/SMP) \
-  include/linux/instrumentation.h \
-    $(wildcard include/config/NOINSTR_VALIDATION) \
-  include/linux/once_lite.h \
-  include/linux/panic.h \
-    $(wildcard include/config/PANIC_TIMEOUT) \
-  include/linux/printk.h \
-    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
-    $(wildcard include/config/EARLY_PRINTK) \
-    $(wildcard include/config/PRINTK) \
-    $(wildcard include/config/PRINTK_INDEX) \
-    $(wildcard include/config/DYNAMIC_DEBUG) \
-    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
   include/linux/init.h \
     $(wildcard include/config/STRICT_KERNEL_RWX) \
     $(wildcard include/config/STRICT_MODULE_RWX) \
   include/linux/build_bug.h \
-  include/linux/kern_levels.h \
-  include/linux/linkage.h \
-    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
-  include/linux/export.h \
-    $(wildcard include/config/MODVERSIONS) \
-    $(wildcard include/config/MODULES) \
-    $(wildcard include/config/TRIM_UNUSED_KSYMS) \
-  arch/arm64/include/asm/linkage.h \
-  include/linux/ratelimit_types.h \
+  include/linux/stringify.h \
+  include/linux/ioport.h \
+    $(wildcard include/config/MEMORY_HOTREMOVE) \
+    $(wildcard include/config/MEMORY_HOTPLUG) \
   include/linux/bits.h \
   include/linux/const.h \
   include/vdso/const.h \
   include/uapi/linux/const.h \
   include/vdso/bits.h \
-  include/uapi/linux/param.h \
-  arch/arm64/include/uapi/asm/param.h \
-  include/asm-generic/param.h \
-    $(wildcard include/config/HZ) \
-  include/uapi/asm-generic/param.h \
+  include/linux/minmax.h \
+  include/linux/list.h \
+    $(wildcard include/config/DEBUG_LIST) \
+  include/linux/container_of.h \
+  include/linux/poison.h \
+    $(wildcard include/config/ILLEGAL_POINTER_VALUE) \
+  arch/arm64/include/asm/barrier.h \
+    $(wildcard include/config/ARM64_PSEUDO_NMI) \
+  arch/arm64/include/asm/alternative-macros.h \
+  arch/arm64/include/generated/asm/cpucaps.h \
+  arch/arm64/include/asm/insn-def.h \
+  arch/arm64/include/asm/brk-imm.h \
+  include/asm-generic/barrier.h \
+    $(wildcard include/config/SMP) \
+  include/linux/kobject.h \
+    $(wildcard include/config/UEVENT_HELPER) \
+    $(wildcard include/config/DEBUG_KOBJECT_RELEASE) \
+  include/linux/sysfs.h \
+    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
+  include/linux/kernfs.h \
+    $(wildcard include/config/KERNFS) \
+  include/linux/err.h \
+  include/linux/mutex.h \
+    $(wildcard include/config/PREEMPT_RT) \
+    $(wildcard include/config/MUTEX_SPIN_ON_OWNER) \
+    $(wildcard include/config/DEBUG_MUTEXES) \
+  arch/arm64/include/asm/current.h \
+  include/linux/spinlock_types.h \
   include/linux/spinlock_types_raw.h \
     $(wildcard include/config/DEBUG_SPINLOCK) \
-    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
   arch/arm64/include/asm/spinlock_types.h \
   include/asm-generic/qspinlock_types.h \
     $(wildcard include/config/NR_CPUS) \
@@ -174,44 +163,6 @@ deps_drivers/net/ethernet/atheros/atl1c/atl1c_hw.o := \
     $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
     $(wildcard include/config/LOCKDEP) \
     $(wildcard include/config/LOCK_STAT) \
-  include/linux/dynamic_debug.h \
-    $(wildcard include/config/JUMP_LABEL) \
-  include/linux/jump_label.h \
-    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
-  arch/arm64/include/asm/jump_label.h \
-  arch/arm64/include/asm/insn.h \
-    $(wildcard include/config/ARM64_LSE_ATOMICS) \
-  arch/arm64/include/asm/insn-def.h \
-  include/linux/limits.h \
-  include/uapi/linux/limits.h \
-  include/vdso/limits.h \
-  include/linux/ioport.h \
-    $(wildcard include/config/MEMORY_HOTREMOVE) \
-    $(wildcard include/config/MEMORY_HOTPLUG) \
-  include/linux/minmax.h \
-  include/linux/list.h \
-    $(wildcard include/config/DEBUG_LIST) \
-  include/linux/container_of.h \
-  include/linux/poison.h \
-    $(wildcard include/config/ILLEGAL_POINTER_VALUE) \
-  arch/arm64/include/asm/barrier.h \
-    $(wildcard include/config/ARM64_PSEUDO_NMI) \
-  arch/arm64/include/asm/alternative-macros.h \
-  arch/arm64/include/generated/asm/cpucaps.h \
-  include/asm-generic/barrier.h \
-  include/linux/kobject.h \
-    $(wildcard include/config/UEVENT_HELPER) \
-    $(wildcard include/config/DEBUG_KOBJECT_RELEASE) \
-  include/linux/sysfs.h \
-  include/linux/kernfs.h \
-    $(wildcard include/config/KERNFS) \
-  include/linux/err.h \
-  include/linux/mutex.h \
-    $(wildcard include/config/PREEMPT_RT) \
-    $(wildcard include/config/MUTEX_SPIN_ON_OWNER) \
-    $(wildcard include/config/DEBUG_MUTEXES) \
-  arch/arm64/include/asm/current.h \
-  include/linux/spinlock_types.h \
   include/linux/rwlock_types.h \
   include/linux/lockdep.h \
     $(wildcard include/config/PROVE_LOCKING) \
@@ -236,6 +187,16 @@ deps_drivers/net/ethernet/atheros/atl1c/atl1c_hw.o := \
     $(wildcard include/config/TRACING) \
     $(wildcard include/config/FTRACE_MCOUNT_RECORD) \
   include/linux/align.h \
+  include/linux/limits.h \
+  include/uapi/linux/limits.h \
+  include/vdso/limits.h \
+  include/linux/linkage.h \
+    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
+  include/linux/export.h \
+    $(wildcard include/config/MODVERSIONS) \
+    $(wildcard include/config/MODULES) \
+    $(wildcard include/config/TRIM_UNUSED_KSYMS) \
+  arch/arm64/include/asm/linkage.h \
   include/linux/bitops.h \
   include/linux/typecheck.h \
   include/uapi/linux/kernel.h \
@@ -257,6 +218,7 @@ deps_drivers/net/ethernet/atheros/atl1c/atl1c_hw.o := \
   arch/arm64/include/asm/atomic.h \
   arch/arm64/include/asm/cmpxchg.h \
   arch/arm64/include/asm/lse.h \
+    $(wildcard include/config/ARM64_LSE_ATOMICS) \
   arch/arm64/include/asm/atomic_ll_sc.h \
     $(wildcard include/config/CC_HAS_K_CONSTRAINT) \
   arch/arm64/include/asm/alternative.h \
@@ -267,6 +229,7 @@ deps_drivers/net/ethernet/atheros/atl1c/atl1c_hw.o := \
   include/linux/atomic/atomic-instrumented.h \
   include/linux/instrumented.h \
   include/linux/kmsan-checks.h \
+    $(wildcard include/config/KMSAN) \
   include/asm-generic/bitops/instrumented-atomic.h \
   include/asm-generic/bitops/lock.h \
   include/asm-generic/bitops/instrumented-lock.h \
@@ -282,6 +245,25 @@ deps_drivers/net/ethernet/atheros/atl1c/atl1c_hw.o := \
   include/linux/math.h \
   arch/arm64/include/generated/asm/div64.h \
   include/asm-generic/div64.h \
+  include/linux/panic.h \
+    $(wildcard include/config/PANIC_TIMEOUT) \
+  include/linux/printk.h \
+    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
+    $(wildcard include/config/EARLY_PRINTK) \
+    $(wildcard include/config/PRINTK) \
+    $(wildcard include/config/PRINTK_INDEX) \
+    $(wildcard include/config/DYNAMIC_DEBUG) \
+    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
+  include/linux/kern_levels.h \
+  include/linux/ratelimit_types.h \
+  include/uapi/linux/param.h \
+  arch/arm64/include/uapi/asm/param.h \
+  include/asm-generic/param.h \
+    $(wildcard include/config/HZ) \
+  include/uapi/asm-generic/param.h \
+  include/linux/once_lite.h \
   include/linux/static_call_types.h \
     $(wildcard include/config/HAVE_STATIC_CALL) \
     $(wildcard include/config/HAVE_STATIC_CALL_INLINE) \
@@ -290,6 +272,17 @@ deps_drivers/net/ethernet/atheros/atl1c/atl1c_hw.o := \
     $(wildcard include/config/BASE_SMALL) \
   include/linux/bitmap.h \
   include/linux/find.h \
+  include/linux/bug.h \
+    $(wildcard include/config/GENERIC_BUG) \
+    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
+  arch/arm64/include/asm/bug.h \
+  arch/arm64/include/asm/asm-bug.h \
+    $(wildcard include/config/DEBUG_BUGVERBOSE) \
+  include/asm-generic/bug.h \
+    $(wildcard include/config/BUG) \
+    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
+  include/linux/instrumentation.h \
+    $(wildcard include/config/NOINSTR_VALIDATION) \
   include/linux/gfp_types.h \
     $(wildcard include/config/KASAN_HW_TAGS) \
   include/linux/numa.h \
@@ -308,6 +301,11 @@ deps_drivers/net/ethernet/atheros/atl1c/atl1c_hw.o := \
     $(wildcard include/config/PREEMPTION) \
     $(wildcard include/config/PREEMPT_NOTIFIERS) \
   arch/arm64/include/asm/preempt.h \
+  include/linux/jump_label.h \
+    $(wildcard include/config/JUMP_LABEL) \
+    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
+  arch/arm64/include/asm/jump_label.h \
+  arch/arm64/include/asm/insn.h \
   include/linux/thread_info.h \
     $(wildcard include/config/THREAD_INFO_IN_TASK) \
     $(wildcard include/config/GENERIC_ENTRY) \
@@ -575,11 +573,6 @@ deps_drivers/net/ethernet/atheros/atl1c/atl1c_hw.o := \
   include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
-  arch/arm64/include/asm/uprobes.h \
-  arch/arm64/include/asm/debug-monitors.h \
-  arch/arm64/include/asm/esr.h \
-  arch/arm64/include/asm/probes.h \
-    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -845,6 +838,7 @@ deps_drivers/net/ethernet/atheros/atl1c/atl1c_hw.o := \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/DEBUG_INFO_BTF_MODULES) \
     $(wildcard include/config/EVENT_TRACING) \
+    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/CONSTRUCTORS) \
     $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
@@ -984,6 +978,7 @@ deps_drivers/net/ethernet/atheros/atl1c/atl1c_hw.o := \
   include/linux/error-injection.h \
   include/asm-generic/error-injection.h \
   include/linux/tracepoint-defs.h \
+  include/linux/dynamic_debug.h \
   arch/arm64/include/asm/module.h \
     $(wildcard include/config/ARM64_MODULE_PLTS) \
     $(wildcard include/config/DYNAMIC_FTRACE) \
@@ -1013,6 +1008,7 @@ deps_drivers/net/ethernet/atheros/atl1c/atl1c_hw.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
+  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1251,6 +1247,7 @@ deps_drivers/net/ethernet/atheros/atl1c/atl1c_hw.o := \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
   arch/arm64/include/asm/kgdb.h \
+  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/highmem-internal.h \
@@ -1401,7 +1398,6 @@ deps_drivers/net/ethernet/atheros/atl1c/atl1c_hw.o := \
   include/uapi/linux/netfilter/nf_conntrack_tuple_common.h \
   include/linux/netfilter/nf_conntrack_sctp.h \
   include/uapi/linux/netfilter/nf_conntrack_sctp.h \
-  include/net/netns/flow_table.h \
   include/net/netns/nftables.h \
   include/net/netns/xfrm.h \
   include/uapi/linux/xfrm.h \
@@ -1418,8 +1414,6 @@ deps_drivers/net/ethernet/atheros/atl1c/atl1c_hw.o := \
   include/linux/seq_file.h \
   include/linux/string_helpers.h \
   include/linux/ctype.h \
-  include/net/dcbnl.h \
-  include/uapi/linux/dcbnl.h \
   include/net/netprio_cgroup.h \
   include/linux/cgroup.h \
     $(wildcard include/config/DEBUG_CGROUP_REF) \

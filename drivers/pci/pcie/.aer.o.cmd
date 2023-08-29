@@ -1,4 +1,4 @@
-savedcmd_drivers/pci/pcie/aer.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/pci/pcie/.aer.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"drivers/pci/pcie/aer"' -DKBUILD_BASENAME='"aer"' -DKBUILD_MODNAME='"aer"' -D__KBUILD_MODNAME=kmod_aer -c -o drivers/pci/pcie/aer.o drivers/pci/pcie/aer.c  
+savedcmd_drivers/pci/pcie/aer.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/pci/pcie/.aer.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -fno-var-tracking -femit-struct-debug-baseonly -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"drivers/pci/pcie/aer"' -DKBUILD_BASENAME='"aer"' -DKBUILD_MODNAME='"aer"' -D__KBUILD_MODNAME=kmod_aer -c -o drivers/pci/pcie/aer.o drivers/pci/pcie/aer.c  
 
 source_drivers/pci/pcie/aer.o := drivers/pci/pcie/aer.c
 
@@ -149,60 +149,6 @@ deps_drivers/pci/pcie/aer.o := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/fortify-string.h \
-  include/linux/bug.h \
-    $(wildcard include/config/GENERIC_BUG) \
-    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
-  arch/arm64/include/asm/bug.h \
-  arch/arm64/include/asm/asm-bug.h \
-    $(wildcard include/config/DEBUG_BUGVERBOSE) \
-  include/asm-generic/bug.h \
-    $(wildcard include/config/BUG) \
-    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
-  include/linux/instrumentation.h \
-    $(wildcard include/config/NOINSTR_VALIDATION) \
-  include/linux/once_lite.h \
-  include/linux/panic.h \
-    $(wildcard include/config/PANIC_TIMEOUT) \
-  include/linux/printk.h \
-    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
-    $(wildcard include/config/EARLY_PRINTK) \
-    $(wildcard include/config/PRINTK) \
-    $(wildcard include/config/PRINTK_INDEX) \
-    $(wildcard include/config/DYNAMIC_DEBUG) \
-    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
-  include/linux/kern_levels.h \
-  include/linux/linkage.h \
-    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
-  arch/arm64/include/asm/linkage.h \
-  include/linux/ratelimit_types.h \
-  include/uapi/linux/param.h \
-  arch/arm64/include/uapi/asm/param.h \
-  include/asm-generic/param.h \
-    $(wildcard include/config/HZ) \
-  include/uapi/asm-generic/param.h \
-  include/linux/spinlock_types_raw.h \
-    $(wildcard include/config/DEBUG_SPINLOCK) \
-    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
-  arch/arm64/include/asm/spinlock_types.h \
-  include/asm-generic/qspinlock_types.h \
-    $(wildcard include/config/NR_CPUS) \
-  include/asm-generic/qrwlock_types.h \
-  include/linux/lockdep_types.h \
-    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
-    $(wildcard include/config/LOCKDEP) \
-    $(wildcard include/config/LOCK_STAT) \
-  include/linux/dynamic_debug.h \
-    $(wildcard include/config/JUMP_LABEL) \
-  include/linux/jump_label.h \
-    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
-  arch/arm64/include/asm/jump_label.h \
-  arch/arm64/include/asm/insn.h \
-  include/linux/limits.h \
-  include/uapi/linux/limits.h \
-  include/vdso/limits.h \
   include/linux/trace_seq.h \
     $(wildcard include/config/TRACING) \
   include/linux/seq_buf.h \
@@ -224,14 +170,20 @@ deps_drivers/pci/pcie/aer.o := \
     $(wildcard include/config/QUOTA) \
     $(wildcard include/config/FS_DAX) \
     $(wildcard include/config/BLOCK) \
+    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
+  include/linux/linkage.h \
+    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
+  arch/arm64/include/asm/linkage.h \
   include/linux/wait_bit.h \
   include/linux/wait.h \
+    $(wildcard include/config/LOCKDEP) \
   include/linux/list.h \
     $(wildcard include/config/DEBUG_LIST) \
   include/linux/container_of.h \
   include/linux/poison.h \
     $(wildcard include/config/ILLEGAL_POINTER_VALUE) \
   include/linux/spinlock.h \
+    $(wildcard include/config/DEBUG_SPINLOCK) \
     $(wildcard include/config/PREEMPT_RT) \
   include/linux/preempt.h \
     $(wildcard include/config/PREEMPT_COUNT) \
@@ -240,11 +192,57 @@ deps_drivers/pci/pcie/aer.o := \
     $(wildcard include/config/PREEMPT_NOTIFIERS) \
   arch/arm64/include/asm/preempt.h \
     $(wildcard include/config/PREEMPT_DYNAMIC) \
+  include/linux/jump_label.h \
+    $(wildcard include/config/JUMP_LABEL) \
+    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
+  arch/arm64/include/asm/jump_label.h \
+  arch/arm64/include/asm/insn.h \
   include/linux/thread_info.h \
     $(wildcard include/config/THREAD_INFO_IN_TASK) \
     $(wildcard include/config/GENERIC_ENTRY) \
     $(wildcard include/config/HAVE_ARCH_WITHIN_STACK_FRAMES) \
     $(wildcard include/config/HARDENED_USERCOPY) \
+    $(wildcard include/config/BUG) \
+  include/linux/limits.h \
+  include/uapi/linux/limits.h \
+  include/vdso/limits.h \
+  include/linux/bug.h \
+    $(wildcard include/config/GENERIC_BUG) \
+    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
+  arch/arm64/include/asm/bug.h \
+  arch/arm64/include/asm/asm-bug.h \
+    $(wildcard include/config/DEBUG_BUGVERBOSE) \
+  include/asm-generic/bug.h \
+    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
+  include/linux/instrumentation.h \
+    $(wildcard include/config/NOINSTR_VALIDATION) \
+  include/linux/once_lite.h \
+  include/linux/panic.h \
+    $(wildcard include/config/PANIC_TIMEOUT) \
+  include/linux/printk.h \
+    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
+    $(wildcard include/config/EARLY_PRINTK) \
+    $(wildcard include/config/PRINTK) \
+    $(wildcard include/config/PRINTK_INDEX) \
+    $(wildcard include/config/DYNAMIC_DEBUG) \
+    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
+  include/linux/kern_levels.h \
+  include/linux/ratelimit_types.h \
+  include/uapi/linux/param.h \
+  arch/arm64/include/uapi/asm/param.h \
+  include/asm-generic/param.h \
+    $(wildcard include/config/HZ) \
+  include/uapi/asm-generic/param.h \
+  include/linux/spinlock_types_raw.h \
+  arch/arm64/include/asm/spinlock_types.h \
+  include/asm-generic/qspinlock_types.h \
+    $(wildcard include/config/NR_CPUS) \
+  include/asm-generic/qrwlock_types.h \
+  include/linux/lockdep_types.h \
+    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
+    $(wildcard include/config/LOCK_STAT) \
   include/linux/restart_block.h \
   include/linux/time64.h \
   include/linux/math64.h \
@@ -755,11 +753,6 @@ deps_drivers/pci/pcie/aer.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
-  arch/arm64/include/asm/uprobes.h \
-  arch/arm64/include/asm/debug-monitors.h \
-  arch/arm64/include/asm/esr.h \
-  arch/arm64/include/asm/probes.h \
-    $(wildcard include/config/KPROBES) \
   include/linux/percpu_counter.h \
   arch/arm64/include/asm/mmu.h \
   include/linux/page-flags.h \
@@ -965,6 +958,7 @@ deps_drivers/pci/pcie/aer.o := \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/DEBUG_INFO_BTF_MODULES) \
     $(wildcard include/config/EVENT_TRACING) \
+    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/CONSTRUCTORS) \
     $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
@@ -989,6 +983,7 @@ deps_drivers/pci/pcie/aer.o := \
   include/linux/error-injection.h \
   include/asm-generic/error-injection.h \
   include/linux/tracepoint-defs.h \
+  include/linux/dynamic_debug.h \
   arch/arm64/include/asm/module.h \
     $(wildcard include/config/ARM64_MODULE_PLTS) \
     $(wildcard include/config/DYNAMIC_FTRACE) \
@@ -1018,6 +1013,7 @@ deps_drivers/pci/pcie/aer.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
+  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1188,6 +1184,7 @@ deps_drivers/pci/pcie/aer.o := \
     $(wildcard include/config/ACPI_REDUCED_HARDWARE_ONLY) \
     $(wildcard include/config/ACPI_DEBUG) \
   include/linux/ctype.h \
+  arch/arm64/include/asm/acenv.h \
   include/acpi/acnames.h \
   include/acpi/actypes.h \
   include/acpi/acexcep.h \
@@ -1204,14 +1201,73 @@ deps_drivers/pci/pcie/aer.o := \
   include/acpi/acpixf.h \
   include/acpi/acconfig.h \
   include/acpi/acbuffer.h \
+  include/acpi/acpi_bus.h \
+    $(wildcard include/config/X86_ANDROID_TABLETS) \
+    $(wildcard include/config/ACPI_SYSTEM_POWER_STATES_SUPPORT) \
+    $(wildcard include/config/ACPI_SLEEP) \
+  include/acpi/acpi_drivers.h \
+    $(wildcard include/config/ACPI_DOCK) \
   include/acpi/acpi_numa.h \
     $(wildcard include/config/ACPI_HMAT) \
+  include/acpi/acpi_io.h \
+  arch/arm64/include/asm/acpi.h \
+    $(wildcard include/config/ACPI_APEI) \
+  include/linux/efi.h \
+    $(wildcard include/config/X86_64) \
+    $(wildcard include/config/X86_32) \
+    $(wildcard include/config/EFI_ESRT) \
+    $(wildcard include/config/EFI_PCDP) \
+    $(wildcard include/config/EFI_SOFT_RESERVE) \
+    $(wildcard include/config/EFI_CAPSULE_LOADER) \
+    $(wildcard include/config/EFI_EMBEDDED_FIRMWARE) \
+    $(wildcard include/config/LOAD_UEFI_KEYS) \
+    $(wildcard include/config/XEN_EFI) \
+  include/linux/proc_fs.h \
+    $(wildcard include/config/PROC_PID_ARCH_STATUS) \
+  include/linux/rtc.h \
+    $(wildcard include/config/RTC_INTF_DEV_UIE_EMUL) \
+    $(wildcard include/config/RTC_HCTOSYS_DEVICE) \
+    $(wildcard include/config/RTC_NVMEM) \
+    $(wildcard include/config/RTC_INTF_SYSFS) \
+  include/linux/nvmem-provider.h \
+    $(wildcard include/config/NVMEM) \
+  include/linux/gpio/consumer.h \
+    $(wildcard include/config/GPIO_SYSFS) \
+  include/uapi/linux/rtc.h \
+  include/linux/seq_file.h \
+  include/linux/string_helpers.h \
+  include/linux/cdev.h \
+  include/linux/poll.h \
+  include/uapi/linux/poll.h \
+  arch/arm64/include/generated/uapi/asm/poll.h \
+  include/uapi/asm-generic/poll.h \
+  include/uapi/linux/eventpoll.h \
+  include/linux/pstore.h \
+    $(wildcard include/config/ARM_THUMB) \
+    $(wildcard include/config/ARM) \
+  include/linux/kmsg_dump.h \
+  include/linux/reboot.h \
+  include/uapi/linux/reboot.h \
+  arch/arm64/include/generated/asm/emergency-restart.h \
+  include/asm-generic/emergency-restart.h \
+  include/linux/screen_info.h \
+  include/uapi/linux/screen_info.h \
+  include/linux/memblock.h \
+    $(wildcard include/config/ARCH_KEEP_MEMBLOCK) \
+    $(wildcard include/config/HAVE_MEMBLOCK_PHYS_MAP) \
+    $(wildcard include/config/MEMTEST) \
+  arch/arm64/include/generated/asm/dma.h \
+  include/asm-generic/dma.h \
+  include/linux/psci.h \
+    $(wildcard include/config/ARM_PSCI_FW) \
+  include/linux/arm-smccc.h \
+    $(wildcard include/config/HAVE_ARM_SMCCC) \
+  arch/arm64/include/asm/smp_plat.h \
   include/linux/delay.h \
   arch/arm64/include/generated/asm/delay.h \
   include/asm-generic/delay.h \
   include/linux/kfifo.h \
   include/acpi/apei.h \
-    $(wildcard include/config/ACPI_APEI) \
   arch/arm64/include/generated/uapi/asm/ioctls.h \
   include/uapi/asm-generic/ioctls.h \
   include/ras/ras_event.h \
@@ -1230,8 +1286,6 @@ deps_drivers/pci/pcie/aer.o := \
   include/linux/edac.h \
   include/linux/debugfs.h \
     $(wildcard include/config/DEBUG_FS) \
-  include/linux/seq_file.h \
-  include/linux/string_helpers.h \
   include/linux/aer.h \
   include/trace/define_trace.h \
   drivers/pci/pcie/../pci.h \

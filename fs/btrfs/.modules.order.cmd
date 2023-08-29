@@ -1,1 +1,1 @@
-savedcmd_fs/btrfs/modules.order := {  :; } > fs/btrfs/modules.order
+savedcmd_fs/btrfs/modules.order := {   echo fs/btrfs/btrfs.o; :; } > fs/btrfs/modules.order

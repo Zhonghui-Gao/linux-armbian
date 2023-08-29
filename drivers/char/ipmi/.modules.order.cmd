@@ -1,1 +1,1 @@
-savedcmd_drivers/char/ipmi/modules.order := {  :; } > drivers/char/ipmi/modules.order
+savedcmd_drivers/char/ipmi/modules.order := {   echo drivers/char/ipmi/ipmi_msghandler.o;   echo drivers/char/ipmi/ipmi_devintf.o;   echo drivers/char/ipmi/ipmi_si.o; :; } > drivers/char/ipmi/modules.order

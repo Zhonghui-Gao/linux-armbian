@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/renesas/rzg2l-cru/rzg2l-cru.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/platform/renesas/rzg2l-cru/rzg2l-cru.ko drivers/media/platform/renesas/rzg2l-cru/rzg2l-cru.o drivers/media/platform/renesas/rzg2l-cru/rzg2l-cru.mod.o;  true

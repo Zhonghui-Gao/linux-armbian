@@ -33,5 +33,5 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "nf_conntrack,nf_defrag_ipv6");
+MODULE_INFO(depends, "nf_conntrack");
 

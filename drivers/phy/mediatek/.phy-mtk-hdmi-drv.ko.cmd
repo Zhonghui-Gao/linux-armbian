@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/mediatek/phy-mtk-hdmi-drv.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/phy/mediatek/phy-mtk-hdmi-drv.ko drivers/phy/mediatek/phy-mtk-hdmi-drv.o drivers/phy/mediatek/phy-mtk-hdmi-drv.mod.o;  true

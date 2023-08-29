@@ -1,0 +1,3 @@
+drivers/char/ipmi/ipmi_msghandler.o
+drivers/char/ipmi/ipmi_devintf.o
+drivers/char/ipmi/ipmi_si.o

@@ -1,4 +1,4 @@
-savedcmd_kernel/time/alarmtimer.o := aarch64-linux-gnu-gcc -Wp,-MMD,kernel/time/.alarmtimer.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"kernel/time/alarmtimer"' -DKBUILD_BASENAME='"alarmtimer"' -DKBUILD_MODNAME='"alarmtimer"' -D__KBUILD_MODNAME=kmod_alarmtimer -c -o kernel/time/alarmtimer.o kernel/time/alarmtimer.c  
+savedcmd_kernel/time/alarmtimer.o := aarch64-linux-gnu-gcc -Wp,-MMD,kernel/time/.alarmtimer.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -fno-var-tracking -femit-struct-debug-baseonly -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"kernel/time/alarmtimer"' -DKBUILD_BASENAME='"alarmtimer"' -DKBUILD_MODNAME='"alarmtimer"' -D__KBUILD_MODNAME=kmod_alarmtimer -c -o kernel/time/alarmtimer.o kernel/time/alarmtimer.c  
 
 source_kernel/time/alarmtimer.o := kernel/time/alarmtimer.c
 
@@ -238,7 +238,6 @@ deps_kernel/time/alarmtimer.o := \
     $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
     $(wildcard include/config/LOCKDEP) \
     $(wildcard include/config/LOCK_STAT) \
-  include/linux/dynamic_debug.h \
   include/linux/kernel.h \
     $(wildcard include/config/PREEMPT_VOLUNTARY_BUILD) \
     $(wildcard include/config/PREEMPT_DYNAMIC) \
@@ -292,7 +291,6 @@ deps_kernel/time/alarmtimer.o := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/fortify-string.h \
   include/linux/gfp_types.h \
   include/linux/numa.h \
     $(wildcard include/config/NODES_SHIFT) \
@@ -744,10 +742,6 @@ deps_kernel/time/alarmtimer.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
-  arch/arm64/include/asm/uprobes.h \
-  arch/arm64/include/asm/debug-monitors.h \
-  arch/arm64/include/asm/probes.h \
-    $(wildcard include/config/KPROBES) \
   include/linux/percpu_counter.h \
   arch/arm64/include/asm/mmu.h \
   include/linux/page-flags.h \
@@ -899,6 +893,7 @@ deps_kernel/time/alarmtimer.o := \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/DEBUG_INFO_BTF_MODULES) \
     $(wildcard include/config/EVENT_TRACING) \
+    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/CONSTRUCTORS) \
     $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
@@ -1025,6 +1020,7 @@ deps_kernel/time/alarmtimer.o := \
   include/linux/error-injection.h \
   include/asm-generic/error-injection.h \
   include/linux/tracepoint-defs.h \
+  include/linux/dynamic_debug.h \
   arch/arm64/include/asm/module.h \
     $(wildcard include/config/ARM64_MODULE_PLTS) \
     $(wildcard include/config/DYNAMIC_FTRACE) \
@@ -1120,155 +1116,6 @@ deps_kernel/time/alarmtimer.o := \
     $(wildcard include/config/HMEM_REPORTING) \
   include/linux/cpuhotplug.h \
   include/trace/define_trace.h \
-  include/trace/trace_events.h \
-  include/linux/trace_events.h \
-    $(wildcard include/config/DYNAMIC_EVENTS) \
-    $(wildcard include/config/KPROBE_EVENTS) \
-    $(wildcard include/config/UPROBE_EVENTS) \
-  include/linux/ring_buffer.h \
-    $(wildcard include/config/RING_BUFFER_ALLOW_SWAP) \
-    $(wildcard include/config/RING_BUFFER) \
-  include/linux/mm.h \
-    $(wildcard include/config/HAVE_ARCH_MMAP_RND_BITS) \
-    $(wildcard include/config/HAVE_ARCH_MMAP_RND_COMPAT_BITS) \
-    $(wildcard include/config/MEM_SOFT_DIRTY) \
-    $(wildcard include/config/ARCH_USES_HIGH_VMA_FLAGS) \
-    $(wildcard include/config/ARCH_HAS_PKEYS) \
-    $(wildcard include/config/PPC) \
-    $(wildcard include/config/X86) \
-    $(wildcard include/config/PARISC) \
-    $(wildcard include/config/SPARC64) \
-    $(wildcard include/config/ARM64) \
-    $(wildcard include/config/HAVE_ARCH_USERFAULTFD_MINOR) \
-    $(wildcard include/config/SHMEM) \
-    $(wildcard include/config/MIGRATION) \
-    $(wildcard include/config/ARCH_HAS_PTE_SPECIAL) \
-    $(wildcard include/config/DEBUG_VM_RB) \
-    $(wildcard include/config/PAGE_POISONING) \
-    $(wildcard include/config/INIT_ON_ALLOC_DEFAULT_ON) \
-    $(wildcard include/config/INIT_ON_FREE_DEFAULT_ON) \
-    $(wildcard include/config/DEBUG_PAGEALLOC) \
-    $(wildcard include/config/ARCH_WANT_OPTIMIZE_VMEMMAP) \
-    $(wildcard include/config/HUGETLBFS) \
-    $(wildcard include/config/MAPPING_DIRTY_HELPERS) \
-  include/linux/mmap_lock.h \
-  include/linux/range.h \
-  include/linux/page_ext.h \
-  include/linux/stacktrace.h \
-    $(wildcard include/config/ARCH_STACKWALK) \
-    $(wildcard include/config/STACKTRACE) \
-    $(wildcard include/config/HAVE_RELIABLE_STACKTRACE) \
-  include/linux/stackdepot.h \
-    $(wildcard include/config/STACKDEPOT_ALWAYS_INIT) \
-    $(wildcard include/config/STACKDEPOT) \
-  include/linux/page_ref.h \
-    $(wildcard include/config/DEBUG_PAGE_REF) \
-  include/linux/memremap.h \
-    $(wildcard include/config/DEVICE_PRIVATE) \
-    $(wildcard include/config/PCI_P2PDMA) \
-  include/linux/huge_mm.h \
-  include/linux/sched/coredump.h \
-    $(wildcard include/config/CORE_DUMP_DEFAULT_ELF_HEADERS) \
-  include/linux/vmstat.h \
-    $(wildcard include/config/VM_EVENT_COUNTERS) \
-    $(wildcard include/config/DEBUG_TLBFLUSH) \
-    $(wildcard include/config/PER_VMA_LOCK_STATS) \
-  include/linux/vm_event_item.h \
-    $(wildcard include/config/MEMORY_BALLOON) \
-    $(wildcard include/config/BALLOON_COMPACTION) \
-    $(wildcard include/config/ZSWAP) \
-  include/linux/trace_seq.h \
-  include/linux/seq_buf.h \
-  include/linux/perf_event.h \
-    $(wildcard include/config/FUNCTION_TRACER) \
-    $(wildcard include/config/CGROUP_PERF) \
-    $(wildcard include/config/GUEST_PERF_EVENTS) \
-  include/uapi/linux/perf_event.h \
-  include/uapi/linux/bpf_perf_event.h \
-  arch/arm64/include/uapi/asm/bpf_perf_event.h \
-  arch/arm64/include/asm/perf_event.h \
-  arch/arm64/include/generated/asm/local64.h \
-  include/asm-generic/local64.h \
-  arch/arm64/include/generated/asm/local.h \
-  include/asm-generic/local.h \
-  include/linux/pid_namespace.h \
-    $(wildcard include/config/MEMFD_CREATE) \
-    $(wildcard include/config/PID_NS) \
-  include/linux/ftrace.h \
-    $(wildcard include/config/HAVE_DYNAMIC_FTRACE_WITH_ARGS) \
-    $(wildcard include/config/DYNAMIC_FTRACE_WITH_REGS) \
-    $(wildcard include/config/DYNAMIC_FTRACE_WITH_ARGS) \
-    $(wildcard include/config/DYNAMIC_FTRACE_WITH_DIRECT_CALLS) \
-    $(wildcard include/config/STACK_TRACER) \
-    $(wildcard include/config/DYNAMIC_FTRACE_WITH_CALL_OPS) \
-    $(wildcard include/config/FRAME_POINTER) \
-    $(wildcard include/config/FUNCTION_PROFILER) \
-    $(wildcard include/config/FTRACE_SYSCALLS) \
-  include/linux/trace_recursion.h \
-    $(wildcard include/config/FTRACE_RECORD_RECURSION) \
-  include/linux/trace_clock.h \
-  arch/arm64/include/generated/asm/trace_clock.h \
-  include/asm-generic/trace_clock.h \
-  include/linux/kallsyms.h \
-    $(wildcard include/config/KALLSYMS_ALL) \
-  include/linux/ptrace.h \
-  include/uapi/linux/ptrace.h \
-  arch/arm64/include/asm/ftrace.h \
-  include/linux/irq_work.h \
-    $(wildcard include/config/IRQ_WORK) \
-  arch/arm64/include/asm/irq_work.h \
-  include/linux/jump_label_ratelimit.h \
-  include/linux/perf_regs.h \
-    $(wildcard include/config/HAVE_PERF_REGS) \
-  arch/arm64/include/uapi/asm/perf_regs.h \
-  include/linux/cgroup.h \
-    $(wildcard include/config/DEBUG_CGROUP_REF) \
-    $(wildcard include/config/CGROUP_CPUACCT) \
-    $(wildcard include/config/SOCK_CGROUP_DATA) \
-    $(wildcard include/config/CGROUP_DATA) \
-    $(wildcard include/config/CGROUP_BPF) \
-  include/uapi/linux/cgroupstats.h \
-  include/uapi/linux/taskstats.h \
-  include/linux/user_namespace.h \
-    $(wildcard include/config/INOTIFY_USER) \
-    $(wildcard include/config/FANOTIFY) \
-    $(wildcard include/config/PERSISTENT_KEYRINGS) \
-  include/linux/kernel_stat.h \
-  include/linux/cgroup-defs.h \
-    $(wildcard include/config/CGROUP_NET_CLASSID) \
-    $(wildcard include/config/CGROUP_NET_PRIO) \
-  include/linux/u64_stats_sync.h \
-  include/linux/bpf-cgroup-defs.h \
-    $(wildcard include/config/BPF_LSM) \
-  include/linux/psi_types.h \
-  include/linux/kthread.h \
-  include/linux/cgroup_subsys.h \
-    $(wildcard include/config/CGROUP_DEVICE) \
-    $(wildcard include/config/CGROUP_HUGETLB) \
-    $(wildcard include/config/CGROUP_PIDS) \
-    $(wildcard include/config/CGROUP_RDMA) \
-    $(wildcard include/config/CGROUP_MISC) \
-    $(wildcard include/config/CGROUP_DEBUG) \
-  include/linux/cgroup_refcnt.h \
-  include/linux/security.h \
-    $(wildcard include/config/SECURITY_NETWORK) \
-    $(wildcard include/config/SECURITY_INFINIBAND) \
-    $(wildcard include/config/SECURITY_NETWORK_XFRM) \
-    $(wildcard include/config/SECURITY_PATH) \
-    $(wildcard include/config/SECURITYFS) \
-  include/linux/kernel_read_file.h \
-  include/linux/file.h \
-  include/linux/sockptr.h \
-  include/trace/stages/init.h \
-  include/trace/stages/stage1_struct_define.h \
-  include/trace/stages/stage2_data_offsets.h \
-  include/trace/stages/stage3_trace_output.h \
-  include/trace/stages/stage4_event_fields.h \
-  include/trace/stages/stage5_get_offsets.h \
-  include/trace/stages/stage6_event_callback.h \
-  include/trace/stages/stage7_class_define.h \
-  include/trace/perf.h \
-  include/trace/bpf_probe.h \
 
 kernel/time/alarmtimer.o: $(deps_kernel/time/alarmtimer.o)
 

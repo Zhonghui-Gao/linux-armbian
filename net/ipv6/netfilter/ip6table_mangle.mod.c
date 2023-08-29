@@ -33,5 +33,5 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "ip6_tables,x_tables");
+MODULE_INFO(depends, "ip6_tables,ipv6,x_tables");
 

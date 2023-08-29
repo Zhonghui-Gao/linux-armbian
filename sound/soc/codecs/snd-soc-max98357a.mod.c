@@ -33,8 +33,10 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "snd-soc-core");
+MODULE_INFO(depends, "");
 
+MODULE_ALIAS("acpi*:MX98357A:*");
+MODULE_ALIAS("acpi*:MX98360A:*");
 MODULE_ALIAS("of:N*T*Cmaxim,max98357a");
 MODULE_ALIAS("of:N*T*Cmaxim,max98357aC*");
 MODULE_ALIAS("of:N*T*Cmaxim,max98360a");

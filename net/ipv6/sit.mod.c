@@ -33,5 +33,5 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "tunnel4,ip_tunnel");
+MODULE_INFO(depends, "tunnel4,ipv6,ip_tunnel");
 

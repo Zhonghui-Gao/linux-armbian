@@ -1,0 +1,1 @@
+savedcmd_sound/isa/built-in.a := rm -f sound/isa/built-in.a;  printf "sound/isa/%s " ad1816a/built-in.a ad1848/built-in.a cs423x/built-in.a es1688/built-in.a galaxy/built-in.a gus/built-in.a msnd/built-in.a opti9xx/built-in.a sb/built-in.a wavefront/built-in.a wss/built-in.a | xargs aarch64-linux-gnu-ar cDPrST sound/isa/built-in.a

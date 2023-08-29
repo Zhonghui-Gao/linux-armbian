@@ -1,0 +1,1 @@
+savedcmd_drivers/cpufreq/sun50i-cpufreq-nvmem.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/cpufreq/sun50i-cpufreq-nvmem.ko drivers/cpufreq/sun50i-cpufreq-nvmem.o drivers/cpufreq/sun50i-cpufreq-nvmem.mod.o;  true

@@ -1,1 +1,49 @@
-!<arch>
+!<thin>
+//                                              384       `
+core.o/
+bbt.o/
+ecc.o/
+ecc-sw-hamming.o/
+raw/nand_base.o/
+raw/nand_legacy.o/
+raw/nand_bbt.o/
+raw/nand_timings.o/
+raw/nand_ids.o/
+raw/nand_onfi.o/
+raw/nand_jedec.o/
+raw/nand_amd.o/
+raw/nand_esmt.o/
+raw/nand_hynix.o/
+raw/nand_macronix.o/
+raw/nand_micron.o/
+raw/nand_samsung.o/
+raw/nand_toshiba.o/
+raw/denali.o/
+raw/denali_dt.o/
+raw/marvell_nand.o/
+raw/fsl_ifc_nand.o/
+raw/qcom_nandc.o/
+
+/0              0           0     0     644     44808     `
+/8              0           0     0     644     23568     `
+/15             0           0     0     644     62544     `
+/22             0           0     0     644     42576     `
+/40             0           0     0     644     292584    `
+/57             0           0     0     644     44760     `
+/76             0           0     0     644     63112     `
+/92             0           0     0     644     24304     `
+/112            0           0     0     644     26280     `
+/128            0           0     0     644     19808     `
+/145            0           0     0     644     13136     `
+/163            0           0     0     644     19416     `
+/179            0           0     0     644     20496     `
+/196            0           0     0     644     45400     `
+/214            0           0     0     644     37272     `
+/235            0           0     0     644     47584     `
+/254            0           0     0     644     22512     `
+/274            0           0     0     644     35208     `
+/294            0           0     0     644     136232    `
+/308            0           0     0     644     40216     `
+/325            0           0     0     644     194544    `
+/345            0           0     0     644     131320    `
+/365            0           0     0     644     171568    `

@@ -1,1 +1,5 @@
 drivers/usb/cdns3/cdns-usb-common.o
+drivers/usb/cdns3/cdns3.o
+drivers/usb/cdns3/cdns3-pci-wrap.o
+drivers/usb/cdns3/cdns3-ti.o
+drivers/usb/cdns3/cdns3-imx.o

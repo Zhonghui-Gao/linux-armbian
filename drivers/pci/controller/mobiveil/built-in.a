@@ -1,1 +1,9 @@
-!<arch>
+!<thin>
+//                                              64        `
+pcie-mobiveil.o/
+pcie-mobiveil-host.o/
+pcie-layerscape-gen4.o/
+
+/0              0           0     0     644     24352     `
+/17             0           0     0     644     69656     `
+/39             0           0     0     644     51696     `

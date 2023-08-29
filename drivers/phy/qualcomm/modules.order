@@ -1,0 +1,14 @@
+drivers/phy/qualcomm/phy-qcom-edp.o
+drivers/phy/qualcomm/phy-qcom-pcie2.o
+drivers/phy/qualcomm/phy-qcom-qmp-combo.o
+drivers/phy/qualcomm/phy-qcom-qmp-pcie.o
+drivers/phy/qualcomm/phy-qcom-qmp-pcie-msm8996.o
+drivers/phy/qualcomm/phy-qcom-qmp-ufs.o
+drivers/phy/qualcomm/phy-qcom-qmp-usb.o
+drivers/phy/qualcomm/phy-qcom-qusb2.o
+drivers/phy/qualcomm/phy-qcom-snps-eusb2.o
+drivers/phy/qualcomm/phy-qcom-eusb2-repeater.o
+drivers/phy/qualcomm/phy-qcom-usb-hs.o
+drivers/phy/qualcomm/phy-qcom-usb-hs-28nm.o
+drivers/phy/qualcomm/phy-qcom-usb-ss.o
+drivers/phy/qualcomm/phy-qcom-snps-femto-v2.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/clk/berlin/built-in.a := rm -f drivers/clk/berlin/built-in.a;  printf "drivers/clk/berlin/%s " berlin2-avpll.o berlin2-pll.o berlin2-div.o | xargs aarch64-linux-gnu-ar cDPrST drivers/clk/berlin/built-in.a

@@ -1,0 +1,1 @@
+savedcmd_drivers/rtc/rtc-mt6397.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-mt6397.ko drivers/rtc/rtc-mt6397.o drivers/rtc/rtc-mt6397.mod.o;  true

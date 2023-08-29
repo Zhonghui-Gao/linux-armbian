@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/v3d/v3d.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/v3d/v3d.ko drivers/gpu/drm/v3d/v3d.o drivers/gpu/drm/v3d/v3d.mod.o;  true

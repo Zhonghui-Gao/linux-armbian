@@ -1,4 +1,4 @@
-savedcmd_drivers/perf/arm_pmu.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/perf/.arm_pmu.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"drivers/perf/arm_pmu"' -DKBUILD_BASENAME='"arm_pmu"' -DKBUILD_MODNAME='"arm_pmu"' -D__KBUILD_MODNAME=kmod_arm_pmu -c -o drivers/perf/arm_pmu.o drivers/perf/arm_pmu.c  
+savedcmd_drivers/perf/arm_pmu.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/perf/.arm_pmu.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -fno-var-tracking -femit-struct-debug-baseonly -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"drivers/perf/arm_pmu"' -DKBUILD_BASENAME='"arm_pmu"' -DKBUILD_MODNAME='"arm_pmu"' -D__KBUILD_MODNAME=kmod_arm_pmu -c -o drivers/perf/arm_pmu.o drivers/perf/arm_pmu.c  
 
 source_drivers/perf/arm_pmu.o := drivers/perf/arm_pmu.c
 
@@ -152,19 +152,35 @@ deps_drivers/perf/arm_pmu.o := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/fortify-string.h \
-  include/linux/bug.h \
-    $(wildcard include/config/GENERIC_BUG) \
-    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
-  arch/arm64/include/asm/bug.h \
-  arch/arm64/include/asm/asm-bug.h \
-    $(wildcard include/config/DEBUG_BUGVERBOSE) \
-  include/asm-generic/bug.h \
-    $(wildcard include/config/BUG) \
-    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
-  include/linux/instrumentation.h \
-    $(wildcard include/config/NOINSTR_VALIDATION) \
-  include/linux/once_lite.h \
+  include/linux/cpumask.h \
+    $(wildcard include/config/FORCE_NR_CPUS) \
+    $(wildcard include/config/HOTPLUG_CPU) \
+    $(wildcard include/config/DEBUG_PER_CPU_MAPS) \
+    $(wildcard include/config/CPUMASK_OFFSTACK) \
+  include/linux/kernel.h \
+    $(wildcard include/config/PREEMPT_VOLUNTARY_BUILD) \
+    $(wildcard include/config/PREEMPT_DYNAMIC) \
+    $(wildcard include/config/HAVE_PREEMPT_DYNAMIC_CALL) \
+    $(wildcard include/config/HAVE_PREEMPT_DYNAMIC_KEY) \
+    $(wildcard include/config/PREEMPT_) \
+    $(wildcard include/config/DEBUG_ATOMIC_SLEEP) \
+    $(wildcard include/config/MMU) \
+    $(wildcard include/config/PROVE_LOCKING) \
+    $(wildcard include/config/TRACING) \
+    $(wildcard include/config/FTRACE_MCOUNT_RECORD) \
+  include/linux/linkage.h \
+    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
+  arch/arm64/include/asm/linkage.h \
+  include/linux/container_of.h \
+  include/linux/hex.h \
+  include/linux/kstrtox.h \
+  include/linux/log2.h \
+    $(wildcard include/config/ARCH_HAS_ILOG2_U32) \
+    $(wildcard include/config/ARCH_HAS_ILOG2_U64) \
+  include/linux/math.h \
+  arch/arm64/include/generated/asm/div64.h \
+  include/asm-generic/div64.h \
+  include/linux/minmax.h \
   include/linux/panic.h \
     $(wildcard include/config/PANIC_TIMEOUT) \
   include/linux/printk.h \
@@ -177,9 +193,6 @@ deps_drivers/perf/arm_pmu.o := \
     $(wildcard include/config/DYNAMIC_DEBUG) \
     $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
   include/linux/kern_levels.h \
-  include/linux/linkage.h \
-    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
-  arch/arm64/include/asm/linkage.h \
   include/linux/ratelimit_types.h \
   include/uapi/linux/param.h \
   arch/arm64/include/uapi/asm/param.h \
@@ -197,44 +210,24 @@ deps_drivers/perf/arm_pmu.o := \
     $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
     $(wildcard include/config/LOCKDEP) \
     $(wildcard include/config/LOCK_STAT) \
-  include/linux/dynamic_debug.h \
-    $(wildcard include/config/JUMP_LABEL) \
-  include/linux/jump_label.h \
-    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
-  arch/arm64/include/asm/jump_label.h \
-  arch/arm64/include/asm/insn.h \
-  include/linux/cpumask.h \
-    $(wildcard include/config/FORCE_NR_CPUS) \
-    $(wildcard include/config/HOTPLUG_CPU) \
-    $(wildcard include/config/DEBUG_PER_CPU_MAPS) \
-    $(wildcard include/config/CPUMASK_OFFSTACK) \
-  include/linux/kernel.h \
-    $(wildcard include/config/PREEMPT_VOLUNTARY_BUILD) \
-    $(wildcard include/config/PREEMPT_DYNAMIC) \
-    $(wildcard include/config/HAVE_PREEMPT_DYNAMIC_CALL) \
-    $(wildcard include/config/HAVE_PREEMPT_DYNAMIC_KEY) \
-    $(wildcard include/config/PREEMPT_) \
-    $(wildcard include/config/DEBUG_ATOMIC_SLEEP) \
-    $(wildcard include/config/MMU) \
-    $(wildcard include/config/PROVE_LOCKING) \
-    $(wildcard include/config/TRACING) \
-    $(wildcard include/config/FTRACE_MCOUNT_RECORD) \
-  include/linux/container_of.h \
-  include/linux/hex.h \
-  include/linux/kstrtox.h \
-  include/linux/log2.h \
-    $(wildcard include/config/ARCH_HAS_ILOG2_U32) \
-    $(wildcard include/config/ARCH_HAS_ILOG2_U64) \
-  include/linux/math.h \
-  arch/arm64/include/generated/asm/div64.h \
-  include/asm-generic/div64.h \
-  include/linux/minmax.h \
+  include/linux/once_lite.h \
   include/linux/static_call_types.h \
     $(wildcard include/config/HAVE_STATIC_CALL) \
     $(wildcard include/config/HAVE_STATIC_CALL_INLINE) \
   include/linux/instruction_pointer.h \
   include/linux/threads.h \
     $(wildcard include/config/BASE_SMALL) \
+  include/linux/bug.h \
+    $(wildcard include/config/GENERIC_BUG) \
+    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
+  arch/arm64/include/asm/bug.h \
+  arch/arm64/include/asm/asm-bug.h \
+    $(wildcard include/config/DEBUG_BUGVERBOSE) \
+  include/asm-generic/bug.h \
+    $(wildcard include/config/BUG) \
+    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
+  include/linux/instrumentation.h \
+    $(wildcard include/config/NOINSTR_VALIDATION) \
   include/linux/gfp_types.h \
     $(wildcard include/config/KASAN_HW_TAGS) \
   include/linux/numa.h \
@@ -273,6 +266,11 @@ deps_drivers/perf/arm_pmu.o := \
     $(wildcard include/config/PREEMPTION) \
     $(wildcard include/config/PREEMPT_NOTIFIERS) \
   arch/arm64/include/asm/preempt.h \
+  include/linux/jump_label.h \
+    $(wildcard include/config/JUMP_LABEL) \
+    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
+  arch/arm64/include/asm/jump_label.h \
+  arch/arm64/include/asm/insn.h \
   include/linux/thread_info.h \
     $(wildcard include/config/THREAD_INFO_IN_TASK) \
     $(wildcard include/config/GENERIC_ENTRY) \
@@ -754,10 +752,6 @@ deps_drivers/perf/arm_pmu.o := \
     $(wildcard include/config/MAPLE_RCU_DISABLED) \
     $(wildcard include/config/DEBUG_MAPLE_TREE) \
   include/linux/uprobes.h \
-  arch/arm64/include/asm/uprobes.h \
-  arch/arm64/include/asm/debug-monitors.h \
-  arch/arm64/include/asm/probes.h \
-    $(wildcard include/config/KPROBES) \
   include/linux/percpu_counter.h \
   arch/arm64/include/asm/mmu.h \
   include/linux/page-flags.h \
@@ -1079,6 +1073,7 @@ deps_drivers/perf/arm_pmu.o := \
     $(wildcard include/config/MODULE_SIG) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/DEBUG_INFO_BTF_MODULES) \
+    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/CONSTRUCTORS) \
     $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
@@ -1099,6 +1094,7 @@ deps_drivers/perf/arm_pmu.o := \
   include/linux/rbtree_latch.h \
   include/linux/error-injection.h \
   include/asm-generic/error-injection.h \
+  include/linux/dynamic_debug.h \
   arch/arm64/include/asm/module.h \
     $(wildcard include/config/ARM64_MODULE_PLTS) \
     $(wildcard include/config/ARM64_ERRATUM_843419) \

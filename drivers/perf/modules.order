@@ -1,1 +1,10 @@
 drivers/perf/arm-cci.o
+drivers/perf/arm-ccn.o
+drivers/perf/arm-cmn.o
+drivers/perf/arm_dsu_pmu.o
+drivers/perf/arm_smmuv3_pmu.o
+drivers/perf/fsl_imx8_ddr_perf.o
+drivers/perf/thunderx2_pmu.o
+drivers/perf/arm_spe_pmu.o
+drivers/perf/arm_dmc620_pmu.o
+drivers/perf/arm_cspmu/arm_cspmu_module.o

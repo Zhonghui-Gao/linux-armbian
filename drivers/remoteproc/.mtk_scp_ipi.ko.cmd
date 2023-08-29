@@ -1,0 +1,1 @@
+savedcmd_drivers/remoteproc/mtk_scp_ipi.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/remoteproc/mtk_scp_ipi.ko drivers/remoteproc/mtk_scp_ipi.o drivers/remoteproc/mtk_scp_ipi.mod.o;  true

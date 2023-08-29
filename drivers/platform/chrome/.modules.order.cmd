@@ -1,1 +1,1 @@
-savedcmd_drivers/platform/chrome/modules.order := {   echo drivers/platform/chrome/cros-ec-typec.o; :; } > drivers/platform/chrome/modules.order
+savedcmd_drivers/platform/chrome/modules.order := {   echo drivers/platform/chrome/cros_typec_switch.o;   echo drivers/platform/chrome/cros_ec_rpmsg.o;   echo drivers/platform/chrome/cros-ec-typec.o;   echo drivers/platform/chrome/cros_ec_chardev.o; :; } > drivers/platform/chrome/modules.order

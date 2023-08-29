@@ -1,1 +1,1 @@
-savedcmd_drivers/gpu/drm/arm/modules.order := {   cat drivers/gpu/drm/arm/display/modules.order; :; } > drivers/gpu/drm/arm/modules.order
+savedcmd_drivers/gpu/drm/arm/modules.order := {   echo drivers/gpu/drm/arm/hdlcd.o;   echo drivers/gpu/drm/arm/mali-dp.o;   cat drivers/gpu/drm/arm/display/modules.order; :; } > drivers/gpu/drm/arm/modules.order

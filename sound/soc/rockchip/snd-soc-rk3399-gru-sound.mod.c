@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "snd-pcm,snd-soc-core,snd");
+MODULE_INFO(depends, "");
 
 MODULE_ALIAS("of:N*T*Crockchip,rk3399-gru-sound");
 MODULE_ALIAS("of:N*T*Crockchip,rk3399-gru-soundC*");

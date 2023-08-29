@@ -1,6 +1,3 @@
 drivers/gnss/gnss.o
 drivers/gnss/gnss-serial.o
 drivers/gnss/gnss-mtk.o
-drivers/gnss/gnss-sirf.o
-drivers/gnss/gnss-ubx.o
-drivers/gnss/gnss-usb.o

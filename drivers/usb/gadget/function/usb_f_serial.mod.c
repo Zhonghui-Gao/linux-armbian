@@ -33,5 +33,5 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "u_serial,libcomposite");
+MODULE_INFO(depends, "libcomposite,u_serial");
 

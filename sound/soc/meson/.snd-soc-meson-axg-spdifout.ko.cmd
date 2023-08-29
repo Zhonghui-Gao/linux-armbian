@@ -1,0 +1,1 @@
+savedcmd_sound/soc/meson/snd-soc-meson-axg-spdifout.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/meson/snd-soc-meson-axg-spdifout.ko sound/soc/meson/snd-soc-meson-axg-spdifout.o sound/soc/meson/snd-soc-meson-axg-spdifout.mod.o;  true

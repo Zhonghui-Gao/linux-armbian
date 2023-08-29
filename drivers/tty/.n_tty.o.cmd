@@ -1,4 +1,4 @@
-savedcmd_drivers/tty/n_tty.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/tty/.n_tty.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"drivers/tty/n_tty"' -DKBUILD_BASENAME='"n_tty"' -DKBUILD_MODNAME='"n_tty"' -D__KBUILD_MODNAME=kmod_n_tty -c -o drivers/tty/n_tty.o drivers/tty/n_tty.c  
+savedcmd_drivers/tty/n_tty.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/tty/.n_tty.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -fno-var-tracking -femit-struct-debug-baseonly -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"drivers/tty/n_tty"' -DKBUILD_BASENAME='"n_tty"' -DKBUILD_MODNAME='"n_tty"' -D__KBUILD_MODNAME=kmod_n_tty -c -o drivers/tty/n_tty.o drivers/tty/n_tty.c  
 
 source_drivers/tty/n_tty.o := drivers/tty/n_tty.c
 
@@ -151,7 +151,76 @@ deps_drivers/tty/n_tty.o := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/fortify-string.h \
+  include/linux/ctype.h \
+  include/linux/fcntl.h \
+    $(wildcard include/config/ARCH_32BIT_OFF_T) \
+  include/linux/stat.h \
+  arch/arm64/include/asm/stat.h \
+    $(wildcard include/config/COMPAT) \
+  arch/arm64/include/generated/uapi/asm/stat.h \
+  include/uapi/asm-generic/stat.h \
+  include/linux/time.h \
+    $(wildcard include/config/POSIX_TIMERS) \
+  include/linux/cache.h \
+    $(wildcard include/config/ARCH_HAS_CACHE_LINE_SIZE) \
+  arch/arm64/include/asm/cache.h \
+    $(wildcard include/config/KASAN_HW_TAGS) \
+  include/linux/kasan-enabled.h \
+    $(wildcard include/config/KASAN) \
+  include/linux/static_key.h \
+  include/linux/jump_label.h \
+    $(wildcard include/config/JUMP_LABEL) \
+    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
+  arch/arm64/include/asm/jump_label.h \
+  arch/arm64/include/asm/insn.h \
+  arch/arm64/include/asm/cputype.h \
+  arch/arm64/include/asm/sysreg.h \
+    $(wildcard include/config/BROKEN_GAS_INST) \
+    $(wildcard include/config/ARM64_PA_BITS_52) \
+    $(wildcard include/config/ARM64_4K_PAGES) \
+    $(wildcard include/config/ARM64_16K_PAGES) \
+    $(wildcard include/config/ARM64_64K_PAGES) \
+  include/linux/kasan-tags.h \
+  arch/arm64/include/asm/gpr-num.h \
+  arch/arm64/include/generated/asm/sysreg-defs.h \
+  include/linux/bitfield.h \
+  arch/arm64/include/asm/mte-def.h \
+  include/linux/math64.h \
+    $(wildcard include/config/ARCH_SUPPORTS_INT128) \
+  include/linux/math.h \
+  arch/arm64/include/generated/asm/div64.h \
+  include/asm-generic/div64.h \
+  include/vdso/math64.h \
+  include/linux/time64.h \
+  include/vdso/time64.h \
+  include/uapi/linux/time.h \
+  include/uapi/linux/time_types.h \
+  include/linux/time32.h \
+  include/linux/timex.h \
+  include/uapi/linux/timex.h \
+  include/uapi/linux/param.h \
+  arch/arm64/include/uapi/asm/param.h \
+  include/asm-generic/param.h \
+    $(wildcard include/config/HZ) \
+  include/uapi/asm-generic/param.h \
+  arch/arm64/include/asm/timex.h \
+  arch/arm64/include/asm/arch_timer.h \
+    $(wildcard include/config/ARM_ARCH_TIMER_OOL_WORKAROUND) \
+  arch/arm64/include/asm/hwcap.h \
+  arch/arm64/include/uapi/asm/hwcap.h \
+  arch/arm64/include/asm/cpufeature.h \
+    $(wildcard include/config/ARM64_PAN) \
+    $(wildcard include/config/ARM64_SW_TTBR0_PAN) \
+    $(wildcard include/config/ARM64_SVE) \
+    $(wildcard include/config/ARM64_SME) \
+    $(wildcard include/config/ARM64_CNP) \
+    $(wildcard include/config/ARM64_MTE) \
+    $(wildcard include/config/ARM64_DEBUG_PRIORITY_MASKING) \
+    $(wildcard include/config/ARM64_BTI) \
+    $(wildcard include/config/ARM64_TLB_RANGE) \
+    $(wildcard include/config/ARM64_PA_BITS) \
+    $(wildcard include/config/ARM64_HW_AFDBM) \
+    $(wildcard include/config/ARM64_AMU_EXTN) \
   include/linux/bug.h \
     $(wildcard include/config/GENERIC_BUG) \
     $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
@@ -180,11 +249,6 @@ deps_drivers/tty/n_tty.o := \
     $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
   arch/arm64/include/asm/linkage.h \
   include/linux/ratelimit_types.h \
-  include/uapi/linux/param.h \
-  arch/arm64/include/uapi/asm/param.h \
-  include/asm-generic/param.h \
-    $(wildcard include/config/HZ) \
-  include/uapi/asm-generic/param.h \
   include/linux/spinlock_types_raw.h \
     $(wildcard include/config/DEBUG_SPINLOCK) \
     $(wildcard include/config/DEBUG_LOCK_ALLOC) \
@@ -196,72 +260,6 @@ deps_drivers/tty/n_tty.o := \
     $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
     $(wildcard include/config/LOCKDEP) \
     $(wildcard include/config/LOCK_STAT) \
-  include/linux/dynamic_debug.h \
-    $(wildcard include/config/JUMP_LABEL) \
-  include/linux/jump_label.h \
-    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
-  arch/arm64/include/asm/jump_label.h \
-  arch/arm64/include/asm/insn.h \
-  include/linux/ctype.h \
-  include/linux/fcntl.h \
-    $(wildcard include/config/ARCH_32BIT_OFF_T) \
-  include/linux/stat.h \
-  arch/arm64/include/asm/stat.h \
-    $(wildcard include/config/COMPAT) \
-  arch/arm64/include/generated/uapi/asm/stat.h \
-  include/uapi/asm-generic/stat.h \
-  include/linux/time.h \
-    $(wildcard include/config/POSIX_TIMERS) \
-  include/linux/cache.h \
-    $(wildcard include/config/ARCH_HAS_CACHE_LINE_SIZE) \
-  arch/arm64/include/asm/cache.h \
-    $(wildcard include/config/KASAN_HW_TAGS) \
-  include/linux/kasan-enabled.h \
-    $(wildcard include/config/KASAN) \
-  include/linux/static_key.h \
-  arch/arm64/include/asm/cputype.h \
-  arch/arm64/include/asm/sysreg.h \
-    $(wildcard include/config/BROKEN_GAS_INST) \
-    $(wildcard include/config/ARM64_PA_BITS_52) \
-    $(wildcard include/config/ARM64_4K_PAGES) \
-    $(wildcard include/config/ARM64_16K_PAGES) \
-    $(wildcard include/config/ARM64_64K_PAGES) \
-  include/linux/kasan-tags.h \
-  arch/arm64/include/asm/gpr-num.h \
-  arch/arm64/include/generated/asm/sysreg-defs.h \
-  include/linux/bitfield.h \
-  arch/arm64/include/asm/mte-def.h \
-  include/linux/math64.h \
-    $(wildcard include/config/ARCH_SUPPORTS_INT128) \
-  include/linux/math.h \
-  arch/arm64/include/generated/asm/div64.h \
-  include/asm-generic/div64.h \
-  include/vdso/math64.h \
-  include/linux/time64.h \
-  include/vdso/time64.h \
-  include/uapi/linux/time.h \
-  include/uapi/linux/time_types.h \
-  include/linux/time32.h \
-  include/linux/timex.h \
-  include/uapi/linux/timex.h \
-  arch/arm64/include/asm/timex.h \
-  arch/arm64/include/asm/arch_timer.h \
-    $(wildcard include/config/ARM_ARCH_TIMER_OOL_WORKAROUND) \
-  arch/arm64/include/asm/hwcap.h \
-  arch/arm64/include/uapi/asm/hwcap.h \
-  arch/arm64/include/asm/cpufeature.h \
-    $(wildcard include/config/ARM64_PAN) \
-    $(wildcard include/config/ARM64_SW_TTBR0_PAN) \
-    $(wildcard include/config/ARM64_SVE) \
-    $(wildcard include/config/ARM64_SME) \
-    $(wildcard include/config/ARM64_CNP) \
-    $(wildcard include/config/ARM64_MTE) \
-    $(wildcard include/config/ARM64_DEBUG_PRIORITY_MASKING) \
-    $(wildcard include/config/ARM64_BTI) \
-    $(wildcard include/config/ARM64_TLB_RANGE) \
-    $(wildcard include/config/ARM64_PA_BITS) \
-    $(wildcard include/config/ARM64_HW_AFDBM) \
-    $(wildcard include/config/ARM64_AMU_EXTN) \
   include/linux/kernel.h \
     $(wildcard include/config/PREEMPT_VOLUNTARY_BUILD) \
     $(wildcard include/config/PREEMPT_DYNAMIC) \
@@ -758,11 +756,6 @@ deps_drivers/tty/n_tty.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
-  arch/arm64/include/asm/uprobes.h \
-  arch/arm64/include/asm/debug-monitors.h \
-  arch/arm64/include/asm/esr.h \
-  arch/arm64/include/asm/probes.h \
-    $(wildcard include/config/KPROBES) \
   include/linux/percpu_counter.h \
   arch/arm64/include/asm/mmu.h \
   include/linux/page-flags.h \
@@ -957,6 +950,7 @@ deps_drivers/tty/n_tty.o := \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/DEBUG_INFO_BTF_MODULES) \
     $(wildcard include/config/EVENT_TRACING) \
+    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/CONSTRUCTORS) \
     $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
@@ -981,6 +975,7 @@ deps_drivers/tty/n_tty.o := \
   include/linux/error-injection.h \
   include/asm-generic/error-injection.h \
   include/linux/tracepoint-defs.h \
+  include/linux/dynamic_debug.h \
   arch/arm64/include/asm/module.h \
     $(wildcard include/config/ARM64_MODULE_PLTS) \
     $(wildcard include/config/DYNAMIC_FTRACE) \

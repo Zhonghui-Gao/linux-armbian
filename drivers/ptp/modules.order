@@ -1,5 +1,0 @@
-drivers/ptp/ptp_ines.o
-drivers/ptp/ptp_kvm.o
-drivers/ptp/ptp_clockmatrix.o
-drivers/ptp/ptp_idt82p33.o
-drivers/ptp/ptp_ocp.o

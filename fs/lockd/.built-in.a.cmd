@@ -1,0 +1,1 @@
+savedcmd_fs/lockd/built-in.a := rm -f fs/lockd/built-in.a;  printf "fs/lockd/%s " clntlock.o clntproc.o clntxdr.o host.o svc.o svclock.o svcshare.o svcproc.o svcsubs.o mon.o trace.o xdr.o clnt4xdr.o xdr4.o svc4proc.o procfs.o | xargs aarch64-linux-gnu-ar cDPrST fs/lockd/built-in.a

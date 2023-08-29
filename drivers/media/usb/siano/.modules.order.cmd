@@ -1,1 +1,1 @@
-savedcmd_drivers/media/usb/siano/modules.order := {   echo drivers/media/usb/siano/smsusb.o; :; } > drivers/media/usb/siano/modules.order
+savedcmd_drivers/media/usb/siano/modules.order := {  :; } > drivers/media/usb/siano/modules.order

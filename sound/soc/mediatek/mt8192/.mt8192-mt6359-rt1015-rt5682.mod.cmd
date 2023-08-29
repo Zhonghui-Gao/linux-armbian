@@ -1,0 +1,1 @@
+savedcmd_sound/soc/mediatek/mt8192/mt8192-mt6359-rt1015-rt5682.mod := printf '%s\n'   mt8192-mt6359-rt1015-rt5682.o | awk '!x[$$0]++ { print("sound/soc/mediatek/mt8192/"$$0) }' > sound/soc/mediatek/mt8192/mt8192-mt6359-rt1015-rt5682.mod

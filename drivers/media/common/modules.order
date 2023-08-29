@@ -1,14 +1,7 @@
-drivers/media/common/b2c2/b2c2-flexcop.o
-drivers/media/common/siano/smsmdtv.o
-drivers/media/common/siano/smsdvb.o
 drivers/media/common/videobuf2/videobuf2-common.o
 drivers/media/common/videobuf2/videobuf2-dma-contig.o
 drivers/media/common/videobuf2/videobuf2-dma-sg.o
 drivers/media/common/videobuf2/videobuf2-memops.o
 drivers/media/common/videobuf2/videobuf2-v4l2.o
 drivers/media/common/videobuf2/videobuf2-vmalloc.o
-drivers/media/common/cypress_firmware.o
-drivers/media/common/ttpci-eeprom.o
 drivers/media/common/uvc.o
-drivers/media/common/cx2341x.o
-drivers/media/common/tveeprom.o

@@ -1,1 +1,16 @@
-!<arch>
+!<thin>
+//                                              116       `
+davinci_mdio.o/
+am65-cpsw-nuss.o/
+cpsw_sl.o/
+am65-cpsw-ethtool.o/
+cpsw_ale.o/
+k3-cppi-desc-pool.o/
+am65-cpsw-qos.o/
+/0              0           0     0     644     84312     `
+/16             0           0     0     644     255800    `
+/34             0           0     0     644     34608     `
+/45             0           0     0     644     49232     `
+/66             0           0     0     644     77176     `
+/78             0           0     0     644     16904     `
+/99             0           0     0     644     54696     `

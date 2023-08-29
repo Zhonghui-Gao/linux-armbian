@@ -1,0 +1,9 @@
+!<thin>
+//                                              50        `
+kaslr_early.pi.o/
+lib-fdt.pi.o/
+lib-fdt_ro.pi.o/
+
+/0              0           0     0     644     9960      `
+/18             0           0     0     644     16688     `
+/32             0           0     0     644     37432     `

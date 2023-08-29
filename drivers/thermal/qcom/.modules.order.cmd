@@ -1,1 +1,1 @@
-savedcmd_drivers/thermal/qcom/modules.order := {  :; } > drivers/thermal/qcom/modules.order
+savedcmd_drivers/thermal/qcom/modules.order := {   echo drivers/thermal/qcom/qcom-spmi-adc-tm5.o;   echo drivers/thermal/qcom/qcom-spmi-temp-alarm.o;   echo drivers/thermal/qcom/lmh.o; :; } > drivers/thermal/qcom/modules.order

@@ -1,0 +1,6 @@
+sound/soc/mediatek/common/snd-soc-mtk-common.o
+sound/soc/mediatek/mt8183/snd-soc-mt8183-afe.o
+sound/soc/mediatek/mt8183/mt8183-mt6358-ts3a227-max98357.o
+sound/soc/mediatek/mt8183/mt8183-da7219-max98357.o
+sound/soc/mediatek/mt8192/snd-soc-mt8192-afe.o
+sound/soc/mediatek/mt8192/mt8192-mt6359-rt1015-rt5682.o

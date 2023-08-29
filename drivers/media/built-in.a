@@ -1,11 +1,1 @@
-!<thin>
-//                                              88        `
-cec/core/cec-core.o/
-cec/core/cec-adap.o/
-cec/core/cec-api.o/
-cec/core/cec-notifier.o/
-
-/0              0           0     0     644     18192     `
-/21             0           0     0     644     47464     `
-/42             0           0     0     644     13336     `
-/62             0           0     0     644     11608     `
+!<arch>

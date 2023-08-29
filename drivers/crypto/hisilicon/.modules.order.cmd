@@ -1,1 +1,1 @@
-savedcmd_drivers/crypto/hisilicon/modules.order := {   cat drivers/crypto/hisilicon/trng/modules.order;   cat drivers/crypto/hisilicon/sec/modules.order; :; } > drivers/crypto/hisilicon/modules.order
+savedcmd_drivers/crypto/hisilicon/modules.order := {   cat drivers/crypto/hisilicon/trng/modules.order;   cat drivers/crypto/hisilicon/hpre/modules.order;   cat drivers/crypto/hisilicon/sec2/modules.order;   echo drivers/crypto/hisilicon/hisi_qm.o;   cat drivers/crypto/hisilicon/zip/modules.order; :; } > drivers/crypto/hisilicon/modules.order

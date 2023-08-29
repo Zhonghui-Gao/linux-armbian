@@ -1,4 +1,4 @@
-savedcmd_drivers/usb/storage/initializers.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/usb/storage/.initializers.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144 -I ./drivers/scsi -DDEFAULT_SYMBOL_NAMESPACE=USB_STORAGE    -DKBUILD_MODFILE='"drivers/usb/storage/usb-storage"' -DKBUILD_BASENAME='"initializers"' -DKBUILD_MODNAME='"usb_storage"' -D__KBUILD_MODNAME=kmod_usb_storage -c -o drivers/usb/storage/initializers.o drivers/usb/storage/initializers.c  
+savedcmd_drivers/usb/storage/initializers.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/usb/storage/.initializers.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -fno-var-tracking -femit-struct-debug-baseonly -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144 -I ./drivers/scsi -DDEFAULT_SYMBOL_NAMESPACE=USB_STORAGE    -DKBUILD_MODFILE='"drivers/usb/storage/usb-storage"' -DKBUILD_BASENAME='"initializers"' -DKBUILD_MODNAME='"usb_storage"' -D__KBUILD_MODNAME=kmod_usb_storage -c -o drivers/usb/storage/initializers.o drivers/usb/storage/initializers.c  
 
 source_drivers/usb/storage/initializers.o := drivers/usb/storage/initializers.c
 
@@ -83,66 +83,9 @@ deps_drivers/usb/storage/initializers.o := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/fortify-string.h \
-    $(wildcard include/config/KMSAN) \
-  include/linux/bug.h \
-    $(wildcard include/config/GENERIC_BUG) \
-    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
-  arch/arm64/include/asm/bug.h \
-  include/linux/stringify.h \
-  arch/arm64/include/asm/asm-bug.h \
-    $(wildcard include/config/DEBUG_BUGVERBOSE) \
-  arch/arm64/include/asm/brk-imm.h \
-  include/asm-generic/bug.h \
-    $(wildcard include/config/BUG) \
-    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
-    $(wildcard include/config/SMP) \
-  include/linux/instrumentation.h \
-    $(wildcard include/config/NOINSTR_VALIDATION) \
-  include/linux/once_lite.h \
-  include/linux/panic.h \
-    $(wildcard include/config/PANIC_TIMEOUT) \
-  include/linux/printk.h \
-    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
-    $(wildcard include/config/EARLY_PRINTK) \
-    $(wildcard include/config/PRINTK) \
-    $(wildcard include/config/PRINTK_INDEX) \
-    $(wildcard include/config/DYNAMIC_DEBUG) \
-    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
-  include/linux/init.h \
-    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
-    $(wildcard include/config/STRICT_KERNEL_RWX) \
-    $(wildcard include/config/STRICT_MODULE_RWX) \
-    $(wildcard include/config/LTO_CLANG) \
-  include/linux/build_bug.h \
-  include/linux/kern_levels.h \
-  include/linux/linkage.h \
-    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
-  include/linux/export.h \
-    $(wildcard include/config/MODVERSIONS) \
-    $(wildcard include/config/MODULES) \
-    $(wildcard include/config/TRIM_UNUSED_KSYMS) \
-  arch/arm64/include/asm/linkage.h \
-  include/linux/ratelimit_types.h \
-  include/linux/bits.h \
-  include/linux/const.h \
-  include/vdso/const.h \
-  include/uapi/linux/const.h \
-  include/vdso/bits.h \
-  include/uapi/linux/param.h \
-  arch/arm64/include/uapi/asm/param.h \
-  include/asm-generic/param.h \
-    $(wildcard include/config/HZ) \
-  include/uapi/asm-generic/param.h \
-  include/linux/spinlock_types_raw.h \
-    $(wildcard include/config/DEBUG_SPINLOCK) \
-    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
-  arch/arm64/include/asm/spinlock_types.h \
-  include/asm-generic/qspinlock_types.h \
-    $(wildcard include/config/NR_CPUS) \
-  include/asm-generic/qrwlock_types.h \
+  include/linux/usb/ch9.h \
+    $(wildcard include/config/TRACING) \
+  include/uapi/linux/usb/ch9.h \
   arch/arm64/include/uapi/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/uapi/linux/byteorder/little_endian.h \
@@ -151,34 +94,21 @@ deps_drivers/usb/storage/initializers.o := \
   arch/arm64/include/generated/uapi/asm/swab.h \
   include/uapi/asm-generic/swab.h \
   include/linux/byteorder/generic.h \
-  include/linux/lockdep_types.h \
-    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
-    $(wildcard include/config/LOCKDEP) \
-    $(wildcard include/config/LOCK_STAT) \
-  include/linux/dynamic_debug.h \
-    $(wildcard include/config/JUMP_LABEL) \
-  include/linux/jump_label.h \
-    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
-  arch/arm64/include/asm/jump_label.h \
-  arch/arm64/include/asm/insn.h \
-    $(wildcard include/config/ARM64_LSE_ATOMICS) \
-  arch/arm64/include/asm/insn-def.h \
-  include/linux/limits.h \
-  include/uapi/linux/limits.h \
-  include/vdso/limits.h \
-  include/linux/usb/ch9.h \
-    $(wildcard include/config/TRACING) \
-  include/uapi/linux/usb/ch9.h \
   include/linux/delay.h \
   include/linux/math.h \
   arch/arm64/include/generated/asm/div64.h \
   include/asm-generic/div64.h \
   include/uapi/linux/kernel.h \
   include/uapi/linux/sysinfo.h \
+  include/linux/const.h \
+  include/vdso/const.h \
+  include/uapi/linux/const.h \
   include/linux/sched.h \
+    $(wildcard include/config/LOCKDEP) \
     $(wildcard include/config/DEBUG_ATOMIC_SLEEP) \
     $(wildcard include/config/PREEMPT_RT) \
     $(wildcard include/config/VIRT_CPU_ACCOUNTING_NATIVE) \
+    $(wildcard include/config/SMP) \
     $(wildcard include/config/SCHED_INFO) \
     $(wildcard include/config/SCHEDSTATS) \
     $(wildcard include/config/SCHED_CORE) \
@@ -236,6 +166,7 @@ deps_drivers/usb/storage/initializers.o := \
     $(wildcard include/config/SCHED_MM_CID) \
     $(wildcard include/config/FAULT_INJECTION) \
     $(wildcard include/config/LATENCYTOP) \
+    $(wildcard include/config/KMSAN) \
     $(wildcard include/config/KUNIT) \
     $(wildcard include/config/FUNCTION_GRAPH_TRACER) \
     $(wildcard include/config/UPROBES) \
@@ -269,12 +200,17 @@ deps_drivers/usb/storage/initializers.o := \
   include/linux/list.h \
     $(wildcard include/config/DEBUG_LIST) \
   include/linux/container_of.h \
+  include/linux/build_bug.h \
   include/linux/poison.h \
     $(wildcard include/config/ILLEGAL_POINTER_VALUE) \
   arch/arm64/include/asm/barrier.h \
     $(wildcard include/config/ARM64_PSEUDO_NMI) \
   arch/arm64/include/asm/alternative-macros.h \
+  include/vdso/bits.h \
   arch/arm64/include/generated/asm/cpucaps.h \
+  arch/arm64/include/asm/insn-def.h \
+  arch/arm64/include/asm/brk-imm.h \
+  include/linux/stringify.h \
   include/asm-generic/barrier.h \
   include/linux/rcupdate.h \
     $(wildcard include/config/TINY_RCU) \
@@ -290,14 +226,25 @@ deps_drivers/usb/storage/initializers.o := \
     $(wildcard include/config/DEBUG_OBJECTS_RCU_HEAD) \
     $(wildcard include/config/HOTPLUG_CPU) \
     $(wildcard include/config/PROVE_RCU) \
+    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
     $(wildcard include/config/ARCH_WEAK_RELEASE_ACQUIRE) \
   include/linux/atomic.h \
   arch/arm64/include/asm/atomic.h \
   arch/arm64/include/asm/cmpxchg.h \
   arch/arm64/include/asm/lse.h \
+    $(wildcard include/config/ARM64_LSE_ATOMICS) \
   arch/arm64/include/asm/atomic_ll_sc.h \
     $(wildcard include/config/CC_HAS_K_CONSTRAINT) \
+  include/linux/export.h \
+    $(wildcard include/config/MODVERSIONS) \
+    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
+    $(wildcard include/config/MODULES) \
+    $(wildcard include/config/TRIM_UNUSED_KSYMS) \
   arch/arm64/include/asm/alternative.h \
+  include/linux/init.h \
+    $(wildcard include/config/STRICT_KERNEL_RWX) \
+    $(wildcard include/config/STRICT_MODULE_RWX) \
+    $(wildcard include/config/LTO_CLANG) \
   arch/arm64/include/asm/atomic_lse.h \
   include/linux/atomic/atomic-arch-fallback.h \
     $(wildcard include/config/GENERIC_ATOMIC64) \
@@ -335,6 +282,7 @@ deps_drivers/usb/storage/initializers.o := \
     $(wildcard include/config/ARM64_16K_PAGES) \
     $(wildcard include/config/ARM64_64K_PAGES) \
     $(wildcard include/config/KASAN_HW_TAGS) \
+  include/linux/bits.h \
   include/linux/kasan-tags.h \
   arch/arm64/include/asm/gpr-num.h \
   arch/arm64/include/generated/asm/sysreg-defs.h \
@@ -365,11 +313,61 @@ deps_drivers/usb/storage/initializers.o := \
   include/asm-generic/bitops/non-instrumented-non-atomic.h \
   include/asm-generic/bitops/le.h \
   include/asm-generic/bitops/ext2-atomic-setbit.h \
+  include/linux/bug.h \
+    $(wildcard include/config/GENERIC_BUG) \
+    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
+  arch/arm64/include/asm/bug.h \
+  arch/arm64/include/asm/asm-bug.h \
+    $(wildcard include/config/DEBUG_BUGVERBOSE) \
+  include/asm-generic/bug.h \
+    $(wildcard include/config/BUG) \
+    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
+  include/linux/instrumentation.h \
+    $(wildcard include/config/NOINSTR_VALIDATION) \
+  include/linux/once_lite.h \
+  include/linux/panic.h \
+    $(wildcard include/config/PANIC_TIMEOUT) \
+  include/linux/printk.h \
+    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
+    $(wildcard include/config/EARLY_PRINTK) \
+    $(wildcard include/config/PRINTK) \
+    $(wildcard include/config/PRINTK_INDEX) \
+    $(wildcard include/config/DYNAMIC_DEBUG) \
+    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
+  include/linux/kern_levels.h \
+  include/linux/linkage.h \
+    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
+  arch/arm64/include/asm/linkage.h \
+  include/linux/ratelimit_types.h \
+  include/uapi/linux/param.h \
+  arch/arm64/include/uapi/asm/param.h \
+  include/asm-generic/param.h \
+    $(wildcard include/config/HZ) \
+  include/uapi/asm-generic/param.h \
+  include/linux/spinlock_types_raw.h \
+    $(wildcard include/config/DEBUG_SPINLOCK) \
+  arch/arm64/include/asm/spinlock_types.h \
+  include/asm-generic/qspinlock_types.h \
+    $(wildcard include/config/NR_CPUS) \
+  include/asm-generic/qrwlock_types.h \
+  include/linux/lockdep_types.h \
+    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
+    $(wildcard include/config/LOCK_STAT) \
+  include/linux/jump_label.h \
+    $(wildcard include/config/JUMP_LABEL) \
+    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
+  arch/arm64/include/asm/jump_label.h \
+  arch/arm64/include/asm/insn.h \
   include/linux/kernel.h \
     $(wildcard include/config/PREEMPT_VOLUNTARY_BUILD) \
     $(wildcard include/config/PREEMPT_) \
     $(wildcard include/config/FTRACE_MCOUNT_RECORD) \
   include/linux/align.h \
+  include/linux/limits.h \
+  include/uapi/linux/limits.h \
+  include/vdso/limits.h \
   include/linux/hex.h \
   include/linux/kstrtox.h \
   include/linux/minmax.h \
@@ -754,10 +752,6 @@ deps_drivers/usb/storage/initializers.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
-  arch/arm64/include/asm/uprobes.h \
-  arch/arm64/include/asm/debug-monitors.h \
-  arch/arm64/include/asm/probes.h \
-    $(wildcard include/config/KPROBES) \
   include/linux/percpu_counter.h \
   arch/arm64/include/asm/mmu.h \
   include/linux/page-flags.h \
@@ -933,6 +927,7 @@ deps_drivers/usb/storage/initializers.o := \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/DEBUG_INFO_BTF_MODULES) \
     $(wildcard include/config/EVENT_TRACING) \
+    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/CONSTRUCTORS) \
     $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
@@ -1057,6 +1052,7 @@ deps_drivers/usb/storage/initializers.o := \
   include/linux/error-injection.h \
   include/asm-generic/error-injection.h \
   include/linux/tracepoint-defs.h \
+  include/linux/dynamic_debug.h \
   arch/arm64/include/asm/module.h \
     $(wildcard include/config/ARM64_MODULE_PLTS) \
     $(wildcard include/config/DYNAMIC_FTRACE) \
@@ -1196,6 +1192,7 @@ deps_drivers/usb/storage/initializers.o := \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
   arch/arm64/include/asm/kgdb.h \
+  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \

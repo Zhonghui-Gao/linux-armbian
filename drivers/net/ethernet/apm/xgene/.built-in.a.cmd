@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/apm/xgene/built-in.a := rm -f drivers/net/ethernet/apm/xgene/built-in.a;  printf "drivers/net/ethernet/apm/xgene/%s " xgene_enet_hw.o xgene_enet_sgmac.o xgene_enet_xgmac.o xgene_enet_main.o xgene_enet_ring2.o xgene_enet_ethtool.o xgene_enet_cle.o | xargs aarch64-linux-gnu-ar cDPrST drivers/net/ethernet/apm/xgene/built-in.a

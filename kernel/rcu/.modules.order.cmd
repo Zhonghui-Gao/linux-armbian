@@ -1,1 +1,1 @@
-savedcmd_kernel/rcu/modules.order := {   echo kernel/rcu/rcutorture.o; :; } > kernel/rcu/modules.order
+savedcmd_kernel/rcu/modules.order := {  :; } > kernel/rcu/modules.order

@@ -1,0 +1,1 @@
+savedcmd_sound/soc/sunxi/sun8i-codec.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/sunxi/sun8i-codec.ko sound/soc/sunxi/sun8i-codec.o sound/soc/sunxi/sun8i-codec.mod.o;  true

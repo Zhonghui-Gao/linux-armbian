@@ -1874,7 +1874,7 @@ static int rk_gmac_remove(struct platform_device *pdev)
 	return 0;
 }
 
-static int rk_gmac_shutdown(struct platform_device *pdev)
+static void rk_gmac_shutdown(struct platform_device *pdev)
 {
 	stmmac_shutdown(&pdev->dev);
 }

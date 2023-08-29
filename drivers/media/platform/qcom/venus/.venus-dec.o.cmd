@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/qcom/venus/venus-dec.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/media/platform/qcom/venus/venus-dec.o @drivers/media/platform/qcom/venus/venus-dec.mod 

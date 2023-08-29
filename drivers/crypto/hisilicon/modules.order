@@ -1,1 +1,5 @@
-drivers/crypto/hisilicon/sec/hisi_sec.o
+drivers/crypto/hisilicon/trng/hisi-trng-v2.o
+drivers/crypto/hisilicon/hpre/hisi_hpre.o
+drivers/crypto/hisilicon/sec2/hisi_sec2.o
+drivers/crypto/hisilicon/hisi_qm.o
+drivers/crypto/hisilicon/zip/hisi_zip.o

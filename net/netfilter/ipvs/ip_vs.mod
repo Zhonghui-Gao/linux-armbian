@@ -8,8 +8,3 @@ net/netfilter/ipvs/ip_vs_sync.o
 net/netfilter/ipvs/ip_vs_est.o
 net/netfilter/ipvs/ip_vs_proto.o
 net/netfilter/ipvs/ip_vs_pe.o
-net/netfilter/ipvs/ip_vs_proto_tcp.o
-net/netfilter/ipvs/ip_vs_proto_udp.o
-net/netfilter/ipvs/ip_vs_proto_ah_esp.o
-net/netfilter/ipvs/ip_vs_proto_sctp.o
-net/netfilter/ipvs/ip_vs_nfct.o

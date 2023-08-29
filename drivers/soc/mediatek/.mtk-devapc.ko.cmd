@@ -1,0 +1,1 @@
+savedcmd_drivers/soc/mediatek/mtk-devapc.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/soc/mediatek/mtk-devapc.ko drivers/soc/mediatek/mtk-devapc.o drivers/soc/mediatek/mtk-devapc.mod.o;  true

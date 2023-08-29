@@ -204,12 +204,6 @@ deps_arch/arm64/kvm/hyp-constants.s := \
     $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
     $(wildcard include/config/LOCKDEP) \
     $(wildcard include/config/LOCK_STAT) \
-  include/linux/dynamic_debug.h \
-    $(wildcard include/config/JUMP_LABEL) \
-  include/linux/jump_label.h \
-    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
-  arch/arm64/include/asm/jump_label.h \
-  arch/arm64/include/asm/insn.h \
   arch/arm64/include/asm/boot.h \
   include/asm-generic/memory_model.h \
     $(wildcard include/config/FLATMEM) \
@@ -254,6 +248,11 @@ deps_arch/arm64/kvm/hyp-constants.s := \
     $(wildcard include/config/ARM64_AMU_EXTN) \
   arch/arm64/include/asm/hwcap.h \
   arch/arm64/include/uapi/asm/hwcap.h \
+  include/linux/jump_label.h \
+    $(wildcard include/config/JUMP_LABEL) \
+    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
+  arch/arm64/include/asm/jump_label.h \
+  arch/arm64/include/asm/insn.h \
   include/linux/kernel.h \
     $(wildcard include/config/PREEMPT_VOLUNTARY_BUILD) \
     $(wildcard include/config/PREEMPT_DYNAMIC) \
@@ -345,7 +344,6 @@ deps_arch/arm64/kvm/hyp-constants.s := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/fortify-string.h \
   include/linux/gfp_types.h \
   include/linux/numa.h \
     $(wildcard include/config/NODES_SHIFT) \
@@ -528,11 +526,6 @@ deps_arch/arm64/kvm/hyp-constants.s := \
   include/uapi/linux/wait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
-  arch/arm64/include/asm/uprobes.h \
-  arch/arm64/include/asm/debug-monitors.h \
-  arch/arm64/include/asm/esr.h \
-  arch/arm64/include/asm/probes.h \
-    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/workqueue.h \
@@ -733,6 +726,7 @@ deps_arch/arm64/kvm/hyp-constants.s := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
+    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/KPROBES_SANITY_TEST) \
     $(wildcard include/config/OPTPROBES) \
@@ -782,6 +776,7 @@ deps_arch/arm64/kvm/hyp-constants.s := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
+  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1093,6 +1088,7 @@ deps_arch/arm64/kvm/hyp-constants.s := \
   include/linux/rbtree_latch.h \
   include/linux/error-injection.h \
   include/asm-generic/error-injection.h \
+  include/linux/dynamic_debug.h \
   arch/arm64/include/asm/module.h \
     $(wildcard include/config/ARM64_MODULE_PLTS) \
     $(wildcard include/config/ARM64_ERRATUM_843419) \
@@ -1133,6 +1129,7 @@ deps_arch/arm64/kvm/hyp-constants.s := \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
   arch/arm64/include/asm/kgdb.h \
+  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/asm-generic/pgalloc.h \
   arch/arm64/include/asm/mmu_context.h \

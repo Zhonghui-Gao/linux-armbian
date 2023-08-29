@@ -1,4 +1,4 @@
-savedcmd_kernel/dma/mapping.o := aarch64-linux-gnu-gcc -Wp,-MMD,kernel/dma/.mapping.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"kernel/dma/mapping"' -DKBUILD_BASENAME='"mapping"' -DKBUILD_MODNAME='"mapping"' -D__KBUILD_MODNAME=kmod_mapping -c -o kernel/dma/mapping.o kernel/dma/mapping.c  
+savedcmd_kernel/dma/mapping.o := aarch64-linux-gnu-gcc -Wp,-MMD,kernel/dma/.mapping.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -fno-var-tracking -femit-struct-debug-baseonly -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"kernel/dma/mapping"' -DKBUILD_BASENAME='"mapping"' -DKBUILD_MODNAME='"mapping"' -D__KBUILD_MODNAME=kmod_mapping -c -o kernel/dma/mapping.o kernel/dma/mapping.c  
 
 source_kernel/dma/mapping.o := kernel/dma/mapping.c
 
@@ -200,14 +200,6 @@ deps_kernel/dma/mapping.o := \
     $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
     $(wildcard include/config/LOCKDEP) \
     $(wildcard include/config/LOCK_STAT) \
-  include/linux/dynamic_debug.h \
-    $(wildcard include/config/JUMP_LABEL) \
-  include/linux/jump_label.h \
-    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
-  arch/arm64/include/asm/jump_label.h \
-  arch/arm64/include/asm/insn.h \
-    $(wildcard include/config/ARM64_LSE_ATOMICS) \
-  arch/arm64/include/asm/insn-def.h \
   include/linux/gfp.h \
     $(wildcard include/config/ZONE_DMA) \
     $(wildcard include/config/ZONE_DMA32) \
@@ -246,9 +238,16 @@ deps_kernel/dma/mapping.o := \
     $(wildcard include/config/ARM64_PSEUDO_NMI) \
   arch/arm64/include/asm/alternative-macros.h \
   arch/arm64/include/generated/asm/cpucaps.h \
+  arch/arm64/include/asm/insn-def.h \
   include/asm-generic/barrier.h \
   arch/arm64/include/asm/preempt.h \
     $(wildcard include/config/PREEMPT_DYNAMIC) \
+  include/linux/jump_label.h \
+    $(wildcard include/config/JUMP_LABEL) \
+    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
+  arch/arm64/include/asm/jump_label.h \
+  arch/arm64/include/asm/insn.h \
+    $(wildcard include/config/ARM64_LSE_ATOMICS) \
   include/linux/thread_info.h \
     $(wildcard include/config/THREAD_INFO_IN_TASK) \
     $(wildcard include/config/GENERIC_ENTRY) \
@@ -404,7 +403,6 @@ deps_kernel/dma/mapping.o := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/fortify-string.h \
   include/linux/numa.h \
     $(wildcard include/config/NODES_SHIFT) \
     $(wildcard include/config/NUMA_KEEP_MEMINFO) \
@@ -573,11 +571,6 @@ deps_kernel/dma/mapping.o := \
   include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
-  arch/arm64/include/asm/uprobes.h \
-  arch/arm64/include/asm/debug-monitors.h \
-  arch/arm64/include/asm/esr.h \
-  arch/arm64/include/asm/probes.h \
-    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1046,6 +1039,7 @@ deps_kernel/dma/mapping.o := \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/DEBUG_INFO_BTF_MODULES) \
     $(wildcard include/config/EVENT_TRACING) \
+    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/CONSTRUCTORS) \
     $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
@@ -1068,6 +1062,7 @@ deps_kernel/dma/mapping.o := \
   include/linux/rbtree_latch.h \
   include/linux/error-injection.h \
   include/asm-generic/error-injection.h \
+  include/linux/dynamic_debug.h \
   arch/arm64/include/asm/module.h \
     $(wildcard include/config/ARM64_MODULE_PLTS) \
     $(wildcard include/config/DYNAMIC_FTRACE) \
@@ -1090,6 +1085,7 @@ deps_kernel/dma/mapping.o := \
     $(wildcard include/config/ACPI_REDUCED_HARDWARE_ONLY) \
     $(wildcard include/config/ACPI_DEBUG) \
   include/linux/ctype.h \
+  arch/arm64/include/asm/acenv.h \
   include/acpi/acnames.h \
   include/acpi/actypes.h \
   include/acpi/acexcep.h \
@@ -1106,8 +1102,121 @@ deps_kernel/dma/mapping.o := \
   include/acpi/acpixf.h \
   include/acpi/acconfig.h \
   include/acpi/acbuffer.h \
+  include/acpi/acpi_bus.h \
+    $(wildcard include/config/X86_ANDROID_TABLETS) \
+    $(wildcard include/config/ACPI_SYSTEM_POWER_STATES_SUPPORT) \
+    $(wildcard include/config/ACPI_SLEEP) \
+  include/acpi/acpi_drivers.h \
+    $(wildcard include/config/ACPI_DOCK) \
   include/acpi/acpi_numa.h \
     $(wildcard include/config/ACPI_HMAT) \
+  include/acpi/acpi_io.h \
+  include/linux/io.h \
+    $(wildcard include/config/HAS_IOPORT_MAP) \
+  arch/arm64/include/asm/io.h \
+  arch/arm64/include/generated/asm/early_ioremap.h \
+  include/asm-generic/early_ioremap.h \
+    $(wildcard include/config/GENERIC_EARLY_IOREMAP) \
+  include/asm-generic/io.h \
+    $(wildcard include/config/GENERIC_IOMAP) \
+    $(wildcard include/config/TRACE_MMIO_ACCESS) \
+    $(wildcard include/config/GENERIC_IOREMAP) \
+  include/asm-generic/pci_iomap.h \
+    $(wildcard include/config/NO_GENERIC_PCI_IOPORT_MAP) \
+    $(wildcard include/config/GENERIC_PCI_IOMAP) \
+  include/linux/logic_pio.h \
+    $(wildcard include/config/INDIRECT_PIO) \
+  include/linux/vmalloc.h \
+    $(wildcard include/config/HAVE_ARCH_HUGE_VMALLOC) \
+  arch/arm64/include/asm/vmalloc.h \
+    $(wildcard include/config/PTDUMP_DEBUGFS) \
+  arch/arm64/include/asm/acpi.h \
+    $(wildcard include/config/ACPI_APEI) \
+  include/linux/efi.h \
+    $(wildcard include/config/X86_64) \
+    $(wildcard include/config/X86_32) \
+    $(wildcard include/config/EFI_ESRT) \
+    $(wildcard include/config/EFI_PCDP) \
+    $(wildcard include/config/EFI_SOFT_RESERVE) \
+    $(wildcard include/config/EFI_CAPSULE_LOADER) \
+    $(wildcard include/config/EFI_EMBEDDED_FIRMWARE) \
+    $(wildcard include/config/LOAD_UEFI_KEYS) \
+    $(wildcard include/config/XEN_EFI) \
+  include/linux/proc_fs.h \
+    $(wildcard include/config/PROC_PID_ARCH_STATUS) \
+  include/linux/rtc.h \
+    $(wildcard include/config/RTC_INTF_DEV_UIE_EMUL) \
+    $(wildcard include/config/RTC_HCTOSYS_DEVICE) \
+    $(wildcard include/config/RTC_NVMEM) \
+    $(wildcard include/config/RTC_INTF_SYSFS) \
+  include/linux/interrupt.h \
+    $(wildcard include/config/IRQ_FORCED_THREADING) \
+    $(wildcard include/config/GENERIC_IRQ_PROBE) \
+    $(wildcard include/config/IRQ_TIMINGS) \
+  include/linux/irqreturn.h \
+  include/linux/hardirq.h \
+  include/linux/context_tracking_state.h \
+    $(wildcard include/config/CONTEXT_TRACKING_USER) \
+    $(wildcard include/config/CONTEXT_TRACKING) \
+  include/linux/ftrace_irq.h \
+    $(wildcard include/config/HWLAT_TRACER) \
+    $(wildcard include/config/OSNOISE_TRACER) \
+  include/linux/vtime.h \
+    $(wildcard include/config/VIRT_CPU_ACCOUNTING) \
+    $(wildcard include/config/IRQ_TIME_ACCOUNTING) \
+  arch/arm64/include/asm/hardirq.h \
+  arch/arm64/include/asm/irq.h \
+  include/asm-generic/irq.h \
+  arch/arm64/include/asm/kvm_arm.h \
+  arch/arm64/include/asm/esr.h \
+  include/asm-generic/hardirq.h \
+  include/linux/irq.h \
+    $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
+    $(wildcard include/config/GENERIC_IRQ_IPI) \
+    $(wildcard include/config/IRQ_DOMAIN_HIERARCHY) \
+    $(wildcard include/config/DEPRECATED_IRQ_CPU_ONOFFLINE) \
+    $(wildcard include/config/GENERIC_IRQ_MIGRATION) \
+    $(wildcard include/config/GENERIC_PENDING_IRQ) \
+    $(wildcard include/config/HARDIRQS_SW_RESEND) \
+    $(wildcard include/config/GENERIC_IRQ_LEGACY) \
+    $(wildcard include/config/GENERIC_IRQ_MULTI_HANDLER) \
+  include/linux/irqhandler.h \
+  arch/arm64/include/generated/asm/irq_regs.h \
+  include/asm-generic/irq_regs.h \
+  include/linux/irqdesc.h \
+    $(wildcard include/config/GENERIC_IRQ_DEBUGFS) \
+    $(wildcard include/config/SPARSE_IRQ) \
+    $(wildcard include/config/IRQ_DOMAIN) \
+  arch/arm64/include/generated/asm/hw_irq.h \
+  include/asm-generic/hw_irq.h \
+  include/linux/nvmem-provider.h \
+    $(wildcard include/config/NVMEM) \
+  include/linux/gpio/consumer.h \
+    $(wildcard include/config/GPIO_SYSFS) \
+  include/uapi/linux/rtc.h \
+  include/linux/seq_file.h \
+  include/linux/string_helpers.h \
+  include/linux/cdev.h \
+  include/linux/poll.h \
+  include/uapi/linux/poll.h \
+  arch/arm64/include/generated/uapi/asm/poll.h \
+  include/uapi/asm-generic/poll.h \
+  include/uapi/linux/eventpoll.h \
+  include/linux/pstore.h \
+    $(wildcard include/config/ARM_THUMB) \
+    $(wildcard include/config/ARM) \
+  include/linux/kmsg_dump.h \
+  include/linux/reboot.h \
+  include/uapi/linux/reboot.h \
+  arch/arm64/include/generated/asm/emergency-restart.h \
+  include/asm-generic/emergency-restart.h \
+  include/linux/screen_info.h \
+  include/uapi/linux/screen_info.h \
+  include/linux/psci.h \
+    $(wildcard include/config/ARM_PSCI_FW) \
+  include/linux/arm-smccc.h \
+    $(wildcard include/config/HAVE_ARM_SMCCC) \
+  arch/arm64/include/asm/smp_plat.h \
   include/linux/dma-map-ops.h \
     $(wildcard include/config/DMA_PERNUMA_CMA) \
     $(wildcard include/config/DMA_GLOBAL_POOL) \
@@ -1128,24 +1237,6 @@ deps_kernel/dma/mapping.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  arch/arm64/include/asm/io.h \
-  arch/arm64/include/generated/asm/early_ioremap.h \
-  include/asm-generic/early_ioremap.h \
-    $(wildcard include/config/GENERIC_EARLY_IOREMAP) \
-  include/asm-generic/io.h \
-    $(wildcard include/config/GENERIC_IOMAP) \
-    $(wildcard include/config/TRACE_MMIO_ACCESS) \
-    $(wildcard include/config/GENERIC_IOREMAP) \
-    $(wildcard include/config/HAS_IOPORT_MAP) \
-  include/asm-generic/pci_iomap.h \
-    $(wildcard include/config/NO_GENERIC_PCI_IOPORT_MAP) \
-    $(wildcard include/config/GENERIC_PCI_IOMAP) \
-  include/linux/logic_pio.h \
-    $(wildcard include/config/INDIRECT_PIO) \
-  include/linux/vmalloc.h \
-    $(wildcard include/config/HAVE_ARCH_HUGE_VMALLOC) \
-  arch/arm64/include/asm/vmalloc.h \
-    $(wildcard include/config/PTDUMP_DEBUGFS) \
   include/linux/mem_encrypt.h \
     $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
   arch/arm64/include/generated/asm/dma-mapping.h \

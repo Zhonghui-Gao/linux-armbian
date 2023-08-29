@@ -1,0 +1,1 @@
+savedcmd_drivers/cpufreq/raspberrypi-cpufreq.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/cpufreq/raspberrypi-cpufreq.ko drivers/cpufreq/raspberrypi-cpufreq.o drivers/cpufreq/raspberrypi-cpufreq.mod.o;  true

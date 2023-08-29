@@ -1,1 +1,1 @@
-savedcmd_drivers/net/wireless/atmel/modules.order := {   echo drivers/net/wireless/atmel/atmel.o;   echo drivers/net/wireless/atmel/atmel_pci.o;   echo drivers/net/wireless/atmel/at76c50x-usb.o; :; } > drivers/net/wireless/atmel/modules.order
+savedcmd_drivers/net/wireless/atmel/modules.order := {  :; } > drivers/net/wireless/atmel/modules.order

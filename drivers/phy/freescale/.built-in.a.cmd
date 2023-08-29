@@ -1,1 +1,1 @@
-savedcmd_drivers/phy/freescale/built-in.a := rm -f drivers/phy/freescale/built-in.a;  aarch64-linux-gnu-ar cDPrST drivers/phy/freescale/built-in.a
+savedcmd_drivers/phy/freescale/built-in.a := rm -f drivers/phy/freescale/built-in.a;  printf "drivers/phy/freescale/%s " phy-fsl-imx8mq-usb.o phy-fsl-imx8m-pcie.o | xargs aarch64-linux-gnu-ar cDPrST drivers/phy/freescale/built-in.a

@@ -1,0 +1,1 @@
+savedcmd_sound/soc/sh/snd-soc-rz-ssi.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/sh/snd-soc-rz-ssi.ko sound/soc/sh/snd-soc-rz-ssi.o sound/soc/sh/snd-soc-rz-ssi.mod.o;  true

@@ -1,1 +1,1 @@
-savedcmd_drivers/thermal/broadcom/modules.order := {  :; } > drivers/thermal/broadcom/modules.order
+savedcmd_drivers/thermal/broadcom/modules.order := {   echo drivers/thermal/broadcom/bcm2711_thermal.o;   echo drivers/thermal/broadcom/bcm2835_thermal.o;   echo drivers/thermal/broadcom/brcmstb_thermal.o; :; } > drivers/thermal/broadcom/modules.order

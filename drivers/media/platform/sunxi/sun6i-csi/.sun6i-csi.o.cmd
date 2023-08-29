@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/sunxi/sun6i-csi/sun6i-csi.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/media/platform/sunxi/sun6i-csi/sun6i-csi.o @drivers/media/platform/sunxi/sun6i-csi/sun6i-csi.mod 

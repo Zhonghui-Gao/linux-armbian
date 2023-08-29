@@ -1,8 +1,3 @@
 drivers/net/wireless/ti/wlcore/wlcore.o
-drivers/net/wireless/ti/wlcore/wlcore_spi.o
 drivers/net/wireless/ti/wlcore/wlcore_sdio.o
-drivers/net/wireless/ti/wl12xx/wl12xx.o
-drivers/net/wireless/ti/wl1251/wl1251.o
-drivers/net/wireless/ti/wl1251/wl1251_spi.o
-drivers/net/wireless/ti/wl1251/wl1251_sdio.o
 drivers/net/wireless/ti/wl18xx/wl18xx.o

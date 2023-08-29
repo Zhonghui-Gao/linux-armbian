@@ -1,1 +1,1 @@
-savedcmd_sound/virtio/modules.order := {   echo sound/virtio/virtio_snd.o; :; } > sound/virtio/modules.order
+savedcmd_sound/virtio/modules.order := {  :; } > sound/virtio/modules.order

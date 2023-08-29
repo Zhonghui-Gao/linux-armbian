@@ -1,1 +1,1 @@
-savedcmd_drivers/iio/dac/modules.order := {   echo drivers/iio/dac/ad3552r.o;   echo drivers/iio/dac/ad5758.o;   echo drivers/iio/dac/ad5766.o;   echo drivers/iio/dac/ad5770r.o;   echo drivers/iio/dac/ad5686.o;   echo drivers/iio/dac/ad5686-spi.o;   echo drivers/iio/dac/ad5696-i2c.o;   echo drivers/iio/dac/ad7293.o;   echo drivers/iio/dac/ltc1660.o;   echo drivers/iio/dac/ti-dac5571.o;   echo drivers/iio/dac/ti-dac7311.o;   echo drivers/iio/dac/ti-dac7612.o; :; } > drivers/iio/dac/modules.order
+savedcmd_drivers/iio/dac/modules.order := {  :; } > drivers/iio/dac/modules.order

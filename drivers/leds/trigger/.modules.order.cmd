@@ -1,1 +1,1 @@
-savedcmd_drivers/leds/trigger/modules.order := {   echo drivers/leds/trigger/ledtrig-oneshot.o;   echo drivers/leds/trigger/ledtrig-backlight.o;   echo drivers/leds/trigger/ledtrig-transient.o;   echo drivers/leds/trigger/ledtrig-camera.o;   echo drivers/leds/trigger/ledtrig-netdev.o;   echo drivers/leds/trigger/ledtrig-pattern.o;   echo drivers/leds/trigger/ledtrig-audio.o;   echo drivers/leds/trigger/ledtrig-tty.o; :; } > drivers/leds/trigger/modules.order
+savedcmd_drivers/leds/trigger/modules.order := {  :; } > drivers/leds/trigger/modules.order

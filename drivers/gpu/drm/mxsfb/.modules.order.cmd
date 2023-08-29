@@ -1,1 +1,1 @@
-savedcmd_drivers/gpu/drm/mxsfb/modules.order := {  :; } > drivers/gpu/drm/mxsfb/modules.order
+savedcmd_drivers/gpu/drm/mxsfb/modules.order := {   echo drivers/gpu/drm/mxsfb/mxsfb.o; :; } > drivers/gpu/drm/mxsfb/modules.order

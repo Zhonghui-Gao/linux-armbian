@@ -1,0 +1,1 @@
+savedcmd_drivers/crypto/qce/qcrypto.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/crypto/qce/qcrypto.ko drivers/crypto/qce/qcrypto.o drivers/crypto/qce/qcrypto.mod.o;  true

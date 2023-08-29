@@ -1,0 +1,1 @@
+savedcmd_drivers/pinctrl/qcom/pinctrl-sc8280xp-lpass-lpi.mod := printf '%s\n'   pinctrl-sc8280xp-lpass-lpi.o | awk '!x[$$0]++ { print("drivers/pinctrl/qcom/"$$0) }' > drivers/pinctrl/qcom/pinctrl-sc8280xp-lpass-lpi.mod

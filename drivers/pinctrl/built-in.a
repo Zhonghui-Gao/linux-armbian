@@ -1,5 +1,5 @@
 !<thin>
-//                                              172       `
+//                                              3502      `
 core.o/
 pinctrl-utils.o/
 pinmux.o/
@@ -7,18 +7,274 @@ pinconf.o/
 pinconf-generic.o/
 devicetree.o/
 pinctrl-max77620.o/
-pinctrl-rk805.o/
 pinctrl-rockchip.o/
 pinctrl-single.o/
-pinctrl-sx150x.o/
-/0              0           0     0     644     72912     `
-/8              0           0     0     644     6744      `
-/25             0           0     0     644     24168     `
-/35             0           0     0     644     10784     `
-/46             0           0     0     644     15672     `
-/65             0           0     0     644     9800      `
-/79             0           0     0     644     14056     `
-/99             0           0     0     644     12096     `
-/116            0           0     0     644     127496    `
-/136            0           0     0     644     33752     `
-/154            0           0     0     644     21016     `
+pinctrl-zynqmp.o/
+actions/pinctrl-owl.o/
+actions/pinctrl-s700.o/
+actions/pinctrl-s900.o/
+bcm/pinctrl-bcm2835.o/
+bcm/pinctrl-bcm4908.o/
+bcm/pinctrl-iproc-gpio.o/
+bcm/pinctrl-ns2-mux.o/
+freescale/pinctrl-imx.o/
+freescale/pinctrl-scu.o/
+freescale/pinctrl-imx8mm.o/
+freescale/pinctrl-imx8mn.o/
+freescale/pinctrl-imx8mp.o/
+freescale/pinctrl-imx8mq.o/
+freescale/pinctrl-imx8qm.o/
+freescale/pinctrl-imx8qxp.o/
+freescale/pinctrl-imx8dxl.o/
+freescale/pinctrl-imx8ulp.o/
+freescale/pinctrl-imx93.o/
+mediatek/mtk-eint.o/
+mediatek/pinctrl-mtk-common.o/
+mediatek/pinctrl-mtk-common-v2.o/
+mediatek/pinctrl-moore.o/
+mediatek/pinctrl-paris.o/
+mediatek/pinctrl-mt2712.o/
+mediatek/pinctrl-mt6765.o/
+mediatek/pinctrl-mt6779.o/
+mediatek/pinctrl-mt6795.o/
+mediatek/pinctrl-mt6797.o/
+mediatek/pinctrl-mt7622.o/
+mediatek/pinctrl-mt7981.o/
+mediatek/pinctrl-mt7986.o/
+mediatek/pinctrl-mt8167.o/
+mediatek/pinctrl-mt8173.o/
+mediatek/pinctrl-mt8183.o/
+mediatek/pinctrl-mt8186.o/
+mediatek/pinctrl-mt8188.o/
+mediatek/pinctrl-mt8192.o/
+mediatek/pinctrl-mt8195.o/
+mediatek/pinctrl-mt8365.o/
+mediatek/pinctrl-mt8516.o/
+mediatek/pinctrl-mt6397.o/
+meson/pinctrl-meson.o/
+meson/pinctrl-meson8-pmx.o/
+meson/pinctrl-meson-gxbb.o/
+meson/pinctrl-meson-gxl.o/
+meson/pinctrl-meson-axg-pmx.o/
+meson/pinctrl-meson-axg.o/
+meson/pinctrl-meson-g12a.o/
+meson/pinctrl-meson-a1.o/
+meson/pinctrl-meson-s4.o/
+mvebu/pinctrl-mvebu.o/
+mvebu/pinctrl-armada-ap806.o/
+mvebu/pinctrl-armada-cp110.o/
+mvebu/pinctrl-armada-37xx.o/
+mvebu/pinctrl-ac5.o/
+qcom/pinctrl-msm.o/
+qcom/pinctrl-ipq5332.o/
+qcom/pinctrl-ipq8074.o/
+qcom/pinctrl-ipq6018.o/
+qcom/pinctrl-ipq9574.o/
+qcom/pinctrl-msm8916.o/
+qcom/pinctrl-msm8953.o/
+qcom/pinctrl-msm8976.o/
+qcom/pinctrl-msm8994.o/
+qcom/pinctrl-msm8996.o/
+qcom/pinctrl-msm8998.o/
+qcom/pinctrl-qcm2290.o/
+qcom/pinctrl-qcs404.o/
+qcom/pinctrl-qdf2xxx.o/
+qcom/pinctrl-spmi-gpio.o/
+qcom/pinctrl-spmi-mpp.o/
+qcom/pinctrl-qdu1000.o/
+qcom/pinctrl-sa8775p.o/
+qcom/pinctrl-sc7180.o/
+qcom/pinctrl-sc7280.o/
+qcom/pinctrl-sc8180x.o/
+qcom/pinctrl-sc8280xp.o/
+qcom/pinctrl-sdm660.o/
+qcom/pinctrl-sdm670.o/
+qcom/pinctrl-sdm845.o/
+qcom/pinctrl-sm6115.o/
+qcom/pinctrl-sm6125.o/
+qcom/pinctrl-sm6350.o/
+qcom/pinctrl-sm6375.o/
+qcom/pinctrl-sm8150.o/
+qcom/pinctrl-sm8250.o/
+qcom/pinctrl-sm8350.o/
+qcom/pinctrl-sm8450.o/
+qcom/pinctrl-sm8550.o/
+renesas/core.o/
+renesas/pinctrl.o/
+renesas/pfc-r8a7796.o/
+renesas/pfc-r8a77965.o/
+renesas/pfc-r8a77990.o/
+renesas/pfc-r8a77951.o/
+renesas/pfc-r8a77970.o/
+renesas/pfc-r8a77980.o/
+renesas/pfc-r8a77995.o/
+renesas/pfc-r8a779a0.o/
+renesas/pfc-r8a779f0.o/
+renesas/pfc-r8a779g0.o/
+renesas/pinctrl-rzg2l.o/
+renesas/pinctrl-rzv2m.o/
+samsung/pinctrl-samsung.o/
+samsung/pinctrl-exynos.o/
+samsung/pinctrl-exynos-arm64.o/
+sunxi/pinctrl-sunxi.o/
+sunxi/pinctrl-sun50i-a64.o/
+sunxi/pinctrl-sun50i-a64-r.o/
+sunxi/pinctrl-sun50i-a100.o/
+sunxi/pinctrl-sun50i-a100-r.o/
+sunxi/pinctrl-sun8i-h3-r.o/
+sunxi/pinctrl-sun50i-h5.o/
+sunxi/pinctrl-sun50i-h6.o/
+sunxi/pinctrl-sun50i-h6-r.o/
+sunxi/pinctrl-sun50i-h616.o/
+sunxi/pinctrl-sun50i-h616-r.o/
+tegra/pinctrl-tegra.o/
+tegra/pinctrl-tegra124.o/
+tegra/pinctrl-tegra210.o/
+tegra/pinctrl-tegra194.o/
+tegra/pinctrl-tegra-xusb.o/
+uniphier/pinctrl-uniphier-core.o/
+uniphier/pinctrl-uniphier-ld11.o/
+uniphier/pinctrl-uniphier-ld20.o/
+uniphier/pinctrl-uniphier-pxs3.o/
+uniphier/pinctrl-uniphier-nx1.o/
+visconti/pinctrl-common.o/
+visconti/pinctrl-tmpv7700.o/
+/0              0           0     0     644     171712    `
+/8              0           0     0     644     27048     `
+/25             0           0     0     644     65384     `
+/35             0           0     0     644     35392     `
+/46             0           0     0     644     44984     `
+/65             0           0     0     644     40376     `
+/79             0           0     0     644     52296     `
+/99             0           0     0     644     214664    `
+/119            0           0     0     644     116848    `
+/137            0           0     0     644     52736     `
+/155            0           0     0     644     99616     `
+/178            0           0     0     644     111808    `
+/202            0           0     0     644     122984    `
+/226            0           0     0     644     135128    `
+/249            0           0     0     644     56488     `
+/272            0           0     0     644     94824     `
+/298            0           0     0     644     83784     `
+/321            0           0     0     644     65328     `
+/346            0           0     0     644     26520     `
+/371            0           0     0     644     39832     `
+/399            0           0     0     644     39848     `
+/427            0           0     0     644     39776     `
+/455            0           0     0     644     40168     `
+/483            0           0     0     644     41824     `
+/511            0           0     0     644     35104     `
+/540            0           0     0     644     32408     `
+/569            0           0     0     644     37472     `
+/598            0           0     0     644     34632     `
+/625            0           0     0     644     62776     `
+/646            0           0     0     644     74984     `
+/677            0           0     0     644     74600     `
+/711            0           0     0     644     39520     `
+/737            0           0     0     644     59184     `
+/763            0           0     0     644     101856    `
+/790            0           0     0     644     101632    `
+/817            0           0     0     644     109272    `
+/844            0           0     0     644     96672     `
+/871            0           0     0     644     103688    `
+/898            0           0     0     644     101680    `
+/925            0           0     0     644     61296     `
+/952            0           0     0     644     59400     `
+/979            0           0     0     644     73224     `
+/1006           0           0     0     644     72080     `
+/1033           0           0     0     644     98520     `
+/1060           0           0     0     644     112752    `
+/1087           0           0     0     644     127248    `
+/1114           0           0     0     644     129024    `
+/1141           0           0     0     644     97336     `
+/1168           0           0     0     644     86600     `
+/1195           0           0     0     644     69952     `
+/1222           0           0     0     644     37824     `
+/1249           0           0     0     644     65208     `
+/1272           0           0     0     644     22464     `
+/1300           0           0     0     644     116336    `
+/1328           0           0     0     644     111952    `
+/1355           0           0     0     644     23224     `
+/1386           0           0     0     644     132408    `
+/1413           0           0     0     644     168168    `
+/1441           0           0     0     644     112312    `
+/1467           0           0     0     644     143088    `
+/1493           0           0     0     644     60872     `
+/1516           0           0     0     644     27704     `
+/1546           0           0     0     644     71296     `
+/1576           0           0     0     644     100096    `
+/1605           0           0     0     644     38392     `
+/1626           0           0     0     644     152400    `
+/1646           0           0     0     644     78768     `
+/1670           0           0     0     644     91640     `
+/1694           0           0     0     644     97944     `
+/1718           0           0     0     644     80304     `
+/1742           0           0     0     644     124160    `
+/1766           0           0     0     644     155904    `
+/1790           0           0     0     644     124624    `
+/1814           0           0     0     644     138688    `
+/1838           0           0     0     644     173216    `
+/1862           0           0     0     644     153248    `
+/1886           0           0     0     644     117352    `
+/1910           0           0     0     644     139744    `
+/1933           0           0     0     644     34096     `
+/1957           0           0     0     644     92528     `
+/1983           0           0     0     644     75896     `
+/2008           0           0     0     644     130880    `
+/2032           0           0     0     644     141264    `
+/2056           0           0     0     644     119376    `
+/2079           0           0     0     644     155976    `
+/2102           0           0     0     644     166048    `
+/2126           0           0     0     644     187792    `
+/2151           0           0     0     644     135168    `
+/2174           0           0     0     644     134192    `
+/2197           0           0     0     644     146936    `
+/2220           0           0     0     644     102712    `
+/2243           0           0     0     644     128400    `
+/2266           0           0     0     644     141328    `
+/2289           0           0     0     644     148520    `
+/2312           0           0     0     644     150816    `
+/2335           0           0     0     644     147024    `
+/2358           0           0     0     644     163528    `
+/2381           0           0     0     644     168680    `
+/2404           0           0     0     644     170888    `
+/2427           0           0     0     644     60056     `
+/2443           0           0     0     644     64400     `
+/2462           0           0     0     644     304304    `
+/2485           0           0     0     644     305168    `
+/2509           0           0     0     644     242656    `
+/2533           0           0     0     644     316944    `
+/2557           0           0     0     644     127144    `
+/2581           0           0     0     644     149568    `
+/2605           0           0     0     644     152768    `
+/2629           0           0     0     644     188104    `
+/2653           0           0     0     644     95480     `
+/2677           0           0     0     644     187192    `
+/2701           0           0     0     644     136928    `
+/2726           0           0     0     644     106856    `
+/2751           0           0     0     644     94720     `
+/2778           0           0     0     644     82696     `
+/2804           0           0     0     644     47928     `
+/2836           0           0     0     644     143496    `
+/2859           0           0     0     644     58496     `
+/2887           0           0     0     644     24816     `
+/2917           0           0     0     644     65952     `
+/2946           0           0     0     644     25904     `
+/2977           0           0     0     644     24392     `
+/3005           0           0     0     644     56904     `
+/3032           0           0     0     644     60496     `
+/3059           0           0     0     644     26032     `
+/3088           0           0     0     644     54720     `
+/3117           0           0     0     644     20808     `
+/3148           0           0     0     644     74712     `
+/3171           0           0     0     644     102096    `
+/3197           0           0     0     644     86960     `
+/3223           0           0     0     644     114920    `
+/3249           0           0     0     644     99352     `
+/3277           0           0     0     644     66200     `
+/3311           0           0     0     644     56032     `
+/3345           0           0     0     644     66520     `
+/3379           0           0     0     644     63416     `
+/3413           0           0     0     644     42568     `
+/3446           0           0     0     644     44032     `
+/3473           0           0     0     644     43152     `

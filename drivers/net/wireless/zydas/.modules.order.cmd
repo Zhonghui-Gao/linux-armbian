@@ -1,1 +1,1 @@
-savedcmd_drivers/net/wireless/zydas/modules.order := {   cat drivers/net/wireless/zydas/zd1211rw/modules.order;   echo drivers/net/wireless/zydas/zd1201.o; :; } > drivers/net/wireless/zydas/modules.order
+savedcmd_drivers/net/wireless/zydas/modules.order := {  :; } > drivers/net/wireless/zydas/modules.order

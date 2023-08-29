@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "");
+MODULE_INFO(depends, "drm,drm_kms_helper,drm_dma_helper");
 
 MODULE_ALIAS("of:N*T*Carm,mali-d71");
 MODULE_ALIAS("of:N*T*Carm,mali-d71C*");

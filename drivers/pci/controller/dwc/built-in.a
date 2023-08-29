@@ -1,9 +1,26 @@
 !<thin>
-//                                              64        `
+//                                              194       `
 pcie-designware.o/
 pcie-designware-host.o/
-pcie-dw-rockchip.o/
-
-/0              0           0     0     644     23936     `
-/19             0           0     0     644     19880     `
-/43             0           0     0     644     9936      `
+pci-imx6.o/
+pci-layerscape.o/
+pcie-qcom.o/
+pcie-armada8k.o/
+pcie-kirin.o/
+pcie-histb.o/
+pcie-visconti.o/
+pcie-hisi.o/
+pcie-al.o/
+pcie-tegra194-acpi.o/
+/0              0           0     0     644     112048    `
+/19             0           0     0     644     78712     `
+/43             0           0     0     644     116512    `
+/55             0           0     0     644     42144     `
+/73             0           0     0     644     164520    `
+/86             0           0     0     644     51504     `
+/103            0           0     0     644     77400     `
+/117            0           0     0     644     72008     `
+/131            0           0     0     644     55592     `
+/148            0           0     0     644     34784     `
+/161            0           0     0     644     28000     `
+/172            0           0     0     644     35728     `

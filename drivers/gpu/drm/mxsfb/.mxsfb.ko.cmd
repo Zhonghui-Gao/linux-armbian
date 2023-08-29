@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/mxsfb/mxsfb.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/mxsfb/mxsfb.ko drivers/gpu/drm/mxsfb/mxsfb.o drivers/gpu/drm/mxsfb/mxsfb.mod.o;  true

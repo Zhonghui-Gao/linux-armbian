@@ -18,7 +18,4 @@ net/bluetooth/eir.o
 net/bluetooth/hci_sync.o
 net/bluetooth/coredump.o
 net/bluetooth/sco.o
-net/bluetooth/iso.o
-net/bluetooth/a2mp.o
-net/bluetooth/amp.o
 net/bluetooth/leds.o

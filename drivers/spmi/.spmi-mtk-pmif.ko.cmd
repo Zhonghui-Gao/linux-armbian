@@ -1,0 +1,1 @@
+savedcmd_drivers/spmi/spmi-mtk-pmif.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/spmi/spmi-mtk-pmif.ko drivers/spmi/spmi-mtk-pmif.o drivers/spmi/spmi-mtk-pmif.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/bridge/ti-sn65dsi86.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/bridge/ti-sn65dsi86.ko drivers/gpu/drm/bridge/ti-sn65dsi86.o drivers/gpu/drm/bridge/ti-sn65dsi86.mod.o;  true

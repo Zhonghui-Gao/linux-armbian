@@ -1,8 +1,17 @@
 !<thin>
-//                                              200       `
+//                                              868       `
 irqchip.o/
+irq-alpine-msi.o/
+irq-bcm2835.o/
+irq-bcm2836.o/
+irq-owl-sirq.o/
+irq-tegra.o/
+irq-dw-apb-ictl.o/
+irq-sun6i-r.o/
+irq-sunxi-nmi.o/
 irq-gic.o/
 irq-gic-common.o/
+irq-gic-pm.o/
 irq-gic-v2m.o/
 irq-gic-v3.o/
 irq-gic-v3-mbi.o/
@@ -10,15 +19,82 @@ irq-gic-v3-its.o/
 irq-gic-v3-its-platform-msi.o/
 irq-gic-v4.o/
 irq-gic-v3-its-pci-msi.o/
+irq-gic-v3-its-fsl-mc-msi.o/
 irq-partition-percpu.o/
-/0              0           0     0     644     3584      `
-/11             0           0     0     644     32360     `
-/22             0           0     0     644     3392      `
-/40             0           0     0     644     12248     `
-/55             0           0     0     644     42552     `
-/69             0           0     0     644     9856      `
-/87             0           0     0     644     86920     `
-/105            0           0     0     644     6272      `
-/136            0           0     0     644     7656      `
-/150            0           0     0     644     6480      `
-/176            0           0     0     644     7368      `
+irq-mbigen.o/
+irq-renesas-irqc.o/
+irq-renesas-rzg2l.o/
+irq-bcm7038-l1.o/
+irq-bcm7120-l2.o/
+irq-brcmstb-l2.o/
+irq-mtk-sysirq.o/
+irq-mtk-cirq.o/
+irq-imx-gpcv2.o/
+irq-mvebu-gicp.o/
+irq-mvebu-icu.o/
+irq-mvebu-odmi.o/
+irq-mvebu-pic.o/
+irq-mvebu-sei.o/
+irq-ls-extirq.o/
+irq-ls-scfg-msi.o/
+qcom-irq-combiner.o/
+irq-uniphier-aidet.o/
+irq-sni-exiu.o/
+irq-meson-gpio.o/
+qcom-pdc.o/
+irq-imx-irqsteer.o/
+irq-imx-intmux.o/
+irq-ti-sci-intr.o/
+irq-ti-sci-inta.o/
+irq-mst-intc.o/
+irq-sl28cpld.o/
+irq-apple-aic.o/
+/0              0           0     0     644     28488     `
+/11             0           0     0     644     49536     `
+/29             0           0     0     644     47328     `
+/44             0           0     0     644     74240     `
+/59             0           0     0     644     54264     `
+/75             0           0     0     644     61896     `
+/88             0           0     0     644     47904     `
+/107            0           0     0     644     64432     `
+/122            0           0     0     644     46704     `
+/139            0           0     0     644     166928    `
+/150            0           0     0     644     28032     `
+/168            0           0     0     644     35760     `
+/182            0           0     0     644     71472     `
+/197            0           0     0     644     213648    `
+/211            0           0     0     644     50360     `
+/229            0           0     0     644     457776    `
+/247            0           0     0     644     42176     `
+/278            0           0     0     644     42280     `
+/292            0           0     0     644     44296     `
+/318            0           0     0     644     42104     `
+/347            0           0     0     644     51736     `
+/371            0           0     0     644     50976     `
+/385            0           0     0     644     48064     `
+/405            0           0     0     644     64912     `
+/426            0           0     0     644     63648     `
+/444            0           0     0     644     57848     `
+/462            0           0     0     644     56744     `
+/480            0           0     0     644     47320     `
+/498            0           0     0     644     59352     `
+/514            0           0     0     644     54320     `
+/531            0           0     0     644     41072     `
+/549            0           0     0     644     62184     `
+/566            0           0     0     644     46744     `
+/584            0           0     0     644     51480     `
+/601            0           0     0     644     69792     `
+/618            0           0     0     644     46000     `
+/635            0           0     0     644     64120     `
+/654            0           0     0     644     53712     `
+/675            0           0     0     644     42088     `
+/697            0           0     0     644     61400     `
+/713            0           0     0     644     66880     `
+/731            0           0     0     644     55000     `
+/743            0           0     0     644     51296     `
+/763            0           0     0     644     56016     `
+/781            0           0     0     644     46032     `
+/800            0           0     0     644     84792     `
+/819            0           0     0     644     53768     `
+/835            0           0     0     644     25320     `
+/851            0           0     0     644     146864    `

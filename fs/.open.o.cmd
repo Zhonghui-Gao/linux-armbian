@@ -1,4 +1,4 @@
-savedcmd_fs/open.o := aarch64-linux-gnu-gcc -Wp,-MMD,fs/.open.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"fs/open"' -DKBUILD_BASENAME='"open"' -DKBUILD_MODNAME='"open"' -D__KBUILD_MODNAME=kmod_open -c -o fs/open.o fs/open.c  
+savedcmd_fs/open.o := aarch64-linux-gnu-gcc -Wp,-MMD,fs/.open.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -fno-var-tracking -femit-struct-debug-baseonly -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"fs/open"' -DKBUILD_BASENAME='"open"' -DKBUILD_MODNAME='"open"' -D__KBUILD_MODNAME=kmod_open -c -o fs/open.o fs/open.c  
 
 source_fs/open.o := fs/open.c
 
@@ -74,8 +74,58 @@ deps_fs/open.o := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/fortify-string.h \
-    $(wildcard include/config/KMSAN) \
+  include/linux/mm.h \
+    $(wildcard include/config/NUMA) \
+    $(wildcard include/config/SYSCTL) \
+    $(wildcard include/config/HAVE_ARCH_MMAP_RND_BITS) \
+    $(wildcard include/config/HAVE_ARCH_MMAP_RND_COMPAT_BITS) \
+    $(wildcard include/config/SPARSEMEM) \
+    $(wildcard include/config/SPARSEMEM_VMEMMAP) \
+    $(wildcard include/config/MMU) \
+    $(wildcard include/config/MEM_SOFT_DIRTY) \
+    $(wildcard include/config/ARCH_USES_HIGH_VMA_FLAGS) \
+    $(wildcard include/config/ARCH_HAS_PKEYS) \
+    $(wildcard include/config/PPC) \
+    $(wildcard include/config/X86) \
+    $(wildcard include/config/PARISC) \
+    $(wildcard include/config/IA64) \
+    $(wildcard include/config/SPARC64) \
+    $(wildcard include/config/ARM64) \
+    $(wildcard include/config/ARM64_MTE) \
+    $(wildcard include/config/HAVE_ARCH_USERFAULTFD_MINOR) \
+    $(wildcard include/config/STACK_GROWSUP) \
+    $(wildcard include/config/NUMA_BALANCING) \
+    $(wildcard include/config/PER_VMA_LOCK) \
+    $(wildcard include/config/SHMEM) \
+    $(wildcard include/config/HUGETLB_PAGE) \
+    $(wildcard include/config/TRANSPARENT_HUGEPAGE) \
+    $(wildcard include/config/ZONE_DEVICE) \
+    $(wildcard include/config/FS_DAX) \
+    $(wildcard include/config/KASAN_HW_TAGS) \
+    $(wildcard include/config/MIGRATION) \
+    $(wildcard include/config/CMA) \
+    $(wildcard include/config/HIGHMEM) \
+    $(wildcard include/config/SCHED_MM_CID) \
+    $(wildcard include/config/ARCH_HAS_PTE_SPECIAL) \
+    $(wildcard include/config/ARCH_HAS_PTE_DEVMAP) \
+    $(wildcard include/config/DEBUG_VM_RB) \
+    $(wildcard include/config/PAGE_POISONING) \
+    $(wildcard include/config/INIT_ON_ALLOC_DEFAULT_ON) \
+    $(wildcard include/config/INIT_ON_FREE_DEFAULT_ON) \
+    $(wildcard include/config/DEBUG_PAGEALLOC) \
+    $(wildcard include/config/MEMORY_HOTPLUG) \
+    $(wildcard include/config/ARCH_WANT_OPTIMIZE_VMEMMAP) \
+    $(wildcard include/config/MEMORY_FAILURE) \
+    $(wildcard include/config/KSM) \
+    $(wildcard include/config/HUGETLBFS) \
+    $(wildcard include/config/MAPPING_DIRTY_HELPERS) \
+    $(wildcard include/config/PRINTK) \
+    $(wildcard include/config/ANON_VMA_NAME) \
+  include/linux/mmdebug.h \
+    $(wildcard include/config/DEBUG_VM) \
+    $(wildcard include/config/DEBUG_VM_IRQSOFF) \
+    $(wildcard include/config/DEBUG_VIRTUAL) \
+    $(wildcard include/config/DEBUG_VM_PGFLAGS) \
   include/linux/bug.h \
     $(wildcard include/config/GENERIC_BUG) \
     $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
@@ -98,7 +148,6 @@ deps_fs/open.o := \
     $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
     $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
     $(wildcard include/config/EARLY_PRINTK) \
-    $(wildcard include/config/PRINTK) \
     $(wildcard include/config/PRINTK_INDEX) \
     $(wildcard include/config/DYNAMIC_DEBUG) \
     $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
@@ -146,68 +195,6 @@ deps_fs/open.o := \
     $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
     $(wildcard include/config/LOCKDEP) \
     $(wildcard include/config/LOCK_STAT) \
-  include/linux/dynamic_debug.h \
-    $(wildcard include/config/JUMP_LABEL) \
-  include/linux/jump_label.h \
-    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
-  arch/arm64/include/asm/jump_label.h \
-  arch/arm64/include/asm/insn.h \
-    $(wildcard include/config/ARM64_LSE_ATOMICS) \
-  arch/arm64/include/asm/insn-def.h \
-  include/linux/limits.h \
-  include/uapi/linux/limits.h \
-  include/vdso/limits.h \
-  include/linux/mm.h \
-    $(wildcard include/config/NUMA) \
-    $(wildcard include/config/SYSCTL) \
-    $(wildcard include/config/HAVE_ARCH_MMAP_RND_BITS) \
-    $(wildcard include/config/HAVE_ARCH_MMAP_RND_COMPAT_BITS) \
-    $(wildcard include/config/SPARSEMEM) \
-    $(wildcard include/config/SPARSEMEM_VMEMMAP) \
-    $(wildcard include/config/MMU) \
-    $(wildcard include/config/MEM_SOFT_DIRTY) \
-    $(wildcard include/config/ARCH_USES_HIGH_VMA_FLAGS) \
-    $(wildcard include/config/ARCH_HAS_PKEYS) \
-    $(wildcard include/config/PPC) \
-    $(wildcard include/config/X86) \
-    $(wildcard include/config/PARISC) \
-    $(wildcard include/config/IA64) \
-    $(wildcard include/config/SPARC64) \
-    $(wildcard include/config/ARM64) \
-    $(wildcard include/config/ARM64_MTE) \
-    $(wildcard include/config/HAVE_ARCH_USERFAULTFD_MINOR) \
-    $(wildcard include/config/STACK_GROWSUP) \
-    $(wildcard include/config/NUMA_BALANCING) \
-    $(wildcard include/config/PER_VMA_LOCK) \
-    $(wildcard include/config/SHMEM) \
-    $(wildcard include/config/HUGETLB_PAGE) \
-    $(wildcard include/config/TRANSPARENT_HUGEPAGE) \
-    $(wildcard include/config/ZONE_DEVICE) \
-    $(wildcard include/config/FS_DAX) \
-    $(wildcard include/config/KASAN_HW_TAGS) \
-    $(wildcard include/config/MIGRATION) \
-    $(wildcard include/config/CMA) \
-    $(wildcard include/config/HIGHMEM) \
-    $(wildcard include/config/SCHED_MM_CID) \
-    $(wildcard include/config/ARCH_HAS_PTE_SPECIAL) \
-    $(wildcard include/config/ARCH_HAS_PTE_DEVMAP) \
-    $(wildcard include/config/DEBUG_VM_RB) \
-    $(wildcard include/config/PAGE_POISONING) \
-    $(wildcard include/config/INIT_ON_ALLOC_DEFAULT_ON) \
-    $(wildcard include/config/INIT_ON_FREE_DEFAULT_ON) \
-    $(wildcard include/config/DEBUG_PAGEALLOC) \
-    $(wildcard include/config/MEMORY_HOTPLUG) \
-    $(wildcard include/config/ARCH_WANT_OPTIMIZE_VMEMMAP) \
-    $(wildcard include/config/MEMORY_FAILURE) \
-    $(wildcard include/config/KSM) \
-    $(wildcard include/config/HUGETLBFS) \
-    $(wildcard include/config/MAPPING_DIRTY_HELPERS) \
-    $(wildcard include/config/ANON_VMA_NAME) \
-  include/linux/mmdebug.h \
-    $(wildcard include/config/DEBUG_VM) \
-    $(wildcard include/config/DEBUG_VM_IRQSOFF) \
-    $(wildcard include/config/DEBUG_VIRTUAL) \
-    $(wildcard include/config/DEBUG_VM_PGFLAGS) \
   include/linux/gfp.h \
     $(wildcard include/config/ZONE_DMA) \
     $(wildcard include/config/ZONE_DMA32) \
@@ -247,14 +234,24 @@ deps_fs/open.o := \
     $(wildcard include/config/ARM64_PSEUDO_NMI) \
   arch/arm64/include/asm/alternative-macros.h \
   arch/arm64/include/generated/asm/cpucaps.h \
+  arch/arm64/include/asm/insn-def.h \
   include/asm-generic/barrier.h \
   arch/arm64/include/asm/preempt.h \
     $(wildcard include/config/PREEMPT_DYNAMIC) \
+  include/linux/jump_label.h \
+    $(wildcard include/config/JUMP_LABEL) \
+    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
+  arch/arm64/include/asm/jump_label.h \
+  arch/arm64/include/asm/insn.h \
+    $(wildcard include/config/ARM64_LSE_ATOMICS) \
   include/linux/thread_info.h \
     $(wildcard include/config/THREAD_INFO_IN_TASK) \
     $(wildcard include/config/GENERIC_ENTRY) \
     $(wildcard include/config/HAVE_ARCH_WITHIN_STACK_FRAMES) \
     $(wildcard include/config/HARDENED_USERCOPY) \
+  include/linux/limits.h \
+  include/uapi/linux/limits.h \
+  include/vdso/limits.h \
   include/linux/restart_block.h \
   include/linux/time64.h \
   include/linux/math64.h \
@@ -297,6 +294,7 @@ deps_fs/open.o := \
   include/linux/atomic/atomic-instrumented.h \
   include/linux/instrumented.h \
   include/linux/kmsan-checks.h \
+    $(wildcard include/config/KMSAN) \
   include/asm-generic/bitops/instrumented-atomic.h \
   include/asm-generic/bitops/lock.h \
   include/asm-generic/bitops/instrumented-lock.h \
@@ -562,11 +560,6 @@ deps_fs/open.o := \
   include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
-  arch/arm64/include/asm/uprobes.h \
-  arch/arm64/include/asm/debug-monitors.h \
-  arch/arm64/include/asm/esr.h \
-  arch/arm64/include/asm/probes.h \
-    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1014,6 +1007,7 @@ deps_fs/open.o := \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/DEBUG_INFO_BTF_MODULES) \
     $(wildcard include/config/EVENT_TRACING) \
+    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/CONSTRUCTORS) \
     $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
@@ -1042,6 +1036,7 @@ deps_fs/open.o := \
   include/linux/rbtree_latch.h \
   include/linux/error-injection.h \
   include/asm-generic/error-injection.h \
+  include/linux/dynamic_debug.h \
   arch/arm64/include/asm/module.h \
     $(wildcard include/config/ARM64_MODULE_PLTS) \
     $(wildcard include/config/DYNAMIC_FTRACE) \
@@ -1195,6 +1190,7 @@ deps_fs/open.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
+  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1227,6 +1223,7 @@ deps_fs/open.o := \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
   arch/arm64/include/asm/kgdb.h \
+  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \

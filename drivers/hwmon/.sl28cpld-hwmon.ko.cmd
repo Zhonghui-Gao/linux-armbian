@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/sl28cpld-hwmon.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/sl28cpld-hwmon.ko drivers/hwmon/sl28cpld-hwmon.o drivers/hwmon/sl28cpld-hwmon.mod.o;  true

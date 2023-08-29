@@ -1,0 +1,1 @@
+savedcmd_sound/soc/mediatek/mt8192/mt8192-mt6359-rt1015-rt5682.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/mediatek/mt8192/mt8192-mt6359-rt1015-rt5682.ko sound/soc/mediatek/mt8192/mt8192-mt6359-rt1015-rt5682.o sound/soc/mediatek/mt8192/mt8192-mt6359-rt1015-rt5682.mod.o;  true

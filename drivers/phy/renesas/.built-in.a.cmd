@@ -1,1 +1,1 @@
-savedcmd_drivers/phy/renesas/built-in.a := rm -f drivers/phy/renesas/built-in.a;  aarch64-linux-gnu-ar cDPrST drivers/phy/renesas/built-in.a
+savedcmd_drivers/phy/renesas/built-in.a := rm -f drivers/phy/renesas/built-in.a;  printf "drivers/phy/renesas/%s " r8a779f0-ether-serdes.o phy-rcar-gen3-pcie.o phy-rcar-gen3-usb2.o | xargs aarch64-linux-gnu-ar cDPrST drivers/phy/renesas/built-in.a

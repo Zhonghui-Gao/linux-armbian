@@ -1,1 +1,10 @@
-!<arch>
+!<thin>
+//                                              88        `
+phy-uniphier-usb2.o/
+phy-uniphier-usb3hs.o/
+phy-uniphier-usb3ss.o/
+phy-uniphier-ahci.o/
+/0              0           0     0     644     45480     `
+/21             0           0     0     644     67480     `
+/44             0           0     0     644     60960     `
+/67             0           0     0     644     90896     `

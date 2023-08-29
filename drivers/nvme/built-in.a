@@ -1,17 +1,1 @@
-!<thin>
-//                                              98        `
-host/core.o/
-host/ioctl.o/
-host/trace.o/
-host/multipath.o/
-host/zns.o/
-host/hwmon.o/
-host/pci.o/
-
-/0              0           0     0     644     178008    `
-/13             0           0     0     644     17464     `
-/27             0           0     0     644     8424      `
-/41             0           0     0     644     28296     `
-/59             0           0     0     644     5952      `
-/71             0           0     0     644     6064      `
-/85             0           0     0     644     62392     `
+!<arch>

@@ -1,1 +1,1 @@
-savedcmd_drivers/soc/apple/built-in.a := rm -f drivers/soc/apple/built-in.a;  aarch64-linux-gnu-ar cDPrST drivers/soc/apple/built-in.a
+savedcmd_drivers/soc/apple/built-in.a := rm -f drivers/soc/apple/built-in.a;  printf "drivers/soc/apple/%s " apple-pmgr-pwrstate.o rtkit.o rtkit-crashlog.o sart.o | xargs aarch64-linux-gnu-ar cDPrST drivers/soc/apple/built-in.a

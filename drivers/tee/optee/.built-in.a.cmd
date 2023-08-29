@@ -1,0 +1,1 @@
+savedcmd_drivers/tee/optee/built-in.a := rm -f drivers/tee/optee/built-in.a;  printf "drivers/tee/optee/%s " core.o call.o notif.o rpc.o supp.o device.o smc_abi.o ffa_abi.o | xargs aarch64-linux-gnu-ar cDPrST drivers/tee/optee/built-in.a

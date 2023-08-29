@@ -1,0 +1,1 @@
+savedcmd_drivers/net/mdio/mdio-mux-meson-g12a.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/mdio/mdio-mux-meson-g12a.ko drivers/net/mdio/mdio-mux-meson-g12a.o drivers/net/mdio/mdio-mux-meson-g12a.mod.o;  true

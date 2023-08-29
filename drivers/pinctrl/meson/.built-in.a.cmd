@@ -1,0 +1,1 @@
+savedcmd_drivers/pinctrl/meson/built-in.a := rm -f drivers/pinctrl/meson/built-in.a;  printf "drivers/pinctrl/meson/%s " pinctrl-meson.o pinctrl-meson8-pmx.o pinctrl-meson-gxbb.o pinctrl-meson-gxl.o pinctrl-meson-axg-pmx.o pinctrl-meson-axg.o pinctrl-meson-g12a.o pinctrl-meson-a1.o pinctrl-meson-s4.o | xargs aarch64-linux-gnu-ar cDPrST drivers/pinctrl/meson/built-in.a

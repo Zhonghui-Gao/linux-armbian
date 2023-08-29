@@ -1,1 +1,1 @@
-savedcmd_drivers/mtd/devices/built-in.a := rm -f drivers/mtd/devices/built-in.a;  aarch64-linux-gnu-ar cDPrST drivers/mtd/devices/built-in.a
+savedcmd_drivers/mtd/devices/built-in.a := rm -f drivers/mtd/devices/built-in.a;  printf "drivers/mtd/devices/%s " mtd_dataflash.o sst25l.o | xargs aarch64-linux-gnu-ar cDPrST drivers/mtd/devices/built-in.a

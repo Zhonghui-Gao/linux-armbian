@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/freescale/phy-fsl-imx8-mipi-dphy.mod := printf '%s\n'   phy-fsl-imx8-mipi-dphy.o | awk '!x[$$0]++ { print("drivers/phy/freescale/"$$0) }' > drivers/phy/freescale/phy-fsl-imx8-mipi-dphy.mod

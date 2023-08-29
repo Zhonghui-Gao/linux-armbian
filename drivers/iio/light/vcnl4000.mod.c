@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "");
+MODULE_INFO(depends, "industrialio-triggered-buffer");
 
 MODULE_ALIAS("of:N*T*Cvishay,vcnl4000");
 MODULE_ALIAS("of:N*T*Cvishay,vcnl4000C*");

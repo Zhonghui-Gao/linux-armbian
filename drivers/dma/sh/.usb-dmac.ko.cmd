@@ -1,0 +1,1 @@
+savedcmd_drivers/dma/sh/usb-dmac.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/dma/sh/usb-dmac.ko drivers/dma/sh/usb-dmac.o drivers/dma/sh/usb-dmac.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/mediatek/vcodec/mtk-vcodec-enc.mod := printf '%s\n'   venc/venc_vp8_if.o venc/venc_h264_if.o mtk_vcodec_enc.o mtk_vcodec_enc_drv.o mtk_vcodec_enc_pm.o venc_drv_if.o venc_vpu_if.o | awk '!x[$$0]++ { print("drivers/media/platform/mediatek/vcodec/"$$0) }' > drivers/media/platform/mediatek/vcodec/mtk-vcodec-enc.mod

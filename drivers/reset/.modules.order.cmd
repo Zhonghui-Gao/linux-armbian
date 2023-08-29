@@ -1,1 +1,1 @@
-savedcmd_drivers/reset/modules.order := {   cat drivers/reset/hisilicon/modules.order;   cat drivers/reset/starfive/modules.order; :; } > drivers/reset/modules.order
+savedcmd_drivers/reset/modules.order := {   cat drivers/reset/hisilicon/modules.order;   cat drivers/reset/starfive/modules.order;   cat drivers/reset/tegra/modules.order;   echo drivers/reset/reset-berlin.o;   echo drivers/reset/reset-meson-audio-arb.o;   echo drivers/reset/reset-qcom-pdc.o;   echo drivers/reset/reset-raspberrypi.o; :; } > drivers/reset/modules.order

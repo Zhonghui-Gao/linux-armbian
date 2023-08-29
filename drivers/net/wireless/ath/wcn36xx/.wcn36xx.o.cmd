@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/ath/wcn36xx/wcn36xx.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/wireless/ath/wcn36xx/wcn36xx.o @drivers/net/wireless/ath/wcn36xx/wcn36xx.mod 

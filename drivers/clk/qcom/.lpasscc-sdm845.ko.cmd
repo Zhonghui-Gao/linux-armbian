@@ -1,0 +1,1 @@
+savedcmd_drivers/clk/qcom/lpasscc-sdm845.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/clk/qcom/lpasscc-sdm845.ko drivers/clk/qcom/lpasscc-sdm845.o drivers/clk/qcom/lpasscc-sdm845.mod.o;  true

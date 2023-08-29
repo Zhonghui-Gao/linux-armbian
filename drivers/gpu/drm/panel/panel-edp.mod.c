@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "drm_dp_aux_bus");
+MODULE_INFO(depends, "drm_dp_aux_bus,drm,drm_display_helper");
 
 MODULE_ALIAS("of:N*T*Cedp-panel");
 MODULE_ALIAS("of:N*T*Cedp-panelC*");

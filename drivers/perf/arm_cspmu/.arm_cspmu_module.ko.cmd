@@ -1,0 +1,1 @@
+savedcmd_drivers/perf/arm_cspmu/arm_cspmu_module.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/perf/arm_cspmu/arm_cspmu_module.ko drivers/perf/arm_cspmu/arm_cspmu_module.o drivers/perf/arm_cspmu/arm_cspmu_module.mod.o;  true

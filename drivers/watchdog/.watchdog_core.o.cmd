@@ -1,4 +1,4 @@
-savedcmd_drivers/watchdog/watchdog_core.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/watchdog/.watchdog_core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"drivers/watchdog/watchdog"' -DKBUILD_BASENAME='"watchdog_core"' -DKBUILD_MODNAME='"watchdog"' -D__KBUILD_MODNAME=kmod_watchdog -c -o drivers/watchdog/watchdog_core.o drivers/watchdog/watchdog_core.c  
+savedcmd_drivers/watchdog/watchdog_core.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/watchdog/.watchdog_core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -fno-var-tracking -femit-struct-debug-baseonly -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144    -DKBUILD_MODFILE='"drivers/watchdog/watchdog"' -DKBUILD_BASENAME='"watchdog_core"' -DKBUILD_MODNAME='"watchdog"' -D__KBUILD_MODNAME=kmod_watchdog -c -o drivers/watchdog/watchdog_core.o drivers/watchdog/watchdog_core.c  
 
 source_drivers/watchdog/watchdog_core.o := drivers/watchdog/watchdog_core.c
 
@@ -266,7 +266,6 @@ deps_drivers/watchdog/watchdog_core.o := \
     $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
     $(wildcard include/config/LOCKDEP) \
     $(wildcard include/config/LOCK_STAT) \
-  include/linux/dynamic_debug.h \
   include/linux/kernel.h \
     $(wildcard include/config/PREEMPT_VOLUNTARY_BUILD) \
     $(wildcard include/config/PREEMPT_DYNAMIC) \
@@ -312,7 +311,6 @@ deps_drivers/watchdog/watchdog_core.o := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/fortify-string.h \
   include/linux/gfp_types.h \
   include/linux/numa.h \
     $(wildcard include/config/NODES_SHIFT) \
@@ -708,10 +706,6 @@ deps_drivers/watchdog/watchdog_core.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
-  arch/arm64/include/asm/uprobes.h \
-  arch/arm64/include/asm/debug-monitors.h \
-  arch/arm64/include/asm/esr.h \
-  arch/arm64/include/asm/probes.h \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/percpu_counter.h \
@@ -922,6 +916,7 @@ deps_drivers/watchdog/watchdog_core.o := \
   include/linux/error-injection.h \
   include/asm-generic/error-injection.h \
   include/linux/tracepoint-defs.h \
+  include/linux/dynamic_debug.h \
   arch/arm64/include/asm/module.h \
     $(wildcard include/config/ARM64_MODULE_PLTS) \
     $(wildcard include/config/DYNAMIC_FTRACE) \
@@ -1041,6 +1036,7 @@ deps_drivers/watchdog/watchdog_core.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
+  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1251,6 +1247,7 @@ deps_drivers/watchdog/watchdog_core.o := \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
   arch/arm64/include/asm/kgdb.h \
+  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1275,53 +1272,6 @@ deps_drivers/watchdog/watchdog_core.o := \
     $(wildcard include/config/HOTPLUG_SMT) \
   include/linux/cpuhotplug.h \
   include/trace/define_trace.h \
-  include/trace/trace_events.h \
-  include/linux/trace_events.h \
-    $(wildcard include/config/DYNAMIC_EVENTS) \
-    $(wildcard include/config/KPROBE_EVENTS) \
-    $(wildcard include/config/UPROBE_EVENTS) \
-  include/linux/ring_buffer.h \
-    $(wildcard include/config/RING_BUFFER_ALLOW_SWAP) \
-    $(wildcard include/config/RING_BUFFER) \
-  include/linux/poll.h \
-  include/uapi/linux/poll.h \
-  arch/arm64/include/generated/uapi/asm/poll.h \
-  include/uapi/asm-generic/poll.h \
-  include/uapi/linux/eventpoll.h \
-  include/linux/trace_seq.h \
-  include/linux/seq_buf.h \
-  include/linux/perf_event.h \
-    $(wildcard include/config/GUEST_PERF_EVENTS) \
-  include/uapi/linux/perf_event.h \
-  include/uapi/linux/bpf_perf_event.h \
-  arch/arm64/include/uapi/asm/bpf_perf_event.h \
-  arch/arm64/include/asm/perf_event.h \
-  include/linux/irq_work.h \
-    $(wildcard include/config/IRQ_WORK) \
-  arch/arm64/include/asm/irq_work.h \
-  include/linux/jump_label_ratelimit.h \
-  include/linux/perf_regs.h \
-    $(wildcard include/config/HAVE_PERF_REGS) \
-  arch/arm64/include/uapi/asm/perf_regs.h \
-  include/linux/security.h \
-    $(wildcard include/config/SECURITY_NETWORK) \
-    $(wildcard include/config/SECURITY_INFINIBAND) \
-    $(wildcard include/config/SECURITY_NETWORK_XFRM) \
-    $(wildcard include/config/SECURITY_PATH) \
-    $(wildcard include/config/SECURITYFS) \
-  include/linux/kernel_read_file.h \
-  include/linux/file.h \
-  include/linux/sockptr.h \
-  include/trace/stages/init.h \
-  include/trace/stages/stage1_struct_define.h \
-  include/trace/stages/stage2_data_offsets.h \
-  include/trace/stages/stage3_trace_output.h \
-  include/trace/stages/stage4_event_fields.h \
-  include/trace/stages/stage5_get_offsets.h \
-  include/trace/stages/stage6_event_callback.h \
-  include/trace/stages/stage7_class_define.h \
-  include/trace/perf.h \
-  include/trace/bpf_probe.h \
 
 drivers/watchdog/watchdog_core.o: $(deps_drivers/watchdog/watchdog_core.o)
 

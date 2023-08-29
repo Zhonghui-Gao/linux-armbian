@@ -1,5 +1,0 @@
-drivers/iio/potentiometer/ad5110.o
-drivers/iio/potentiometer/ad5272.o
-drivers/iio/potentiometer/max5432.o
-drivers/iio/potentiometer/mcp4018.o
-drivers/iio/potentiometer/mcp41010.o

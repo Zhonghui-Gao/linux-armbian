@@ -1,0 +1,1 @@
+savedcmd_sound/core/built-in.a := rm -f sound/core/built-in.a;  printf "sound/core/%s " sound.o init.o memory.o control.o misc.o device.o info.o vmaster.o ctljack.o jack.o timer.o pcm.o pcm_native.o pcm_lib.o pcm_misc.o pcm_memory.o memalloc.o pcm_timer.o pcm_drm_eld.o pcm_iec958.o pcm_dmaengine.o compress_offload.o | xargs aarch64-linux-gnu-ar cDPrST sound/core/built-in.a

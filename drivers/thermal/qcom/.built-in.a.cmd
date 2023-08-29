@@ -1,1 +1,1 @@
-savedcmd_drivers/thermal/qcom/built-in.a := rm -f drivers/thermal/qcom/built-in.a;  aarch64-linux-gnu-ar cDPrST drivers/thermal/qcom/built-in.a
+savedcmd_drivers/thermal/qcom/built-in.a := rm -f drivers/thermal/qcom/built-in.a;  printf "drivers/thermal/qcom/%s " tsens.o tsens-v2.o tsens-v1.o tsens-v0_1.o tsens-8960.o | xargs aarch64-linux-gnu-ar cDPrST drivers/thermal/qcom/built-in.a

@@ -1,2 +1,4 @@
+drivers/nvmem/nvmem-layerscape-sfp.o
+drivers/nvmem/nvmem_meson_efuse.o
 drivers/nvmem/nvmem-rmem.o
 drivers/nvmem/nvmem_qcom-spmi-sdam.o

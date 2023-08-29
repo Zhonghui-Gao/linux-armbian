@@ -1,0 +1,1 @@
+savedcmd_sound/soc/mediatek/common/snd-soc-mtk-common.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o sound/soc/mediatek/common/snd-soc-mtk-common.o @sound/soc/mediatek/common/snd-soc-mtk-common.mod 

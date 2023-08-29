@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/stmicro/stmmac/dwmac-altr-socfpga.mod := printf '%s\n'   altr_tse_pcs.o dwmac-socfpga.o | awk '!x[$$0]++ { print("drivers/net/ethernet/stmicro/stmmac/"$$0) }' > drivers/net/ethernet/stmicro/stmmac/dwmac-altr-socfpga.mod

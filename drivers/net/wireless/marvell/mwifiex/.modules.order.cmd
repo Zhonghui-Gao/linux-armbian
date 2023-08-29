@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/marvell/mwifiex/modules.order := {   echo drivers/net/wireless/marvell/mwifiex/mwifiex.o;   echo drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.o;   echo drivers/net/wireless/marvell/mwifiex/mwifiex_pcie.o; :; } > drivers/net/wireless/marvell/mwifiex/modules.order

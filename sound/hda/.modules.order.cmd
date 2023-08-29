@@ -1,1 +1,1 @@
-savedcmd_sound/hda/modules.order := {  :; } > sound/hda/modules.order
+savedcmd_sound/hda/modules.order := {   echo sound/hda/snd-hda-core.o; :; } > sound/hda/modules.order

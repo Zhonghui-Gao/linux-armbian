@@ -1,0 +1,1 @@
+savedcmd_drivers/input/misc/pwm-vibra.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/pwm-vibra.ko drivers/input/misc/pwm-vibra.o drivers/input/misc/pwm-vibra.mod.o;  true

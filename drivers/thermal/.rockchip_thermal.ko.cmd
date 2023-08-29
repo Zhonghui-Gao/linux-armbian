@@ -1,0 +1,1 @@
+savedcmd_drivers/thermal/rockchip_thermal.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/thermal/rockchip_thermal.ko drivers/thermal/rockchip_thermal.o drivers/thermal/rockchip_thermal.mod.o;  true

@@ -1,3 +1,0 @@
-drivers/iio/imu/st_lsm9ds0/st_lsm9ds0.o
-drivers/iio/imu/st_lsm9ds0/st_lsm9ds0_i2c.o
-drivers/iio/imu/st_lsm9ds0/st_lsm9ds0_spi.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/pci/controller/dwc/pcie-tegra194.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/pci/controller/dwc/pcie-tegra194.ko drivers/pci/controller/dwc/pcie-tegra194.o drivers/pci/controller/dwc/pcie-tegra194.mod.o;  true

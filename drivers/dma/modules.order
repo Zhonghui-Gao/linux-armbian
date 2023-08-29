@@ -1,9 +1,6 @@
-drivers/dma/virt-dma.o
-drivers/dma/altera-msgdma.o
+drivers/dma/sh/usb-dmac.o
+drivers/dma/qcom/gpi.o
 drivers/dma/bcm-sba-raid.o
-drivers/dma/dw-axi-dmac/dw-axi-dmac-platform.o
-drivers/dma/dw-edma/dw-edma.o
-drivers/dma/dw-edma/dw-edma-pcie.o
-drivers/dma/fsl-qdma.o
-drivers/dma/plx_dma.o
-drivers/dma/sf-pdma/sf-pdma.o
+drivers/dma/sun6i-dma.o
+drivers/dma/imx-sdma.o
+drivers/dma/tegra210-adma.o

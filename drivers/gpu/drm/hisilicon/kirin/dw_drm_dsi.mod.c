@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "");
+MODULE_INFO(depends, "drm,drm_kms_helper");
 
 MODULE_ALIAS("of:N*T*Chisilicon,hi6220-dsi");
 MODULE_ALIAS("of:N*T*Chisilicon,hi6220-dsiC*");

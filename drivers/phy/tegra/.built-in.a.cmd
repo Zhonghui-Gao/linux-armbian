@@ -1,1 +1,1 @@
-savedcmd_drivers/phy/tegra/built-in.a := rm -f drivers/phy/tegra/built-in.a;  aarch64-linux-gnu-ar cDPrST drivers/phy/tegra/built-in.a
+savedcmd_drivers/phy/tegra/built-in.a := rm -f drivers/phy/tegra/built-in.a;  printf "drivers/phy/tegra/%s " xusb.o xusb-tegra124.o xusb-tegra210.o xusb-tegra186.o | xargs aarch64-linux-gnu-ar cDPrST drivers/phy/tegra/built-in.a

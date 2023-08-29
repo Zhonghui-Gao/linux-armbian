@@ -1,4 +1,4 @@
-savedcmd_sound/soc/codecs/es7241.o := aarch64-linux-gnu-gcc -Wp,-MMD,sound/soc/codecs/.es7241.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144  -DMODULE  -DKBUILD_BASENAME='"es7241"' -DKBUILD_MODNAME='"snd_soc_es7241"' -D__KBUILD_MODNAME=kmod_snd_soc_es7241 -c -o sound/soc/codecs/es7241.o sound/soc/codecs/es7241.c  
+savedcmd_sound/soc/codecs/es7241.o := aarch64-linux-gnu-gcc -Wp,-MMD,sound/soc/codecs/.es7241.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -fno-var-tracking -femit-struct-debug-baseonly -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144  -DMODULE  -DKBUILD_BASENAME='"es7241"' -DKBUILD_MODNAME='"snd_soc_es7241"' -D__KBUILD_MODNAME=kmod_snd_soc_es7241 -c -o sound/soc/codecs/es7241.o sound/soc/codecs/es7241.c  
 
 source_sound/soc/codecs/es7241.o := sound/soc/codecs/es7241.c
 
@@ -72,7 +72,6 @@ deps_sound/soc/codecs/es7241.o := \
     $(wildcard include/config/KCSAN) \
     $(wildcard include/config/KCSAN_WEAK_MEMORY) \
     $(wildcard include/config/KCSAN_IGNORE_ATOMICS) \
-  include/linux/err.h \
   arch/arm64/include/generated/uapi/asm/errno.h \
   include/uapi/asm-generic/errno.h \
   include/uapi/asm-generic/errno-base.h \
@@ -92,83 +91,6 @@ deps_sound/soc/codecs/es7241.o := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/fortify-string.h \
-    $(wildcard include/config/KMSAN) \
-  include/linux/bug.h \
-    $(wildcard include/config/GENERIC_BUG) \
-    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
-  arch/arm64/include/asm/bug.h \
-  include/linux/stringify.h \
-  arch/arm64/include/asm/asm-bug.h \
-    $(wildcard include/config/DEBUG_BUGVERBOSE) \
-  arch/arm64/include/asm/brk-imm.h \
-  include/asm-generic/bug.h \
-    $(wildcard include/config/BUG) \
-    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
-    $(wildcard include/config/SMP) \
-  include/linux/instrumentation.h \
-    $(wildcard include/config/NOINSTR_VALIDATION) \
-  include/linux/once_lite.h \
-  include/linux/panic.h \
-    $(wildcard include/config/PANIC_TIMEOUT) \
-  include/linux/printk.h \
-    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
-    $(wildcard include/config/EARLY_PRINTK) \
-    $(wildcard include/config/PRINTK) \
-    $(wildcard include/config/PRINTK_INDEX) \
-    $(wildcard include/config/DYNAMIC_DEBUG) \
-    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
-  include/linux/init.h \
-    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
-    $(wildcard include/config/STRICT_KERNEL_RWX) \
-    $(wildcard include/config/STRICT_MODULE_RWX) \
-    $(wildcard include/config/LTO_CLANG) \
-  include/linux/kern_levels.h \
-  include/linux/linkage.h \
-    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
-  include/linux/export.h \
-    $(wildcard include/config/MODVERSIONS) \
-    $(wildcard include/config/MODULES) \
-    $(wildcard include/config/TRIM_UNUSED_KSYMS) \
-  arch/arm64/include/asm/linkage.h \
-  include/linux/ratelimit_types.h \
-  include/uapi/linux/param.h \
-  arch/arm64/include/uapi/asm/param.h \
-  include/asm-generic/param.h \
-    $(wildcard include/config/HZ) \
-  include/uapi/asm-generic/param.h \
-  include/linux/spinlock_types_raw.h \
-    $(wildcard include/config/DEBUG_SPINLOCK) \
-    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
-  arch/arm64/include/asm/spinlock_types.h \
-  include/asm-generic/qspinlock_types.h \
-    $(wildcard include/config/NR_CPUS) \
-  include/asm-generic/qrwlock_types.h \
-  arch/arm64/include/uapi/asm/byteorder.h \
-  include/linux/byteorder/little_endian.h \
-  include/uapi/linux/byteorder/little_endian.h \
-  include/linux/swab.h \
-  include/uapi/linux/swab.h \
-  arch/arm64/include/generated/uapi/asm/swab.h \
-  include/uapi/asm-generic/swab.h \
-  include/linux/byteorder/generic.h \
-  include/linux/lockdep_types.h \
-    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
-    $(wildcard include/config/LOCKDEP) \
-    $(wildcard include/config/LOCK_STAT) \
-  include/linux/dynamic_debug.h \
-    $(wildcard include/config/JUMP_LABEL) \
-  include/linux/jump_label.h \
-    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
-  arch/arm64/include/asm/jump_label.h \
-  arch/arm64/include/asm/insn.h \
-    $(wildcard include/config/ARM64_LSE_ATOMICS) \
-  arch/arm64/include/asm/insn-def.h \
-  include/linux/limits.h \
-  include/uapi/linux/limits.h \
-  include/vdso/limits.h \
   include/linux/of_device.h \
   include/linux/platform_device.h \
     $(wildcard include/config/SUSPEND) \
@@ -188,9 +110,38 @@ deps_sound/soc/codecs/es7241.o := \
     $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU) \
     $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU_ALL) \
     $(wildcard include/config/DMA_OPS_BYPASS) \
+    $(wildcard include/config/LOCKDEP) \
     $(wildcard include/config/DEVTMPFS) \
   include/linux/dev_printk.h \
+    $(wildcard include/config/PRINTK) \
+    $(wildcard include/config/DYNAMIC_DEBUG) \
+    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
   include/linux/ratelimit.h \
+  include/linux/ratelimit_types.h \
+  include/uapi/linux/param.h \
+  arch/arm64/include/uapi/asm/param.h \
+  include/asm-generic/param.h \
+    $(wildcard include/config/HZ) \
+  include/uapi/asm-generic/param.h \
+  include/linux/spinlock_types_raw.h \
+    $(wildcard include/config/SMP) \
+    $(wildcard include/config/DEBUG_SPINLOCK) \
+    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
+  arch/arm64/include/asm/spinlock_types.h \
+  include/asm-generic/qspinlock_types.h \
+    $(wildcard include/config/NR_CPUS) \
+  include/asm-generic/qrwlock_types.h \
+  arch/arm64/include/uapi/asm/byteorder.h \
+  include/linux/byteorder/little_endian.h \
+  include/uapi/linux/byteorder/little_endian.h \
+  include/linux/swab.h \
+  include/uapi/linux/swab.h \
+  arch/arm64/include/generated/uapi/asm/swab.h \
+  include/uapi/asm-generic/swab.h \
+  include/linux/byteorder/generic.h \
+  include/linux/lockdep_types.h \
+    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
+    $(wildcard include/config/LOCK_STAT) \
   include/linux/sched.h \
     $(wildcard include/config/DEBUG_ATOMIC_SLEEP) \
     $(wildcard include/config/PREEMPT_RT) \
@@ -251,6 +202,7 @@ deps_sound/soc/codecs/es7241.o := \
     $(wildcard include/config/SCHED_MM_CID) \
     $(wildcard include/config/FAULT_INJECTION) \
     $(wildcard include/config/LATENCYTOP) \
+    $(wildcard include/config/KMSAN) \
     $(wildcard include/config/KUNIT) \
     $(wildcard include/config/FUNCTION_GRAPH_TRACER) \
     $(wildcard include/config/TRACING) \
@@ -291,6 +243,9 @@ deps_sound/soc/codecs/es7241.o := \
     $(wildcard include/config/ARM64_PSEUDO_NMI) \
   arch/arm64/include/asm/alternative-macros.h \
   arch/arm64/include/generated/asm/cpucaps.h \
+  arch/arm64/include/asm/insn-def.h \
+  arch/arm64/include/asm/brk-imm.h \
+  include/linux/stringify.h \
   include/asm-generic/barrier.h \
   include/linux/rcupdate.h \
     $(wildcard include/config/TINY_RCU) \
@@ -311,9 +266,19 @@ deps_sound/soc/codecs/es7241.o := \
   arch/arm64/include/asm/atomic.h \
   arch/arm64/include/asm/cmpxchg.h \
   arch/arm64/include/asm/lse.h \
+    $(wildcard include/config/ARM64_LSE_ATOMICS) \
   arch/arm64/include/asm/atomic_ll_sc.h \
     $(wildcard include/config/CC_HAS_K_CONSTRAINT) \
+  include/linux/export.h \
+    $(wildcard include/config/MODVERSIONS) \
+    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
+    $(wildcard include/config/MODULES) \
+    $(wildcard include/config/TRIM_UNUSED_KSYMS) \
   arch/arm64/include/asm/alternative.h \
+  include/linux/init.h \
+    $(wildcard include/config/STRICT_KERNEL_RWX) \
+    $(wildcard include/config/STRICT_MODULE_RWX) \
+    $(wildcard include/config/LTO_CLANG) \
   arch/arm64/include/asm/atomic_lse.h \
   include/linux/atomic/atomic-arch-fallback.h \
     $(wildcard include/config/GENERIC_ATOMIC64) \
@@ -383,11 +348,43 @@ deps_sound/soc/codecs/es7241.o := \
   include/asm-generic/bitops/non-instrumented-non-atomic.h \
   include/asm-generic/bitops/le.h \
   include/asm-generic/bitops/ext2-atomic-setbit.h \
+  include/linux/bug.h \
+    $(wildcard include/config/GENERIC_BUG) \
+    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
+  arch/arm64/include/asm/bug.h \
+  arch/arm64/include/asm/asm-bug.h \
+    $(wildcard include/config/DEBUG_BUGVERBOSE) \
+  include/asm-generic/bug.h \
+    $(wildcard include/config/BUG) \
+    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
+  include/linux/instrumentation.h \
+    $(wildcard include/config/NOINSTR_VALIDATION) \
+  include/linux/once_lite.h \
+  include/linux/panic.h \
+    $(wildcard include/config/PANIC_TIMEOUT) \
+  include/linux/printk.h \
+    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
+    $(wildcard include/config/EARLY_PRINTK) \
+    $(wildcard include/config/PRINTK_INDEX) \
+  include/linux/kern_levels.h \
+  include/linux/linkage.h \
+    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
+  arch/arm64/include/asm/linkage.h \
+  include/linux/jump_label.h \
+    $(wildcard include/config/JUMP_LABEL) \
+    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
+  arch/arm64/include/asm/jump_label.h \
+  arch/arm64/include/asm/insn.h \
   include/linux/kernel.h \
     $(wildcard include/config/PREEMPT_VOLUNTARY_BUILD) \
     $(wildcard include/config/PREEMPT_) \
     $(wildcard include/config/FTRACE_MCOUNT_RECORD) \
   include/linux/align.h \
+  include/linux/limits.h \
+  include/uapi/linux/limits.h \
+  include/vdso/limits.h \
   include/linux/hex.h \
   include/linux/kstrtox.h \
   include/linux/math.h \
@@ -693,6 +690,7 @@ deps_sound/soc/codecs/es7241.o := \
   include/linux/sysfs.h \
   include/linux/kernfs.h \
     $(wildcard include/config/KERNFS) \
+  include/linux/err.h \
   include/linux/idr.h \
   include/linux/radix-tree.h \
   include/linux/xarray.h \
@@ -746,11 +744,6 @@ deps_sound/soc/codecs/es7241.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
-  arch/arm64/include/asm/uprobes.h \
-  arch/arm64/include/asm/debug-monitors.h \
-  arch/arm64/include/asm/esr.h \
-  arch/arm64/include/asm/probes.h \
-    $(wildcard include/config/KPROBES) \
   include/linux/percpu_counter.h \
   arch/arm64/include/asm/mmu.h \
   include/linux/page-flags.h \
@@ -834,6 +827,7 @@ deps_sound/soc/codecs/es7241.o := \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/DEBUG_INFO_BTF_MODULES) \
     $(wildcard include/config/EVENT_TRACING) \
+    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/CONSTRUCTORS) \
     $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
@@ -973,6 +967,7 @@ deps_sound/soc/codecs/es7241.o := \
   include/linux/error-injection.h \
   include/asm-generic/error-injection.h \
   include/linux/tracepoint-defs.h \
+  include/linux/dynamic_debug.h \
   arch/arm64/include/asm/module.h \
     $(wildcard include/config/ARM64_MODULE_PLTS) \
     $(wildcard include/config/DYNAMIC_FTRACE) \
@@ -1016,6 +1011,7 @@ deps_sound/soc/codecs/es7241.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
+  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \

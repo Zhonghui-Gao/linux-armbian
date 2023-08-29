@@ -1,0 +1,1 @@
+savedcmd_sound/soc/fsl/snd-soc-fsl-easrc.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/fsl/snd-soc-fsl-easrc.ko sound/soc/fsl/snd-soc-fsl-easrc.o sound/soc/fsl/snd-soc-fsl-easrc.mod.o;  true

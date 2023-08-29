@@ -1,1 +1,1 @@
-savedcmd_security/integrity/built-in.a := rm -f security/integrity/built-in.a;  printf "security/integrity/%s " iint.o integrity_audit.o digsig.o digsig_asymmetric.o platform_certs/platform_keyring.o platform_certs/efi_parser.o platform_certs/load_uefi.o platform_certs/keyring_handler.o | xargs aarch64-linux-gnu-ar cDPrST security/integrity/built-in.a
+savedcmd_security/integrity/built-in.a := rm -f security/integrity/built-in.a;  printf "security/integrity/%s " iint.o integrity_audit.o | xargs aarch64-linux-gnu-ar cDPrST security/integrity/built-in.a

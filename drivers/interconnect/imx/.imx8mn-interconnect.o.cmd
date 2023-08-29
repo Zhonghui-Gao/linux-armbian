@@ -1,0 +1,1 @@
+savedcmd_drivers/interconnect/imx/imx8mn-interconnect.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/interconnect/imx/imx8mn-interconnect.o @drivers/interconnect/imx/imx8mn-interconnect.mod 

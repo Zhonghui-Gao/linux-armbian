@@ -1,0 +1,1 @@
+savedcmd_drivers/clk/qcom/dispcc-sc8280xp.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/clk/qcom/dispcc-sc8280xp.ko drivers/clk/qcom/dispcc-sc8280xp.o drivers/clk/qcom/dispcc-sc8280xp.mod.o;  true

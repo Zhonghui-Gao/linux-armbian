@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/host/xhci-pci-renesas.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/host/xhci-pci-renesas.ko drivers/usb/host/xhci-pci-renesas.o drivers/usb/host/xhci-pci-renesas.mod.o;  true

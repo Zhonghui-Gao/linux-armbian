@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/cdns3/cdns3-ti.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/cdns3/cdns3-ti.ko drivers/usb/cdns3/cdns3-ti.o drivers/usb/cdns3/cdns3-ti.mod.o;  true

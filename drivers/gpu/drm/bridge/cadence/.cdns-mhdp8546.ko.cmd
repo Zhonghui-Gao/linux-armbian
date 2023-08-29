@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/bridge/cadence/cdns-mhdp8546.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/bridge/cadence/cdns-mhdp8546.ko drivers/gpu/drm/bridge/cadence/cdns-mhdp8546.o drivers/gpu/drm/bridge/cadence/cdns-mhdp8546.mod.o;  true

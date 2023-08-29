@@ -1,0 +1,1 @@
+savedcmd_drivers/bus/fsl-mc/built-in.a := rm -f drivers/bus/fsl-mc/built-in.a;  printf "drivers/bus/fsl-mc/%s " fsl-mc-bus.o mc-sys.o mc-io.o dpbp.o dpcon.o dprc.o dprc-driver.o fsl-mc-allocator.o fsl-mc-msi.o dpmcp.o obj-api.o | xargs aarch64-linux-gnu-ar cDPrST drivers/bus/fsl-mc/built-in.a

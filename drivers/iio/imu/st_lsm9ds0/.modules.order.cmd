@@ -1,1 +1,1 @@
-savedcmd_drivers/iio/imu/st_lsm9ds0/modules.order := {   echo drivers/iio/imu/st_lsm9ds0/st_lsm9ds0.o;   echo drivers/iio/imu/st_lsm9ds0/st_lsm9ds0_i2c.o;   echo drivers/iio/imu/st_lsm9ds0/st_lsm9ds0_spi.o; :; } > drivers/iio/imu/st_lsm9ds0/modules.order
+savedcmd_drivers/iio/imu/st_lsm9ds0/modules.order := {  :; } > drivers/iio/imu/st_lsm9ds0/modules.order

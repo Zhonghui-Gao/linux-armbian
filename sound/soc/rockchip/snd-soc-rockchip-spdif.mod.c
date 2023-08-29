@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "snd-soc-core");
+MODULE_INFO(depends, "");
 
 MODULE_ALIAS("of:N*T*Crockchip,rk3066-spdif");
 MODULE_ALIAS("of:N*T*Crockchip,rk3066-spdifC*");

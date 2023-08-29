@@ -1,0 +1,1 @@
+savedcmd_drivers/remoteproc/qcom_q6v5.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/remoteproc/qcom_q6v5.ko drivers/remoteproc/qcom_q6v5.o drivers/remoteproc/qcom_q6v5.mod.o;  true

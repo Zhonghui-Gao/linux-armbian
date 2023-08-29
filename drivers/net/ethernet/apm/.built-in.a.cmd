@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/apm/built-in.a := rm -f drivers/net/ethernet/apm/built-in.a;  printf "drivers/net/ethernet/apm/%s " xgene/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/net/ethernet/apm/built-in.a

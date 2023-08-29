@@ -1,1 +1,1 @@
-savedcmd_drivers/dma/ti/built-in.a := rm -f drivers/dma/ti/built-in.a;  aarch64-linux-gnu-ar cDPrST drivers/dma/ti/built-in.a
+savedcmd_drivers/dma/ti/built-in.a := rm -f drivers/dma/ti/built-in.a;  printf "drivers/dma/ti/%s " k3-udma.o k3-udma-glue.o k3-psil.o k3-psil-am654.o k3-psil-j721e.o k3-psil-j7200.o k3-psil-am64.o k3-psil-j721s2.o k3-psil-am62.o k3-psil-am62a.o k3-psil-j784s4.o | xargs aarch64-linux-gnu-ar cDPrST drivers/dma/ti/built-in.a

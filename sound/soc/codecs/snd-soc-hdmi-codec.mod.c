@@ -33,5 +33,5 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "snd-pcm,snd,snd-soc-core");
+MODULE_INFO(depends, "");
 

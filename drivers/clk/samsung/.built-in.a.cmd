@@ -1,0 +1,1 @@
+savedcmd_drivers/clk/samsung/built-in.a := rm -f drivers/clk/samsung/built-in.a;  printf "drivers/clk/samsung/%s " clk.o clk-pll.o clk-cpu.o clk-exynos5433.o clk-exynos-audss.o clk-exynos-clkout.o clk-exynos-arm64.o clk-exynos7.o clk-exynos7885.o clk-exynos850.o clk-exynosautov9.o clk-fsd.o | xargs aarch64-linux-gnu-ar cDPrST drivers/clk/samsung/built-in.a

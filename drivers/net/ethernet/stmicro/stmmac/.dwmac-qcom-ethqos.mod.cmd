@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/stmicro/stmmac/dwmac-qcom-ethqos.mod := printf '%s\n'   dwmac-qcom-ethqos.o | awk '!x[$$0]++ { print("drivers/net/ethernet/stmicro/stmmac/"$$0) }' > drivers/net/ethernet/stmicro/stmmac/dwmac-qcom-ethqos.mod

@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "snd-soc-core,snd-soc-lpass-macro-common");
+MODULE_INFO(depends, "snd-soc-lpass-macro-common");
 
 MODULE_ALIAS("of:N*T*Cqcom,sc7280-lpass-tx-macro");
 MODULE_ALIAS("of:N*T*Cqcom,sc7280-lpass-tx-macroC*");

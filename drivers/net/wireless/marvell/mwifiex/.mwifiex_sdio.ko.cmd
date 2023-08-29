@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.ko drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.o drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.mod.o;  true

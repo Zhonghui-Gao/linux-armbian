@@ -1,1 +1,1 @@
-savedcmd_sound/usb/6fire/modules.order := {   echo sound/usb/6fire/snd-usb-6fire.o; :; } > sound/usb/6fire/modules.order
+savedcmd_sound/usb/6fire/modules.order := {  :; } > sound/usb/6fire/modules.order

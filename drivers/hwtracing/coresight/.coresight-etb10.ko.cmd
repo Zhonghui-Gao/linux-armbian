@@ -1,0 +1,1 @@
+savedcmd_drivers/hwtracing/coresight/coresight-etb10.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwtracing/coresight/coresight-etb10.ko drivers/hwtracing/coresight/coresight-etb10.o drivers/hwtracing/coresight/coresight-etb10.mod.o;  true

@@ -1,1 +1,1 @@
-savedcmd_drivers/phy/samsung/built-in.a := rm -f drivers/phy/samsung/built-in.a;  printf "drivers/phy/samsung/%s " phy-samsung-usb2.o | xargs aarch64-linux-gnu-ar cDPrST drivers/phy/samsung/built-in.a
+savedcmd_drivers/phy/samsung/built-in.a := rm -f drivers/phy/samsung/built-in.a;  printf "drivers/phy/samsung/%s " phy-exynos-dp-video.o phy-exynos-mipi-video.o phy-samsung-ufs.o phy-exynos7-ufs.o phy-exynosautov9-ufs.o phy-fsd-ufs.o phy-samsung-usb2.o phy-exynos5-usbdrd.o | xargs aarch64-linux-gnu-ar cDPrST drivers/phy/samsung/built-in.a

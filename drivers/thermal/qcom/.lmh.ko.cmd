@@ -1,0 +1,1 @@
+savedcmd_drivers/thermal/qcom/lmh.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/thermal/qcom/lmh.ko drivers/thermal/qcom/lmh.o drivers/thermal/qcom/lmh.mod.o;  true

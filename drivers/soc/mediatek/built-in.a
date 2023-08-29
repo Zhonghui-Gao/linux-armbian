@@ -1,1 +1,12 @@
-!<arch>
+!<thin>
+//                                              90        `
+mtk-infracfg.o/
+mtk-pmic-wrap.o/
+mtk-regulator-coupler.o/
+mtk-scpsys.o/
+mtk-pm-domains.o/
+/0              0           0     0     644     16184     `
+/16             0           0     0     644     149064    `
+/33             0           0     0     644     35304     `
+/58             0           0     0     644     73952     `
+/72             0           0     0     644     124840    `

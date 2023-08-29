@@ -1,0 +1,1 @@
+savedcmd_drivers/power/reset/nvmem-reboot-mode.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/power/reset/nvmem-reboot-mode.ko drivers/power/reset/nvmem-reboot-mode.o drivers/power/reset/nvmem-reboot-mode.mod.o;  true

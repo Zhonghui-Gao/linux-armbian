@@ -1,0 +1,1 @@
+savedcmd_drivers/irqchip/irq-imx-mu-msi.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/irqchip/irq-imx-mu-msi.ko drivers/irqchip/irq-imx-mu-msi.o drivers/irqchip/irq-imx-mu-msi.mod.o;  true

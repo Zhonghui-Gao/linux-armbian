@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/stmicro/stmmac/dwmac-visconti.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/stmicro/stmmac/dwmac-visconti.ko drivers/net/ethernet/stmicro/stmmac/dwmac-visconti.o drivers/net/ethernet/stmicro/stmmac/dwmac-visconti.mod.o;  true

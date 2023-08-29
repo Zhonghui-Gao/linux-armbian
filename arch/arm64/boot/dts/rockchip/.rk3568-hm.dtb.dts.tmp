@@ -5737,7 +5737,8 @@
  compatible = "roymark,hm3568", "rockchip,rk3568";
 
  aliases {
-  ethernet0 = &gmac1;
+  ethernet0 = &gmac0;
+  ethernet1 = &gmac1;
   mmc0 = &sdmmc0;
   mmc1 = &sdhci;
  };
@@ -5757,6 +5758,8 @@
   };
  };
 
+
+
  gmac1_clkin: external-gmac1-clock {
   compatible = "fixed-clock";
   clock-frequency = <125000000>;
@@ -5764,11 +5767,18 @@
   #clock-cells = <0>;
  };
 
+ gmac0_clkin: external-gmac0-clock {
+  compatible = "fixed-clock";
+  clock-frequency = <125000000>;
+  clock-output-names = "gmac0_clkin";
+  #clock-cells = <0>;
+ };
+
  leds {
   compatible = "gpio-leds";
 
   led_user: led-0 {
-   gpios = <&gpio0 16 1>;
+   gpios = <&gpio0 15 0>;
    function = "heartbeat";
    color = <3>;
    linux,default-trigger = "heartbeat";
@@ -5968,8 +5978,42 @@
  cpu-supply = <&vdd_cpu>;
 };
 
+&gmac0 {
+ snps,reset-gpio = <&gpio2 27 1>;
+ snps,reset-active-low;
+
+ snps,reset-delays-us = <0 20000 100000>;
+
+ assigned-clocks = <&cru 389>, <&cru 386>;
+ assigned-clock-parents = <&cru 387>, <&gmac0_clkin>;
+ clock_in_out = "input";
+ phy-handle = <&rgmii_phy0>;
+ phy-mode = "rgmii";
+
+ pinctrl-names = "default";
+ pinctrl-0 = <&gmac0_miim
+       &gmac0_tx_bus2
+       &gmac0_rx_bus2
+       &gmac0_rgmii_clk
+       &gmac0_rgmii_bus
+       &gmac0_clkinout>;
+
+ tx_delay = <0x3c>;
+ rx_delay = <0x2f>;
+
+ status = "okay";
+};
+
+&mdio0 {
+ rgmii_phy0: ethernet-phy@0 {
+  compatible = "ethernet-phy-ieee802.3-c22";
+  reg = <0x0>;
+ };
+};
+
+
 &gmac1 {
- snps,reset-gpio = <&gpio3 8 1>;
+ snps,reset-gpio = <&gpio2 25 1>;
  snps,reset-active-low;
 
  snps,reset-delays-us = <0 20000 100000>;
@@ -5992,6 +6036,13 @@
  rx_delay = <0x26>;
 
  status = "okay";
+};
+
+&mdio1 {
+ rgmii_phy1: ethernet-phy@0 {
+  compatible = "ethernet-phy-ieee802.3-c22";
+  reg = <0x0>;
+ };
 };
 
 &gpu {
@@ -6301,12 +6352,6 @@
  status = "okay";
 };
 
-&mdio1 {
- rgmii_phy1: ethernet-phy@0 {
-  compatible = "ethernet-phy-ieee802.3-c22";
-  reg = <0x0>;
- };
-};
 
 &pcie2x1 {
  pinctrl-names = "default";
@@ -6344,7 +6389,8 @@
 
  ethernet {
   eth_phy_rst: eth_phy_rst {
-   rockchip,pins = <3 8 0 &pcfg_pull_none>;
+   rockchip,pins = <2 27 0 &pcfg_pull_none>,
+     <2 25 0 &pcfg_pull_none>;
   };
  };
 

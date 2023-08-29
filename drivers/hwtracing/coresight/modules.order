@@ -1,0 +1,10 @@
+drivers/hwtracing/coresight/coresight.o
+drivers/hwtracing/coresight/coresight-tmc.o
+drivers/hwtracing/coresight/coresight-tpiu.o
+drivers/hwtracing/coresight/coresight-etb10.o
+drivers/hwtracing/coresight/coresight-funnel.o
+drivers/hwtracing/coresight/coresight-replicator.o
+drivers/hwtracing/coresight/coresight-stm.o
+drivers/hwtracing/coresight/coresight-cpu-debug.o
+drivers/hwtracing/coresight/coresight-catu.o
+drivers/hwtracing/coresight/coresight-cti.o

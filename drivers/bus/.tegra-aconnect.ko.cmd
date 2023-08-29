@@ -1,0 +1,1 @@
+savedcmd_drivers/bus/tegra-aconnect.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/bus/tegra-aconnect.ko drivers/bus/tegra-aconnect.o drivers/bus/tegra-aconnect.mod.o;  true

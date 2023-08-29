@@ -1,0 +1,1 @@
+savedcmd_drivers/pci/endpoint/functions/pci-epf-test.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/pci/endpoint/functions/pci-epf-test.ko drivers/pci/endpoint/functions/pci-epf-test.o drivers/pci/endpoint/functions/pci-epf-test.mod.o;  true

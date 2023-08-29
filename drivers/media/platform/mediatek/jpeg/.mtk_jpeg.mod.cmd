@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/mediatek/jpeg/mtk_jpeg.mod := printf '%s\n'   mtk_jpeg_core.o mtk_jpeg_dec_parse.o | awk '!x[$$0]++ { print("drivers/media/platform/mediatek/jpeg/"$$0) }' > drivers/media/platform/mediatek/jpeg/mtk_jpeg.mod

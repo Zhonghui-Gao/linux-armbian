@@ -1,1 +1,1 @@
-savedcmd_drivers/pci/controller/modules.order := {   cat drivers/pci/controller/dwc/modules.order;   cat drivers/pci/controller/mobiveil/modules.order; :; } > drivers/pci/controller/modules.order
+savedcmd_drivers/pci/controller/modules.order := {   cat drivers/pci/controller/dwc/modules.order;   cat drivers/pci/controller/mobiveil/modules.order;   echo drivers/pci/controller/pcie-rockchip-host.o;   echo drivers/pci/controller/pcie-mediatek-gen3.o;   echo drivers/pci/controller/pcie-brcmstb.o; :; } > drivers/pci/controller/modules.order

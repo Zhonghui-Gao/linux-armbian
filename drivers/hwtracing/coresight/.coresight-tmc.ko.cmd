@@ -1,0 +1,1 @@
+savedcmd_drivers/hwtracing/coresight/coresight-tmc.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwtracing/coresight/coresight-tmc.ko drivers/hwtracing/coresight/coresight-tmc.o drivers/hwtracing/coresight/coresight-tmc.mod.o;  true

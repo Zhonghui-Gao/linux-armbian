@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "regmap-spmi");
+MODULE_INFO(depends, "");
 
 MODULE_ALIAS("of:N*T*Cmediatek,mt6315-regulator");
 MODULE_ALIAS("of:N*T*Cmediatek,mt6315-regulatorC*");

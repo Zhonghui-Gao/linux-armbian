@@ -15,14 +15,8 @@ drivers/net/wireless/broadcom/brcm80211/brcmfmac/pno.o
 drivers/net/wireless/broadcom/brcm80211/brcmfmac/xtlv.o
 drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcdc.o
 drivers/net/wireless/broadcom/brcm80211/brcmfmac/fwsignal.o
-drivers/net/wireless/broadcom/brcm80211/brcmfmac/commonring.o
-drivers/net/wireless/broadcom/brcm80211/brcmfmac/flowring.o
-drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.o
 drivers/net/wireless/broadcom/brcm80211/brcmfmac/sdio.o
 drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcmsdh.o
-drivers/net/wireless/broadcom/brcm80211/brcmfmac/usb.o
-drivers/net/wireless/broadcom/brcm80211/brcmfmac/pcie.o
-drivers/net/wireless/broadcom/brcm80211/brcmfmac/debug.o
-drivers/net/wireless/broadcom/brcm80211/brcmfmac/tracepoint.o
 drivers/net/wireless/broadcom/brcm80211/brcmfmac/of.o
 drivers/net/wireless/broadcom/brcm80211/brcmfmac/dmi.o
+drivers/net/wireless/broadcom/brcm80211/brcmfmac/acpi.o

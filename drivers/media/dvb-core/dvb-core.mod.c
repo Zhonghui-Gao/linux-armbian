@@ -33,5 +33,5 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "mc,videobuf2-common,videobuf2-vmalloc");
+MODULE_INFO(depends, "");
 

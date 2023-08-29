@@ -1,0 +1,1 @@
+savedcmd_drivers/soc/qcom/spm.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/soc/qcom/spm.ko drivers/soc/qcom/spm.o drivers/soc/qcom/spm.mod.o;  true

@@ -1,0 +1,16 @@
+drivers/media/platform/mediatek/vcodec/vdec/vdec_h264_if.o
+drivers/media/platform/mediatek/vcodec/vdec/vdec_vp8_if.o
+drivers/media/platform/mediatek/vcodec/vdec/vdec_vp8_req_if.o
+drivers/media/platform/mediatek/vcodec/vdec/vdec_vp9_if.o
+drivers/media/platform/mediatek/vcodec/vdec/vdec_vp9_req_lat_if.o
+drivers/media/platform/mediatek/vcodec/vdec/vdec_h264_req_if.o
+drivers/media/platform/mediatek/vcodec/vdec/vdec_h264_req_common.o
+drivers/media/platform/mediatek/vcodec/vdec/vdec_h264_req_multi_if.o
+drivers/media/platform/mediatek/vcodec/mtk_vcodec_dec_drv.o
+drivers/media/platform/mediatek/vcodec/vdec_drv_if.o
+drivers/media/platform/mediatek/vcodec/vdec_vpu_if.o
+drivers/media/platform/mediatek/vcodec/vdec_msg_queue.o
+drivers/media/platform/mediatek/vcodec/mtk_vcodec_dec.o
+drivers/media/platform/mediatek/vcodec/mtk_vcodec_dec_stateful.o
+drivers/media/platform/mediatek/vcodec/mtk_vcodec_dec_stateless.o
+drivers/media/platform/mediatek/vcodec/mtk_vcodec_dec_pm.o

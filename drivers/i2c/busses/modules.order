@@ -1,9 +1,6 @@
+drivers/i2c/busses/i2c-bcm2835.o
 drivers/i2c/busses/i2c-cadence.o
-drivers/i2c/busses/i2c-cbus-gpio.o
-drivers/i2c/busses/i2c-diolan-u2c.o
-drivers/i2c/busses/i2c-dln2.o
-drivers/i2c/busses/i2c-cp2615.o
-drivers/i2c/busses/i2c-robotfuzz-osif.o
-drivers/i2c/busses/i2c-taos-evm.o
-drivers/i2c/busses/i2c-tiny-usb.o
-drivers/i2c/busses/i2c-virtio.o
+drivers/i2c/busses/i2c-gpio.o
+drivers/i2c/busses/i2c-qcom-cci.o
+drivers/i2c/busses/i2c-qcom-geni.o
+drivers/i2c/busses/i2c-rzv2m.o

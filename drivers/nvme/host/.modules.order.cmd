@@ -1,1 +1,1 @@
-savedcmd_drivers/nvme/host/modules.order := {   echo drivers/nvme/host/nvme-fabrics.o;   echo drivers/nvme/host/nvme-fc.o; :; } > drivers/nvme/host/modules.order
+savedcmd_drivers/nvme/host/modules.order := {   echo drivers/nvme/host/nvme-core.o;   echo drivers/nvme/host/nvme.o; :; } > drivers/nvme/host/modules.order

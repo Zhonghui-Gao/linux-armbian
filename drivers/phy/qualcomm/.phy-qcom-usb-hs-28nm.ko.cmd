@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/qualcomm/phy-qcom-usb-hs-28nm.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/phy/qualcomm/phy-qcom-usb-hs-28nm.ko drivers/phy/qualcomm/phy-qcom-usb-hs-28nm.o drivers/phy/qualcomm/phy-qcom-usb-hs-28nm.mod.o;  true

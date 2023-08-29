@@ -14,11 +14,11 @@
 #define TSK_STACK 32 /* offsetof(struct task_struct, stack) */
 #define TSK_STACK_CANARY 1144 /* offsetof(struct task_struct, stack_canary) */
 
-#define THREAD_CPU_CONTEXT 2704 /* offsetof(struct task_struct, thread.cpu_context) */
-#define THREAD_SCTLR_USER 3792 /* offsetof(struct task_struct, thread.sctlr_user) */
-#define THREAD_KEYS_USER 3688 /* offsetof(struct task_struct, thread.keys_user) */
-#define THREAD_KEYS_KERNEL 3768 /* offsetof(struct task_struct, thread.keys_kernel) */
-#define THREAD_MTE_CTRL 3784 /* offsetof(struct task_struct, thread.mte_ctrl) */
+#define THREAD_CPU_CONTEXT 2656 /* offsetof(struct task_struct, thread.cpu_context) */
+#define THREAD_SCTLR_USER 3744 /* offsetof(struct task_struct, thread.sctlr_user) */
+#define THREAD_KEYS_USER 3640 /* offsetof(struct task_struct, thread.keys_user) */
+#define THREAD_KEYS_KERNEL 3720 /* offsetof(struct task_struct, thread.keys_kernel) */
+#define THREAD_MTE_CTRL 3736 /* offsetof(struct task_struct, thread.mte_ctrl) */
 
 #define S_X0 0 /* offsetof(struct pt_regs, regs[0]) */
 #define S_X2 16 /* offsetof(struct pt_regs, regs[2]) */
@@ -115,7 +115,7 @@
 #define HIBERN_PBE_NEXT 16 /* offsetof(struct pbe, next) */
 #define ARM64_FTR_SYSVAL 24 /* offsetof(struct arm64_ftr_reg, sys_val) */
 
-#define TRAMP_VALIAS -4398082195456 /* TRAMP_VALIAS */
+#define TRAMP_VALIAS -4398082203648 /* TRAMP_VALIAS */
 #define PTRAUTH_USER_KEY_APIA 0 /* offsetof(struct ptrauth_keys_user, apia) */
 #define PTRAUTH_KERNEL_KEY_APIA 0 /* offsetof(struct ptrauth_keys_kernel, apia) */
 

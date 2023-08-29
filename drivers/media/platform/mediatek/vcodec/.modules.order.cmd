@@ -1,1 +1,1 @@
-savedcmd_drivers/media/platform/mediatek/vcodec/modules.order := {  :; } > drivers/media/platform/mediatek/vcodec/modules.order
+savedcmd_drivers/media/platform/mediatek/vcodec/modules.order := {   echo drivers/media/platform/mediatek/vcodec/mtk-vcodec-dec.o;   echo drivers/media/platform/mediatek/vcodec/mtk-vcodec-enc.o;   echo drivers/media/platform/mediatek/vcodec/mtk-vcodec-common.o;   echo drivers/media/platform/mediatek/vcodec/mtk-vcodec-dec-hw.o; :; } > drivers/media/platform/mediatek/vcodec/modules.order

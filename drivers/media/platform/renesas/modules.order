@@ -1,0 +1,9 @@
+drivers/media/platform/renesas/rcar-vin/rcar-csi2.o
+drivers/media/platform/renesas/rcar-vin/rcar-vin.o
+drivers/media/platform/renesas/rzg2l-cru/rzg2l-csi2.o
+drivers/media/platform/renesas/rzg2l-cru/rzg2l-cru.o
+drivers/media/platform/renesas/vsp1/vsp1.o
+drivers/media/platform/renesas/rcar_drif.o
+drivers/media/platform/renesas/rcar-isp.o
+drivers/media/platform/renesas/rcar-fcp.o
+drivers/media/platform/renesas/rcar_fdp1.o

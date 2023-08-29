@@ -1,1 +1,1 @@
-savedcmd_drivers/phy/hisilicon/built-in.a := rm -f drivers/phy/hisilicon/built-in.a;  aarch64-linux-gnu-ar cDPrST drivers/phy/hisilicon/built-in.a
+savedcmd_drivers/phy/hisilicon/built-in.a := rm -f drivers/phy/hisilicon/built-in.a;  printf "drivers/phy/hisilicon/%s " phy-hi6220-usb.o phy-histb-combphy.o phy-hisi-inno-usb2.o | xargs aarch64-linux-gnu-ar cDPrST drivers/phy/hisilicon/built-in.a

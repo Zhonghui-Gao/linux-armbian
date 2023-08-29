@@ -1,6 +1,3 @@
 drivers/net/mdio/mdio-bcm-unimac.o
-drivers/net/mdio/mdio-i2c.o
-drivers/net/mdio/mdio-ipq8064.o
-drivers/net/mdio/mdio-mscc-miim.o
-drivers/net/mdio/mdio-mvusb.o
-drivers/net/mdio/mdio-mux-multiplexer.o
+drivers/net/mdio/mdio-mux-meson-g12a.o
+drivers/net/mdio/mdio-mux-meson-gxl.o

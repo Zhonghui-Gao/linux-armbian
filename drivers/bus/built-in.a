@@ -1,11 +1,42 @@
 !<thin>
-//                                              64        `
+//                                              342       `
 arm-cci.o/
+hisi_lpc.o/
 brcmstb_gisb.o/
+fsl-mc/fsl-mc-bus.o/
+fsl-mc/mc-sys.o/
+fsl-mc/mc-io.o/
+fsl-mc/dpbp.o/
+fsl-mc/dpcon.o/
+fsl-mc/dprc.o/
+fsl-mc/dprc-driver.o/
+fsl-mc/fsl-mc-allocator.o/
+fsl-mc/fsl-mc-msi.o/
+fsl-mc/dpmcp.o/
+fsl-mc/obj-api.o/
+qcom-ebi2.o/
+sun50i-de2.o/
+sunxi-rsb.o/
 simple-pm-bus.o/
+uniphier-system-bus.o/
 vexpress-config.o/
-
-/0              0           0     0     644     7584      `
-/11             0           0     0     644     13056     `
-/27             0           0     0     644     9328      `
-/44             0           0     0     644     15136     `
+/0              0           0     0     644     35496     `
+/11             0           0     0     644     60968     `
+/23             0           0     0     644     53840     `
+/39             0           0     0     644     116528    `
+/60             0           0     0     644     30720     `
+/77             0           0     0     644     29736     `
+/93             0           0     0     644     28312     `
+/108            0           0     0     644     30208     `
+/124            0           0     0     644     44648     `
+/139            0           0     0     644     56120     `
+/161            0           0     0     644     56408     `
+/188            0           0     0     644     16720     `
+/209            0           0     0     644     9496      `
+/225            0           0     0     644     25928     `
+/243            0           0     0     644     37216     `
+/256            0           0     0     644     20624     `
+/270            0           0     0     644     95920     `
+/283            0           0     0     644     29992     `
+/300            0           0     0     644     34120     `
+/323            0           0     0     644     60288     `

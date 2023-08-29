@@ -1,1 +1,1 @@
-savedcmd_fs/fuse/modules.order := {   echo fs/fuse/cuse.o;   echo fs/fuse/virtiofs.o; :; } > fs/fuse/modules.order
+savedcmd_fs/fuse/modules.order := {   echo fs/fuse/fuse.o;   echo fs/fuse/cuse.o; :; } > fs/fuse/modules.order

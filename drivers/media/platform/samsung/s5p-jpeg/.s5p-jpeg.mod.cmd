@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/samsung/s5p-jpeg/s5p-jpeg.mod := printf '%s\n'   jpeg-core.o jpeg-hw-exynos3250.o jpeg-hw-exynos4.o jpeg-hw-s5p.o | awk '!x[$$0]++ { print("drivers/media/platform/samsung/s5p-jpeg/"$$0) }' > drivers/media/platform/samsung/s5p-jpeg/s5p-jpeg.mod

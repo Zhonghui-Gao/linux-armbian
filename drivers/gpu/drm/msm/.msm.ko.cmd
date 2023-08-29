@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/msm/msm.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/msm/msm.ko drivers/gpu/drm/msm/msm.o drivers/gpu/drm/msm/msm.mod.o;  true

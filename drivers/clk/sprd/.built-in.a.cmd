@@ -1,1 +1,1 @@
-savedcmd_drivers/clk/sprd/built-in.a := rm -f drivers/clk/sprd/built-in.a;  aarch64-linux-gnu-ar cDPrST drivers/clk/sprd/built-in.a
+savedcmd_drivers/clk/sprd/built-in.a := rm -f drivers/clk/sprd/built-in.a;  printf "drivers/clk/sprd/%s " common.o gate.o mux.o div.o composite.o pll.o sc9860-clk.o sc9863a-clk.o ums512-clk.o | xargs aarch64-linux-gnu-ar cDPrST drivers/clk/sprd/built-in.a

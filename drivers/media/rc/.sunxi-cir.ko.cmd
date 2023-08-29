@@ -1,0 +1,1 @@
+savedcmd_drivers/media/rc/sunxi-cir.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/sunxi-cir.ko drivers/media/rc/sunxi-cir.o drivers/media/rc/sunxi-cir.mod.o;  true

@@ -1,1 +1,1 @@
-savedcmd_drivers/mtd/nand/built-in.a := rm -f drivers/mtd/nand/built-in.a;  printf "drivers/mtd/nand/%s " onenand/built-in.a raw/built-in.a spi/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/mtd/nand/built-in.a
+savedcmd_drivers/mtd/nand/built-in.a := rm -f drivers/mtd/nand/built-in.a;  printf "drivers/mtd/nand/%s " core.o bbt.o ecc.o ecc-sw-hamming.o onenand/built-in.a raw/built-in.a spi/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/mtd/nand/built-in.a

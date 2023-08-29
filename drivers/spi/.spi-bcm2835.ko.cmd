@@ -1,0 +1,1 @@
+savedcmd_drivers/spi/spi-bcm2835.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/spi/spi-bcm2835.ko drivers/spi/spi-bcm2835.o drivers/spi/spi-bcm2835.mod.o;  true

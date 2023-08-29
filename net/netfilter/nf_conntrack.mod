@@ -11,11 +11,6 @@ net/netfilter/nf_conntrack_extend.o
 net/netfilter/nf_conntrack_acct.o
 net/netfilter/nf_conntrack_seqadj.o
 net/netfilter/nf_conntrack_proto_icmpv6.o
-net/netfilter/nf_conntrack_timeout.o
-net/netfilter/nf_conntrack_timestamp.o
 net/netfilter/nf_conntrack_ecache.o
-net/netfilter/nf_conntrack_labels.o
-net/netfilter/nf_conntrack_ovs.o
 net/netfilter/nf_conntrack_proto_dccp.o
 net/netfilter/nf_conntrack_proto_sctp.o
-net/netfilter/nf_conntrack_proto_gre.o

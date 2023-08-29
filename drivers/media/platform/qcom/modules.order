@@ -1,0 +1,4 @@
+drivers/media/platform/qcom/camss/qcom-camss.o
+drivers/media/platform/qcom/venus/venus-core.o
+drivers/media/platform/qcom/venus/venus-dec.o
+drivers/media/platform/qcom/venus/venus-enc.o

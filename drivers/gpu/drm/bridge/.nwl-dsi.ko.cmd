@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/bridge/nwl-dsi.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/bridge/nwl-dsi.ko drivers/gpu/drm/bridge/nwl-dsi.o drivers/gpu/drm/bridge/nwl-dsi.mod.o;  true

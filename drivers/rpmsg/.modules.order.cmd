@@ -1,0 +1,1 @@
+savedcmd_drivers/rpmsg/modules.order := {   echo drivers/rpmsg/rpmsg_char.o;   echo drivers/rpmsg/rpmsg_ctrl.o;   echo drivers/rpmsg/mtk_rpmsg.o;   echo drivers/rpmsg/qcom_glink_smem.o; :; } > drivers/rpmsg/modules.order

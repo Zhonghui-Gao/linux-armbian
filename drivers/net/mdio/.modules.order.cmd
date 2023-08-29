@@ -1,1 +1,1 @@
-savedcmd_drivers/net/mdio/modules.order := {   echo drivers/net/mdio/mdio-bcm-unimac.o;   echo drivers/net/mdio/mdio-i2c.o;   echo drivers/net/mdio/mdio-ipq8064.o;   echo drivers/net/mdio/mdio-mscc-miim.o;   echo drivers/net/mdio/mdio-mvusb.o;   echo drivers/net/mdio/mdio-mux-multiplexer.o; :; } > drivers/net/mdio/modules.order
+savedcmd_drivers/net/mdio/modules.order := {   echo drivers/net/mdio/mdio-bcm-unimac.o;   echo drivers/net/mdio/mdio-mux-meson-g12a.o;   echo drivers/net/mdio/mdio-mux-meson-gxl.o; :; } > drivers/net/mdio/modules.order

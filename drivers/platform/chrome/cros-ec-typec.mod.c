@@ -35,5 +35,6 @@ MODULE_INFO(retpoline, "Y");
 
 MODULE_INFO(depends, "typec");
 
+MODULE_ALIAS("acpi*:GOOG0014:*");
 MODULE_ALIAS("of:N*T*Cgoogle,cros-ec-typec");
 MODULE_ALIAS("of:N*T*Cgoogle,cros-ec-typecC*");

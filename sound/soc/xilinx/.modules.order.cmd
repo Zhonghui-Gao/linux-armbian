@@ -1,1 +1,1 @@
-savedcmd_sound/soc/xilinx/modules.order := {   echo sound/soc/xilinx/snd-soc-xlnx-i2s.o;   echo sound/soc/xilinx/snd-soc-xlnx-formatter-pcm.o;   echo sound/soc/xilinx/snd-soc-xlnx-spdif.o; :; } > sound/soc/xilinx/modules.order
+savedcmd_sound/soc/xilinx/modules.order := {  :; } > sound/soc/xilinx/modules.order

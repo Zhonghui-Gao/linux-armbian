@@ -1,4 +1,3 @@
-drivers/devfreq/governor_performance.o
-drivers/devfreq/governor_powersave.o
-drivers/devfreq/governor_userspace.o
 drivers/devfreq/governor_passive.o
+drivers/devfreq/imx8m-ddrc.o
+drivers/devfreq/mtk-cci-devfreq.o

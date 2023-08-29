@@ -1,0 +1,1 @@
+savedcmd_sound/pci/hda/snd-hda-codec-hdmi.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/pci/hda/snd-hda-codec-hdmi.ko sound/pci/hda/snd-hda-codec-hdmi.o sound/pci/hda/snd-hda-codec-hdmi.mod.o;  true

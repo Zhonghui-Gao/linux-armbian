@@ -1,0 +1,74 @@
+!<thin>
+//                                              664       `
+fec_main.o/
+fec_ptp.o/
+xgmac_mdio.o/
+fman/fman_muram.o/
+fman/fman.o/
+fman/fman_sp.o/
+fman/fman_keygen.o/
+fman/fman_port.o/
+fman/mac.o/
+fman/fman_dtsec.o/
+fman/fman_memac.o/
+fman/fman_tgec.o/
+dpaa/dpaa_eth.o/
+dpaa/dpaa_ethtool.o/
+dpaa/dpaa_eth_sysfs.o/
+dpaa2/dpaa2-eth.o/
+dpaa2/dpaa2-ethtool.o/
+dpaa2/dpni.o/
+dpaa2/dpaa2-mac.o/
+dpaa2/dpmac.o/
+dpaa2/dpaa2-eth-devlink.o/
+dpaa2/dpaa2-xsk.o/
+dpaa2/dpaa2-eth-debugfs.o/
+dpaa2/dpaa2-ptp.o/
+dpaa2/dprtc.o/
+enetc/enetc.o/
+enetc/enetc_cbdr.o/
+enetc/enetc_ethtool.o/
+enetc/enetc_pf.o/
+enetc/enetc_msg.o/
+enetc/enetc_qos.o/
+enetc/enetc_vf.o/
+enetc/enetc_ierb.o/
+enetc/enetc_pci_mdio.o/
+enetc/enetc_mdio.o/
+enetc/enetc_ptp.o/
+/0              0           0     0     644     378624    `
+/12             0           0     0     644     68344     `
+/23             0           0     0     644     56616     `
+/37             0           0     0     644     15376     `
+/56             0           0     0     644     146136    `
+/69             0           0     0     644     20224     `
+/85             0           0     0     644     33896     `
+/105            0           0     0     644     94288     `
+/123            0           0     0     644     40928     `
+/135            0           0     0     644     121896    `
+/154            0           0     0     644     118768    `
+/173            0           0     0     644     91064     `
+/191            0           0     0     644     282296    `
+/208            0           0     0     644     50112     `
+/229            0           0     0     644     49696     `
+/252            0           0     0     644     375928    `
+/271            0           0     0     644     72360     `
+/294            0           0     0     644     82040     `
+/308            0           0     0     644     55784     `
+/327            0           0     0     644     17248     `
+/342            0           0     0     644     46296     `
+/369            0           0     0     644     48464     `
+/388            0           0     0     644     35168     `
+/415            0           0     0     644     42808     `
+/434            0           0     0     644     15720     `
+/449            0           0     0     644     338008    `
+/464            0           0     0     644     45480     `
+/484            0           0     0     644     149552    `
+/507            0           0     0     644     147768    `
+/525            0           0     0     644     30464     `
+/544            0           0     0     644     154168    `
+/563            0           0     0     644     48104     `
+/581            0           0     0     644     28920     `
+/601            0           0     0     644     27584     `
+/625            0           0     0     644     46376     `
+/645            0           0     0     644     34312     `

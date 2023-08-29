@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "");
+MODULE_INFO(depends, "drm");
 
 MODULE_ALIAS("of:N*T*Cboe,tv101wum-nl6");
 MODULE_ALIAS("of:N*T*Cboe,tv101wum-nl6C*");

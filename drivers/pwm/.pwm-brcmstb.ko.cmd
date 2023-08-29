@@ -1,0 +1,1 @@
+savedcmd_drivers/pwm/pwm-brcmstb.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/pwm/pwm-brcmstb.ko drivers/pwm/pwm-brcmstb.o drivers/pwm/pwm-brcmstb.mod.o;  true

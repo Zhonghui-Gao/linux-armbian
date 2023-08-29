@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/sun4i/sun8i-drm-hdmi.mod := printf '%s\n'   sun8i_dw_hdmi.o sun8i_hdmi_phy.o sun8i_hdmi_phy_clk.o | awk '!x[$$0]++ { print("drivers/gpu/drm/sun4i/"$$0) }' > drivers/gpu/drm/sun4i/sun8i-drm-hdmi.mod

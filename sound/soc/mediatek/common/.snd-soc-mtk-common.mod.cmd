@@ -1,0 +1,1 @@
+savedcmd_sound/soc/mediatek/common/snd-soc-mtk-common.mod := printf '%s\n'   mtk-afe-platform-driver.o mtk-afe-fe-dai.o mtk-dsp-sof-common.o mtk-soundcard-driver.o | awk '!x[$$0]++ { print("sound/soc/mediatek/common/"$$0) }' > sound/soc/mediatek/common/snd-soc-mtk-common.mod

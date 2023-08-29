@@ -33,8 +33,10 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "snd-soc-core,snd-pcm");
+MODULE_INFO(depends, "");
 
+MODULE_ALIAS("acpi*:DLGS7212:*");
+MODULE_ALIAS("acpi*:DLGS7213:*");
 MODULE_ALIAS("of:N*T*Cdlg,da7212");
 MODULE_ALIAS("of:N*T*Cdlg,da7212C*");
 MODULE_ALIAS("of:N*T*Cdlg,da7213");

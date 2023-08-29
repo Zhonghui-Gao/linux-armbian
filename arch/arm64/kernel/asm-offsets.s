@@ -55,27 +55,27 @@ main:
 // arch/arm64/kernel/asm-offsets.c:48:   DEFINE(THREAD_CPU_CONTEXT,	offsetof(struct task_struct, thread.cpu_context));
 // 48 "arch/arm64/kernel/asm-offsets.c" 1
 	
-.ascii "->THREAD_CPU_CONTEXT 2704 offsetof(struct task_struct, thread.cpu_context)"	//
+.ascii "->THREAD_CPU_CONTEXT 2656 offsetof(struct task_struct, thread.cpu_context)"	//
 // 0 "" 2
 // arch/arm64/kernel/asm-offsets.c:49:   DEFINE(THREAD_SCTLR_USER,	offsetof(struct task_struct, thread.sctlr_user));
 // 49 "arch/arm64/kernel/asm-offsets.c" 1
 	
-.ascii "->THREAD_SCTLR_USER 3792 offsetof(struct task_struct, thread.sctlr_user)"	//
+.ascii "->THREAD_SCTLR_USER 3744 offsetof(struct task_struct, thread.sctlr_user)"	//
 // 0 "" 2
 // arch/arm64/kernel/asm-offsets.c:51:   DEFINE(THREAD_KEYS_USER,	offsetof(struct task_struct, thread.keys_user));
 // 51 "arch/arm64/kernel/asm-offsets.c" 1
 	
-.ascii "->THREAD_KEYS_USER 3688 offsetof(struct task_struct, thread.keys_user)"	//
+.ascii "->THREAD_KEYS_USER 3640 offsetof(struct task_struct, thread.keys_user)"	//
 // 0 "" 2
 // arch/arm64/kernel/asm-offsets.c:54:   DEFINE(THREAD_KEYS_KERNEL,	offsetof(struct task_struct, thread.keys_kernel));
 // 54 "arch/arm64/kernel/asm-offsets.c" 1
 	
-.ascii "->THREAD_KEYS_KERNEL 3768 offsetof(struct task_struct, thread.keys_kernel)"	//
+.ascii "->THREAD_KEYS_KERNEL 3720 offsetof(struct task_struct, thread.keys_kernel)"	//
 // 0 "" 2
 // arch/arm64/kernel/asm-offsets.c:57:   DEFINE(THREAD_MTE_CTRL,	offsetof(struct task_struct, thread.mte_ctrl));
 // 57 "arch/arm64/kernel/asm-offsets.c" 1
 	
-.ascii "->THREAD_MTE_CTRL 3784 offsetof(struct task_struct, thread.mte_ctrl)"	//
+.ascii "->THREAD_MTE_CTRL 3736 offsetof(struct task_struct, thread.mte_ctrl)"	//
 // 0 "" 2
 // arch/arm64/kernel/asm-offsets.c:59:   BLANK();
 // 59 "arch/arm64/kernel/asm-offsets.c" 1
@@ -560,7 +560,7 @@ main:
 // arch/arm64/kernel/asm-offsets.c:178:   DEFINE(TRAMP_VALIAS,		TRAMP_VALIAS);
 // 178 "arch/arm64/kernel/asm-offsets.c" 1
 	
-.ascii "->TRAMP_VALIAS -4398082195456 TRAMP_VALIAS"	//
+.ascii "->TRAMP_VALIAS -4398082203648 TRAMP_VALIAS"	//
 // 0 "" 2
 // arch/arm64/kernel/asm-offsets.c:185:   DEFINE(PTRAUTH_USER_KEY_APIA,		offsetof(struct ptrauth_keys_user, apia));
 // 185 "arch/arm64/kernel/asm-offsets.c" 1

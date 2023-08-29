@@ -1,0 +1,1 @@
+savedcmd_sound/soc/qcom/snd-soc-qcom-sdw.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/qcom/snd-soc-qcom-sdw.ko sound/soc/qcom/snd-soc-qcom-sdw.o sound/soc/qcom/snd-soc-qcom-sdw.mod.o;  true

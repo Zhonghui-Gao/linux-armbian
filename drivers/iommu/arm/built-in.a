@@ -1,10 +1,15 @@
 !<thin>
-//                                              102       `
+//                                              152       `
+arm-smmu/qcom_iommu.o/
 arm-smmu/arm-smmu.o/
 arm-smmu/arm-smmu-impl.o/
 arm-smmu/arm-smmu-nvidia.o/
+arm-smmu/arm-smmu-qcom.o/
 arm-smmu-v3/arm-smmu-v3.o/
-/0              0           0     0     644     46072     `
-/21             0           0     0     644     6392      `
-/47             0           0     0     644     1400      `
-/75             0           0     0     644     55736     `
+
+/0              0           0     0     644     101216    `
+/23             0           0     0     644     254664    `
+/44             0           0     0     644     46824     `
+/70             0           0     0     644     52024     `
+/98             0           0     0     644     92000     `
+/124            0           0     0     644     343688    `

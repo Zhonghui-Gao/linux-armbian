@@ -1,3 +1,0 @@
-drivers/virtio/virtio_input.o
-drivers/virtio/virtio_vdpa.o
-drivers/virtio/virtio_dma_buf.o

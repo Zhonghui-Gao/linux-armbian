@@ -1,4 +1,4 @@
-savedcmd_fs/btrfs/uuid-tree.o := aarch64-linux-gnu-gcc -Wp,-MMD,fs/btrfs/.uuid-tree.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144 -Wextra -Wunused -Wno-unused-parameter -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wstringop-truncation -Wmaybe-uninitialized -Wno-missing-field-initializers -Wno-sign-compare -Wno-type-limits -Wno-shift-negative-value    -DKBUILD_MODFILE='"fs/btrfs/btrfs"' -DKBUILD_BASENAME='"uuid_tree"' -DKBUILD_MODNAME='"btrfs"' -D__KBUILD_MODNAME=kmod_btrfs -c -o fs/btrfs/uuid-tree.o fs/btrfs/uuid-tree.c  
+savedcmd_fs/btrfs/uuid-tree.o := aarch64-linux-gnu-gcc -Wp,-MMD,fs/btrfs/.uuid-tree.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -fno-var-tracking -femit-struct-debug-baseonly -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144 -Wextra -Wunused -Wno-unused-parameter -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wstringop-truncation -Wmaybe-uninitialized -Wno-missing-field-initializers -Wno-sign-compare -Wno-type-limits -Wno-shift-negative-value  -DMODULE  -DKBUILD_BASENAME='"uuid_tree"' -DKBUILD_MODNAME='"btrfs"' -D__KBUILD_MODNAME=kmod_btrfs -c -o fs/btrfs/uuid-tree.o fs/btrfs/uuid-tree.c  
 
 source_fs/btrfs/uuid-tree.o := fs/btrfs/uuid-tree.c
 
@@ -74,66 +74,9 @@ deps_fs/btrfs/uuid-tree.o := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/fortify-string.h \
-    $(wildcard include/config/KMSAN) \
-  include/linux/bug.h \
-    $(wildcard include/config/GENERIC_BUG) \
-    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
-  arch/arm64/include/asm/bug.h \
-  include/linux/stringify.h \
-  arch/arm64/include/asm/asm-bug.h \
-    $(wildcard include/config/DEBUG_BUGVERBOSE) \
-  arch/arm64/include/asm/brk-imm.h \
-  include/asm-generic/bug.h \
-    $(wildcard include/config/BUG) \
-    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
-    $(wildcard include/config/SMP) \
-  include/linux/instrumentation.h \
-    $(wildcard include/config/NOINSTR_VALIDATION) \
-  include/linux/once_lite.h \
-  include/linux/panic.h \
-    $(wildcard include/config/PANIC_TIMEOUT) \
-  include/linux/printk.h \
-    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
-    $(wildcard include/config/EARLY_PRINTK) \
-    $(wildcard include/config/PRINTK) \
-    $(wildcard include/config/PRINTK_INDEX) \
-    $(wildcard include/config/DYNAMIC_DEBUG) \
-    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
-  include/linux/init.h \
-    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
-    $(wildcard include/config/STRICT_KERNEL_RWX) \
-    $(wildcard include/config/STRICT_MODULE_RWX) \
-    $(wildcard include/config/LTO_CLANG) \
-  include/linux/build_bug.h \
-  include/linux/kern_levels.h \
-  include/linux/linkage.h \
-    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
-  include/linux/export.h \
-    $(wildcard include/config/MODVERSIONS) \
-    $(wildcard include/config/MODULES) \
-    $(wildcard include/config/TRIM_UNUSED_KSYMS) \
-  arch/arm64/include/asm/linkage.h \
-  include/linux/ratelimit_types.h \
-  include/linux/bits.h \
-  include/linux/const.h \
-  include/vdso/const.h \
-  include/uapi/linux/const.h \
-  include/vdso/bits.h \
-  include/uapi/linux/param.h \
-  arch/arm64/include/uapi/asm/param.h \
-  include/asm-generic/param.h \
-    $(wildcard include/config/HZ) \
-  include/uapi/asm-generic/param.h \
-  include/linux/spinlock_types_raw.h \
-    $(wildcard include/config/DEBUG_SPINLOCK) \
-    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
-  arch/arm64/include/asm/spinlock_types.h \
-  include/asm-generic/qspinlock_types.h \
-    $(wildcard include/config/NR_CPUS) \
-  include/asm-generic/qrwlock_types.h \
+  arch/arm64/include/generated/asm/unaligned.h \
+  include/asm-generic/unaligned.h \
+  include/linux/unaligned/packed_struct.h \
   arch/arm64/include/uapi/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/uapi/linux/byteorder/little_endian.h \
@@ -142,25 +85,9 @@ deps_fs/btrfs/uuid-tree.o := \
   arch/arm64/include/generated/uapi/asm/swab.h \
   include/uapi/asm-generic/swab.h \
   include/linux/byteorder/generic.h \
-  include/linux/lockdep_types.h \
-    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
-    $(wildcard include/config/LOCKDEP) \
-    $(wildcard include/config/LOCK_STAT) \
-  include/linux/dynamic_debug.h \
-    $(wildcard include/config/JUMP_LABEL) \
-  include/linux/jump_label.h \
-    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
-  arch/arm64/include/asm/jump_label.h \
-  arch/arm64/include/asm/insn.h \
-    $(wildcard include/config/ARM64_LSE_ATOMICS) \
-  arch/arm64/include/asm/insn-def.h \
-  include/linux/limits.h \
-  include/uapi/linux/limits.h \
-  include/vdso/limits.h \
-  arch/arm64/include/generated/asm/unaligned.h \
-  include/asm-generic/unaligned.h \
-  include/linux/unaligned/packed_struct.h \
   fs/btrfs/messages.h \
+    $(wildcard include/config/PRINTK) \
+    $(wildcard include/config/DYNAMIC_DEBUG) \
     $(wildcard include/config/BTRFS_ASSERT) \
   fs/btrfs/ctree.h \
     $(wildcard include/config/BTRFS_FS_RUN_SANITY_TESTS) \
@@ -216,6 +143,66 @@ deps_fs/btrfs/uuid-tree.o := \
     $(wildcard include/config/DEBUG_VM_IRQSOFF) \
     $(wildcard include/config/DEBUG_VIRTUAL) \
     $(wildcard include/config/DEBUG_VM_PGFLAGS) \
+  include/linux/bug.h \
+    $(wildcard include/config/GENERIC_BUG) \
+    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
+  arch/arm64/include/asm/bug.h \
+  include/linux/stringify.h \
+  arch/arm64/include/asm/asm-bug.h \
+    $(wildcard include/config/DEBUG_BUGVERBOSE) \
+  arch/arm64/include/asm/brk-imm.h \
+  include/asm-generic/bug.h \
+    $(wildcard include/config/BUG) \
+    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
+    $(wildcard include/config/SMP) \
+  include/linux/instrumentation.h \
+    $(wildcard include/config/NOINSTR_VALIDATION) \
+  include/linux/once_lite.h \
+  include/linux/panic.h \
+    $(wildcard include/config/PANIC_TIMEOUT) \
+  include/linux/printk.h \
+    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
+    $(wildcard include/config/EARLY_PRINTK) \
+    $(wildcard include/config/PRINTK_INDEX) \
+    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
+  include/linux/init.h \
+    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
+    $(wildcard include/config/STRICT_KERNEL_RWX) \
+    $(wildcard include/config/STRICT_MODULE_RWX) \
+    $(wildcard include/config/LTO_CLANG) \
+  include/linux/build_bug.h \
+  include/linux/kern_levels.h \
+  include/linux/linkage.h \
+    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
+  include/linux/export.h \
+    $(wildcard include/config/MODVERSIONS) \
+    $(wildcard include/config/MODULES) \
+    $(wildcard include/config/TRIM_UNUSED_KSYMS) \
+  arch/arm64/include/asm/linkage.h \
+  include/linux/ratelimit_types.h \
+  include/linux/bits.h \
+  include/linux/const.h \
+  include/vdso/const.h \
+  include/uapi/linux/const.h \
+  include/vdso/bits.h \
+  include/uapi/linux/param.h \
+  arch/arm64/include/uapi/asm/param.h \
+  include/asm-generic/param.h \
+    $(wildcard include/config/HZ) \
+  include/uapi/asm-generic/param.h \
+  include/linux/spinlock_types_raw.h \
+    $(wildcard include/config/DEBUG_SPINLOCK) \
+    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
+  arch/arm64/include/asm/spinlock_types.h \
+  include/asm-generic/qspinlock_types.h \
+    $(wildcard include/config/NR_CPUS) \
+  include/asm-generic/qrwlock_types.h \
+  include/linux/lockdep_types.h \
+    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
+    $(wildcard include/config/LOCKDEP) \
+    $(wildcard include/config/LOCK_STAT) \
   include/linux/gfp.h \
     $(wildcard include/config/ZONE_DMA) \
     $(wildcard include/config/ZONE_DMA32) \
@@ -255,14 +242,24 @@ deps_fs/btrfs/uuid-tree.o := \
     $(wildcard include/config/ARM64_PSEUDO_NMI) \
   arch/arm64/include/asm/alternative-macros.h \
   arch/arm64/include/generated/asm/cpucaps.h \
+  arch/arm64/include/asm/insn-def.h \
   include/asm-generic/barrier.h \
   arch/arm64/include/asm/preempt.h \
     $(wildcard include/config/PREEMPT_DYNAMIC) \
+  include/linux/jump_label.h \
+    $(wildcard include/config/JUMP_LABEL) \
+    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
+  arch/arm64/include/asm/jump_label.h \
+  arch/arm64/include/asm/insn.h \
+    $(wildcard include/config/ARM64_LSE_ATOMICS) \
   include/linux/thread_info.h \
     $(wildcard include/config/THREAD_INFO_IN_TASK) \
     $(wildcard include/config/GENERIC_ENTRY) \
     $(wildcard include/config/HAVE_ARCH_WITHIN_STACK_FRAMES) \
     $(wildcard include/config/HARDENED_USERCOPY) \
+  include/linux/limits.h \
+  include/uapi/linux/limits.h \
+  include/vdso/limits.h \
   include/linux/restart_block.h \
   include/linux/time64.h \
   include/linux/math64.h \
@@ -305,6 +302,7 @@ deps_fs/btrfs/uuid-tree.o := \
   include/linux/atomic/atomic-instrumented.h \
   include/linux/instrumented.h \
   include/linux/kmsan-checks.h \
+    $(wildcard include/config/KMSAN) \
   include/asm-generic/bitops/instrumented-atomic.h \
   include/asm-generic/bitops/lock.h \
   include/asm-generic/bitops/instrumented-lock.h \
@@ -571,11 +569,6 @@ deps_fs/btrfs/uuid-tree.o := \
   include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
-  arch/arm64/include/asm/uprobes.h \
-  arch/arm64/include/asm/debug-monitors.h \
-  arch/arm64/include/asm/esr.h \
-  arch/arm64/include/asm/probes.h \
-    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -976,6 +969,7 @@ deps_fs/btrfs/uuid-tree.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
+    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/KPROBES_SANITY_TEST) \
     $(wildcard include/config/OPTPROBES) \
@@ -1014,6 +1008,7 @@ deps_fs/btrfs/uuid-tree.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
+  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1099,6 +1094,7 @@ deps_fs/btrfs/uuid-tree.o := \
   include/linux/rbtree_latch.h \
   include/linux/error-injection.h \
   include/asm-generic/error-injection.h \
+  include/linux/dynamic_debug.h \
   arch/arm64/include/asm/module.h \
     $(wildcard include/config/ARM64_MODULE_PLTS) \
     $(wildcard include/config/ARM64_ERRATUM_843419) \
@@ -1139,6 +1135,7 @@ deps_fs/btrfs/uuid-tree.o := \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
   arch/arm64/include/asm/kgdb.h \
+  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \

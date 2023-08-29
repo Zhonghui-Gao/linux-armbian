@@ -1,0 +1,10 @@
+drivers/hwtracing/coresight/coresight-core.o
+drivers/hwtracing/coresight/coresight-etm-perf.o
+drivers/hwtracing/coresight/coresight-platform.o
+drivers/hwtracing/coresight/coresight-sysfs.o
+drivers/hwtracing/coresight/coresight-syscfg.o
+drivers/hwtracing/coresight/coresight-config.o
+drivers/hwtracing/coresight/coresight-cfg-preload.o
+drivers/hwtracing/coresight/coresight-cfg-afdo.o
+drivers/hwtracing/coresight/coresight-syscfg-configfs.o
+drivers/hwtracing/coresight/coresight-trace-id.o

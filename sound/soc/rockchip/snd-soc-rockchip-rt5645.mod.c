@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "snd-soc-core,snd-soc-rt5645");
+MODULE_INFO(depends, "snd-soc-rt5645");
 
 MODULE_ALIAS("of:N*T*Crockchip,rockchip-audio-rt5645");
 MODULE_ALIAS("of:N*T*Crockchip,rockchip-audio-rt5645C*");

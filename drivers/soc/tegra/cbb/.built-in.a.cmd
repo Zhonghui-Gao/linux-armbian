@@ -1,0 +1,1 @@
+savedcmd_drivers/soc/tegra/cbb/built-in.a := rm -f drivers/soc/tegra/cbb/built-in.a;  printf "drivers/soc/tegra/cbb/%s " tegra-cbb.o tegra194-cbb.o tegra234-cbb.o | xargs aarch64-linux-gnu-ar cDPrST drivers/soc/tegra/cbb/built-in.a

@@ -1,0 +1,5 @@
+drivers/soc/mediatek/mtk-cmdq-helper.o
+drivers/soc/mediatek/mtk-devapc.o
+drivers/soc/mediatek/mtk-mmsys.o
+drivers/soc/mediatek/mtk-mutex.o
+drivers/soc/mediatek/mtk-svs.o

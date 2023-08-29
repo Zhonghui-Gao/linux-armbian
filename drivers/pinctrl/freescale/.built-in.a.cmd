@@ -1,1 +1,1 @@
-savedcmd_drivers/pinctrl/freescale/built-in.a := rm -f drivers/pinctrl/freescale/built-in.a;  aarch64-linux-gnu-ar cDPrST drivers/pinctrl/freescale/built-in.a
+savedcmd_drivers/pinctrl/freescale/built-in.a := rm -f drivers/pinctrl/freescale/built-in.a;  printf "drivers/pinctrl/freescale/%s " pinctrl-imx.o pinctrl-scu.o pinctrl-imx8mm.o pinctrl-imx8mn.o pinctrl-imx8mp.o pinctrl-imx8mq.o pinctrl-imx8qm.o pinctrl-imx8qxp.o pinctrl-imx8dxl.o pinctrl-imx8ulp.o pinctrl-imx93.o | xargs aarch64-linux-gnu-ar cDPrST drivers/pinctrl/freescale/built-in.a

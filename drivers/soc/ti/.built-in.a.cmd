@@ -1,1 +1,1 @@
-savedcmd_drivers/soc/ti/built-in.a := rm -f drivers/soc/ti/built-in.a;  aarch64-linux-gnu-ar cDPrST drivers/soc/ti/built-in.a
+savedcmd_drivers/soc/ti/built-in.a := rm -f drivers/soc/ti/built-in.a;  printf "drivers/soc/ti/%s " ti_sci_pm_domains.o ti_sci_inta_msi.o k3-ringacc.o k3-socinfo.o | xargs aarch64-linux-gnu-ar cDPrST drivers/soc/ti/built-in.a

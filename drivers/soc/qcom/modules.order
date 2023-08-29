@@ -1,1 +1,14 @@
+drivers/soc/qcom/mdt_loader.o
+drivers/soc/qcom/ocmem.o
+drivers/soc/qcom/pdr_interface.o
+drivers/soc/qcom/pmic_glink.o
+drivers/soc/qcom/pmic_glink_altmode.o
 drivers/soc/qcom/qmi_helpers.o
+drivers/soc/qcom/rmtfs_mem.o
+drivers/soc/qcom/socinfo.o
+drivers/soc/qcom/spm.o
+drivers/soc/qcom/qcom_stats.o
+drivers/soc/qcom/wcnss_ctrl.o
+drivers/soc/qcom/apr.o
+drivers/soc/qcom/llcc-qcom.o
+drivers/soc/qcom/icc-bwmon.o

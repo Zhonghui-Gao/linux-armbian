@@ -39,6 +39,7 @@ MODULE_ALIAS("of:N*T*Celan,ekth3500");
 MODULE_ALIAS("of:N*T*Celan,ekth3500C*");
 MODULE_ALIAS("of:N*T*Celan,ektf3624");
 MODULE_ALIAS("of:N*T*Celan,ektf3624C*");
+MODULE_ALIAS("acpi*:ELAN0001:*");
 MODULE_ALIAS("i2c:elants_i2c");
 MODULE_ALIAS("i2c:ekth3500");
 MODULE_ALIAS("i2c:ektf3624");

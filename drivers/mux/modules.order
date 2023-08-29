@@ -1,5 +1,0 @@
-drivers/mux/mux-core.o
-drivers/mux/mux-adg792a.o
-drivers/mux/mux-adgs1408.o
-drivers/mux/mux-gpio.o
-drivers/mux/mux-mmio.o

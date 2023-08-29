@@ -1,0 +1,2 @@
+drivers/soundwire/soundwire-bus.o
+drivers/soundwire/soundwire-qcom.o

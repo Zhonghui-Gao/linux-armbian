@@ -1,1 +1,1 @@
-savedcmd_drivers/iio/orientation/modules.order := {   echo drivers/iio/orientation/hid-sensor-incl-3d.o;   echo drivers/iio/orientation/hid-sensor-rotation.o; :; } > drivers/iio/orientation/modules.order
+savedcmd_drivers/iio/orientation/modules.order := {  :; } > drivers/iio/orientation/modules.order

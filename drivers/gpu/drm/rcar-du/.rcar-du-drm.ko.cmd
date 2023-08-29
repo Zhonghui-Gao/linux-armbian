@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/rcar-du/rcar-du-drm.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/rcar-du/rcar-du-drm.ko drivers/gpu/drm/rcar-du/rcar-du-drm.o drivers/gpu/drm/rcar-du/rcar-du-drm.mod.o;  true

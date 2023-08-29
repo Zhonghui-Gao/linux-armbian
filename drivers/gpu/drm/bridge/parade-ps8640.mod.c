@@ -33,7 +33,7 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "drm_dp_aux_bus");
+MODULE_INFO(depends, "drm,drm_display_helper,drm_kms_helper,drm_dp_aux_bus");
 
 MODULE_ALIAS("of:N*T*Cparade,ps8640");
 MODULE_ALIAS("of:N*T*Cparade,ps8640C*");

@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/adc/mt6577_auxadc.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/adc/mt6577_auxadc.ko drivers/iio/adc/mt6577_auxadc.o drivers/iio/adc/mt6577_auxadc.mod.o;  true

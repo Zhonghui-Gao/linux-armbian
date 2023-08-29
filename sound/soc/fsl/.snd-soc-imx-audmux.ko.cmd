@@ -1,0 +1,1 @@
+savedcmd_sound/soc/fsl/snd-soc-imx-audmux.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/fsl/snd-soc-imx-audmux.ko sound/soc/fsl/snd-soc-imx-audmux.o sound/soc/fsl/snd-soc-imx-audmux.mod.o;  true

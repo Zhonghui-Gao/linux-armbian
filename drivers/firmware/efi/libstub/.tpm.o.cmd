@@ -1,4 +1,4 @@
-savedcmd_drivers/firmware/efi/libstub/tpm.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/firmware/efi/libstub/.tpm.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144 -fpie -fno-unwind-tables -fno-asynchronous-unwind-tables -I./scripts/dtc/libfdt -Os -DDISABLE_BRANCH_PROFILING -include ./include/linux/hidden.h -D__NO_FORTIFY -ffreestanding -fno-stack-protector -D__DISABLE_EXPORTS    -DKBUILD_MODFILE='"drivers/firmware/efi/libstub/tpm"' -DKBUILD_BASENAME='"tpm"' -DKBUILD_MODNAME='"tpm"' -D__KBUILD_MODNAME=kmod_tpm -c -o drivers/firmware/efi/libstub/tpm.o drivers/firmware/efi/libstub/tpm.c  
+savedcmd_drivers/firmware/efi/libstub/tpm.o := aarch64-linux-gnu-gcc -Wp,-MMD,drivers/firmware/efi/libstub/.tpm.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -fno-var-tracking -femit-struct-debug-baseonly -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1144 -fpie -fno-unwind-tables -fno-asynchronous-unwind-tables -I./scripts/dtc/libfdt -Os -DDISABLE_BRANCH_PROFILING -include ./include/linux/hidden.h -D__NO_FORTIFY -ffreestanding -fno-stack-protector -D__DISABLE_EXPORTS    -DKBUILD_MODFILE='"drivers/firmware/efi/libstub/tpm"' -DKBUILD_BASENAME='"tpm"' -DKBUILD_MODNAME='"tpm"' -D__KBUILD_MODNAME=kmod_tpm -c -o drivers/firmware/efi/libstub/tpm.o drivers/firmware/efi/libstub/tpm.c  
 
 source_drivers/firmware/efi/libstub/tpm.o := drivers/firmware/efi/libstub/tpm.c
 
@@ -261,7 +261,6 @@ deps_drivers/firmware/efi/libstub/tpm.o := \
     $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
     $(wildcard include/config/LOCKDEP) \
     $(wildcard include/config/LOCK_STAT) \
-  include/linux/dynamic_debug.h \
   include/linux/kernel.h \
     $(wildcard include/config/PREEMPT_VOLUNTARY_BUILD) \
     $(wildcard include/config/PREEMPT_DYNAMIC) \
@@ -764,11 +763,6 @@ deps_drivers/firmware/efi/libstub/tpm.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
-  arch/arm64/include/asm/uprobes.h \
-  arch/arm64/include/asm/debug-monitors.h \
-  arch/arm64/include/asm/esr.h \
-  arch/arm64/include/asm/probes.h \
-    $(wildcard include/config/KPROBES) \
   include/linux/percpu_counter.h \
   arch/arm64/include/asm/mmu.h \
   include/linux/page-flags.h \
@@ -918,6 +912,7 @@ deps_drivers/firmware/efi/libstub/tpm.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
+  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1015,6 +1010,7 @@ deps_drivers/firmware/efi/libstub/tpm.o := \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/DEBUG_INFO_BTF_MODULES) \
     $(wildcard include/config/EVENT_TRACING) \
+    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/CONSTRUCTORS) \
     $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
@@ -1039,6 +1035,7 @@ deps_drivers/firmware/efi/libstub/tpm.o := \
   include/linux/error-injection.h \
   include/asm-generic/error-injection.h \
   include/linux/tracepoint-defs.h \
+  include/linux/dynamic_debug.h \
   arch/arm64/include/asm/module.h \
     $(wildcard include/config/ARM64_MODULE_PLTS) \
     $(wildcard include/config/DYNAMIC_FTRACE) \
@@ -1138,6 +1135,7 @@ deps_drivers/firmware/efi/libstub/tpm.o := \
   include/acpi/platform/aclinux.h \
     $(wildcard include/config/ACPI_REDUCED_HARDWARE_ONLY) \
     $(wildcard include/config/ACPI_DEBUG) \
+  arch/arm64/include/asm/acenv.h \
   include/acpi/acnames.h \
   include/acpi/actypes.h \
   include/acpi/acexcep.h \
@@ -1154,40 +1152,21 @@ deps_drivers/firmware/efi/libstub/tpm.o := \
   include/acpi/acpixf.h \
   include/acpi/acconfig.h \
   include/acpi/acbuffer.h \
+  include/acpi/acpi_bus.h \
+    $(wildcard include/config/X86_ANDROID_TABLETS) \
+    $(wildcard include/config/ACPI_SYSTEM_POWER_STATES_SUPPORT) \
+    $(wildcard include/config/ACPI_SLEEP) \
+  include/acpi/acpi_drivers.h \
+    $(wildcard include/config/ACPI_DOCK) \
   include/acpi/acpi_numa.h \
     $(wildcard include/config/ACPI_HMAT) \
-  include/linux/highmem.h \
-  include/linux/cacheflush.h \
-  arch/arm64/include/asm/cacheflush.h \
-  include/linux/kgdb.h \
-    $(wildcard include/config/HAVE_ARCH_KGDB) \
-    $(wildcard include/config/KGDB) \
-    $(wildcard include/config/SERIAL_KGDB_NMI) \
-    $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
-  include/linux/kprobes.h \
-    $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
-    $(wildcard include/config/KPROBES_SANITY_TEST) \
-    $(wildcard include/config/OPTPROBES) \
-    $(wildcard include/config/KPROBES_ON_FTRACE) \
-  include/linux/ftrace.h \
-    $(wildcard include/config/FUNCTION_TRACER) \
-    $(wildcard include/config/HAVE_DYNAMIC_FTRACE_WITH_ARGS) \
-    $(wildcard include/config/DYNAMIC_FTRACE_WITH_REGS) \
-    $(wildcard include/config/DYNAMIC_FTRACE_WITH_ARGS) \
-    $(wildcard include/config/DYNAMIC_FTRACE_WITH_DIRECT_CALLS) \
-    $(wildcard include/config/STACK_TRACER) \
-    $(wildcard include/config/DYNAMIC_FTRACE_WITH_CALL_OPS) \
-    $(wildcard include/config/FRAME_POINTER) \
-    $(wildcard include/config/FUNCTION_PROFILER) \
-    $(wildcard include/config/FTRACE_SYSCALLS) \
-  include/linux/trace_recursion.h \
-    $(wildcard include/config/FTRACE_RECORD_RECURSION) \
-    $(wildcard include/config/ARCH_WANTS_NO_INSTR) \
-  include/linux/trace_clock.h \
-  arch/arm64/include/generated/asm/trace_clock.h \
-  include/asm-generic/trace_clock.h \
-  include/linux/kallsyms.h \
-    $(wildcard include/config/KALLSYMS_ALL) \
+  include/acpi/acpi_io.h \
+  arch/arm64/include/asm/acpi.h \
+    $(wildcard include/config/ACPI_APEI) \
+  include/linux/memblock.h \
+    $(wildcard include/config/ARCH_KEEP_MEMBLOCK) \
+    $(wildcard include/config/HAVE_MEMBLOCK_PHYS_MAP) \
+    $(wildcard include/config/MEMTEST) \
   include/linux/mm.h \
     $(wildcard include/config/HAVE_ARCH_MMAP_RND_BITS) \
     $(wildcard include/config/HAVE_ARCH_MMAP_RND_COMPAT_BITS) \
@@ -1234,6 +1213,45 @@ deps_drivers/firmware/efi/libstub/tpm.o := \
     $(wildcard include/config/MEMORY_BALLOON) \
     $(wildcard include/config/BALLOON_COMPACTION) \
     $(wildcard include/config/ZSWAP) \
+  arch/arm64/include/generated/asm/dma.h \
+  include/asm-generic/dma.h \
+  include/linux/psci.h \
+    $(wildcard include/config/ARM_PSCI_FW) \
+  include/linux/arm-smccc.h \
+    $(wildcard include/config/HAVE_ARM_SMCCC) \
+  arch/arm64/include/asm/smp_plat.h \
+  include/linux/highmem.h \
+  include/linux/cacheflush.h \
+  arch/arm64/include/asm/cacheflush.h \
+  include/linux/kgdb.h \
+    $(wildcard include/config/HAVE_ARCH_KGDB) \
+    $(wildcard include/config/KGDB) \
+    $(wildcard include/config/SERIAL_KGDB_NMI) \
+    $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
+  include/linux/kprobes.h \
+    $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
+    $(wildcard include/config/KPROBES_SANITY_TEST) \
+    $(wildcard include/config/OPTPROBES) \
+    $(wildcard include/config/KPROBES_ON_FTRACE) \
+  include/linux/ftrace.h \
+    $(wildcard include/config/FUNCTION_TRACER) \
+    $(wildcard include/config/HAVE_DYNAMIC_FTRACE_WITH_ARGS) \
+    $(wildcard include/config/DYNAMIC_FTRACE_WITH_REGS) \
+    $(wildcard include/config/DYNAMIC_FTRACE_WITH_ARGS) \
+    $(wildcard include/config/DYNAMIC_FTRACE_WITH_DIRECT_CALLS) \
+    $(wildcard include/config/STACK_TRACER) \
+    $(wildcard include/config/DYNAMIC_FTRACE_WITH_CALL_OPS) \
+    $(wildcard include/config/FRAME_POINTER) \
+    $(wildcard include/config/FUNCTION_PROFILER) \
+    $(wildcard include/config/FTRACE_SYSCALLS) \
+  include/linux/trace_recursion.h \
+    $(wildcard include/config/FTRACE_RECORD_RECURSION) \
+    $(wildcard include/config/ARCH_WANTS_NO_INSTR) \
+  include/linux/trace_clock.h \
+  arch/arm64/include/generated/asm/trace_clock.h \
+  include/asm-generic/trace_clock.h \
+  include/linux/kallsyms.h \
+    $(wildcard include/config/KALLSYMS_ALL) \
   include/linux/ptrace.h \
   include/linux/pid_namespace.h \
     $(wildcard include/config/MEMFD_CREATE) \
@@ -1267,6 +1285,7 @@ deps_drivers/firmware/efi/libstub/tpm.o := \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
   arch/arm64/include/asm/kgdb.h \
+  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \

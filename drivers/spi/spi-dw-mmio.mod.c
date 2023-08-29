@@ -35,6 +35,7 @@ MODULE_INFO(retpoline, "Y");
 
 MODULE_INFO(depends, "spi-dw");
 
+MODULE_ALIAS("acpi*:HISI0173:*");
 MODULE_ALIAS("of:N*T*Csnps,dw-apb-ssi");
 MODULE_ALIAS("of:N*T*Csnps,dw-apb-ssiC*");
 MODULE_ALIAS("of:N*T*Cmscc,ocelot-spi");

@@ -1,0 +1,1 @@
+savedcmd_drivers/memory/built-in.a := rm -f drivers/memory/built-in.a;  printf "drivers/memory/%s " brcmstb_dpfe.o brcmstb_memc.o fsl_ifc.o mtk-smi.o tegra/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/memory/built-in.a

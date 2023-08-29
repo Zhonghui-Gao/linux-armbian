@@ -1,1 +1,1 @@
-savedcmd_sound/i2c/other/modules.order := {   echo sound/i2c/other/snd-ak4xxx-adda.o; :; } > sound/i2c/other/modules.order
+savedcmd_sound/i2c/other/modules.order := {  :; } > sound/i2c/other/modules.order

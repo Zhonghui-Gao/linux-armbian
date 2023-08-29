@@ -1,5 +1,2 @@
 drivers/misc/eeprom/at24.o
 drivers/misc/eeprom/at25.o
-drivers/misc/eeprom/eeprom.o
-drivers/misc/eeprom/eeprom_93cx6.o
-drivers/misc/eeprom/ee1004.o

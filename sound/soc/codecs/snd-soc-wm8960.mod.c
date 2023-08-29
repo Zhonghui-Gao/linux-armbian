@@ -33,8 +33,10 @@ MODULE_INFO(intree, "Y");
 MODULE_INFO(retpoline, "Y");
 #endif
 
-MODULE_INFO(depends, "snd-soc-core,snd,snd-pcm");
+MODULE_INFO(depends, "");
 
+MODULE_ALIAS("acpi*:1AEC8960:*");
+MODULE_ALIAS("acpi*:10138960:*");
 MODULE_ALIAS("i2c:wm8960");
 MODULE_ALIAS("of:N*T*Cwlf,wm8960");
 MODULE_ALIAS("of:N*T*Cwlf,wm8960C*");

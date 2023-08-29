@@ -1,5 +1,6 @@
 !<thin>
-//                                              20        `
-rockchip_saradc.o/
-
-/0              0           0     0     644     20272     `
+//                                              30        `
+exynos_adc.o/
+meson_saradc.o/
+/0              0           0     0     644     102408    `
+/14             0           0     0     644     115712    `

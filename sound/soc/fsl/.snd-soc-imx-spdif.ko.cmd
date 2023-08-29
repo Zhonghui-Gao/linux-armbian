@@ -1,0 +1,1 @@
+savedcmd_sound/soc/fsl/snd-soc-imx-spdif.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/fsl/snd-soc-imx-spdif.ko sound/soc/fsl/snd-soc-imx-spdif.o sound/soc/fsl/snd-soc-imx-spdif.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_sound/soc/sh/rcar/snd-soc-rcar.mod := printf '%s\n'   core.o gen.o dma.o adg.o ssi.o ssiu.o src.o ctu.o mix.o dvc.o cmd.o debugfs.o | awk '!x[$$0]++ { print("sound/soc/sh/rcar/"$$0) }' > sound/soc/sh/rcar/snd-soc-rcar.mod

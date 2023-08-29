@@ -1,0 +1,1 @@
+savedcmd_sound/soc/codecs/snd-soc-adau7002.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-adau7002.ko sound/soc/codecs/snd-soc-adau7002.o sound/soc/codecs/snd-soc-adau7002.mod.o;  true

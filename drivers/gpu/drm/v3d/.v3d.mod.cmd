@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/v3d/v3d.mod := printf '%s\n'   v3d_bo.o v3d_drv.o v3d_fence.o v3d_gem.o v3d_irq.o v3d_mmu.o v3d_perfmon.o v3d_trace_points.o v3d_sched.o v3d_debugfs.o | awk '!x[$$0]++ { print("drivers/gpu/drm/v3d/"$$0) }' > drivers/gpu/drm/v3d/v3d.mod
