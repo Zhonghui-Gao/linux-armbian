@@ -13,6 +13,12 @@
 #include <linux/module.h>
 #include <linux/delay.h>
 
+#include <linux/types.h>
+#include <linux/input.h>
+#include <linux/kernel.h>
+#include <linux/netdevice.h>
+
+
 #define RTL821x_PHYSR				0x11
 #define RTL821x_PHYSR_DUPLEX			BIT(13)
 #define RTL821x_PHYSR_SPEED			GENMASK(15, 14)
@@ -75,6 +81,8 @@
 MODULE_DESCRIPTION("Realtek PHY driver");
 MODULE_AUTHOR("Johnson Leung");
 MODULE_LICENSE("GPL");
+
+unsigned int support_external_phy_wol;
 
 struct rtl821x_priv {
 	u16 phycr1;
@@ -341,7 +349,9 @@ static int rtl8211f_config_init(struct phy_device *phydev)
 	struct device *dev = &phydev->mdio.dev;
 	u16 val_txdly, val_rxdly;
 	int ret;
-
+    
+    unsigned char *mac_addr = NULL;
+    
 	ret = phy_modify_paged_changed(phydev, 0xa43, RTL8211F_PHYCR1,
 				       RTL8211F_ALDPS_PLL_OFF | RTL8211F_ALDPS_ENABLE | RTL8211F_ALDPS_XTAL_OFF,
 				       priv->phycr1);
@@ -416,8 +426,84 @@ static int rtl8211f_config_init(struct phy_device *phydev)
 		}
 	}
 
+    /*disable clk_out pin 35 set page 0x0a43 reg25.0 as 0*/
+    phy_write(phydev, RTL821x_PAGE_SELECT, 0x0a43);
+    reg = phy_read(phydev, 0x19);
+    /*set reg25 bit0 as 0*/
+    reg = phy_write(phydev, 0x19, reg & 0xfffe);
+    /* switch to page 0 */
+    phy_write(phydev, RTL821x_PAGE_SELECT, 0x0);
+    /*reset phy to apply*/
+    reg = phy_write(phydev, 0x0, 0x9200);
+    /* config mac address for wol*/
+    if ((phydev->attached_dev) && (support_external_phy_wol)){
+        mac_addr = phydev->attached_dev->dev_addr;
+        phy_write(phydev, RTL821x_PAGE_SELECT, 0xd8c);
+		phy_write(phydev, 0x10, mac_addr[0] | (mac_addr[1] << 8));
+		phy_write(phydev, 0x11, mac_addr[2] | (mac_addr[3] << 8));
+		phy_write(phydev, 0x12, mac_addr[4] | (mac_addr[5] << 8));
+
+    }else{
+        pr_debug("not set wol mac\n");
+    }
+    
 	return genphy_soft_reset(phydev);
 }
+
+static int rtl8211f_suspend(struct phy_device *phydev)
+{
+    int value = 0;
+
+    if(support_external_phy_wol){
+        mutex_lock(&phydev->lock);
+        phy_write(phydev, RTL821x_PAGE_SELECT, 0xd8a);
+        /*set magic packet for wol*/
+        phy_write(phydev, 0x10, 0x1000);
+        phy_write(phydev, 0x11, 0x9fff);
+        /*pad isolation*/
+        value = phy_read(phydev, 0x13);
+        phy_write(phydev, 0x13, value | (0x1 << 15));
+        /*pin 31 pull high*/
+        phy_write(phydev, RTL821x_PAGE_SELECT, 0xd40);
+        value = phy_write(phydev, 0x16);
+        phy_write(phydev, 0x16, value | (0x1 << 5));
+        phy_write(phydev, RTL821x_PAGE_SELECT, 0);
+
+        mutex_unlock(&phydev->lock);
+    }else{
+        genphy_suspend(phydev);
+    }
+    return 0;
+}
+
+static int rtl8211f_resume(struct phy_device *phydev)
+{
+    int value;
+
+    if(support_external_phy_wol){
+        mutex_lock(&phydev->lock);
+
+        phy_write(phydev, RTL821x_PAGE_SELECT, 0xd8a);
+        phy_write(phydev, 0x10, 0x0);
+        /*reset wol*/
+        value = phy_read(phydev, 0x11);
+        phy_write(phydev, 0x11, value & ~(0x1 << 15));
+        /*pad isolantion*/
+		value = phy_read(phydev, 0x13);
+		phy_write(phydev, 0x13, value & ~(0x1 << 15));
+
+		phy_write(phydev, RTL8211F_PAGE_SELECT, 0);
+		mutex_unlock(&phydev->lock);
+
+    }else{
+        genphy_resume(phydev);
+    }
+
+	pr_debug("%s %d\n", __func__, __LINE__);
+
+	return 0;
+}
+
 
 static int rtl821x_resume(struct phy_device *phydev)
 {
@@ -927,8 +1013,8 @@ static struct phy_driver realtek_drvs[] = {
 		.read_status	= rtlgen_read_status,
 		.config_intr	= &rtl8211f_config_intr,
 		.handle_interrupt = rtl8211f_handle_interrupt,
-		.suspend	= genphy_suspend,
-		.resume		= rtl821x_resume,
+		.suspend	= rtl8211f_suspend,
+		.resume		= rtl8211f_resume,
 		.read_page	= rtl821x_read_page,
 		.write_page	= rtl821x_write_page,
 	}, {
