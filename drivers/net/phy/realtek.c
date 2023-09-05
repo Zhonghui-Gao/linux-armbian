@@ -349,8 +349,9 @@ static int rtl8211f_config_init(struct phy_device *phydev)
 	struct device *dev = &phydev->mdio.dev;
 	u16 val_txdly, val_rxdly;
 	int ret;
-    
-    unsigned char *mac_addr = NULL;
+  
+  u16 reg;
+  unsigned char *mac_addr = NULL;
     
 	ret = phy_modify_paged_changed(phydev, 0xa43, RTL8211F_PHYCR1,
 				       RTL8211F_ALDPS_PLL_OFF | RTL8211F_ALDPS_ENABLE | RTL8211F_ALDPS_XTAL_OFF,
@@ -439,15 +440,14 @@ static int rtl8211f_config_init(struct phy_device *phydev)
     if ((phydev->attached_dev) && (support_external_phy_wol)){
         mac_addr = phydev->attached_dev->dev_addr;
         phy_write(phydev, RTL821x_PAGE_SELECT, 0xd8c);
-		phy_write(phydev, 0x10, mac_addr[0] | (mac_addr[1] << 8));
-		phy_write(phydev, 0x11, mac_addr[2] | (mac_addr[3] << 8));
-		phy_write(phydev, 0x12, mac_addr[4] | (mac_addr[5] << 8));
-
+		    phy_write(phydev, 0x10, mac_addr[0] | (mac_addr[1] << 8));
+		    phy_write(phydev, 0x11, mac_addr[2] | (mac_addr[3] << 8));
+		    phy_write(phydev, 0x12, mac_addr[4] | (mac_addr[5] << 8));
     }else{
         pr_debug("not set wol mac\n");
     }
     
-	return genphy_soft_reset(phydev);
+	  return genphy_soft_reset(phydev);
 }
 
 static int rtl8211f_suspend(struct phy_device *phydev)
@@ -465,7 +465,7 @@ static int rtl8211f_suspend(struct phy_device *phydev)
         phy_write(phydev, 0x13, value | (0x1 << 15));
         /*pin 31 pull high*/
         phy_write(phydev, RTL821x_PAGE_SELECT, 0xd40);
-        value = phy_write(phydev, 0x16);
+        value = phy_read(phydev, 0x16);
         phy_write(phydev, 0x16, value | (0x1 << 5));
         phy_write(phydev, RTL821x_PAGE_SELECT, 0);
 
@@ -489,19 +489,19 @@ static int rtl8211f_resume(struct phy_device *phydev)
         value = phy_read(phydev, 0x11);
         phy_write(phydev, 0x11, value & ~(0x1 << 15));
         /*pad isolantion*/
-		value = phy_read(phydev, 0x13);
-		phy_write(phydev, 0x13, value & ~(0x1 << 15));
+		    value = phy_read(phydev, 0x13);
+		    phy_write(phydev, 0x13, value & ~(0x1 << 15));
 
-		phy_write(phydev, RTL8211F_PAGE_SELECT, 0);
-		mutex_unlock(&phydev->lock);
+		    phy_write(phydev, RTL821x_PAGE_SELECT, 0);
+		    mutex_unlock(&phydev->lock);
 
-    }else{
+      }else{
         genphy_resume(phydev);
     }
 
-	pr_debug("%s %d\n", __func__, __LINE__);
+	  pr_debug("%s %d\n", __func__, __LINE__);
 
-	return 0;
+	  return 0;
 }
 
 
