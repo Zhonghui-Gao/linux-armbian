@@ -479,6 +479,7 @@ static int rtl8211f_suspend(struct phy_device *phydev)
 static int rtl8211f_resume(struct phy_device *phydev)
 {
     int value;
+    int ret;
 
     if(support_external_phy_wol){
         mutex_lock(&phydev->lock);
@@ -496,7 +497,12 @@ static int rtl8211f_resume(struct phy_device *phydev)
 		    mutex_unlock(&phydev->lock);
 
       }else{
-        genphy_resume(phydev);
+        ret =  genphy_resume(phydev);
+       
+        if (ret < 0)
+          return ret;
+      
+        msleep(20);
     }
 
 	  pr_debug("%s %d\n", __func__, __LINE__);
