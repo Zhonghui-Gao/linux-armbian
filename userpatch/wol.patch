@@ -1,5 +1,5 @@
 diff --git a/drivers/net/phy/realtek.c b/drivers/net/phy/realtek.c
-index 3d99fd6664d7..459aadf2ff3b 100644
+index 3d99fd6664d7..1b85fbd90da7 100644
 --- a/drivers/net/phy/realtek.c
 +++ b/drivers/net/phy/realtek.c
 @@ -13,6 +13,12 @@
@@ -36,7 +36,7 @@ index 3d99fd6664d7..459aadf2ff3b 100644
  	ret = phy_modify_paged_changed(phydev, 0xa43, RTL8211F_PHYCR1,
  				       RTL8211F_ALDPS_PLL_OFF | RTL8211F_ALDPS_ENABLE | RTL8211F_ALDPS_XTAL_OFF,
  				       priv->phycr1);
-@@ -416,9 +427,84 @@ static int rtl8211f_config_init(struct phy_device *phydev)
+@@ -416,9 +427,90 @@ static int rtl8211f_config_init(struct phy_device *phydev)
  		}
  	}
  
@@ -93,6 +93,7 @@ index 3d99fd6664d7..459aadf2ff3b 100644
 +static int rtl8211f_resume(struct phy_device *phydev)
 +{
 +    int value;
++    int ret;
 +
 +    if(support_external_phy_wol){
 +        mutex_lock(&phydev->lock);
@@ -110,7 +111,12 @@ index 3d99fd6664d7..459aadf2ff3b 100644
 +		    mutex_unlock(&phydev->lock);
 +
 +      }else{
-+        genphy_resume(phydev);
++        ret =  genphy_resume(phydev);
++       
++        if (ret < 0)
++          return ret;
++      
++        msleep(20);
 +    }
 +
 +	  pr_debug("%s %d\n", __func__, __LINE__);
@@ -122,7 +128,7 @@ index 3d99fd6664d7..459aadf2ff3b 100644
  static int rtl821x_resume(struct phy_device *phydev)
  {
  	int ret;
-@@ -927,8 +1013,8 @@ static struct phy_driver realtek_drvs[] = {
+@@ -927,8 +1019,8 @@ static struct phy_driver realtek_drvs[] = {
  		.read_status	= rtlgen_read_status,
  		.config_intr	= &rtl8211f_config_intr,
  		.handle_interrupt = rtl8211f_handle_interrupt,
