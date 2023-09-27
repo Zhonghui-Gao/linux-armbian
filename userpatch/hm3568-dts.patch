@@ -1,5 +1,5 @@
 diff --git a/arch/arm64/boot/dts/rockchip/rk3568-hm.dts b/arch/arm64/boot/dts/rockchip/rk3568-hm.dts
-index ab8c8e0bfcf5..c58c5efbdffd 100644
+index ab8c8e0bfcf5..26c0d4bdb6d2 100644
 --- a/arch/arm64/boot/dts/rockchip/rk3568-hm.dts
 +++ b/arch/arm64/boot/dts/rockchip/rk3568-hm.dts
 @@ -12,7 +12,8 @@
@@ -135,3 +135,29 @@ index ab8c8e0bfcf5..c58c5efbdffd 100644
  		};
  	};
  
+@@ -748,6 +795,25 @@
+ 	status = "okay";
+ };
+ 
++//232
++&uart3 {
++    status = "okay";
++    pinctrl-0 = <&uart3m1_xfer>;
++};
++
++//422
++&uart4 {
++    status = "okay";
++    pinctrl-0 = <&uart4m1_xfer>;
++};
++
++//485
++&uart9 {
++    status = "okay";
++    pinctrl-0 = <&uart9m1_xfer>;
++};
++
++
+ &usb_host0_ehci {
+ 	status = "okay";
+ };
