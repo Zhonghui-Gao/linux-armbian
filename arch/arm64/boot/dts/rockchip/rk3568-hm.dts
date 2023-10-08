@@ -64,8 +64,8 @@ edp-panel {
 		//clock-frequency = <161912000>;			//40
 		//clock-frequency = <242868000>;			//60
 		clock-frequency = <303585000>;		//75
-						hactive = <2560>;
-						vactive = <1440>;
+						hactive = <1920>;
+						vactive = <1080>;
 						
 						hfront-porch = <48>;
 						hsync-len = <32>;
