@@ -53,7 +53,6 @@ edp-panel {
         enable-delay-ms = <200>;
         unprepare-delay-ms = <200>;
         disable-delay-ms = <200>;
-		bus-format = <MEDIA_BUS_FMT_RGB888_1X7X4_SPWG>;
 		bpc = <8>;
 		backlight = <&backlight>;
 				
