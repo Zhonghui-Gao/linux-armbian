@@ -667,7 +667,7 @@
 	ethernet {
 		eth_phy_rst: eth_phy_rst {
 			rockchip,pins = <2 RK_PD3 RK_FUNC_GPIO &pcfg_pull_none>,
-							<2 RK_PD1 RK_FUO &pcfg_pull_none>;
+                      <2 RK_PD1 RK_FUNC_GPIO &pcfg_pull_none>;
 		};
 	};
 
