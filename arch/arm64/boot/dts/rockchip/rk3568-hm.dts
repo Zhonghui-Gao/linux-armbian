@@ -262,8 +262,6 @@
 	clock_in_out = "input";
 	phy-handle = <&rgmii_phy0>;
 	phy-mode = "rgmii";
-	
-	wolirq-gpio = <&gpio2 RK_PD2 GPIO_ACTIVE_LOW>;
 
 	pinctrl-names = "default";
 	pinctrl-0 = <&gmac0_miim
