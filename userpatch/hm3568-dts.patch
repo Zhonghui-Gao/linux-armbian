@@ -1,5 +1,5 @@
 diff --git a/arch/arm64/boot/dts/rockchip/rk3568-hm.dts b/arch/arm64/boot/dts/rockchip/rk3568-hm.dts
-index ab8c8e0bfcf5..f873d0451b6f 100644
+index ab8c8e0bfcf5..f460e4681e6e 100644
 --- a/arch/arm64/boot/dts/rockchip/rk3568-hm.dts
 +++ b/arch/arm64/boot/dts/rockchip/rk3568-hm.dts
 @@ -12,7 +12,8 @@
@@ -12,65 +12,10 @@ index ab8c8e0bfcf5..f873d0451b6f 100644
  		mmc0 = &sdmmc0;
  		mmc1 = &sdhci;
  	};
-@@ -32,20 +33,82 @@
+@@ -32,20 +33,27 @@
  		};
  	};
  
-+vcc3v3_lcd_edp: vcc3v3-lcd-edp {
-+		compatible = "regulator-fixed";
-+		gpio = <&gpio0 RK_PC7 GPIO_ACTIVE_HIGH>;
-+		enable-active-high;
-+		regulator-name = "vcc3v3_lcd_edp";
-+		regulator-boot-on;
-+		regulator-state-mem {
-+			regulator-off-in-suspend;
-+		};
-+};
-+
-+edp-panel {
-+		status = "okay";
-+        compatible = "simple-panel";
-+        power-supply = <&vcc3v3_lcd_edp>;
-+		enable-gpios = <&gpio0 RK_PC3 GPIO_ACTIVE_HIGH>;
-+        prepare-delay-ms = <200>;
-+        enable-delay-ms = <200>;
-+        unprepare-delay-ms = <200>;
-+        disable-delay-ms = <200>;
-+		bpc = <8>;
-+		backlight = <&backlight>;
-+				
-+		display-timings {
-+				native-mode = <&edp_timing>;
-+ 
-+		edp_timing: edp_timing {
-+		//clock-frequency = <161912000>;			//40
-+		//clock-frequency = <242868000>;			//60
-+		clock-frequency = <303585000>;		//75
-+						hactive = <1920>;
-+						vactive = <1080>;
-+						
-+						hfront-porch = <48>;
-+						hsync-len = <32>;
-+						hback-porch = <80>;
-+						
-+						vfront-porch = <2>;
-+						vsync-len = <4>;
-+						vback-porch = <34>;
-+						
-+						hsync-active = <0>;
-+						vsync-active = <0>;
-+						de-active = <0>;
-+						pixelclk-active = <0>;
-+				};
-+		};
-+		
-+		ports {
-+				panel_in_edp: endpoint {
-+						remote-endpoint = <&edp_out_panel>;
-+				};
-+		};
-+    };
-+    
 + 	gmac0_clkin: external-gmac0-clock {
 +		compatible = "fixed-clock";
 +		clock-frequency = <125000000>;
@@ -98,7 +43,7 @@ index ab8c8e0bfcf5..f873d0451b6f 100644
  			linux,default-trigger = "heartbeat";
  			pinctrl-names = "default";
  			pinctrl-0 = <&led_user_en>;
-@@ -72,7 +135,7 @@
+@@ -72,7 +80,7 @@
  		clocks = <&rk809 1>;
  		clock-names = "ext_clock";
  		pinctrl-names = "default";
@@ -107,7 +52,7 @@ index ab8c8e0bfcf5..f873d0451b6f 100644
  		reset-gpios = <&gpio3 RK_PD4 GPIO_ACTIVE_LOW>;
  	};
  
-@@ -243,8 +306,44 @@
+@@ -243,8 +251,42 @@
  	cpu-supply = <&vdd_cpu>;
  };
  
@@ -122,8 +67,6 @@ index ab8c8e0bfcf5..f873d0451b6f 100644
 +	clock_in_out = "input";
 +	phy-handle = <&rgmii_phy0>;
 +	phy-mode = "rgmii";
-+	
-+	wolirq-gpio = <&gpio2 RK_PD2 GPIO_ACTIVE_LOW>;
 +
 +	pinctrl-names = "default";
 +	pinctrl-0 = <&gmac0_miim
@@ -153,7 +96,7 @@ index ab8c8e0bfcf5..f873d0451b6f 100644
  	snps,reset-active-low;
  	/* Reset time is 20ms, 100ms for rtl8211f */
  	snps,reset-delays-us = <0 20000 100000>;
-@@ -269,6 +368,13 @@
+@@ -269,6 +311,13 @@
  	status = "okay";
  };
  
@@ -167,49 +110,34 @@ index ab8c8e0bfcf5..f873d0451b6f 100644
  &gpu {
  	mali-supply = <&vdd_gpu>;
  	status = "okay";
-@@ -297,6 +403,41 @@
- 	status = "okay";
+@@ -278,12 +327,13 @@
+ 	avdd-0v9-supply = <&vdda0v9_image>;
+ 	avdd-1v8-supply = <&vcca1v8_image>;
+ 	pinctrl-0 = <&hdmitx_scl &hdmitx_sda &hdmitxm1_cec>;
+-	status = "okay";
++	status = "disabled";
  };
  
-+&edp {
-+	status = "okay";
-+	//hpd-gpios = <&gpio4 RK_PC4 GPIO_ACTIVE_HIGH>;
-+	hpd-gpios = <&gpio0 RK_PC2 GPIO_ACTIVE_HIGH>;
-+	force-hpd;
-+
-+    ports {
-+            edp_out:port@1 {
-+                    reg = <1>;
-+
-+                    edp_out_panel: endpoint {
-+							//reg = <0>;
-+                            remote-endpoint = <&panel_in_edp>;
-+                    };
-+            };
-+    };
-+};
-+ 
-+&edp_phy {
-+	status = "okay";
-+};
-+ 
-+&edp_in_vp0 {
-+	status = "okay";
-+};
-+ 
-+&edp_in_vp1 {
+ &hdmi_in {
+ 	hdmi_in_vp0: endpoint {
+ 		remote-endpoint = <&vp0_out_hdmi>;
++    status = "disabled";
+ 	};
+ };
+ 
+@@ -294,9 +344,9 @@
+ };
+ 
+ &hdmi_sound {
+-	status = "okay";
 +	status = "disabled";
-+};
+ };
+-
 + 
-+&route_edp {    
-+    status = "okay";
-+	connect = <&vp0_out_edp>;
-+};
-+
  &i2c0 {
  	status = "okay";
  
-@@ -571,17 +712,14 @@
+@@ -571,17 +621,14 @@
  
  &i2s1_8ch {
  	pinctrl-names = "default";
@@ -231,7 +159,7 @@ index ab8c8e0bfcf5..f873d0451b6f 100644
  
  &pcie2x1 {
  	pinctrl-names = "default";
-@@ -619,7 +757,8 @@
+@@ -619,7 +666,8 @@
  
  	ethernet {
  		eth_phy_rst: eth_phy_rst {
@@ -241,7 +169,7 @@ index ab8c8e0bfcf5..f873d0451b6f 100644
  		};
  	};
  
-@@ -631,7 +770,7 @@
+@@ -631,7 +679,7 @@
  
  	leds {
  		led_user_en: led_user_en {
@@ -250,7 +178,7 @@ index ab8c8e0bfcf5..f873d0451b6f 100644
  		};
  	};
  
-@@ -641,7 +780,7 @@
+@@ -641,7 +689,7 @@
  		};
  
  		pcie_reset_h: pcie-reset-h {
@@ -259,7 +187,7 @@ index ab8c8e0bfcf5..f873d0451b6f 100644
  		};
  	};
  
-@@ -748,6 +887,24 @@
+@@ -748,6 +796,24 @@
  	status = "okay";
  };
  
