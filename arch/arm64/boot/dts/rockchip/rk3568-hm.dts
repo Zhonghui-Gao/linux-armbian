@@ -266,7 +266,6 @@
 			regulator-off-in-suspend;
 		};
 	};
-};
 
 	vcc3v3_lcd_edp: vcc3v3-lcd-edp {
 			compatible = "regulator-fixed";
@@ -278,6 +277,7 @@
 				regulator-off-in-suspend;
 			};
 	};
+};
 
 &combphy0 {
 	status = "okay";
