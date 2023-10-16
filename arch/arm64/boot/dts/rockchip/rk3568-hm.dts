@@ -328,13 +328,13 @@
 	avdd-0v9-supply = <&vdda0v9_image>;
 	avdd-1v8-supply = <&vcca1v8_image>;
 	pinctrl-0 = <&hdmitx_scl &hdmitx_sda &hdmitxm1_cec>;
-	status = "disabled";
+	status = "okay";
 };
 
 &hdmi_in {
 	hdmi_in_vp0: endpoint {
 		remote-endpoint = <&vp0_out_hdmi>;
-    status = "disabled";
+    status = "okay";
 	};
 };
 
@@ -345,7 +345,7 @@
 };
 
 &hdmi_sound {
-	status = "disabled";
+	status = "okay";
 };
 
 &i2c0 {
