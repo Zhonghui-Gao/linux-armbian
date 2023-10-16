@@ -800,18 +800,21 @@
 //232
 &uart3 {
     status = "okay";
+    pinctrl-names = "default";
     pinctrl-0 = <&uart3m1_xfer>;
 };
 
 //422
 &uart4 {
     status = "okay";
+    pinctrl-names = "default";
     pinctrl-0 = <&uart4m1_xfer>;
 };
 
 //485
 &uart9 {
     status = "okay";
+    pinctrl-names = "default";
     pinctrl-0 = <&uart9m1_xfer>;
 };
 
